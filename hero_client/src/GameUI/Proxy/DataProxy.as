@@ -1,0 +1,121 @@
+﻿//Created by Action Script Viewer - http://www.buraks.com/asv
+package GameUI.Proxy {
+    import GameUI.UICore.*;
+    import flash.utils.*;
+    import org.puremvc.as3.multicore.patterns.proxy.Proxy;
+
+    public class DataProxy extends Proxy {
+
+        public static const FORGE_TREASURE_TRANSFER:uint = 14;
+        public static const FORGE_TREASURE_END:uint = 16;
+        public static const FORGE_EQUIP_STRENGTH:uint = 1;
+        public static const FORGE_EQUIP_COMPOSE:uint = 4;
+        public static const FORGE_TREASURE_TRANSFORM:uint = 15;
+        public static const FORGE_EQUIP_EMBED:uint = 2;
+        public static const FORGE_EQUIP_IDENTIFY:uint = 3;
+        public static const FORGE_TREASURE_RESET:uint = 13;
+        public static const NAME:String = "DataProxy";
+        public static const FORGE_EQUIP_END:uint = 9;
+        public static const FORGE_TREASURE_REBUILD:uint = 11;
+        public static const FORGE_EQUIP_TRANSFORM:uint = 6;
+        public static const FORGE_TREASURE_START:uint = 11;
+        public static const FORGE_EQUIP_TRANSFER:uint = 8;
+        public static const FORGE_EQUIP_START:uint = 1;
+        public static const FORGE_EQUIP_UPSTAR:uint = 7;
+        public static const FORGE_TREASURE_SACRIFICE:uint = 12;
+        public static const FORGE_EQUIP_REFINE:uint = 5;
+
+        public var RankIsOpen:Boolean = false;
+        public var AutoRoadIsOpen:Boolean = false;
+        public var isSelectFriend:Boolean = false;
+        public var GuildFightIsOpen:Boolean = false;
+        public var CSBBagIsOpen:Boolean = false;
+        public var FilterBagIsOpen:Boolean = false;
+        public var MarketIsOpen:Boolean = false;
+        public var SenceMapIsOpen:Boolean = false;
+        public var BigMapIsOpen:Boolean = false;
+        public var StoryDisplayIsOpen:Boolean = false;
+        public var SkillIsOpen:Boolean = false;
+        public var ApplyUnitIsOpen:Boolean = false;
+        public var ActivityViewIsOpen:Boolean = false;
+        public var OpenItemBoxIsOpen:Boolean = false;
+        public var BagIsSplit:Boolean = false;
+        public var PetRaceIsOpen:Boolean = false;
+        public var AchieveIsOpen:Boolean = false;
+        public var BagHeight:uint;
+        public var isSelectSelf:Boolean = false;
+        public var roleDatas:Array;
+        public var StallIsOpen:Boolean = false;
+        public var IsUseTaskItem:Boolean = false;
+        public var GoldLeafViewIsOpen:Boolean = false;
+        public var ReliveIsOpen:Boolean = false;
+        public var GameTargetViewIsOpen:Boolean = false;
+        public var ForgeOpenFlag:uint = 0;
+        public var Guide_SaleItem_Started:Boolean = false;
+        public var FriendInfoIsOpen:Boolean = false;
+        public var GradeIsOpen:Boolean = false;
+        public var UnityIsOpen:Boolean = false;
+        public var MailIsOpen:Boolean = false;
+        public var treasureBatchIsOpen:Boolean = false;
+        public var TaskDailyBOokIsOpen:Boolean = false;
+        public var QuestionIsOpen:Boolean = false;
+        public var GradeBibleIsOpen:Boolean = false;
+        public var HelpIsOpen:Boolean = false;
+        public var SetviewIsOpen:Boolean = false;
+        public var IsCollecting:Boolean = false;
+        public var Guide_30Chest_Started:Boolean = false;
+        public var FriendsIsOpen:Boolean = false;
+        public var AllInfoMsgIsOpen:Boolean = false;
+        public var TeamIsOpen:Boolean = false;
+        public var PetIsOpen:Boolean = false;
+        public var CreateUnitIsOpen:Boolean = false;
+        public var ConvoyIsOpen:Boolean = false;
+        public var FriendReveiveMsgIsOpen:Boolean = false;
+        public var BagIsDestory:Boolean = false;
+        public var EQUIP_OPER_POSX:int = 215;
+        public var EQUIP_OPER_POSY:int = 133;
+        public var NewGiftIsOpen:Boolean = false;
+        public var BagIsDrag:Boolean = false;
+        public var TowerViewIsOpen:Boolean = false;
+        public var HeroPropIsOpen:Boolean = false;
+        public var screenAll:Boolean = true;
+        public var TaskIsOpen:Boolean = false;
+        public var OffLineExpIsOpen:Boolean = false;
+        public var BagIsOpen:Boolean = false;
+        public var RolesListDic:Dictionary;
+        public var NewSkillIsOpen:Boolean = false;
+        public var FriendSendMsgIsOpen:Boolean = false;
+        public var GMMailIsOpen:Boolean = false;
+        public var EntrustIsOpen:Boolean = false;
+        public var CSBPanelIsOpen:Boolean = false;
+        public var NPCExchangeIsOpen:Boolean = false;
+        public var IsGrabPeting:Boolean = false;
+        public var isPkOpen:Boolean = false;
+        public var hearosIsOpen:Boolean = false;
+        public var BagWidth:uint;
+        public var MAP_POSX:int = 0;
+        public var TreasureViewIsOpen:Boolean = false;
+        public var NPCShopIsOpen:Boolean = false;
+        public var TESLPanelIsOpen:Boolean = false;
+        public var DepotIsOpen:Boolean = false;
+        public var occupationIntroIsOpen:Boolean = false;
+        public var PetOperatorFlag:uint = 0;
+        public var MAP_POSY:int = 0;
+        public var EntrustPopIsOpen:Boolean = false;
+        public var petBatchIsOpen:Boolean = false;
+        public var TaskFollowIsOpen:Boolean = true;
+        public var VipIsOpen:Boolean = false;
+        public var PetCanOperate:Boolean = true;
+        public var fbinfoPanelIsOpen:Boolean = false;
+        public var masterPanelIsOpen:Boolean = false;
+        public var autoPlayIsOpen:Boolean = false;
+        public var TradeIsOpen:Boolean = false;
+
+        public function DataProxy(){
+            roleDatas = [];
+            RolesListDic = new Dictionary();
+            super(NAME);
+            this.initializeNotifier(UIFacade.FACADEKEY);
+        }
+    }
+}//package GameUI.Proxy 
