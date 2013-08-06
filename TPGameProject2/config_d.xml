@@ -29,6 +29,6 @@
 	<!-- default-size: 默认应用程序大小（应用程序中的 root 属性可以重写该值）-->
 	<default-size>
 		<width>1000</width>
-		<height>700</height>
+		<height>600</height>
 	</default-size>
 </flex-config>
