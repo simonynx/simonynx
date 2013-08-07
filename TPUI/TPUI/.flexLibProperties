@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<flexLibProperties includeAllClasses="true" useMultiPlatformConfig="false" version="3">
+  <includeClasses>
+    <classEntry path="tempest.ui.components.tips.TAutoWidthToolTip"/>
+    <classEntry path="tempest.ui.helper.TextFieldHelper"/>
+    <classEntry path="tempest.ui.components.MenuListItemRender"/>
+    <classEntry path="tempest.ui.Language"/>
+    <classEntry path="tempest.ui.components.TCheckBox3"/>
+    <classEntry path="tempest.ui.components.factories.CheckBox3Factory"/>
+    <classEntry path="tempest.ui.interfaces.IToolTipHolder"/>
+    <classEntry path="tempest.ui.core.ITListItemRender"/>
+    <classEntry path="tempest.ui.components.TListItemRenderProxy"/>
+    <classEntry path="tempest.TickCounter"/>
+    <classEntry path="tempest.ui.events.TPagedCollectionEvent"/>
+    <classEntry path="tempest.ui.components.TPagedListView"/>
+    <classEntry path="tempest.ui.components.TPageControllerPanel"/>
+    <classEntry path="tempest.ui.components.TPageController"/>
+    <classEntry path="tempest.ui.effects.IWindowEffect"/>
+    <classEntry path="tempest.ui.effects.WindowEffectEvent"/>
+  </includeClasses>
+  <includeResources/>
+  <namespaceManifests/>
+</flexLibProperties>
