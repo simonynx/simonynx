@@ -1,0 +1,130 @@
+﻿<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta http-equiv="Pragma" content="no-cache">
+		<meta http-equiv="Cache-Control" content="no-cache">
+		<meta http-equiv="expires" content="0">
+		<title>龙曜</title>
+		<style>
+		* {
+			margin: 0;
+			padding: 0;
+			border: 0;
+			overflow: hidden;
+		}
+
+		html,body,#flashContainer,#flash {
+			height: 100%;
+		}
+
+		body {
+			text-align: center;
+			background-color: #000000;
+		}
+		</style>
+		<script type="text/javascript" src="/js/swfobject.js"></script>
+		<script type="text/javascript">
+			function bookmarkit(){
+				var cookie = document.cookie;
+				if(!cookie || cookie.indexOf('addFavorite')==-1) {
+					addfavorite();		
+				}
+			}        
+			function addfavorite() {
+				var s_url = 'http://ly.zhenwu.com/';
+				var s_title = '龙曜_龙曜官方网站_官网首页';
+				var expDate = new Date(2099,1,1);
+				document.cookie='addFavorite=true; expires=' + expDate.toGMTString();
+				if(!document.cookie)
+					return;
+				try {
+					window.external.addFavorite(s_url, s_title);
+				}
+				catch (e) {
+					try  {
+						window.sidebar.addPanel(s_title, s_url, "");
+					}
+					catch (e) {
+					}
+				}
+			}
+
+			var isReload = false;
+			function reload()
+			{
+				isReload = true;
+				document.location=document.referrer;
+			}
+			try{
+				window.onbeforeunload =function(){
+					if(!isReload)
+					{
+						return "龙曜游戏页面";
+					}
+				}
+				window.onunload =function(){
+					if(!isReload)
+					{
+						bookmarkit();
+					}
+				}
+			}catch(e){}
+		</script>
+		<script type="text/javascript">
+			//获取参数
+			function GetRequest() {
+			   var url = location.search; //获取url中？符后的字串
+			   var theRequest = new Object();
+			   if (url.indexOf("?") != -1) {
+				  var str = url.substr(1);
+				  strs = str.split("&");
+				  for(var i = 0; i < strs.length; i ++) {
+					 theRequest[strs[i].split("=")[0]]=(strs[i].split("=")[1]);
+				  }
+			   }
+			   return theRequest;
+			}
+			//参数
+			var args = GetRequest();
+			var logo="0";
+			var loader_rev="1";
+			var protect="0";
+			var client_rev="2012.05.24";
+			var res_rev="1";
+			var res_types=(protect==1)?"txt|tps,xml|tps,swf|tpk":"";
+			var main_swf="GameProject."+((protect==1)?"tpk":"swf")+"?v="+client_rev;
+			var auth=args['auth'];
+			
+			var flashvars = {
+				showLogo:logo,
+				useProtect:protect,
+				project:main_swf,
+				res_ver:res_rev,
+				res_type:res_types,
+				version:client_rev,
+				key:auth
+			};
+			var params = {
+				menu: "false",
+				allowFullScreen:"false",
+				wmode:"window",
+				bgcolor:"#000000",
+				allowScriptAccess:"alway",
+				play:"true",
+				loop:"false",
+				quality:"high"
+			};
+			var attributes = {};
+			attributes.id = "game";
+			swfobject.embedSWF("GameLoader.swf?v="+loader_rev, "game", "100%", "100%", "10.0.45", "expressInstall.swf", flashvars, params, attributes);
+		</script>
+		<style type="text/css" media="screen">#flash {visibility:hidden}</style>
+	</head>
+	<body marginwidth="0" marginheight="0" scroll="no" oncontextmenu="return true">
+		<div id="game">
+			<a href="http://www.adobe.com/go/getflashplayer">
+				<img src="http://www.adobe.com/images/shared/download_buttons/get_flash_player.gif" alt="Get Adobe Flash player" />
+			</a>
+		</div>
+	</body>
+</html>
