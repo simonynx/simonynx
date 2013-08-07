@@ -1,0 +1,13 @@
+﻿<flex-config>
+	<compiler>
+		<!-- compiler.keep-as3-metadata: 在 SWF 中保留指定的元数据-->
+		<!--		<keep-as3-metadata>-->
+		<!--			<name>String</name>-->
+		<!--		</keep-as3-metadata>-->
+		<!-- compiler.define: 类似于宏定义-->
+		<define>
+			<name>CONFIG::DEBUG</name>
+			<value>true</value>
+		</define>
+	</compiler>
+</flex-config>
