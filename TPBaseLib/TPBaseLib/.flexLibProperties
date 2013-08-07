@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<flexLibProperties includeAllClasses="true" useMultiPlatformConfig="false" version="3">
+  <includeClasses>
+    <classEntry path="tempest.pool.PoolableObj"/>
+    <classEntry path="services.WebService"/>
+    <classEntry path="services.webservice.types.WebServiceMethodResponse"/>
+    <classEntry path="services.events.WebServiceEvent"/>
+    <classEntry path="services.webservice.WebServiceMethodCollection"/>
+    <classEntry path="services.webservice.WebServiceResponse"/>
+    <classEntry path="services.Operation"/>
+    <classEntry path="services.webservice.types.WebServiceMethod"/>
+    <classEntry path="services.webservice.types.WebServiceBinding"/>
+    <classEntry path="services.events.OperationEvent"/>
+    <classEntry path="services.webservice.WebServiceCall"/>
+    <classEntry path="services.webservice.types.WebServiceArgument"/>
+    <classEntry path="services.events.WebServiceMethodCollectionEvent"/>
+    <classEntry path="services.webservice.types.WebServiceComplexType"/>
+    <classEntry path="tempest.utils.DisplayObjectUtil"/>
+    <classEntry path="tempest.utils.SysUtil"/>
+  </includeClasses>
+  <includeResources/>
+  <namespaceManifests/>
+</flexLibProperties>

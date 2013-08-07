@@ -1,0 +1,15 @@
+﻿<flex-config>
+	<compiler>
+		<!-- compiler.keep-as3-metadata: 在 SWF 中保留指定的元数据-->
+		<keep-as3-metadata>
+			<name>Inject</name>
+			<name>PostConstruct</name>
+			<name>Attribute</name>
+		</keep-as3-metadata>
+		<!-- compiler.define: 类似于宏定义-->
+		<define>
+			<name>CONFIG::LOGGING</name>
+			<value>true</value>
+		</define>
+	</compiler>
+</flex-config>
