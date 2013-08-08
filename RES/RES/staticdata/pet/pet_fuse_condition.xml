@@ -1,0 +1,8 @@
+<?xml version="1.0" standalone="yes"?>
+<RECORDS>
+<RECORD id="1" worth="375" main_pet_reqlev="1" deputy_pet_reqlev="1" expend_money="500" expend_belief="200" expend_belief_Ex="200" chenghao="커먼" name_color="1" model_effect_id="0" prop_modify="0"/>
+<RECORD id="2" worth="600" main_pet_reqlev="1" deputy_pet_reqlev="1" expend_money="500" expend_belief="200" expend_belief_Ex="200" chenghao="언커먼" name_color="2" model_effect_id="0" prop_modify="10"/>
+<RECORD id="3" worth="825" main_pet_reqlev="20" deputy_pet_reqlev="15" expend_money="2000" expend_belief="800" expend_belief_Ex="800" chenghao="레어" name_color="3" model_effect_id="0" prop_modify="20"/>
+<RECORD id="4" worth="1050" main_pet_reqlev="40" deputy_pet_reqlev="20" expend_money="7500" expend_belief="1600" expend_belief_Ex="1600" chenghao="유니크" name_color="4" model_effect_id="0" prop_modify="30"/>
+<RECORD id="5" worth="9999" main_pet_reqlev="60" deputy_pet_reqlev="25" expend_money="15000" expend_belief="2400" expend_belief_Ex="2400" chenghao="에픽" name_color="5" model_effect_id="0" prop_modify="40"/>
+</RECORDS>

@@ -1,0 +1,291 @@
+﻿<?xml version="1.0" standalone="yes"?>
+<RECORDS>
+<!--布蘭鎮-->
+<!--接受任務引導-->
+<RECORD taskId="11" taskType="1" step="0" displayCover="0" actionId="3" backTostep="-1" arrowDirection="-1" arrowRotation="180" gap="2" html="1"  useBorder="1" description="點擊[接受任務,14,yellow,1,0]"/><!--指向接受-->
+<RECORD taskId="11" taskType="2" step="0" displayCover="0" actionId="4" backTostep="-1" arrowDirection="-1" arrowRotation="180" gap="2" html="1"  useBorder="1" description="點擊[完成任務,14,yellow,1,0]" /><!--指向完成-->
+
+<!--接受任務引導-->
+<RECORD taskId="21" taskType="1" step="0" displayCover="0" actionId="172" backTostep="-1" arrowDirection="-1" arrowRotation="180" gap="2" html="1"  useBorder="1" /><!--指向接受-->
+<RECORD taskId="21" taskType="2" step="0" displayCover="0" actionId="173" backTostep="-1" arrowDirection="-1" arrowRotation="180" gap="2" html="1"  useBorder="1" /><!--指向完成-->
+
+<!--接受任務引導-->
+<RECORD taskId="41" taskType="1" step="0" displayCover="0" actionId="172" backTostep="-1" arrowDirection="-1" arrowRotation="180" gap="2" html="1"  useBorder="1" /><!--指向接受-->
+<RECORD taskId="41" taskType="2" step="0" displayCover="0" actionId="173" backTostep="-1" arrowDirection="-1" arrowRotation="180" gap="2" html="1"  useBorder="1" /><!--指向完成-->
+
+<!--接受任務引導-->
+<RECORD taskId="1581" taskType="1" step="0" displayCover="0" actionId="172" backTostep="-1" arrowDirection="-1" arrowRotation="180" gap="2" html="1"  useBorder="1" /><!--指向接受-->
+<RECORD taskId="1581" taskType="2" step="0" displayCover="0" actionId="173" backTostep="-1" arrowDirection="-1" arrowRotation="180" gap="2" html="1"  useBorder="1" /><!--指向完成-->
+
+<!--接受任務引導+購買藥水引導-->
+<RECORD taskId="61" taskType="1" step="0" displayCover="0" actionId="172" backTostep="-1" arrowDirection="-1" arrowRotation="180" gap="2" html="1"  useBorder="1" /><!--指向接受-->
+<RECORD taskId="61" taskType="3" step="0" displayCover="0" actionId="277" backTostep="-1" arrowDirection="-1" arrowRotation="45"  gap="2" html="1" useBorder="1" description="點擊[自動尋路,14,yellow,1,0]到老迪恩" /><!--指向任務追蹤面板的迪恩爷爷-->
+<RECORD taskId="61" taskType="3" step="1" displayCover="1" actionId="244" backTostep="-1" arrowDirection="-1" arrowRotation="45"  gap="2" html="1"  useBorder="1"  description="點擊[打開藥店,14,yellow,1,0]" /><!--指向選項打開藥店-->
+<RECORD taskId="61" taskType="3" step="2" displayCover="1" actionId="245" backTostep="-1" arrowDirection="-1" arrowRotation="45"  gap="2" html="1"   useBorder="1" description="點擊[購買中級治療藥水,14,yellow,1,0]" /><!--指向中級輕型生命藥水-->
+<RECORD taskId="61" taskType="3" step="3" displayCover="1" actionId="246" backTostep="-1" arrowDirection="-1" arrowRotation="45"  gap="2" html="1"   useBorder="1" description="[確定購買,14,yellow,1,0]" /><!--指向確定-->
+<RECORD taskId="61" taskType="2" step="0" displayCover="0" actionId="173" backTostep="-1" arrowDirection="-1" arrowRotation="180" gap="2" html="1"  useBorder="1" /><!--指向完成-->
+
+<!--接受任務-->
+<RECORD taskId="81" taskType="1" step="0" displayCover="0" actionId="172" backTostep="-1" arrowDirection="-1" arrowRotation="180" gap="2" html="1"  useBorder="1" /><!--指向接受-->
+<RECORD taskId="81" taskType="2" step="0" displayCover="0" actionId="173" backTostep="-1" arrowDirection="-1" arrowRotation="180" gap="2" html="1"  useBorder="1" /><!--指向完成-->
+
+<!--接受任務引導-->
+<RECORD taskId="91" taskType="1" step="0" displayCover="0" actionId="172" backTostep="-1" arrowDirection="-1" arrowRotation="180" gap="2" html="1"  useBorder="1" /><!--指向接受-->
+<RECORD taskId="91" taskType="2" step="0" displayCover="0" actionId="173" backTostep="-1" arrowDirection="-1" arrowRotation="180" gap="2" html="1"  useBorder="1" /><!--指向完成-->
+
+<!--接受任務引導-->
+<RECORD taskId="1591" taskType="1" step="0" displayCover="0" actionId="172" backTostep="-1" arrowDirection="-1" arrowRotation="180" gap="2" html="1"  useBorder="1" /><!--指向接受-->
+<RECORD taskId="1591" taskType="2" step="0" displayCover="0" actionId="173" backTostep="-1" arrowDirection="-1" arrowRotation="180" gap="2" html="1"  useBorder="1" /><!--指向完成-->
+
+<!--羽毛傳送引導-->
+<RECORD taskId="101" taskType="2" step="0" displayCover="0" actionId="18" backTostep="-1" arrowDirection="-1" arrowRotation="315" arrowOffsetY="20"  gap="2" html="1" itemId="4" description="使用[傳送符文,14,yellow,1,0]可以快速到達目的地，[VIP可以免費傳送,14,yellow,1,0]"/><!--指向傳送-->
+
+<!--羽毛傳送引導-->
+<RECORD taskId="151" taskType="2" step="0" displayCover="0" actionId="18" backTostep="-1" arrowDirection="-1" arrowRotation="315" arrowOffsetY="20"  gap="2" html="1" itemId="4" description="使用[傳送符文,14,yellow,1,0]可以快速到達目的地，[VIP可以免費傳送,14,yellow,1,0]"/><!--指向傳送-->
+
+<!--鑒定卷軸使用引導-->
+<RECORD taskId="201" taskType="1" step="0" actionId="128" moviePath="201"/><!--鑒定卷軸使用动画引導-->
+<!--<RECORD taskId="201" taskType="1" step="0" displayCover="1" actionId="128" backTostep="-1" arrowDirection="-1" arrowRotation="45" itemId="1746" gap="2" html="1" useBorder="1" description="打開[角色屬性面板,14,yellow,1,0]" />--><!--指向角色按鈕-->
+<!--<RECORD taskId="201" taskType="1" step="1" displayCover="1" actionId="129" backTostep="-1" arrowDirection="-1" arrowRotation="135" gap="2" html="1" useBorder="1" description="[雙擊,14,yellow,1,0]裝備或[點擊裝備,14,yellow,1,0]，選擇[卸下,14,yellow,1,0]將身上裝備卸下"/>--><!--指向鞋子-->
+<!--<RECORD taskId="201" taskType="1" step="2" displayCover="1" actionId="131" backTostep="-1" arrowDirection="-1" arrowRotation="45" itemId="1746" gap="2" html="1" useBorder="1" description="點擊[打開背包,14,yellow,1,0]" />--><!--打開包裹-->
+<!--<RECORD taskId="201" taskType="1" step="3" displayCover="1" actionId="132" backTostep="-1" arrowDirection="-1" arrowRotation="315" itemId="1746" gap="2" html="1" useBorder="1" description="按兩下[使用鑒定卷軸,14,yellow,1,0]"/>--><!--使用鑒定卷軸-->
+<!--<RECORD taskId="201" taskType="1" step="4" displayCover="1" actionId="133" backTostep="-1" arrowDirection="-1" arrowRotation="315"  gap="2" html="1" useBorder="1" description="對該裝備進行[鑒定,14,yellow,1,0]" />--><!--鑒定鞋子-->
+<!--<RECORD taskId="201" taskType="1" step="5" displayCover="1" actionId="134" backTostep="-1" arrowDirection="-1" arrowRotation="315"  gap="2" html="1" useBorder="1" description="[按兩下,14,yellow,1,0]穿戴裝備" />--><!--指向鞋子-->
+
+<!--鑒定卷軸使用引導（武器）-->
+<!--<RECORD taskId="181" taskType="1" step="0" displayCover="1" actionId="208" backTostep="-1" arrowDirection="-1" arrowRotation="45" itemId="1746" gap="2" html="1" useBorder="1" description="打開[角色屬性面板,14,yellow,1,0]" />--><!--指向角色按鈕-->
+<!--<RECORD taskId="181" taskType="1" step="1" displayCover="1" actionId="209" backTostep="-1" arrowDirection="-1" arrowRotation="135" gap="2" html="1" useBorder="1" description="[按兩下,14,yellow,1,0]裝備或[點擊裝備,14,yellow,1,0]，選擇[卸下,14,yellow,1,0]將身上裝備卸下"/>--><!--指向武器-->
+<!--<RECORD taskId="181" taskType="1" step="2" displayCover="1" actionId="131" backTostep="-1" arrowDirection="-1" arrowRotation="45" itemId="1746" gap="2" html="1" useBorder="1" description="點擊[打開背包,14,yellow,1,0]" />--><!--打開包裹-->
+<!--<RECORD taskId="181" taskType="1" step="3" displayCover="1" actionId="132" backTostep="-1" arrowDirection="-1" arrowRotation="315" itemId="1746" gap="2" html="1" useBorder="1" description="按兩下[使用鑒定卷軸,14,yellow,1,0]"/>--><!--使用鑒定卷軸-->
+<!--<RECORD taskId="181" taskType="1" step="4" displayCover="1" actionId="133" backTostep="-1" arrowDirection="-1" arrowRotation="315"  gap="2" html="1" useBorder="1" description="對該裝備進行[鑒定,14,yellow,1,0]" />--><!--鑒定武器-->
+<!--<RECORD taskId="181" taskType="1" step="5" displayCover="1" actionId="134" backTostep="-1" arrowDirection="-1" arrowRotation="315"  gap="2" html="1" useBorder="1" description="[按兩下,14,yellow,1,0]穿戴裝備" />--><!--指向武器-->
+
+<!--羽毛傳送引導-->
+<RECORD taskId="181" taskType="2" step="0" displayCover="0" actionId="18" backTostep="-1" arrowDirection="-1" arrowRotation="315" arrowOffsetY="20"  gap="2" html="1" itemId="4" description="使用[傳送符文,14,yellow,1,0]可以快速到達目的地，[VIP可以免費傳送,14,yellow,1,0]"/><!--指向傳送-->
+
+<!--神格、神力引導-->
+<RECORD taskId="2051" taskType="2" step="0" actionId="73" moviePath="207"/><!--神格、神力动画引導-->
+<!--<RECORD taskId="2051" taskType="3" step="0" displayCover="0" actionId="73" backTostep="-1" arrowDirection="-1" arrowRotation="315"  gap="0" html="1" itemId="30003"  description="按兩下使用“創神諭寶石”"/>--><!--指向任務追蹤欄物品-->
+<!--<RECORD taskId="2051" taskType="2" step="0" displayCover="1" actionId="75" backTostep="-1" arrowDirection="-1" arrowRotation="180" gap="2" html="1"  useBorder="1" description="點擊[關閉窗口,14,yellow,1,0]" description2="1.開啟星座之後，玩家將獲得神力，這是一股強大的力量。\n2.玩家可以通過等級成長、裝備屬性、星座覺醒、寵物融合、坐騎進階、裝備精通等方式來提升角色神力。" imgPath="1"/>--><!--指向我知道了-->
+<!--<RECORD taskId="2051" taskType="2" step="1" displayCover="1" actionId="162" backTostep="-1" arrowDirection="-1" arrowRotation="45"  gap="2" html="1" useBorder="1" itemId="1901" description="打開[角色屬性面板,14,yellow,1,0]"/>--><!--指向角色按鈕-->
+<!--<RECORD taskId="2051" taskType="2" step="2" displayCover="1" actionId="29" backTostep="-1" arrowDirection="-1" arrowRotation="45"  gap="2" html="1" itemId="1901" description="點擊切換[星座覺醒面板,14,yellow,1,0]"/>--><!--指向星座-->
+<!--<RECORD taskId="2051" taskType="2" step="3" displayCover="1" actionId="30" backTostep="-1" arrowDirection="-1" arrowRotation="45"  gap="2" html="1"   description="選擇你需要[覺醒的星座,14,yellow,1,0]，前期推薦[勇猛,14,yellow,1,0]"/>--><!--指向勇猛-->
+<!--<RECORD taskId="2051" taskType="2" step="4" displayCover="1" actionId="32" backTostep="-1" arrowDirection="-1" arrowRotation="180"  gap="2" html="1"   description="點擊[覺醒,14,yellow,1,0]"/>--><!--指向覺醒-->
+
+<!--羽毛傳送引導-->
+<RECORD taskId="201" taskType="2" step="0" displayCover="0" actionId="18" backTostep="-1" arrowDirection="-1" arrowRotation="315" arrowOffsetY="20"  gap="2" html="1" itemId="4" description="使用[傳送符文,14,yellow,1,0]可以快速到達目的地，[VIP可以免費傳送,14,yellow,1,0]"/><!--指向傳送-->
+
+<!--羽毛傳送引導-->
+<RECORD taskId="71" taskType="3" step="0" displayCover="0" actionId="18" backTostep="-1" arrowDirection="-1" arrowRotation="315" arrowOffsetY="20"  gap="2" html="1" itemId="4" description="使用[傳送符文,14,yellow,1,0]可以快速到達目的地，[VIP可以免費傳送,14,yellow,1,0]"/><!--指向傳送-->
+
+<!--接受任務+坐騎乘騎引導-->
+<RECORD taskId="1921" taskType="1" step="0" actionId="156" moviePath="213"/><!--坐騎乘騎动画引導-->
+<!--<RECORD taskId="1921" taskType="1" step="0" displayCover="1" actionId="156" backTostep="-1" arrowDirection="-1" arrowRotation="45"  gap="2" html="1" useBorder="1"   description="點擊打開[坐騎面板,14,yellow,1,0]"/>--><!--指向騎寵快捷欄按鈕-->
+<!--<RECORD taskId="1921" taskType="1" step="1" displayCover="1" actionId="157" backTostep="-1" arrowDirection="-1" arrowRotation="45"  gap="2" html="1" useBorder="1"   description="點擊[騎上坐騎,14,yellow,1,0],使用快速鍵[W,14,yellow,1,0]可快速騎乘，可[騎戰,14,yellow,1,0]"/>--><!--指向騎乘按鈕-->
+<RECORD taskId="1921" taskType="1" step="1" displayCover="0" actionId="175" backTostep="-1" arrowDirection="-1" arrowRotation="180" gap="2" html="1"  useBorder="1" /><!--指向接受-->
+<RECORD taskId="1921" taskType="2" step="0" displayCover="0" actionId="173" backTostep="-1" arrowDirection="-1" arrowRotation="180" gap="2" html="1"  useBorder="1" /><!--指向完成-->
+
+<!--坐騎魔法麵包餵食+接受任務引導-->
+<RECORD taskId="221" taskType="1" step="0" actionId="42" moviePath="214"/><!--坐騎魔法麵包餵食动画引導-->
+<!--<RECORD taskId="221" taskType="1" step="0" displayCover="1" actionId="42" backTostep="-1" arrowDirection="-1" arrowRotation="45"  gap="2" html="1"  useBorder="1" description="打開[坐騎面板,14,yellow,1,0]"/>--><!--指向騎寵快捷欄按鈕-->
+<!--<RECORD taskId="221" taskType="1" step="1" displayCover="1" actionId="45" backTostep="-1" arrowDirection="-1" arrowRotation="180"  gap="2" html="1"  useBorder="1" description="點擊[開始自動餵食,14,yellow,1,0]坐騎魔法麵包"/>--><!--指向開始自動餵食-->
+<!--<RECORD taskId="221" taskType="1" step="2" displayCover="1" actionId="290" backTostep="-1" arrowDirection="-1" arrowRotation="180"  gap="2" html="1"  useBorder="1" description="點擊[关闭面板,14,yellow,1,0]"/>--><!--指向关闭面板-->
+<RECORD taskId="221" taskType="1" step="1" displayCover="0" actionId="172" backTostep="-1" arrowDirection="-1" arrowRotation="180" gap="2" html="1"  useBorder="1" /><!--指向接受-->
+<RECORD taskId="221" taskType="2" step="0" displayCover="0" actionId="173" backTostep="-1" arrowDirection="-1" arrowRotation="180" gap="2" html="1"  useBorder="1" /><!--指向完成-->
+
+<!--幻化引导-->
+<RECORD taskId="3531" taskType="1" step="0" displayCover="1" actionId="291" backTostep="-1" arrowDirection="-1" arrowRotation="45"  gap="2" html="1"  useBorder="1" description="打開[坐騎面板,14,yellow,1,0]"/><!--指向騎寵快捷欄按鈕-->
+<RECORD taskId="3531" taskType="1" step="1" displayCover="1" actionId="48" backTostep="-1" arrowDirection="-1" arrowRotation="45"  gap="2" html="1"  useBorder="1" description="打開[幻化面板,14,yellow,1,0]，進行坐騎幻化"/><!--指向幻化-->
+<RECORD taskId="3531" taskType="1" step="2" displayCover="1" actionId="49" backTostep="-1" arrowDirection="-1" arrowRotation="270"  gap="2" html="1" xOffset="-127" useBorder="1" description="點擊翻頁到[戰豹系列,14,yellow,1,0]"/><!--指向翻頁箭頭-->
+<RECORD taskId="3531" taskType="1" step="3" displayCover="1" actionId="108" backTostep="-1" arrowDirection="-1" arrowRotation="270"  gap="2" html="1"  useBorder="1" description="點擊[幻化成戰豹,14,yellow,1,0]，坐騎等級越高，可幻化的形態越多"/><!--指向幻化-->
+
+<!--牧歌農場-->
+
+<!--寵物1召喚引導-->
+<RECORD taskId="301" taskType="2" step="0" actionId="35" moviePath="202"/><!--宠物出战动画引导-->
+<!--<RECORD taskId="301" taskType="2" step="0" displayCover="1" actionId="35" backTostep="-1" arrowDirection="-1" arrowRotation="45"  gap="2" html="1"  description="點擊[打開背包,14,yellow,1,0]"/>--><!--打開包裹-->
+<!--<RECORD taskId="301" taskType="2" step="1" displayCover="1" actionId="36" backTostep="-1" arrowDirection="-1" arrowRotation="315"  gap="2" html="1"  description="[按兩下,14,yellow,1,0]使用[召喚獸契約,14,yellow,1,0]後，在你的[召喚獸面板,14,yellow,1,0]中會自動添加一隻召喚獸"/>--><!--指向"召喚獸蛋"-->
+<!--<RECORD taskId="301" taskType="2" step="2" displayCover="1" actionId="38" backTostep="-1" arrowDirection="-1" arrowRotation="45"  gap="2" html="1"   description="打開[召喚獸面板,14,yellow,1,0]" />--><!--打開召喚獸-->
+<!--<RECORD taskId="301" taskType="2" step="3" displayCover="1" actionId="39" backTostep="-1" arrowDirection="-1" arrowRotation="135"  gap="2" html="1"  useBorder="1" description="[召喚獸,14,yellow,1,0]可以通過[出戰,14,yellow,1,0]協助你作戰或通過[合體,14,yellow,1,0]將其屬性附加到你身上。前期建議[出戰,14,yellow,1,0]" />--><!--指向出戰-->
+<!--<RECORD taskId="301" taskType="2" step="4" displayCover="1" actionId="150" backTostep="-1" arrowDirection="-1" arrowRotation="180" gap="2" html="1"  useBorder="1" description="點擊[關閉窗口,14,yellow,1,0]" description2="1.在召喚獸列表選擇要出戰的寵物，點擊【戰】按鈕，可讓召喚獸出戰。\n2.出戰的召喚獸可以幫主人攻擊目標，並大幅提升主人的神力。\n3.出戰的召喚獸會隨著玩家打怪獲得相應的經驗，進而提升等級。" imgPath="7"/>--><!--指向我知道了-->
+
+<!--寵物2召喚引導-->
+<RECORD taskId="421" taskType="1" step="0" actionId="151" moviePath="209"/><!--寵物2召喚动画引導-->
+<!--<RECORD taskId="421" taskType="1" step="0" displayCover="1" actionId="151" backTostep="-1" arrowDirection="-1" arrowRotation="180" gap="2" html="1"  useBorder="1" description="點擊[關閉窗口,14,yellow,1,0]" description2="1.在召喚獸列表選擇要合體的寵物，點擊【合】按鈕，可與召喚獸合體。\n2.角色與召喚獸合體後將大幅提升神力。\n3.合體的召喚獸會隨著玩家打怪獲得相應的經驗，進而提升等級。" imgPath="8"/>--><!--指向我知道了-->
+<!--<RECORD taskId="421" taskType="1" step="1" displayCover="1" actionId="50" backTostep="-1" arrowDirection="-1" arrowRotation="45"  gap="2" html="1"  description="打開[背包面板,14,yellow,1,0]" />--><!--打開包裹-->
+<!--<RECORD taskId="421" taskType="1" step="2" displayCover="1" actionId="51" backTostep="-1" arrowDirection="-1" arrowRotation="315"  gap="2" html="1"  description="[按兩下,14,yellow,1,0]使用[召喚獸契約,14,yellow,1,0]" />--><!--指向"召喚獸蛋"-->
+<!--<RECORD taskId="421" taskType="1" step="3" displayCover="1" actionId="53" backTostep="-1" arrowDirection="-1" arrowRotation="45"  gap="2" html="1"   description="打開[召喚獸面板,14,yellow,1,0]" />--><!--打開召喚獸-->
+<!--<RECORD taskId="421" taskType="1" step="4" displayCover="1" actionId="54" backTostep="-1" arrowDirection="-1" arrowRotation="315"  gap="2" html="1"  useBorder="1" description="點擊[合體,14,yellow,1,0]" />--><!--指向合體-->
+
+<!--大炮打氣球引導-->
+<RECORD taskId="441" taskType="1" step="0" displayCover="1" actionId="222" backTostep="-1" arrowDirection="-1" arrowRotation="270" gap="2" html="1"  useBorder="1" description="點擊[氣球競技,14,yellow,1,0]，進行大炮打氣球遊戲"/><!--指向氣球競技-->
+<RECORD taskId="441" taskType="1" step="1" displayCover="1" actionId="223" backTostep="-1" arrowDirection="-1" arrowRotation="45"  gap="2" html="1"  useBorder="1" description="點擊[選擇初級炮彈,14,yellow,1,0]" /><!--指向初級炮彈-->
+<RECORD taskId="441" taskType="1" step="2" displayCover="1" actionId="224" backTostep="-1" arrowDirection="-1" arrowRotation="270"  gap="2" html="1"  useBorder="1" description="點擊[開始遊戲,14,yellow,1,0]，用初級炮彈擊落一個黃色氣球" /><!--指向開始遊戲-->
+<RECORD taskId="441" taskType="1" step="3" displayCover="1" actionId="225" backTostep="-1" arrowDirection="-1" arrowRotation="45"  gap="2" html="1"  useBorder="1" description="點擊[打開獎勵寶箱,14,yellow,1,0]" /><!--指向寶箱-->
+<RECORD taskId="441" taskType="1" step="4" displayCover="1" actionId="226" backTostep="-1" arrowDirection="-1" arrowRotation="0"  gap="2" html="1"  useBorder="1" description="點擊[一鍵入包,14,yellow,1,0]，將寶物收納背包" /><!--指向一鍵入包-->
+<RECORD taskId="441" taskType="1" step="5" displayCover="1" actionId="278" backTostep="-1" arrowDirection="-1" arrowRotation="135"  gap="2" html="1"  useBorder="1" description="點擊[關閉,14,yellow,1,0]氣球競技面板" /><!--指向关闭-->
+
+<!--惡魔耶莉莎自動尋路引導-->
+<RECORD taskId="471" taskType="3" step="0" displayCover="0" actionId="166" backTostep="-1" arrowDirection="-1" arrowRotation="45"  gap="2" html="1" useBorder="1" description="點擊[自動尋路,14,yellow,1,0]到惡魔耶莉莎" /><!--指向任務追蹤面板的惡魔耶莉莎-->
+
+<!--使用回城卷引導-->
+<RECORD taskId="481" taskType="2" step="0" displayCover="1" actionId="247" backTostep="-1" arrowDirection="-1" arrowRotation="45"  gap="2" html="1" itemId="1815"  description="打開[背包面板,14,yellow,1,0]" /><!--打開包裹-->
+<RECORD taskId="481" taskType="2" step="1" displayCover="1" actionId="248" backTostep="-1" arrowDirection="-1" arrowRotation="225"  gap="2" html="1" itemId="1815" description="[按兩下,14,yellow,1,0]使用[回城卷,14,yellow,1,0]後，快速前往主城薩爾斯堡"/><!--指向"回城卷"-->
+<RECORD taskId="481" taskType="2" step="2" displayCover="1" actionId="249" backTostep="-1" arrowDirection="-1" arrowRotation="315"  gap="2" html="1"  description="[點擊,14,yellow,1,0]打開[地圖,14,yellow,1,0]後，使用快速鍵M可以快速打開地圖"/><!--指向右上角"圖"-->
+<RECORD taskId="481" taskType="2" step="3" displayCover="1" actionId="250" backTostep="-1" arrowDirection="-1" arrowRotation="0"  gap="2" html="1" npcId="7" description="[點擊圖標,14,yellow,1,0]可瞬間到達目的地，未開通VIP將消耗傳送符文"/><!--指向"沃頓"-->
+
+<!--薩爾斯堡-->
+<!--寵物餵養引導-->
+<RECORD taskId="521" taskType="1" step="0" actionId="125" moviePath="203"/><!--宠物喂养动画引导-->
+<!--<RECORD taskId="521" taskType="1" step="0" displayCover="1" actionId="125" backTostep="-1" arrowDirection="-1" arrowRotation="180" gap="2" html="1"  useBorder="1" description="點擊[關閉窗口,14,yellow,1,0]" description2="1.角鬥士給召喚獸餵食白魔法內核，可提升其技能威力。\n2.暗法師給召喚獸餵食黑魔法內核，可提升其技能威力。\n3.月神使給召喚獸餵食青魔法內核，可提升其技能威力。\n4.魅舞者給召喚獸餵食血魔法內核，可提升其技能威力。" imgPath="2"/>--><!--指向我知道了-->
+<!--<RECORD taskId="521" taskType="1" step="1" displayCover="1" actionId="56" backTostep="-1" arrowDirection="-1" arrowRotation="45"  gap="2" html="1"   description="打開[召喚獸面板,14,yellow,1,0]" />--><!--打開召喚獸-->
+<!--<RECORD taskId="521" taskType="1" step="2" displayCover="1" actionId="57" backTostep="-1" arrowDirection="-1" arrowRotation="135"  gap="2" html="1"  useBorder="1" description="點擊[餵養,14,yellow,1,0]" />--><!--指向餵養-->
+<!--<RECORD taskId="521" taskType="1" step="3" displayCover="1" actionId="58" backTostep="-1" arrowDirection="-1" arrowRotation="225"  gap="2" html="1"  useBorder="1" description="[點擊,14,yellow,1,0]魔法內核將其添加到餵養框" />--><!--指向魔核-->
+<!--<RECORD taskId="521" taskType="1" step="4" displayCover="1" actionId="59" backTostep="-1" arrowDirection="-1" arrowRotation="45"  gap="2" html="1"  useBorder="1" description="點擊後[餵養成功,14,yellow,1,0]" />--><!--指向確定-->
+
+<!--召喚獸融合引導-->
+<RECORD taskId="791" taskType="1" step="0" actionId="126" moviePath="204"/><!--宠物融合动画引导-->
+<!--<RECORD taskId="791" taskType="1" step="0" displayCover="1" actionId="126" backTostep="-1" arrowDirection="-1" arrowRotation="180" gap="2" html="1"  useBorder="1" description="點擊[關閉窗口,14,yellow,1,0]" description2="1.融合召喚獸可以提升召喚獸各種屬性的成長值，召喚獸出戰和合體均能增加角色神力。\n2.只有同類型的召喚獸才能進行融合。" imgPath="3"/>--><!--指向我知道了-->
+<!--<RECORD taskId="791" taskType="1" step="1" displayCover="1" actionId="292" backTostep="-1" arrowDirection="-1" arrowRotation="45"  gap="2" html="1"  itemId="82041" description="打開[背包面板,14,yellow,1,0]" />--><!--指向背包面板-->
+<!--<RECORD taskId="791" taskType="1" step="2" displayCover="1" actionId="293" backTostep="-1" arrowDirection="-1" arrowRotation="45"  gap="2" html="1"   description="双击使用[召唤兽契约,14,yellow,1,0]" />--><!--指向召唤兽契约-->
+<!--<RECORD taskId="791" taskType="1" step="3" displayCover="1" actionId="60" backTostep="-1" arrowDirection="-1" arrowRotation="45"  gap="2" html="1"   description="打開[召喚獸面板,14,yellow,1,0]" />--><!--打開召喚獸-->
+<!--<RECORD taskId="791" taskType="1" step="4" displayCover="1" actionId="61" backTostep="-1" arrowDirection="-1" arrowRotation="0"  gap="2" html="1"  useBorder="1" description="點擊[融合,14,yellow,1,0]" />--><!--指向融合-->
+<!--<RECORD taskId="791" taskType="1" step="5" displayCover="1" actionId="76" backTostep="-1" arrowDirection="-1" arrowRotation="135"  gap="2" html="1"   description="在左邊的召喚獸列表[點擊,14,yellow,1,0]選擇您需要進行融合的主寵，主寵融合後屬性有會一定的提升。" />--><!--指向主寵位置-->
+<!--<RECORD taskId="791" taskType="1" step="6" displayCover="1" actionId="78" backTostep="-1" arrowDirection="-1" arrowRotation="45"  gap="2" html="1"   description="在左邊的召喚獸列表[點擊,14,yellow,1,0]選擇您需要進行融合的副寵，[出戰或合體的寵物無法拖放至副寵位置,14,yellow,1,0]。副寵融合後會消失，請注意。" />--><!--指向副寵位置-->
+<!--<RECORD taskId="791" taskType="1" step="7" displayCover="1" actionId="79" backTostep="-1" arrowDirection="-1" arrowRotation="225"  gap="2" html="1" description="點擊[融合,14,yellow,1,0]" />--><!--指向融合-->
+
+<!--使用幸運之星開星引導-->
+<RECORD taskId="991" taskType="1" step="0" displayCover="1" actionId="227" backTostep="-1" arrowDirection="-1" arrowRotation="45"  gap="2" html="1" useBorder="1" itemId="1901" itemId1="2" description="打開[角色屬性面板,14,yellow,1,0]"/><!--指向角色按鈕-->
+<RECORD taskId="991" taskType="1" step="1" displayCover="1" actionId="228" backTostep="-1" arrowDirection="-1" arrowRotation="45"  gap="2" html="1" itemId="1901" itemId1="2" description="點擊切換[星座覺醒面板,14,yellow,1,0]"/><!--指向星座-->
+<RECORD taskId="991" taskType="1" step="2" displayCover="1" actionId="229" backTostep="-1" arrowDirection="-1" arrowRotation="45"  gap="2" html="1"   description="選擇[勇猛,14,yellow,1,0]"/><!--指向勇猛，需判斷是否在勇猛介面，若在，則不需要這步-->
+<RECORD taskId="991" taskType="1" step="3" displayCover="1" actionId="230" backTostep="-1" arrowDirection="-1" arrowRotation="45"  gap="2" html="1" useBorder="1" description="勾選[使用幸運之星,14,yellow,1,0]，提高開星成功率"/><!--指向框框-->
+<RECORD taskId="991" taskType="1" step="4" displayCover="1" actionId="231" backTostep="-1" arrowDirection="-1" arrowRotation="135"  gap="2" html="1" useBorder="1"  description="點擊[+/-,14,yellow,1,0]添加幸運之星個數，每顆幸運之星提升5%成功率" /><!--指向加點按鈕-->
+<RECORD taskId="991" taskType="1" step="5" displayCover="1" actionId="232" backTostep="-1" arrowDirection="-1" arrowRotation="180"  gap="2" html="1"  useBorder="1"  description="點擊[覺醒,14,yellow,1,0]"/><!--指向覺醒-->
+
+<!--背包擴充引導、倉庫擴充引導-->
+<RECORD taskId="641" taskType="1" step="0" displayCover="1" actionId="149" backTostep="-1" arrowDirection="-1" arrowRotation="180" gap="2" html="1"  useBorder="1" description="點擊[關閉窗口,14,yellow,1,0]" description2="1.使用“背包擴展盒”和“倉庫擴展盒”可分別擴充背包和倉庫的儲物空間。\n2.臨時不用的和貴重的物品可以存放在倉庫管理員處。\n3.VIP玩家可以直接點擊背包面板的【倉庫】按鈕打開隨身倉庫。" imgPath="6"/><!--指向我知道了-->
+<RECORD taskId="641" taskType="1" step="1" displayCover="1" actionId="62" backTostep="-1" arrowDirection="-1" arrowRotation="45"  gap="2" html="1"  description="點擊[打開背包,14,yellow,1,0]"/><!--打開包裹-->
+<RECORD taskId="641" taskType="1" step="2" displayCover="1" actionId="63" backTostep="-1" arrowDirection="-1" arrowRotation="45"  gap="2" html="1"  description="按兩下使用“背包擴展盒”可擴充你的背包空間"/><!--使用背包擴展盒-->
+<RECORD taskId="641" taskType="1" step="3" displayCover="1" actionId="70" backTostep="-1" arrowDirection="-1" arrowRotation="45"  gap="2" html="1"  description="點擊後擴充你的背包空間"/><!--點擊確定-->
+<RECORD taskId="641" taskType="1" step="4" displayCover="1" actionId="64" backTostep="-1" arrowDirection="-1" arrowRotation="45"  gap="2" html="1"  description="打開倉庫"/><!--指向打開倉庫-->
+<RECORD taskId="641" taskType="1" step="5" displayCover="1" actionId="178" backTostep="-1" arrowDirection="-1" arrowRotation="45"  gap="2" html="1"  description="點擊[關閉倉庫,14,yellow,1,0]"/><!--指向關閉倉庫-->
+<RECORD taskId="641" taskType="1" step="6" displayCover="1" actionId="69" backTostep="-1" arrowDirection="-1" arrowRotation="315"  gap="2" html="1" description="按兩下使用“倉庫擴展盒”可擴充你的倉庫空間"/><!--使用倉庫擴展盒-->
+<RECORD taskId="641" taskType="1" step="7" displayCover="1" actionId="71" backTostep="-1" arrowDirection="-1" arrowRotation="45"  gap="2" html="1" description="點擊後擴充你的倉庫空間"/><!--點擊確定-->
+
+
+<!--納吉森草地-->
+<!--神力覺醒引導-->
+<RECORD taskId="871" taskType="3" step="0" actionId="233" moviePath="210"/><!--神力覺醒动画引導-->
+<!--<RECORD taskId="871" taskType="3" step="0" displayCover="1" actionId="233" backTostep="-1" arrowDirection="-1" arrowRotation="225" gap="2" html="1"  useBorder="1" description="點擊[覺醒神力,14,yellow,1,0]，激發體內潛在屬性，大幅提升人物屬性"/>--><!--指向覺--> 
+<!--<RECORD taskId="871" taskType="2" step="0" displayCover="1" actionId="234" backTostep="-1" arrowDirection="-1" arrowRotation="225"  gap="2" html="1" useBorder="1" description="點擊打開[覺醒值轉換面板,14,yellow,1,0]"/>--><!--指向轉換按鈕-->
+<!--<RECORD taskId="871" taskType="2" step="1" displayCover="1" actionId="235" backTostep="-1" arrowDirection="-1" arrowRotation="180"  gap="2" html="1" itemId="8" description="點擊[轉換,14,yellow,1,0]將信仰值轉換為覺醒值"/>--><!--指向轉換-->
+<!--<RECORD taskId="871" taskType="2" step="2" displayCover="1" actionId="236" backTostep="-1" arrowDirection="-1" arrowRotation="225"  gap="2" html="1"  description="點擊[關閉神力覺醒,14,yellow,1,0]"/>--><!--點擊覺-->
+
+<!--索倫斯中級修行場-->
+<!--前往索倫斯初級修行場引導--> 
+<RECORD taskId="1941" taskType="2" step="0" displayCover="1" actionId="241" backTostep="-1" arrowDirection="-1" arrowRotation="45"  gap="2" html="1" useBorder="0" npcId="131" npcWidth="137" npcHeight="191" description="[與訓練場傳送師對話,14,yellow,1,0]，選擇傳送地點" /><!--指向NPC訓練場傳送師-->
+<RECORD taskId="1941" taskType="2" step="1" displayCover="1" actionId="242" backTostep="-1" arrowDirection="-1" arrowRotation="0"  gap="2" html="1"  useBorder="1" description="選擇[傳送到索倫斯丘陵修行場,14,yellow,1,0]" /><!--指向選項傳送到索倫斯丘陵修行場-->
+<RECORD taskId="1941" taskType="2" step="2" displayCover="1" actionId="269" backTostep="-1" arrowDirection="-1" arrowRotation="0"  gap="2" html="1"  useBorder="1" description="選擇[送我過去,14,yellow,1,0]，確定前往" /><!--指向選項送我過去-->
+
+<!--掛機引導-->
+<RECORD taskId="2121" taskType="3" step="0" displayCover="1" actionId="237" backTostep="-1" arrowDirection="-1" arrowRotation="45"  gap="2" html="1" sceneId="404"  description="打開[掛機助手面板,14,yellow,1,0]" /><!--指向掛機-->
+<RECORD taskId="2121" taskType="3" step="1" displayCover="1" actionId="238" backTostep="-1" arrowDirection="-1" arrowRotation="0"  gap="2" html="1"  useBorder="1" description="[勾選,14,yellow,1,0]開啟[自動修理裝備,14,yellow,1,0]" /><!--指向選框-->
+<RECORD taskId="2121" taskType="3" step="2" displayCover="1" actionId="239" backTostep="-1" arrowDirection="-1" arrowRotation="45"  gap="2" html="1" description="點擊[保存設置,14,yellow,1,0]" /><!--指向保存設置-->
+<RECORD taskId="2121" taskType="3" step="3" displayCover="1" actionId="240" backTostep="-1" arrowDirection="-1" arrowRotation="180"  gap="2" html="1" description="點擊[開始掛機,14,yellow,1,0]" /><!--指向開始掛機-->
+
+
+<!--黑色卷軸使用引導-->
+<RECORD taskId="851" taskType="3" step="0" displayCover="0" actionId="165" backTostep="-1" arrowDirection="-1" arrowRotation="315"  gap="2" html="1"  description="按兩下使用“黑色卷軸”"/><!--指向任務追蹤欄物品-->
+
+
+<!--支線任務-主城薩爾斯堡-->
+<!--活動引導-->
+<RECORD taskId="120" taskType="2" step="0" displayCover="0" actionId="92" backTostep="-1" arrowDirection="-1" arrowRotation="0"  gap="2" html="1" description="[點擊,14,yellow,1,0]"/><!--指向活動-->
+<RECORD taskId="120" taskType="2" step="1" displayCover="0" actionId="93" backTostep="-1" arrowDirection="-1" arrowRotation="90"  gap="2" html="1" description="完成每日活動可以讓你更迅速的升級！"/><!--指向每日活動-->
+<RECORD taskId="120" taskType="2" step="2" displayCover="0" actionId="94" backTostep="-1" arrowDirection="-1" arrowRotation="135"  gap="2" html="1"  description="點擊[關閉窗口,14,yellow,1,0]"/><!--指向關閉-->
+<!--雜貨店VIP引導-->
+<RECORD taskId="180" taskType="2" step="0" displayCover="0" actionId="120" backTostep="-1" arrowDirection="-1" useBorder="0" arrowRotation="90"  gap="2" html="1" npcId="46" description="點擊NPC"/><!--指向NPC-->
+<RECORD taskId="180" taskType="2" step="1" displayCover="0" actionId="117" backTostep="-1" arrowDirection="-1" arrowRotation="225"  gap="2" html="1" description="點擊[打開雜貨店,14,yellow,1,0]"/><!--指向打開雜貨店-->
+<RECORD taskId="180" taskType="2" step="2" displayCover="0" actionId="118" backTostep="-1" html="1"  useBorder="0" autoHideTime="2"/><!--不用箭頭，僅顯示這個雜貨店介面2秒-->
+<RECORD taskId="180" taskType="2" step="3" displayCover="0" actionId="119" backTostep="-1" arrowDirection="-1" arrowRotation="135"  gap="2" html="1"  description="點擊[關閉窗口,14,yellow,1,0]"/><!--指向關閉-->
+
+<!--創神諭寶典引導-->
+<RECORD taskId="3531" taskType="3" step="0" actionId="190"  moviePath="212"/><!--創神諭寶典動畫引導-->
+<!--<RECORD taskId="3531" taskType="3" step="0" actionId="190" backTostep="-1" arrowDirection="-1" arrowRotation="270" gap="2" html="1"  useBorder="1" description="點擊打開[創神諭寶典,14,yellow,1,0]"/>--><!--指向創神諭寶典-->
+<!--<RECORD taskId="3531" taskType="3" step="1" actionId="191" backTostep="-1" arrowDirection="-1" arrowRotation="135" gap="2" html="1"  useBorder="1" description="點擊開始[賞金任務,14,yellow,1,0]"/>--><!--指向賞金任務-->
+<!--<RECORD taskId="3531" taskType="3" step="2" actionId="192" backTostep="-1" arrowDirection="-1" arrowRotation="135" gap="2" html="1"  useBorder="1" description="點擊接取[任務,14,yellow,1,0]，完成後即可成為賞金獵人"/>--><!--指向賞金任務-->
+<!--<RECORD taskId="3531" taskType="3" step="3" actionId="193" backTostep="-1" arrowDirection="-1" arrowRotation="135" gap="2" html="1"  useBorder="1" description="點擊接取[任務,14,yellow,1,0]"/><!--指向接受-->-->
+
+<!-- 接取賞金任務-->
+<RECORD taskId="0" taskType="0" step="4" displayCover="1" actionId="272" backTostep="-1" arrowDirection="-1" arrowRotation="45" gap="2" html="1"  useBorder="0" npcId="99" npcWidth="141" npcHeight="248" description="[與亞米利歐會長對話,14,yellow,1,0]，接受賞金任務"/><!--指向NPC亞米利歐會長-->
+<RECORD taskId="0" taskType="0" step="5" actionId="273" backTostep="-1" arrowDirection="-1" arrowRotation="135" gap="2" html="1"  useBorder="1"  description="[接取賞金任務,14,yellow,1,0]"/><!--指向選項接取賞金任務-->
+<RECORD taskId="0" taskType="0" step="6" actionId="274" backTostep="-1" arrowDirection="-1" arrowRotation="270" gap="2" html="1"  useBorder="1"  description="如果你對當前的賞金任務不滿意，可以點擊[免費刷新,14,yellow,1,0]，刷新賞金任務面板"/><!--指向按鈕免費刷新-->
+<RECORD taskId="0" taskType="0" step="7" actionId="275" backTostep="-1" arrowDirection="-1" arrowRotation="45" gap="2" html="1"  useBorder="1"  description="選擇[賞金任務,14,yellow,1,0]，星級越高，獲得的獎勵也越高哦"/><!--判斷：指向3星或四星任務-->
+<RECORD taskId="0" taskType="0" step="8" actionId="276" backTostep="-1" arrowDirection="-1" arrowRotation="270" gap="2" html="1"  useBorder="1"  description="選擇[接受,14,yellow,1,0]"/><!--指向接受-->
+
+
+
+
+<!--VIP卡使用-->
+<RECORD taskId="0" taskType="0" step="9" actionId="176" backTostep="-1" arrowDirection="-1" arrowRotation="180" gap="2" html="1"  useBorder="1" description="點擊[關閉窗口,14,yellow,1,0]" description2="1.使用VIP即刻就可享受VIP特權。\n2.VIP除了享受無限次免費傳送外，還能享受隨身倉庫、遠端商店、活動次數增加、各種加成等超級福利。\n3.VIP卡使用金幣就可以購買。" imgPath="20"/><!--指向我知道了-->
+
+<!--精通引導-->
+<RECORD taskId="2791" taskType="1" step="0" actionId="127" moviePath="205"/><!--精通动画引导-->
+<!--<RECORD taskId="2791" taskType="1" step="0" displayCover="1" actionId="127" backTostep="-1" arrowDirection="-1" arrowRotation="180" gap="2" html="1"  useBorder="1" description="點擊[關閉窗口,14,yellow,1,0]" description2=" 1.精通包含裝備開星和裝備雕琢兩個部分，十二星全連能使裝備發揮最大的功效。\n2.獲得精通開星以及雕琢效果後，更換裝備仍然可以獲得屬性以及神力提升。裝備的屬性越高，屬性加成的效果越大。" imgPath="4"/>--><!--指向我知道了-->
+<!--<RECORD taskId="2791" taskType="1" step="1" displayCover="1" actionId="163" backTostep="-1" arrowDirection="-1" arrowRotation="45"  gap="2" html="1" useBorder="1" itemId="8" description="打開[角色屬性面板,14,yellow,1,0]"/>--><!--指向角色按鈕-->
+<!--<RECORD taskId="2791" taskType="1" step="2" displayCover="1" actionId="84" backTostep="-1" arrowDirection="-1" arrowRotation="135"  gap="2" html="1" itemId="8" description="點擊[打開精通面板,14,yellow,1,0]"/>--><!--指向精通-->
+<!--<RECORD taskId="2791" taskType="1" step="3" displayCover="1" actionId="86" backTostep="-1" arrowDirection="-1" arrowRotation="135"  gap="2" html="1"  description="點擊[開星,14,yellow,1,0]"/>--><!--點擊開星-->
+
+
+<!--煉金術煉金+領取+使用藥水引導-->
+<RECORD taskId="1501" taskType="1" step="0" displayCover="1" actionId="254" backTostep="-1" arrowDirection="-1" arrowRotation="45"  gap="2" html="1" useBorder="1" itemId="303" description="打開[角色屬性面板,14,yellow,1,0]"/><!--指向角色按鈕-->
+<RECORD taskId="1501" taskType="1" step="1" displayCover="1" actionId="255" backTostep="-1" arrowDirection="-1" arrowRotation="135"  gap="2" html="1" useBorder="1" itemId="303"  description="點擊[打開煉金術面板,14,yellow,1,0]"/><!--指向煉金術-->
+<RECORD taskId="1501" taskType="1" step="2" displayCover="1" actionId="256" backTostep="-1" arrowDirection="-1" arrowRotation="225"  gap="2" html="1" useBorder="1" itemId="303"  description="點擊[開始煉金,14,yellow,1,0]"/><!--指向煉金-->
+<RECORD taskId="1501" taskType="1" step="3" displayCover="1" actionId="257" backTostep="-1" arrowDirection="-1" arrowRotation="180"  gap="2" html="1"  description="點擊[免費領取,14,yellow,1,0]石化符文藥水，每天可領取一次"/><!--點擊領取-->
+<RECORD taskId="1501" taskType="1" step="4" displayCover="1" actionId="258" backTostep="-1" arrowDirection="-1" arrowRotation="45"  gap="2" html="1" itemId="1840" description="點擊[打開背包,14,yellow,1,0]"/><!--打開包裹-->
+<RECORD taskId="1501" taskType="1" step="5" displayCover="1" actionId="259" backTostep="-1" arrowDirection="-1" arrowRotation="135"  gap="2" html="1" itemId="1840" description="點擊[使用石化符文藥水,14,yellow,1,0]，使用後可永久性提升角色3點防禦力和1點神力"/><!--指向背包中的石化符文藥水-->
+
+<!--契靈恢復+升級引導-->
+<RECORD taskId="1661" taskType="1" step="0" actionId="260" moviePath="206"/><!--契靈恢復+升級动画引导-->
+<!--<RECORD taskId="1661" taskType="1" step="0" displayCover="1" actionId="260" backTostep="-1" arrowDirection="-1" arrowRotation="45"  gap="2" html="1" useBorder="1"  description="打開[角色屬性面板,14,yellow,1,0]"/>--><!--指向角色按鈕-->
+<!--<RECORD taskId="1661" taskType="1" step="1" displayCover="1" actionId="261" backTostep="-1" arrowDirection="-1" arrowRotation="225"  gap="2" html="1" useBorder="1"  description="點擊[打開契靈面板,14,yellow,1,0]"/>--><!--指向契靈-->
+<!--<RECORD taskId="1661" taskType="1" step="2" displayCover="1" actionId="262" backTostep="-1" arrowDirection="-1" arrowRotation="180"  gap="2" html="1" useBorder="1"  description="點擊[恢復契靈血量,14,yellow,1,0]"/>--><!--指向恢復-->
+<!--<RECORD taskId="1661" taskType="1" step="3" displayCover="1" actionId="263" backTostep="-1" arrowDirection="-1" arrowRotation="180"  gap="2" html="1" useBorder="1" description="點擊轉換[將信仰力轉換為契靈血量,14,yellow,1,0]"/>--><!--點擊轉換-->
+<!--<RECORD taskId="1661" taskType="1" step="4" displayCover="1" actionId="264" backTostep="-1" arrowDirection="-1" arrowRotation="45"  gap="2" html="1" useBorder="1" itemId="1947"  description="點擊[開始自動升級,14,yellow,1,0]"/>--><!--指向自動升級，成功後關閉所有面板-->
+<!--<RECORD taskId="1661" taskType="1" step="5" displayCover="1" actionId="271" backTostep="-1" /><!--成功後關閉所有面板-->
+
+<!--太陽神勳章升級引導-->
+<!--<RECORD taskId="2851" taskType="1" step="0" displayCover="1" actionId="265" backTostep="-1" arrowDirection="-1" arrowRotation="45"  gap="2" html="1" useBorder="1" itemId="1889" description="打開[角色屬性面板,14,yellow,1,0]"/>--><!--指向角色按鈕-->
+<!--<RECORD taskId="2851" taskType="1" step="1" displayCover="1" actionId="266" backTostep="-1" arrowDirection="-1" arrowRotation="45"  gap="2" html="1" useBorder="1" itemId="1889"  description="點擊[打開太陽神面板,14,yellow,1,0]"/>--><!--指向太陽神-->
+<!--<RECORD taskId="2851" taskType="1" step="2" displayCover="1" actionId="267" backTostep="-1" arrowDirection="-1" arrowRotation="180"  gap="2" html="1" useBorder="1" itemId="1889"  description="點擊[開始自動升級,14,yellow,1,0]，等級提升後屬性和神力加成大幅度提升"/>--><!--指向自動升級，成功後關閉所有面板-->
+<!--<RECORD taskId="2851" taskType="1" step="3" displayCover="1" actionId="270" backTostep="-1" />--><!--成功後關閉所有面板-->
+
+<!--VIP體驗卡引導-->
+<RECORD taskId="1951" taskType="1" step="0" displayCover="1" actionId="279" backTostep="-1" arrowDirection="-1" arrowRotation="45"  gap="2" html="1" useBorder="1" itemId="15" description="打開[背包面板,14,yellow,1,0]"/><!--指向背包按钮-->
+<RECORD taskId="1951" taskType="1" step="1" displayCover="1" actionId="280" backTostep="-1" arrowDirection="-1" arrowRotation="315"  gap="2" html="1" useBorder="1" itemId="15" description="[按兩下,14,yellow,1,0]使用[VIP體驗卡,14,yellow,1,0]" /><!--指向"VIP体验卡"-->
+<RECORD taskId="1951" taskType="1" step="2" displayCover="1" actionId="281" backTostep="-1" arrowDirection="-1" arrowRotation="180" gap="2" html="1"  useBorder="1" description="點擊[關閉窗口,14,yellow,1,0]" description2="1.VIP分三個等級，享受各種特權，遊戲更輕鬆。\n2.VIP玩家每日可以使用免費傳送、遠程倉庫、遠程商店等功能。\n3.VIP玩家每日上線即可領取大量金幣、各種道具和商城積分。\n4.VIP玩家每日可以加速寵物挖寶，更有機會獲得神寵！" imgPath="24"/><!--指向我知道了-->
+
+<!--尋寶獸尋寶+尋寶升級引導-->
+<RECORD taskId="1091" taskType="1" step="0" actionId="179" moviePath="208"/><!--尋寶獸尋寶+尋寶升級动画引導-->
+
+<!--装备强化引导-->
+<!--<RECORD taskId="1711" taskType="1" step="0" actionId="294" moviePath="211"/>--><!--装备强化动画引導-->
+
+<!--试练塔引导-->
+<RECORD taskId="1271" taskType="1" step="0" actionId="295" moviePath="216"/><!--试练塔动画引導-->
+
+<!--组队引導-->
+<RECORD taskId="0" taskType="0" step="10" displayCover="1" actionId="282" backTostep="-1" arrowDirection="-1" arrowRotation="45"  gap="2" html="1" useBorder="1" description="打開[队伍面板,14,yellow,1,0]"/><!--指向队伍按钮-->
+<RECORD taskId="0" taskType="0" step="11" displayCover="1" actionId="283" backTostep="-1" arrowDirection="-1" arrowRotation="45"  gap="2" html="1" useBorder="1" description="点击[创建队伍,14,yellow,1,0]"/><!--指向创建队伍按钮-->
+<RECORD taskId="0" taskType="0" step="12" displayCover="1" actionId="287" backTostep="-1" arrowDirection="-1" arrowRotation="45"  gap="2" html="1" useBorder="1" description="点击[确定,14,yellow,1,0]"/><!--指向创建队伍提示确定按钮-->
+<RECORD taskId="0" taskType="0" step="13" displayCover="1" actionId="284" backTostep="-1" arrowDirection="-1" arrowRotation="45"  gap="2" html="1" useBorder="1" description="点击[发布队伍,14,yellow,1,0]"/><!--指向发布队伍按钮-->
+<RECORD taskId="0" taskType="0" step="14" displayCover="1" actionId="285" backTostep="-1" arrowDirection="-1" arrowRotation="45"  gap="2" html="1" useBorder="1" description="点击[关闭队伍面板,14,yellow,1,0]"/><!--指向关闭按钮-->
+<RECORD taskId="0" taskType="0" step="15" displayCover="1" actionId="286" backTostep="-1" arrowDirection="-1" arrowRotation="45"  gap="2" html="1" useBorder="1" description="点击[交付任务,14,yellow,1,0]"/><!--指向交付任务链接-->
+
+<!--神格覺醒-->
+<RECORD taskId="0" taskType="0" step="3" displayCover="0" actionId="300" backTostep="-1" arrowDirection="-1" arrowRotation="270" yOffset="-400" hideArrow="1" gap="2" html="1"  useBorder="0" description="覺醒其他星座，可以強化人物其他屬性"/>
+
+</RECORDS>
+
+
+

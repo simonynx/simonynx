@@ -1,0 +1,6 @@
+<?xml version="1.0" standalone="yes"?>
+<RECORDS>
+<RECORD magicType="1" status="50001" money_min="50000" money_max="500000" shard_min="2" shard_max="10" create_time1="7200000" create_time2="14400000" create_time3="28800000" create_spend1="60" create_spend2="120" create_spend3="240" create_spend_type1="3" create_spend_type2="0" create_spend_type3="0" remove_member_punish="5" create_cost="18" jion_spend_create="1" type_name="3급 마법진" id_effect="0" id_effect_line="5028"/>
+<RECORD magicType="2" status="50002" money_min="100000" money_max="1000000" shard_min="4" shard_max="20" create_time1="7200000" create_time2="14400000" create_time3="28800000" create_spend1="120" create_spend2="240" create_spend3="480" create_spend_type1="3" create_spend_type2="0" create_spend_type3="0" remove_member_punish="10" create_cost="36" jion_spend_create="2" type_name="2급 마법진" id_effect="0" id_effect_line="5029"/>
+<RECORD magicType="3" status="50003" money_min="200000" money_max="2000000" shard_min="8" shard_max="40" create_time1="7200000" create_time2="14400000" create_time3="28800000" create_spend1="240" create_spend2="480" create_spend3="960" create_spend_type1="3" create_spend_type2="0" create_spend_type3="0" remove_member_punish="20" create_cost="72" jion_spend_create="4" type_name="1급 마법진" id_effect="0" id_effect_line="5030"/>
+</RECORDS>

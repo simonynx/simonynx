@@ -1,0 +1,19 @@
+<?xml version="1.0" standalone="yes"?>
+<RECORDS>
+<RECORD id="1" shop_type="3" real_type="0" consume_type="1" name="무기상점"/>
+<RECORD id="2" shop_type="3" real_type="0" consume_type="1" name="방어구상점"/>
+<RECORD id="3" shop_type="2" real_type="0" consume_type="1" name="물약상점"/>
+<RECORD id="4" shop_type="2" real_type="0" consume_type="1" name="스킬상점"/>
+<RECORD id="11" shop_type="3" real_type="0" consume_type="1" name="무기상점"/>
+<RECORD id="12" shop_type="3" real_type="0" consume_type="1" name="방어구상점"/>
+<RECORD id="13" shop_type="2" real_type="0" consume_type="1" name="물약상점"/>
+<RECORD id="14" shop_type="2" real_type="0" consume_type="1" name="스킬상점"/>
+<RECORD id="15" shop_type="3" real_type="0" consume_type="1" name="장신구상점"/>
+<RECORD id="16" shop_type="2" real_type="0" consume_type="1" name="잡화상점"/>
+<RECORD id="17" shop_type="2" real_type="0" consume_type="1" name="소환수상점"/>
+<RECORD id="18" shop_type="2" real_type="1" consume_type="16" name="이벤트상점"/>
+<RECORD id="19" shop_type="3" real_type="0" consume_type="1" name="VIP원격상점"/>
+<RECORD id="20" shop_type="2" real_type="2" consume_type="8" name="길드상점"/>
+<RECORD id="21" shop_type="2" real_type="1" consume_type="16" name="파편교환상점"/>
+<RECORD id="22" shop_type="2" real_type="0" consume_type="32" name="功勋商店"/>
+</RECORDS>

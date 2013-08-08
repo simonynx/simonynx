@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" standalone="yes"?>
+<RECORDS>
+<!--时间（毫秒），增量，减量，爆发最低值，爆发要扣除的值,爆发状态id-->
+<RECORD delay="10000" increment="2" decrement="10" needValue="600" deduction="300" statusID="74301"/>
+</RECORDS>
+
+

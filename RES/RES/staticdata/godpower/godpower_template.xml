@@ -1,0 +1,9 @@
+<?xml version="1.0" standalone="yes"?>
+<RECORDS>
+<RECORD id="1" god_power="1000" level_name="원주" activityID="28"/>
+<RECORD id="2" god_power="5000" level_name="지주" activityID="28"/>
+<RECORD id="3" god_power="10000" level_name="인주" activityID="28"/>
+<RECORD id="4" god_power="20000" level_name="천주" activityID="29"/>
+<RECORD id="5" god_power="40000" level_name="신주" activityID="30"/>
+<RECORD id="6" god_power="999999" level_name="성주" activityID="31"/>
+</RECORDS>

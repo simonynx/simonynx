@@ -1,0 +1,50 @@
+﻿<Professtions>
+	<Professtion id='1' gender='1' 
+		gPointDesc='3.1' 
+		fPointDesc='3.6' 
+		mPointDesc='1.6,1.5' 
+		tPointDesc='75,29' 
+		gDesc='백마법 공격 사용' 
+		descript='수많은 전장을 거쳐온 검투사는 강인한 신체의 힘을 바탕으로 언제나 선봉에서 전우들을 승리로 이끄는 역할을 합니다.\n직업특색:높은 체력을 바탕으로 근접 전투에 특화되어 있습니다. 방어력으로 적의 공격을 무산시키고 분노의 힘으로 적을 파괴합니다.' icon='1,10,11'
+		star_atk='4'
+		star_def='5'
+		star_recover='1'
+		star_eruption='3'>
+	</Professtion>
+	<Professtion id='2' gender='1' 
+		gPointDesc='3.6' 
+		fPointDesc='2.5' 
+		mPointDesc='2,1.6' 
+		tPointDesc='55,56' 
+		gDesc='흑마법 공격 사용' 
+		descript='지적이고 고고한 마법사는 하늘을 가르고 상대의 마음을 조종하는 강대한 마법의 힘을 사용하여 자신의 지혜를 증명합니다.\n직업특색:높은 지식을 바탕으로 원거리에서 상대를 제어하는 전투에 특화되어 있습니다.상대의 영혼의 힘을 흡수하는 영혼마법을 사용합니다.' icon='2,20,21'
+		star_atk='5'
+		star_def='3'
+		star_recover='1'
+		star_eruption='4'>
+	</Professtion>
+	<Professtion id='3' gender='2' 
+		gPointDesc='2.5' 
+		fPointDesc='3.3' 
+		mPointDesc='1.8,2' 
+		tPointDesc='63,54' 
+		gDesc='청마법 공격 사용' 
+		descript='활발하고 귀여운 정령사는 생명을 사랑하고 자연을 경청합니다. 사람들은 그녀의 웃음속에 심신의 안정을 찾을 수 있습니다.\n직업특색:천사와 악마가 결합되어 탄생된 정령사는 모든 에너지의 균형을 의미하고 있어, 치료와 파괴 마법을 동시에 사용합니다.' icon='3,30,31'
+		star_atk='3'
+		star_def='4'
+		star_recover='5'
+		star_eruption='1'>
+	</Professtion>
+	<Professtion id='4' gender='2' 
+		gPointDesc='3.3' 
+		fPointDesc='2.4' 
+		mPointDesc='2.4,2.8' 
+		tPointDesc='50,35' 
+		gDesc='혈마법 공격 사용' 
+		descript='매혹적이고 아름다운 암살자는 절세의 춤꾼이자 일류의 킬러입니다. 아름다움과 살육이 함께하는 그녀들은 가시를 감춘 꽃과 같습니다.\n직업특색:암살자는 자취를 감추거나 기이한 각종 암살술에 특화되어 있습니다. 격노의 힘으로 적이 반응할 수 없는 연속 공격을 하기도 합니다.' icon='4,40,41'
+		star_atk='4'
+		star_def='3'
+		star_recover='1'
+		star_eruption='5'>
+	</Professtion>
+</Professtions>

@@ -1,0 +1,8 @@
+<?xml version="1.0" standalone="yes"?>
+<RECORDS>
+<RECORD id="1" raise_attack_lmt="3000" raise_defense_lmt="3000" raise_body_lmt="3000" raise_delicacy_lmt="3000"/>
+<RECORD id="2" raise_attack_lmt="4000" raise_defense_lmt="4000" raise_body_lmt="4000" raise_delicacy_lmt="4000"/>
+<RECORD id="3" raise_attack_lmt="5000" raise_defense_lmt="5000" raise_body_lmt="5000" raise_delicacy_lmt="5000"/>
+<RECORD id="4" raise_attack_lmt="6000" raise_defense_lmt="6000" raise_body_lmt="6000" raise_delicacy_lmt="6000"/>
+<RECORD id="5" raise_attack_lmt="7000" raise_defense_lmt="7000" raise_body_lmt="7000" raise_delicacy_lmt="7000"/>
+</RECORDS>

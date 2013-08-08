@@ -1,0 +1,43 @@
+<RECORDS>
+<!--1.可接却未接，2.可交却未交3.已接未完成，autoResiveEnabled在这个任务有引导的情况下是否自动去接任务，autoDeliveEnabled在有引导的情况下是否自动去交任务，
+autoDoTaskEnabled在有引导的情况下是否自动去做任务，continueTask引导执行结束后是否继续任务.autoResiveEnabled、autoDeliveEnabled、autoDoTaskEnabled默认都是0，continueTask默认是1-->
+	<RECORD taskId="11" taskType="1" autoResiveEnabled="1"/>
+	<RECORD taskId="11" taskType="2" autoDeliveEnabled="1"/>
+    <RECORD taskId="21" taskType="1" autoResiveEnabled="1"/>
+	<RECORD taskId="21" taskType="2" autoDeliveEnabled="1"/>
+    <RECORD taskId="41" taskType="1" autoResiveEnabled="1"/>
+	<RECORD taskId="41" taskType="2" autoDeliveEnabled="1"/>
+    <RECORD taskId="1581" taskType="1" autoResiveEnabled="1"/>
+	<RECORD taskId="1581" taskType="2" autoDeliveEnabled="1"/>
+    <RECORD taskId="61" taskType="1" autoResiveEnabled="1" />
+	<RECORD taskId="61" taskType="2" autoDeliveEnabled="1"/>
+    <RECORD taskId="71" taskType="1" autoResiveEnabled="1" autoDeliveEnabled="1"/>
+	<RECORD taskId="71" taskType="2" autoDeliveEnabled="1"/>
+    <RECORD taskId="81" taskType="1" autoResiveEnabled="1"/>
+	<RECORD taskId="91" taskType="1" autoResiveEnabled="1"/>
+	<RECORD taskId="91" taskType="2" autoDeliveEnabled="1"/>
+	<RECORD taskId="2121" taskType="3" autoDoTaskEnabled="1"/>
+	<RECORD taskId="301" taskType="3" autoDoTaskEnabled="0"/>
+    <RECORD taskId="1591" taskType="1" autoResiveEnabled="1"/>
+	<RECORD taskId="1591" taskType="2" autoDeliveEnabled="1"/>
+	<RECORD taskId="1591" taskType="3" autoDoTaskEnabled="1"/>
+	<RECORD taskId="101" taskType="2" autoDeliveEnabled="0"/>
+	<RECORD taskId="111" taskType="1" autoResiveEnabled="1"/>
+	<RECORD taskId="111" taskType="2" autoDeliveEnabled="1"/>
+    <RECORD taskId="121" taskType="1" autoResiveEnabled="1"/>
+	<RECORD taskId="121" taskType="3" autoDeliveEnabled="1"/>
+	<RECORD taskId="21" taskType="2" continueTask="0"/>
+	<RECORD taskId="31" taskType="2" endScript="enablePointNotice"/>
+	<RECORD taskId="41" taskType="2" continueTask="0"/>	
+	<RECORD taskId="81" taskType="2" continueTask="0"/>
+	<RECORD taskId="101" taskType="1" endScript="enableSkillNotice"/>
+	<RECORD taskId="151" taskType="2" continueTask="0"/>
+	<RECORD taskId="180" taskType="2" autoDeliveEnabled="1" deliveWithTaskInfo="0"/>
+	<RECORD taskId="181" taskType="3" autoDoTaskEnabled="0"/>
+	<RECORD taskId="181" taskType="2" autoDeliveEnabled="0"/>
+	<RECORD taskId="191" taskType="3" autoDeliveEnabled="0"/>
+	<RECORD taskId="201" taskType="2" continueTask="0"/>
+	<RECORD taskId="221" taskType="2" continueTask="0"/>
+	<RECORD taskId="1921" taskType="2" autoDeliveEnabled="1"/>
+	<RECORD taskId="1941" taskType="2" continueTask="0"/>
+</RECORDS>               

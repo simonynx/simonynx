@@ -1,0 +1,32 @@
+<?xml version="1.0" standalone="yes"?>
+<RECORDS>
+<RECORD id="8000" spell_id="80101" spell_level="1" tool_id="1918" success_rate="10000" status_id="80002" looting_script_name="looting_script_name_8000"/>
+<RECORD id="8001" spell_id="80101" spell_level="1" tool_id="0" success_rate="10000" status_id="80003" looting_script_name="looting_script_name_8001"/>
+<RECORD id="8002" spell_id="80101" spell_level="1" tool_id="0" success_rate="10000" status_id="80003" looting_script_name="looting_script_name_8002"/>
+<RECORD id="8003" spell_id="80101" spell_level="1" tool_id="0" success_rate="10000" status_id="80002" looting_script_name="looting_script_name_8003"/>
+<RECORD id="8004" spell_id="80101" spell_level="1" tool_id="0" success_rate="10000" status_id="80002" looting_script_name="looting_script_name_8004"/>
+<RECORD id="8005" spell_id="80101" spell_level="1" tool_id="0" success_rate="10000" status_id="80002" looting_script_name="looting_script_name_8005"/>
+<RECORD id="8006" spell_id="80101" spell_level="1" tool_id="0" success_rate="10000" status_id="80002" looting_script_name="looting_script_name_8006"/>
+<RECORD id="8007" spell_id="80101" spell_level="1" tool_id="2007" success_rate="10000" status_id="80001" looting_script_name="looting_script_name_8007"/>
+<RECORD id="8008" spell_id="80101" spell_level="1" tool_id="0" success_rate="10000" status_id="80004" looting_script_name="looting_script_name_8008"/>
+<RECORD id="8009" spell_id="80101" spell_level="1" tool_id="0" success_rate="10000" status_id="80001" looting_script_name="looting_script_name_8009"/>
+<RECORD id="8010" spell_id="80101" spell_level="1" tool_id="0" success_rate="10000" status_id="80001" looting_script_name="looting_script_name_8010"/>
+<RECORD id="8011" spell_id="80101" spell_level="1" tool_id="0" success_rate="10000" status_id="80001" looting_script_name="looting_script_name_8011"/>
+<RECORD id="8012" spell_id="80101" spell_level="1" tool_id="0" success_rate="10000" status_id="80001" looting_script_name="looting_script_name_8012"/>
+<RECORD id="8013" spell_id="80101" spell_level="1" tool_id="0" success_rate="10000" status_id="80002" looting_script_name="looting_script_name_8013"/>
+<RECORD id="8014" spell_id="80101" spell_level="1" tool_id="0" success_rate="10000" status_id="80001" looting_script_name="looting_script_name_8014"/>
+<RECORD id="8015" spell_id="80101" spell_level="1" tool_id="0" success_rate="10000" status_id="80010" looting_script_name="looting_script_name_8015"/>
+<RECORD id="8016" spell_id="80101" spell_level="1" tool_id="0" success_rate="10000" status_id="80010" looting_script_name="looting_script_name_8016"/>
+<RECORD id="8017" spell_id="80101" spell_level="1" tool_id="0" success_rate="10000" status_id="80009" looting_script_name="looting_script_name_8017"/>
+<RECORD id="8018" spell_id="80101" spell_level="1" tool_id="0" success_rate="10000" status_id="80009" looting_script_name="looting_script_name_8018"/>
+<RECORD id="8019" spell_id="80101" spell_level="1" tool_id="0" success_rate="10000" status_id="80009" looting_script_name="looting_script_name_8019"/>
+<RECORD id="8020" spell_id="80101" spell_level="1" tool_id="0" success_rate="10000" status_id="80009" looting_script_name="looting_script_name_8020"/>
+<RECORD id="8021" spell_id="80101" spell_level="1" tool_id="0" success_rate="10000" status_id="80008" looting_script_name="looting_script_name_8021"/>
+<RECORD id="8022" spell_id="80101" spell_level="1" tool_id="0" success_rate="10000" status_id="80016" looting_script_name="looting_script_name_8022"/>
+<RECORD id="8023" spell_id="80101" spell_level="1" tool_id="0" success_rate="10000" status_id="80002" looting_script_name="looting_script_name_8023"/>
+<RECORD id="8024" spell_id="80101" spell_level="1" tool_id="0" success_rate="10000" status_id="80004" looting_script_name="looting_script_name_8024"/>
+<RECORD id="8025" spell_id="80101" spell_level="1" tool_id="0" success_rate="10000" status_id="80012" looting_script_name="looting_script_name_8025"/>
+<RECORD id="8026" spell_id="80101" spell_level="1" tool_id="0" success_rate="10000" status_id="80013" looting_script_name="looting_script_name_8026"/>
+<RECORD id="8027" spell_id="80101" spell_level="1" tool_id="0" success_rate="10000" status_id="80014" looting_script_name="looting_script_name_8027"/>
+<RECORD id="8028" spell_id="80101" spell_level="1" tool_id="0" success_rate="10000" status_id="80015" looting_script_name="looting_script_name_8028"/>
+</RECORDS>

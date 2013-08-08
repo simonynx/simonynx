@@ -1,0 +1,11 @@
+<?xml version="1.0" standalone="yes"?>
+<!--id 契灵分类ID-->
+<!--figurePath 契灵选择界面契灵形象资源id-->
+<!--descLanId 契灵选择界面里面的描述语言ID-->
+<RECORDS>
+<RECORD id="10" figurePath="" descLanId=""/>
+<RECORD id="20" figurePath="qilingFigureMini20" descLanId="81037"/>
+<RECORD id="22" figurePath="qilingFigureMini22" descLanId="81038"/>
+<RECORD id="24" figurePath="qilingFigureMini24" descLanId="81039"/>
+<RECORD id="26" figurePath="qilingFigureMini26" descLanId="81040"/>
+</RECORDS>

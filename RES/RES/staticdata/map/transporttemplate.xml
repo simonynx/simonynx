@@ -1,0 +1,212 @@
+<?xml version="1.0" standalone="yes"?>
+<RECORDS>
+<RECORD id="1" name="목가농장" targetMapId="2" target_x="40" target_y="16" targetOrient="5" displayId="63" reqLevelMin="0" reqLevelMax="0"/>
+<RECORD id="2" name="브렌마을" targetMapId="1" target_x="10" target_y="173" targetOrient="1" displayId="63" reqLevelMin="0" reqLevelMax="0"/>
+<RECORD id="3" name="잘츠부르크" targetMapId="3" target_x="111" target_y="51" targetOrient="7" displayId="63" reqLevelMin="0" reqLevelMax="0"/>
+<RECORD id="4" name="목가농장" targetMapId="2" target_x="7" target_y="143" targetOrient="1" displayId="63" reqLevelMin="0" reqLevelMax="0"/>
+<RECORD id="5" name="나지스초원" targetMapId="6" target_x="59" target_y="23" targetOrient="7" displayId="63" reqLevelMin="0" reqLevelMax="0"/>
+<RECORD id="7" name="잘츠부르크" targetMapId="3" target_x="7" target_y="166" targetOrient="1" displayId="63" reqLevelMin="0" reqLevelMax="0"/>
+<RECORD id="9" name="피의계곡" targetMapId="8" target_x="15" target_y="29" targetOrient="4" displayId="63" reqLevelMin="0" reqLevelMax="0"/>
+<RECORD id="10" name="잘츠부르크" targetMapId="3" target_x="120" target_y="180" targetOrient="7" displayId="63" reqLevelMin="0" reqLevelMax="0"/>
+<RECORD id="12" name="나지스초원" targetMapId="6" target_x="10" target_y="161" targetOrient="1" displayId="63" reqLevelMin="0" reqLevelMax="0"/>
+<RECORD id="13" name="목가농장" targetMapId="2" target_x="19" target_y="65" targetOrient="3" displayId="63" reqLevelMin="0" reqLevelMax="0"/>
+<RECORD id="14" name="잘츠부르크" targetMapId="3" target_x="65" target_y="19" targetOrient="1" displayId="63" reqLevelMin="0" reqLevelMax="0"/>
+<RECORD id="15" name="지옥 1층" targetMapId="201" target_x="12" target_y="7" targetOrient="3" displayId="63" reqLevelMin="0" reqLevelMax="0"/>
+<RECORD id="16" name="나지스초원" targetMapId="6" target_x="70" target_y="146" targetOrient="7" displayId="63" reqLevelMin="0" reqLevelMax="0"/>
+<RECORD id="17" name="지옥 2층" targetMapId="202" target_x="12" target_y="7" targetOrient="3" displayId="63" reqLevelMin="0" reqLevelMax="0"/>
+<RECORD id="18" name="지옥 1층" targetMapId="201" target_x="12" target_y="80" targetOrient="1" displayId="63" reqLevelMin="0" reqLevelMax="0"/>
+<RECORD id="19" name="지옥 3층" targetMapId="203" target_x="12" target_y="7" targetOrient="3" displayId="63" reqLevelMin="0" reqLevelMax="0"/>
+<RECORD id="20" name="지옥 2층" targetMapId="202" target_x="12" target_y="80" targetOrient="1" displayId="63" reqLevelMin="0" reqLevelMax="0"/>
+<RECORD id="21" name="지옥 4층" targetMapId="204" target_x="12" target_y="7" targetOrient="3" displayId="63" reqLevelMin="0" reqLevelMax="0"/>
+<RECORD id="22" name="지옥 3층" targetMapId="203" target_x="12" target_y="80" targetOrient="1" displayId="63" reqLevelMin="0" reqLevelMax="0"/>
+<RECORD id="23" name="지옥 5층" targetMapId="205" target_x="12" target_y="7" targetOrient="3" displayId="63" reqLevelMin="0" reqLevelMax="0"/>
+<RECORD id="24" name="지옥 4층" targetMapId="204" target_x="12" target_y="80" targetOrient="1" displayId="63" reqLevelMin="0" reqLevelMax="0"/>
+<RECORD id="25" name="지옥 6층" targetMapId="206" target_x="12" target_y="7" targetOrient="3" displayId="63" reqLevelMin="0" reqLevelMax="0"/>
+<RECORD id="26" name="지옥 5층" targetMapId="205" target_x="12" target_y="80" targetOrient="1" displayId="63" reqLevelMin="0" reqLevelMax="0"/>
+<RECORD id="27" name="지옥 7층" targetMapId="207" target_x="12" target_y="7" targetOrient="3" displayId="63" reqLevelMin="0" reqLevelMax="0"/>
+<RECORD id="28" name="지옥 6층" targetMapId="206" target_x="12" target_y="80" targetOrient="1" displayId="63" reqLevelMin="0" reqLevelMax="0"/>
+<RECORD id="29" name="지옥 8층" targetMapId="208" target_x="12" target_y="7" targetOrient="3" displayId="63" reqLevelMin="0" reqLevelMax="0"/>
+<RECORD id="30" name="지옥 7층" targetMapId="207" target_x="12" target_y="80" targetOrient="1" displayId="63" reqLevelMin="0" reqLevelMax="0"/>
+<RECORD id="31" name="지옥 9층" targetMapId="209" target_x="12" target_y="7" targetOrient="3" displayId="63" reqLevelMin="0" reqLevelMax="0"/>
+<RECORD id="32" name="지옥 8층" targetMapId="208" target_x="12" target_y="80" targetOrient="1" displayId="63" reqLevelMin="0" reqLevelMax="0"/>
+<RECORD id="33" name="겨울설원" targetMapId="5" target_x="56" target_y="36" targetOrient="0" displayId="63" reqLevelMin="0" reqLevelMax="0"/>
+<RECORD id="34" name="겨울설원" targetMapId="5" target_x="7" target_y="64" targetOrient="0" displayId="63" reqLevelMin="0" reqLevelMax="0"/>
+<RECORD id="35" name="소피아의 집" targetMapId="100" target_x="17" target_y="31" targetOrient="1" displayId="63" reqLevelMin="0" reqLevelMax="0"/>
+<RECORD id="36" name="목가농장" targetMapId="2" target_x="22" target_y="17" targetOrient="3" displayId="63" reqLevelMin="0" reqLevelMax="0"/>
+<RECORD id="37" name="여신전" targetMapId="107" target_x="9" target_y="59" targetOrient="1" displayId="63" reqLevelMin="0" reqLevelMax="0"/>
+<RECORD id="38" name="잘츠부르크" targetMapId="3" target_x="64" target_y="20" targetOrient="5" displayId="63" reqLevelMin="0" reqLevelMax="0"/>
+<RECORD id="39" name="나지스초원" targetMapId="6" target_x="40" target_y="160" targetOrient="5" displayId="63" reqLevelMin="0" reqLevelMax="0"/>
+<RECORD id="40" name="솔론스 언덕 수련장" targetMapId="108" target_x="54" target_y="124" targetOrient="0" displayId="63" reqLevelMin="0" reqLevelMax="0"/>
+<RECORD id="41" name="솔론스 언덕 중급수련장" targetMapId="109" target_x="50" target_y="121" targetOrient="4" displayId="63" reqLevelMin="0" reqLevelMax="0"/>
+<RECORD id="42" name="솔론스 언덕 고급수련장" targetMapId="110" target_x="2" target_y="24" targetOrient="2" displayId="63" reqLevelMin="0" reqLevelMax="0"/>
+<RECORD id="43" name="겨울설원" targetMapId="5" target_x="13" target_y="25" targetOrient="5" displayId="63" reqLevelMin="0" reqLevelMax="0"/>
+<RECORD id="44" name="바람의 빙원 수련장" targetMapId="111" target_x="52" target_y="34" targetOrient="5" displayId="63" reqLevelMin="0" reqLevelMax="0"/>
+<RECORD id="45" name="바람의 빙원 중급 수련장" targetMapId="112" target_x="54" target_y="41" targetOrient="1" displayId="63" reqLevelMin="0" reqLevelMax="0"/>
+<RECORD id="46" name="바람의 빙원 고급 수련장" targetMapId="113" target_x="21" target_y="16" targetOrient="5" displayId="63" reqLevelMin="0" reqLevelMax="0"/>
+<RECORD id="47" name="침실" targetMapId="114" target_x="10" target_y="24" targetOrient="5" displayId="63" reqLevelMin="0" reqLevelMax="0"/>
+<RECORD id="48" name="브렌마을" targetMapId="1" target_x="46" target_y="37" targetOrient="5" displayId="63" reqLevelMin="0" reqLevelMax="0"/>
+<RECORD id="49" name="웨슬리의 오래된 방" targetMapId="0" target_x="22" target_y="27" targetOrient="0" displayId="63" reqLevelMin="0" reqLevelMax="0"/>
+<RECORD id="50" name="목가농장" targetMapId="0" target_x="6" target_y="46" targetOrient="3" displayId="63" reqLevelMin="0" reqLevelMax="0"/>
+<RECORD id="51" name="까마귀 술집" targetMapId="116" target_x="16" target_y="33" targetOrient="1" displayId="63" reqLevelMin="0" reqLevelMax="0"/>
+<RECORD id="52" name="잘츠부르크" targetMapId="3" target_x="10" target_y="126" targetOrient="5" displayId="63" reqLevelMin="0" reqLevelMax="0"/>
+<RECORD id="53" name="고블린 창고" targetMapId="117" target_x="19" target_y="25" targetOrient="0" displayId="63" reqLevelMin="0" reqLevelMax="0"/>
+<RECORD id="54" name="나지스초원" targetMapId="6" target_x="72" target_y="121" targetOrient="5" displayId="63" reqLevelMin="0" reqLevelMax="0"/>
+<RECORD id="55" name="눈먼 고양이 광산" targetMapId="118" target_x="23" target_y="22" targetOrient="3" displayId="63" reqLevelMin="0" reqLevelMax="0"/>
+<RECORD id="56" name="나지스초원" targetMapId="6" target_x="15" target_y="70" targetOrient="3" displayId="63" reqLevelMin="0" reqLevelMax="0"/>
+<RECORD id="57" name="피의새 밀실" targetMapId="119" target_x="15" target_y="12" targetOrient="3" displayId="63" reqLevelMin="0" reqLevelMax="0"/>
+<RECORD id="58" name="나지스초원" targetMapId="6" target_x="5" target_y="43" targetOrient="1" displayId="63" reqLevelMin="0" reqLevelMax="0"/>
+<RECORD id="61" name="겨울설원" targetMapId="5" target_x="86" target_y="21" targetOrient="5" displayId="63" reqLevelMin="0" reqLevelMax="0"/>
+<RECORD id="62" name="나지스초원" targetMapId="6" target_x="6" target_y="23" targetOrient="3" displayId="63" reqLevelMin="0" reqLevelMax="0"/>
+<RECORD id="63" name="얼음곰 술집" targetMapId="120" target_x="16" target_y="32" targetOrient="1" displayId="63" reqLevelMin="0" reqLevelMax="0"/>
+<RECORD id="64" name="겨울설원" targetMapId="5" target_x="84" target_y="59" targetOrient="5" displayId="63" reqLevelMin="0" reqLevelMax="0"/>
+<RECORD id="65" name="간수의 밀실" targetMapId="121" target_x="16" target_y="13" targetOrient="3" displayId="63" reqLevelMin="0" reqLevelMax="0"/>
+<RECORD id="66" name="겨울설원" targetMapId="5" target_x="87" target_y="104" targetOrient="6" displayId="63" reqLevelMin="0" reqLevelMax="0"/>
+<RECORD id="67" name="얼음캠프 천막" targetMapId="122" target_x="15" target_y="36" targetOrient="7" displayId="63" reqLevelMin="0" reqLevelMax="0"/>
+<RECORD id="68" name="겨울설원" targetMapId="5" target_x="26" target_y="86" targetOrient="5" displayId="63" reqLevelMin="0" reqLevelMax="0"/>
+<RECORD id="69" name="영웅의무덤" targetMapId="123" target_x="6" target_y="7" targetOrient="3" displayId="63" reqLevelMin="0" reqLevelMax="0"/>
+<RECORD id="70" name="겨울설원" targetMapId="5" target_x="13" target_y="134" targetOrient="1" displayId="63" reqLevelMin="0" reqLevelMax="0"/>
+<RECORD id="71" name="출구" targetMapId="5" target_x="0" target_y="0" targetOrient="0" displayId="63" reqLevelMin="0" reqLevelMax="0"/>
+<RECORD id="72" name="출구" targetMapId="5" target_x="0" target_y="0" targetOrient="0" displayId="63" reqLevelMin="0" reqLevelMax="0"/>
+<RECORD id="73" name="출구" targetMapId="1" target_x="0" target_y="0" targetOrient="0" displayId="63" reqLevelMin="0" reqLevelMax="0"/>
+<RECORD id="74" name="출구" targetMapId="2" target_x="0" target_y="0" targetOrient="0" displayId="63" reqLevelMin="0" reqLevelMax="0"/>
+<RECORD id="75" name="출구" targetMapId="2" target_x="0" target_y="0" targetOrient="0" displayId="63" reqLevelMin="0" reqLevelMax="0"/>
+<RECORD id="76" name="출구" targetMapId="117" target_x="0" target_y="0" targetOrient="0" displayId="63" reqLevelMin="0" reqLevelMax="0"/>
+<RECORD id="77" name="출구" targetMapId="118" target_x="0" target_y="0" targetOrient="0" displayId="63" reqLevelMin="0" reqLevelMax="0"/>
+<RECORD id="78" name="출구" targetMapId="6" target_x="0" target_y="0" targetOrient="0" displayId="63" reqLevelMin="0" reqLevelMax="0"/>
+<RECORD id="79" name="출구" targetMapId="123" target_x="0" target_y="0" targetOrient="0" displayId="63" reqLevelMin="0" reqLevelMax="0"/>
+<RECORD id="80" name="출구" targetMapId="121" target_x="0" target_y="0" targetOrient="0" displayId="63" reqLevelMin="0" reqLevelMax="0"/>
+<RECORD id="81" name="출구" targetMapId="122" target_x="0" target_y="0" targetOrient="0" displayId="63" reqLevelMin="0" reqLevelMax="0"/>
+<RECORD id="82" name="출구" targetMapId="119" target_x="0" target_y="0" targetOrient="2" displayId="63" reqLevelMin="0" reqLevelMax="0"/>
+<RECORD id="83" name="출구" targetMapId="3" target_x="0" target_y="0" targetOrient="0" displayId="63" reqLevelMin="0" reqLevelMax="0"/>
+<RECORD id="84" name="출구" targetMapId="116" target_x="0" target_y="0" targetOrient="0" displayId="63" reqLevelMin="0" reqLevelMax="0"/>
+<RECORD id="85" name="출구" targetMapId="2" target_x="0" target_y="0" targetOrient="0" displayId="63" reqLevelMin="0" reqLevelMax="0"/>
+<RECORD id="86" name="출구" targetMapId="120" target_x="0" target_y="0" targetOrient="0" displayId="63" reqLevelMin="0" reqLevelMax="0"/>
+<RECORD id="87" name="민가" targetMapId="127" target_x="21" target_y="32" targetOrient="0" displayId="63" reqLevelMin="0" reqLevelMax="0"/>
+<RECORD id="88" name="잘츠부르크" targetMapId="3" target_x="46" target_y="167" targetOrient="0" displayId="63" reqLevelMin="0" reqLevelMax="0"/>
+<RECORD id="89" name="늑대 술집" targetMapId="126" target_x="24" target_y="32" targetOrient="0" displayId="63" reqLevelMin="0" reqLevelMax="0"/>
+<RECORD id="90" name="피의계곡" targetMapId="8" target_x="47" target_y="51" targetOrient="0" displayId="63" reqLevelMin="0" reqLevelMax="0"/>
+<RECORD id="91" name="지하터널" targetMapId="128" target_x="15" target_y="21" targetOrient="0" displayId="63" reqLevelMin="0" reqLevelMax="0"/>
+<RECORD id="92" name="늑대 술집" targetMapId="126" target_x="16" target_y="34" targetOrient="0" displayId="63" reqLevelMin="0" reqLevelMax="0"/>
+<RECORD id="93" name="타워" targetMapId="125" target_x="28" target_y="35" targetOrient="0" displayId="63" reqLevelMin="0" reqLevelMax="0"/>
+<RECORD id="94" name="지하터널" targetMapId="128" target_x="4" target_y="66" targetOrient="0" displayId="63" reqLevelMin="0" reqLevelMax="0"/>
+<RECORD id="95" name="출구" targetMapId="8" target_x="0" target_y="0" targetOrient="0" displayId="63" reqLevelMin="0" reqLevelMax="0"/>
+<RECORD id="96" name="출구" targetMapId="8" target_x="0" target_y="0" targetOrient="0" displayId="63" reqLevelMin="0" reqLevelMax="0"/>
+<RECORD id="97" name="출구" targetMapId="8" target_x="0" target_y="0" targetOrient="0" displayId="63" reqLevelMin="0" reqLevelMax="0"/>
+<RECORD id="98" name="출구" targetMapId="8" target_x="0" target_y="0" targetOrient="0" displayId="63" reqLevelMin="0" reqLevelMax="0"/>
+<RECORD id="99" name="출구" targetMapId="8" target_x="0" target_y="0" targetOrient="0" displayId="63" reqLevelMin="0" reqLevelMax="0"/>
+<RECORD id="101" name="출구" targetMapId="125" target_x="0" target_y="0" targetOrient="0" displayId="63" reqLevelMin="0" reqLevelMax="0"/>
+<RECORD id="104" name="여신전" targetMapId="107" target_x="32" target_y="26" targetOrient="0" displayId="63" reqLevelMin="0" reqLevelMax="0"/>
+<RECORD id="105" name="출구" targetMapId="11" target_x="0" target_y="0" targetOrient="0" displayId="63" reqLevelMin="0" reqLevelMax="0"/>
+<RECORD id="106" name="출구" targetMapId="11" target_x="0" target_y="0" targetOrient="0" displayId="63" reqLevelMin="0" reqLevelMax="0"/>
+<RECORD id="107" name="출구" targetMapId="11" target_x="0" target_y="0" targetOrient="0" displayId="63" reqLevelMin="0" reqLevelMax="0"/>
+<RECORD id="108" name="출구" targetMapId="11" target_x="0" target_y="0" targetOrient="0" displayId="63" reqLevelMin="0" reqLevelMax="0"/>
+<RECORD id="109" name="출구" targetMapId="11" target_x="0" target_y="0" targetOrient="0" displayId="63" reqLevelMin="0" reqLevelMax="0"/>
+<RECORD id="110" name="출구" targetMapId="3" target_x="0" target_y="0" targetOrient="0" displayId="63" reqLevelMin="0" reqLevelMax="0"/>
+<RECORD id="111" name="솔론스 언덕 수련장" targetMapId="108" target_x="5" target_y="22" targetOrient="0" displayId="63" reqLevelMin="0" reqLevelMax="0"/>
+<RECORD id="112" name="솔론스 언덕 수련장" targetMapId="111" target_x="21" target_y="16" targetOrient="0" displayId="63" reqLevelMin="0" reqLevelMax="0"/>
+<RECORD id="113" name="페노얼의 나무동굴" targetMapId="129" target_x="27" target_y="33" targetOrient="0" displayId="63" reqLevelMin="0" reqLevelMax="0"/>
+<RECORD id="114" name="요정의 숲" targetMapId="7" target_x="98" target_y="25" targetOrient="0" displayId="63" reqLevelMin="0" reqLevelMax="0"/>
+<RECORD id="115" name="마녀 오두막" targetMapId="130" target_x="27" target_y="39" targetOrient="0" displayId="63" reqLevelMin="0" reqLevelMax="0"/>
+<RECORD id="116" name="요정의 숲" targetMapId="7" target_x="97" target_y="185" targetOrient="0" displayId="63" reqLevelMin="0" reqLevelMax="0"/>
+<RECORD id="117" name="출구" targetMapId="7" target_x="0" target_y="0" targetOrient="0" displayId="63" reqLevelMin="0" reqLevelMax="0"/>
+<RECORD id="118" name="출구" targetMapId="7" target_x="0" target_y="0" targetOrient="0" displayId="63" reqLevelMin="0" reqLevelMax="0"/>
+<RECORD id="119" name="출구" targetMapId="130" target_x="0" target_y="0" targetOrient="0" displayId="63" reqLevelMin="0" reqLevelMax="0"/>
+<RECORD id="120" name="달의신전" targetMapId="11" target_x="48" target_y="16" targetOrient="0" displayId="63" reqLevelMin="0" reqLevelMax="0"/>
+<RECORD id="121" name="요정의 숲" targetMapId="7" target_x="10" target_y="18" targetOrient="0" displayId="63" reqLevelMin="0" reqLevelMax="0"/>
+<RECORD id="123" name="피의계곡" targetMapId="8" target_x="77" target_y="13" targetOrient="0" displayId="63" reqLevelMin="0" reqLevelMax="0"/>
+<RECORD id="124" name="악마가 잠든 땅 2층" targetMapId="302" target_x="7" target_y="11" targetOrient="0" displayId="63" reqLevelMin="0" reqLevelMax="0"/>
+<RECORD id="125" name="악마가 잠든 땅 1층" targetMapId="301" target_x="8" target_y="79" targetOrient="0" displayId="63" reqLevelMin="0" reqLevelMax="0"/>
+<RECORD id="126" name="악마가 잠든 땅 3층" targetMapId="303" target_x="7" target_y="11" targetOrient="0" displayId="63" reqLevelMin="0" reqLevelMax="0"/>
+<RECORD id="127" name="악마가 잠든 땅 2층" targetMapId="302" target_x="8" target_y="79" targetOrient="0" displayId="63" reqLevelMin="0" reqLevelMax="0"/>
+<RECORD id="128" name="악마가 잠든 땅 4층" targetMapId="304" target_x="7" target_y="11" targetOrient="0" displayId="63" reqLevelMin="0" reqLevelMax="0"/>
+<RECORD id="129" name="악마가 잠든 땅 3층" targetMapId="303" target_x="8" target_y="79" targetOrient="0" displayId="63" reqLevelMin="0" reqLevelMax="0"/>
+<RECORD id="130" name="악마가 잠든 땅 5층" targetMapId="305" target_x="7" target_y="11" targetOrient="0" displayId="63" reqLevelMin="0" reqLevelMax="0"/>
+<RECORD id="131" name="악마가 잠든 땅 4층" targetMapId="304" target_x="8" target_y="79" targetOrient="0" displayId="63" reqLevelMin="0" reqLevelMax="0"/>
+<RECORD id="132" name="악마가 잠든 땅 6층" targetMapId="306" target_x="7" target_y="11" targetOrient="0" displayId="63" reqLevelMin="0" reqLevelMax="0"/>
+<RECORD id="133" name="악마가 잠든 땅 5층" targetMapId="305" target_x="8" target_y="79" targetOrient="0" displayId="63" reqLevelMin="0" reqLevelMax="0"/>
+<RECORD id="134" name="악마가 잠든 땅 7층" targetMapId="307" target_x="7" target_y="11" targetOrient="0" displayId="63" reqLevelMin="0" reqLevelMax="0"/>
+<RECORD id="135" name="악마가 잠든 땅 6층" targetMapId="306" target_x="8" target_y="79" targetOrient="0" displayId="63" reqLevelMin="0" reqLevelMax="0"/>
+<RECORD id="136" name="악마가 잠든 땅 8층" targetMapId="308" target_x="7" target_y="11" targetOrient="0" displayId="63" reqLevelMin="0" reqLevelMax="0"/>
+<RECORD id="137" name="악마가 잠든 땅 7층" targetMapId="307" target_x="8" target_y="79" targetOrient="0" displayId="63" reqLevelMin="0" reqLevelMax="0"/>
+<RECORD id="138" name="악마가 잠든 땅 9층" targetMapId="309" target_x="7" target_y="11" targetOrient="0" displayId="63" reqLevelMin="0" reqLevelMax="0"/>
+<RECORD id="139" name="악마가 잠든 땅 8층" targetMapId="308" target_x="8" target_y="79" targetOrient="0" displayId="63" reqLevelMin="0" reqLevelMax="0"/>
+<RECORD id="140" name="출구" targetMapId="127" target_x="19" target_y="32" targetOrient="0" displayId="63" reqLevelMin="0" reqLevelMax="0"/>
+<RECORD id="141" name="출구" targetMapId="127" target_x="19" target_y="32" targetOrient="0" displayId="63" reqLevelMin="0" reqLevelMax="0"/>
+<RECORD id="142" name="출구" targetMapId="127" target_x="19" target_y="32" targetOrient="0" displayId="63" reqLevelMin="0" reqLevelMax="0"/>
+<RECORD id="143" name="요정의 숲" targetMapId="7" target_x="37" target_y="23" targetOrient="0" displayId="63" reqLevelMin="0" reqLevelMax="0"/>
+<RECORD id="144" name="혼란의숲 수련장" targetMapId="131" target_x="18" target_y="195" targetOrient="0" displayId="63" reqLevelMin="0" reqLevelMax="0"/>
+<RECORD id="146" name="혼란의숲 수련장" targetMapId="131" target_x="107" target_y="21" targetOrient="0" displayId="63" reqLevelMin="0" reqLevelMax="0"/>
+<RECORD id="147" name="혼란의숲 고급 수련장" targetMapId="133" target_x="18" target_y="195" targetOrient="0" displayId="63" reqLevelMin="0" reqLevelMax="0"/>
+<RECORD id="148" name="혼란의숲 중급 수련장" targetMapId="132" target_x="107" target_y="21" targetOrient="0" displayId="63" reqLevelMin="0" reqLevelMax="0"/>
+<RECORD id="149" name="출구" targetMapId="116" target_x="0" target_y="0" targetOrient="0" displayId="63" reqLevelMin="0" reqLevelMax="0"/>
+<RECORD id="150" name="출구" targetMapId="6" target_x="0" target_y="0" targetOrient="0" displayId="63" reqLevelMin="0" reqLevelMax="0"/>
+<RECORD id="151" name="정령의 무덤" targetMapId="134" target_x="68" target_y="10" targetOrient="0" displayId="63" reqLevelMin="0" reqLevelMax="0"/>
+<RECORD id="152" name="요정의 숲" targetMapId="7" target_x="91" target_y="95" targetOrient="0" displayId="63" reqLevelMin="0" reqLevelMax="0"/>
+<RECORD id="153" name="출구" targetMapId="7" target_x="0" target_y="0" targetOrient="0" displayId="63" reqLevelMin="0" reqLevelMax="0"/>
+<RECORD id="154" name="고역의감옥" targetMapId="135" target_x="19" target_y="8" targetOrient="0" displayId="63" reqLevelMin="0" reqLevelMax="0"/>
+<RECORD id="155" name="버려진성" targetMapId="9" target_x="14" target_y="112" targetOrient="0" displayId="63" reqLevelMin="0" reqLevelMax="0"/>
+<RECORD id="156" name="악마혼의 제단 내층" targetMapId="136" target_x="15" target_y="12" targetOrient="0" displayId="63" reqLevelMin="0" reqLevelMax="0"/>
+<RECORD id="157" name="버려진성" targetMapId="9" target_x="17" target_y="156" targetOrient="0" displayId="63" reqLevelMin="0" reqLevelMax="0"/>
+<RECORD id="158" name="출구" targetMapId="9" target_x="0" target_y="0" targetOrient="0" displayId="63" reqLevelMin="0" reqLevelMax="0"/>
+<RECORD id="159" name="출구" targetMapId="9" target_x="0" target_y="0" targetOrient="0" displayId="63" reqLevelMin="0" reqLevelMax="0"/>
+<RECORD id="160" name="출구" targetMapId="9" target_x="0" target_y="0" targetOrient="0" displayId="63" reqLevelMin="0" reqLevelMax="0"/>
+<RECORD id="161" name="버려진성" targetMapId="9" target_x="15" target_y="17" targetOrient="0" displayId="63" reqLevelMin="0" reqLevelMax="0"/>
+<RECORD id="162" name="피의계곡" targetMapId="8" target_x="77" target_y="78" targetOrient="0" displayId="63" reqLevelMin="0" reqLevelMax="0"/>
+<RECORD id="163" name="출구" targetMapId="9" target_x="0" target_y="0" targetOrient="0" displayId="63" reqLevelMin="0" reqLevelMax="0"/>
+<RECORD id="164" name="출구" targetMapId="136" target_x="0" target_y="0" targetOrient="0" displayId="63" reqLevelMin="0" reqLevelMax="0"/>
+<RECORD id="165" name="선실" targetMapId="138" target_x="34" target_y="21" targetOrient="0" displayId="63" reqLevelMin="0" reqLevelMax="0"/>
+<RECORD id="166" name="카자로그항만" targetMapId="10" target_x="73" target_y="49" targetOrient="0" displayId="63" reqLevelMin="0" reqLevelMax="0"/>
+<RECORD id="167" name="선실 하부" targetMapId="137" target_x="34" target_y="21" targetOrient="0" displayId="63" reqLevelMin="0" reqLevelMax="0"/>
+<RECORD id="168" name="선실 상부" targetMapId="138" target_x="28" target_y="39" targetOrient="0" displayId="63" reqLevelMin="0" reqLevelMax="0"/>
+<RECORD id="169" name="카자로그항만" targetMapId="10" target_x="3" target_y="9" targetOrient="0" displayId="63" reqLevelMin="0" reqLevelMax="0"/>
+<RECORD id="170" name="요정의 숲" targetMapId="7" target_x="55" target_y="191" targetOrient="0" displayId="63" reqLevelMin="0" reqLevelMax="0"/>
+<RECORD id="171" name="카자로그항만" targetMapId="10" target_x="15" target_y="47" targetOrient="0" displayId="63" reqLevelMin="0" reqLevelMax="0"/>
+<RECORD id="172" name="바다의신 무덤" targetMapId="139" target_x="6" target_y="6" targetOrient="0" displayId="63" reqLevelMin="0" reqLevelMax="0"/>
+<RECORD id="173" name="출구" targetMapId="10" target_x="0" target_y="0" targetOrient="0" displayId="63" reqLevelMin="0" reqLevelMax="0"/>
+<RECORD id="174" name="출구" targetMapId="10" target_x="0" target_y="0" targetOrient="0" displayId="63" reqLevelMin="0" reqLevelMax="0"/>
+<RECORD id="175" name="출구" targetMapId="10" target_x="0" target_y="0" targetOrient="0" displayId="63" reqLevelMin="0" reqLevelMax="0"/>
+<RECORD id="176" name="출구" targetMapId="10" target_x="0" target_y="0" targetOrient="0" displayId="63" reqLevelMin="0" reqLevelMax="0"/>
+<RECORD id="177" name="출구" targetMapId="3" target_x="43" target_y="115" targetOrient="0" displayId="63" reqLevelMin="0" reqLevelMax="0"/>
+<RECORD id="178" name="카자로그항만" targetMapId="10" target_x="80" target_y="148" targetOrient="0" displayId="63" reqLevelMin="0" reqLevelMax="0"/>
+<RECORD id="179" name="스팀포트" targetMapId="12" target_x="61" target_y="231" targetOrient="0" displayId="63" reqLevelMin="0" reqLevelMax="0"/>
+<RECORD id="180" name="피의 성" targetMapId="401" target_x="92" target_y="29" targetOrient="5" displayId="63" reqLevelMin="0" reqLevelMax="0"/>
+<RECORD id="181" name="스팀포트" targetMapId="12" target_x="68" target_y="29" targetOrient="5" displayId="63" reqLevelMin="0" reqLevelMax="0"/>
+<RECORD id="182" name="피의 성 2층" targetMapId="402" target_x="92" target_y="29" targetOrient="5" displayId="63" reqLevelMin="0" reqLevelMax="0"/>
+<RECORD id="183" name="피의 성 1층" targetMapId="401" target_x="23" target_y="138" targetOrient="1" displayId="63" reqLevelMin="0" reqLevelMax="0"/>
+<RECORD id="184" name="피의 성 3층" targetMapId="403" target_x="92" target_y="29" targetOrient="5" displayId="63" reqLevelMin="0" reqLevelMax="0"/>
+<RECORD id="185" name="피의 성 2층" targetMapId="402" target_x="23" target_y="138" targetOrient="1" displayId="63" reqLevelMin="0" reqLevelMax="0"/>
+<RECORD id="186" name="피의 성 4층" targetMapId="404" target_x="92" target_y="29" targetOrient="5" displayId="63" reqLevelMin="0" reqLevelMax="0"/>
+<RECORD id="187" name="피의 성 3층" targetMapId="403" target_x="23" target_y="138" targetOrient="1" displayId="63" reqLevelMin="0" reqLevelMax="0"/>
+<RECORD id="500" name="마궁" targetMapId="2206" target_x="24" target_y="159" targetOrient="4" displayId="63" reqLevelMin="0" reqLevelMax="0"/>
+<RECORD id="501" name="마궁" targetMapId="2206" target_x="19" target_y="39" targetOrient="4" displayId="63" reqLevelMin="0" reqLevelMax="0"/>
+<RECORD id="502" name="마궁" targetMapId="2206" target_x="46" target_y="171" targetOrient="4" displayId="63" reqLevelMin="0" reqLevelMax="0"/>
+<RECORD id="503" name="마궁" targetMapId="2206" target_x="81" target_y="156" targetOrient="4" displayId="63" reqLevelMin="0" reqLevelMax="0"/>
+<RECORD id="504" name="마궁" targetMapId="2206" target_x="53" target_y="33" targetOrient="4" displayId="63" reqLevelMin="0" reqLevelMax="0"/>
+<RECORD id="505" name="마궁" targetMapId="2206" target_x="21" target_y="123" targetOrient="4" displayId="63" reqLevelMin="0" reqLevelMax="0"/>
+<RECORD id="506" name="마궁" targetMapId="2206" target_x="46" target_y="171" targetOrient="4" displayId="63" reqLevelMin="0" reqLevelMax="0"/>
+<RECORD id="507" name="마궁" targetMapId="2206" target_x="81" target_y="156" targetOrient="4" displayId="63" reqLevelMin="0" reqLevelMax="0"/>
+<RECORD id="508" name="마궁" targetMapId="2206" target_x="19" target_y="39" targetOrient="4" displayId="63" reqLevelMin="0" reqLevelMax="0"/>
+<RECORD id="509" name="마궁" targetMapId="2206" target_x="46" target_y="171" targetOrient="4" displayId="63" reqLevelMin="0" reqLevelMax="0"/>
+<RECORD id="510" name="마궁" targetMapId="2206" target_x="105" target_y="79" targetOrient="4" displayId="63" reqLevelMin="0" reqLevelMax="0"/>
+<RECORD id="511" name="마궁" targetMapId="2206" target_x="19" target_y="39" targetOrient="4" displayId="63" reqLevelMin="0" reqLevelMax="0"/>
+<RECORD id="512" name="마궁" targetMapId="2206" target_x="24" target_y="159" targetOrient="4" displayId="63" reqLevelMin="0" reqLevelMax="0"/>
+<RECORD id="513" name="마궁" targetMapId="2206" target_x="105" target_y="79" targetOrient="4" displayId="63" reqLevelMin="0" reqLevelMax="0"/>
+<RECORD id="514" name="마궁" targetMapId="2206" target_x="16" target_y="75" targetOrient="4" displayId="63" reqLevelMin="0" reqLevelMax="0"/>
+<RECORD id="515" name="마궁" targetMapId="2206" target_x="24" target_y="159" targetOrient="4" displayId="63" reqLevelMin="0" reqLevelMax="0"/>
+<RECORD id="516" name="마궁" targetMapId="2206" target_x="113" target_y="139" targetOrient="4" displayId="63" reqLevelMin="0" reqLevelMax="0"/>
+<RECORD id="517" name="마궁" targetMapId="2206" target_x="16" target_y="75" targetOrient="4" displayId="63" reqLevelMin="0" reqLevelMax="0"/>
+<RECORD id="518" name="마궁" targetMapId="2206" target_x="89" target_y="48" targetOrient="4" displayId="63" reqLevelMin="0" reqLevelMax="0"/>
+<RECORD id="519" name="마궁" targetMapId="2206" target_x="113" target_y="139" targetOrient="4" displayId="63" reqLevelMin="0" reqLevelMax="0"/>
+<RECORD id="520" name="마궁" targetMapId="2206" target_x="72" target_y="114" targetOrient="4" displayId="63" reqLevelMin="0" reqLevelMax="0"/>
+<RECORD id="521" name="마궁" targetMapId="2206" target_x="81" target_y="156" targetOrient="4" displayId="63" reqLevelMin="0" reqLevelMax="0"/>
+<RECORD id="522" name="출구" targetMapId="3" target_x="66" target_y="94" targetOrient="4" displayId="63" reqLevelMin="0" reqLevelMax="0"/>
+<RECORD id="523" name="신족의 문" targetMapId="2211" target_x="95" target_y="19" targetOrient="4" displayId="63" reqLevelMin="0" reqLevelMax="0"/>
+<RECORD id="524" name="마족의 문" targetMapId="2211" target_x="11" target_y="112" targetOrient="4" displayId="63" reqLevelMin="0" reqLevelMax="0"/>
+<RECORD id="525" name="신족의 문" targetMapId="2212" target_x="95" target_y="19" targetOrient="4" displayId="63" reqLevelMin="0" reqLevelMax="0"/>
+<RECORD id="526" name="마족의 문" targetMapId="2212" target_x="11" target_y="112" targetOrient="4" displayId="63" reqLevelMin="0" reqLevelMax="0"/>
+<RECORD id="527" name="신족의 문" targetMapId="2213" target_x="95" target_y="19" targetOrient="4" displayId="63" reqLevelMin="0" reqLevelMax="0"/>
+<RECORD id="528" name="마족의 문" targetMapId="2213" target_x="11" target_y="112" targetOrient="4" displayId="63" reqLevelMin="0" reqLevelMax="0"/>
+<RECORD id="529" name="신족의 문" targetMapId="2214" target_x="95" target_y="19" targetOrient="4" displayId="63" reqLevelMin="0" reqLevelMax="0"/>
+<RECORD id="530" name="마족의 문" targetMapId="2214" target_x="11" target_y="112" targetOrient="4" displayId="63" reqLevelMin="0" reqLevelMax="0"/>
+<RECORD id="531" name="출구" targetMapId="3" target_x="66" target_y="94" targetOrient="4" displayId="63" reqLevelMin="0" reqLevelMax="0"/>
+</RECORDS>

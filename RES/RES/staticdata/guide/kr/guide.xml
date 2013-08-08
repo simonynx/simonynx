@@ -1,0 +1,291 @@
+﻿<?xml version="1.0" standalone="yes"?>
+<RECORDS>
+<!--布蘭鎮-->
+<!--接受任務引導-->
+<RECORD taskId="11" taskType="1" step="0" displayCover="0" actionId="3" backTostep="-1" arrowDirection="-1" arrowRotation="180" gap="2" html="1"  useBorder="1" description="[퀘스트 수락,14,yellow,1,0] 클릭"/><!--수락 표시-->
+<RECORD taskId="11" taskType="2" step="0" displayCover="0" actionId="4" backTostep="-1" arrowDirection="-1" arrowRotation="180" gap="2" html="1"  useBorder="1" description="[퀘스트 완료,14,yellow,1,0] 클릭" /><!--완료 표시-->
+
+<!--接受任務引導-->
+<RECORD taskId="21" taskType="1" step="0" displayCover="0" actionId="172" backTostep="-1" arrowDirection="-1" arrowRotation="180" gap="2" html="1"  useBorder="1" /><!--수락 표시-->
+<RECORD taskId="21" taskType="2" step="0" displayCover="0" actionId="173" backTostep="-1" arrowDirection="-1" arrowRotation="180" gap="2" html="1"  useBorder="1" /><!--완료 표시-->
+
+<!--接受任務引導-->
+<RECORD taskId="41" taskType="1" step="0" displayCover="0" actionId="172" backTostep="-1" arrowDirection="-1" arrowRotation="180" gap="2" html="1"  useBorder="1" /><!--수락 표시-->
+<RECORD taskId="41" taskType="2" step="0" displayCover="0" actionId="173" backTostep="-1" arrowDirection="-1" arrowRotation="180" gap="2" html="1"  useBorder="1" /><!--완료 표시-->
+
+<!--接受任務引導-->
+<RECORD taskId="1581" taskType="1" step="0" displayCover="0" actionId="172" backTostep="-1" arrowDirection="-1" arrowRotation="180" gap="2" html="1"  useBorder="1" /><!--수락 표시-->
+<RECORD taskId="1581" taskType="2" step="0" displayCover="0" actionId="173" backTostep="-1" arrowDirection="-1" arrowRotation="180" gap="2" html="1"  useBorder="1" /><!--완료 표시-->
+
+<!--接受任務引導+購買藥水引導-->
+<RECORD taskId="61" taskType="1" step="0" displayCover="0" actionId="172" backTostep="-1" arrowDirection="-1" arrowRotation="180" gap="2" html="1"  useBorder="1" /><!--수락 표시-->
+<RECORD taskId="61" taskType="3" step="0" displayCover="0" actionId="277" backTostep="-1" arrowDirection="-1" arrowRotation="45"  gap="2" html="1" useBorder="1" description="[자동 이동,14,yellow,1,0] 클릭하여 딘 할아버지에게 이동" /><!--퀘스트 추적창 내 딘 할아버지 표시-->
+<RECORD taskId="61" taskType="3" step="1" displayCover="1" actionId="244" backTostep="-1" arrowDirection="-1" arrowRotation="45"  gap="2" html="1"  useBorder="1"  description="[물약상점 열기,14,yellow,1,0] 클릭" /><!--물약상점 열기 선택항목 표시-->
+<RECORD taskId="61" taskType="3" step="2" displayCover="1" actionId="245" backTostep="-1" arrowDirection="-1" arrowRotation="45"  gap="2" html="1"   useBorder="1" description="[중급 소형 치료 물약,14,yellow,1,0] 클릭" /><!--중급 소형 치료 물약 표시-->
+<RECORD taskId="61" taskType="3" step="3" displayCover="1" actionId="246" backTostep="-1" arrowDirection="-1" arrowRotation="45"  gap="2" html="1"   useBorder="1" description="[구매확인,14,yellow,1,0]" /><!--확인 표시-->
+<RECORD taskId="61" taskType="2" step="0" displayCover="0" actionId="173" backTostep="-1" arrowDirection="-1" arrowRotation="180" gap="2" html="1"  useBorder="1" /><!--완료 표시-->
+
+<!--接受任務-->
+<RECORD taskId="81" taskType="1" step="0" displayCover="0" actionId="172" backTostep="-1" arrowDirection="-1" arrowRotation="180" gap="2" html="1"  useBorder="1" /><!--수락 표시-->
+<RECORD taskId="81" taskType="2" step="0" displayCover="0" actionId="173" backTostep="-1" arrowDirection="-1" arrowRotation="180" gap="2" html="1"  useBorder="1" /><!--완료 표시-->
+
+<!--接受任務引導-->
+<RECORD taskId="91" taskType="1" step="0" displayCover="0" actionId="172" backTostep="-1" arrowDirection="-1" arrowRotation="180" gap="2" html="1"  useBorder="1" /><!--수락 표시-->
+<RECORD taskId="91" taskType="2" step="0" displayCover="0" actionId="173" backTostep="-1" arrowDirection="-1" arrowRotation="180" gap="2" html="1"  useBorder="1" /><!--완료 표시-->
+
+<!--接受任務引導-->
+<RECORD taskId="1591" taskType="1" step="0" displayCover="0" actionId="172" backTostep="-1" arrowDirection="-1" arrowRotation="180" gap="2" html="1"  useBorder="1" /><!--수락 표시-->
+<RECORD taskId="1591" taskType="2" step="0" displayCover="0" actionId="173" backTostep="-1" arrowDirection="-1" arrowRotation="180" gap="2" html="1"  useBorder="1" /><!--완료 표시-->
+
+<!--羽毛傳送引導-->
+<RECORD taskId="101" taskType="2" step="0" displayCover="0" actionId="18" backTostep="-1" arrowDirection="-1" arrowRotation="315" arrowOffsetY="20"  gap="2" html="1" itemId="4" description="[전송룬,14,yellow,1,0]을 사용하면 목적지로 즉시 이동됩니다. [VIP유저는 무료입니다,14,yellow,1,0]"/><!--전송 표시-->
+
+<!--羽毛傳送引導-->
+<RECORD taskId="151" taskType="2" step="0" displayCover="0" actionId="18" backTostep="-1" arrowDirection="-1" arrowRotation="315" arrowOffsetY="20"  gap="2" html="1" itemId="4" description="[전송룬,14,yellow,1,0]을 사용하면 목적지로 즉시 이동됩니다. [VIP유저는 무료입니다,14,yellow,1,0]"/><!--전송 표시-->
+
+<!--鑒定卷軸使用引導-->
+<RECORD taskId="201" taskType="1" step="0" actionId="128" moviePath="201"/><!--鑒定卷軸使用动画引導-->
+<!--<RECORD taskId="201" taskType="1" step="0" displayCover="1" actionId="128" backTostep="-1" arrowDirection="-1" arrowRotation="45" itemId="1746" gap="2" html="1" useBorder="1" description="[캐릭터 속성창,14,yellow,1,0] 열기" />--><!--캐릭터 버튼 표시-->
+<!--<RECORD taskId="201" taskType="1" step="1" displayCover="1" actionId="129" backTostep="-1" arrowDirection="-1" arrowRotation="135" gap="2" html="1" useBorder="1" description="[더블클릭,14,yellow,1,0] 또는 [장비클릭,14,yellow,1,0]을 사용하여 제거를 선택, 장착한 장비를 [제거,14,yellow,1,0]하세요"/>--><!--신발 표시-->
+<!--<RECORD taskId="201" taskType="1" step="2" displayCover="1" actionId="131" backTostep="-1" arrowDirection="-1" arrowRotation="45" itemId="1746" gap="2" html="1" useBorder="1" description="[인벤토리 열기,14,yellow,1,0] 클릭" />--><!--인벤토리 열기-->
+<!--<RECORD taskId="201" taskType="1" step="3" displayCover="1" actionId="132" backTostep="-1" arrowDirection="-1" arrowRotation="315" itemId="1746" gap="2" html="1" useBorder="1" description="더블클릭하여 [감정스크롤 사용,14,yellow,1,0]"/>--><!--감정스크롤 사용-->
+<!--<RECORD taskId="201" taskType="1" step="4" displayCover="1" actionId="133" backTostep="-1" arrowDirection="-1" arrowRotation="315"  gap="2" html="1" useBorder="1" description="장비를 [감정,14,yellow,1,0]하세요" />--><!--신발감정-->
+<!--<RECORD taskId="201" taskType="1" step="5" displayCover="1" actionId="134" backTostep="-1" arrowDirection="-1" arrowRotation="315"  gap="2" html="1" useBorder="1" description="[더블클릭,14,yellow,1,0]하여 장비를 장착하세요" />--><!--신발 표시-->
+
+<!--鑒定卷軸使用引導（武器）-->
+<!--<RECORD taskId="181" taskType="1" step="0" displayCover="1" actionId="208" backTostep="-1" arrowDirection="-1" arrowRotation="45" itemId="1746" gap="2" html="1" useBorder="1" description="[캐릭터 속성창,14,yellow,1,0] 열기" />--><!--캐릭터 버튼 표시-->
+<!--<RECORD taskId="181" taskType="1" step="1" displayCover="1" actionId="209" backTostep="-1" arrowDirection="-1" arrowRotation="135" gap="2" html="1" useBorder="1" description="장비 [더블클릭,14,yellow,1,0] 또는 [장비클릭,14,yellow,1,0]，[제거,14,yellow,1,0]를 선택하여 장착한 장비를 제거하세요"/>--><!--장갑 표시-->
+<!--<RECORD taskId="181" taskType="1" step="2" displayCover="1" actionId="131" backTostep="-1" arrowDirection="-1" arrowRotation="45" itemId="1746" gap="2" html="1" useBorder="1" description="[인벤토리 열기,14,yellow,1,0] 클릭" />--><!--인벤토리 열기-->
+<!--<RECORD taskId="181" taskType="1" step="3" displayCover="1" actionId="132" backTostep="-1" arrowDirection="-1" arrowRotation="315" itemId="1746" gap="2" html="1" useBorder="1" description="더블클릭하여 [감정스크롤 사용,14,yellow,1,0]"/>--><!--감정스크롤 사용-->
+<!--<RECORD taskId="181" taskType="1" step="4" displayCover="1" actionId="133" backTostep="-1" arrowDirection="-1" arrowRotation="315"  gap="2" html="1" useBorder="1" description="장비를 [감정,14,yellow,1,0]하세요" />--><!--장갑 감정-->
+<!--<RECORD taskId="181" taskType="1" step="5" displayCover="1" actionId="134" backTostep="-1" arrowDirection="-1" arrowRotation="315"  gap="2" html="1" useBorder="1" description="[더블클릭,14,yellow,1,0]하여 장비를 장착하세요" />--><!--장갑 표시-->
+
+<!--羽毛傳送引導-->
+<RECORD taskId="181" taskType="2" step="0" displayCover="0" actionId="18" backTostep="-1" arrowDirection="-1" arrowRotation="315" arrowOffsetY="20"  gap="2" html="1" itemId="4" description="[전송룬,14,yellow,1,0]을 사용하면 목적지로 즉시 이동됩니다.[VIP유저는 무료입니다,14,yellow,1,0]"/><!--전송표시-->
+
+<!--神格、神力引導-->
+<RECORD taskId="2051" taskType="2" step="0" actionId="73" moviePath="207"/><!--神格、神力动画引導-->
+<!--<RECORD taskId="2051" taskType="3" step="0" displayCover="0" actionId="73" backTostep="-1" arrowDirection="-1" arrowRotation="315"  gap="0" html="1" itemId="30003"  description="더블클릭하여 “용의 빛나는 보석”사용"/>--><!--퀘스트 추적 아이템 표시-->
+<!--<RECORD taskId="2051" taskType="2" step="0" displayCover="1" actionId="75" backTostep="-1" arrowDirection="-1" arrowRotation="180" gap="2" html="1"  useBorder="1" description="클릭하여 [창 닫기,14,yellow,1,0]" description2="1. 성좌가 활성되면 신력을 획득할 수 있습니다.\n2. 레벨업, 장비속성, 성좌활성, 펫 합성, 소환수 레벨업, 장비숙련 등을 통해 신력을 증가시킬 수 있습니다." imgPath="1"/>--><!--OK 표시-->
+<!--<RECORD taskId="2051" taskType="2" step="1" displayCover="1" actionId="162" backTostep="-1" arrowDirection="-1" arrowRotation="45"  gap="2" html="1" useBorder="1" itemId="1901" description="[캐릭터 속성창,14,yellow,1,0] 열기"/>--><!--캐릭터 버튼 표시-->
+<!--<RECORD taskId="2051" taskType="2" step="2" displayCover="1" actionId="29" backTostep="-1" arrowDirection="-1" arrowRotation="45"  gap="2" html="1" itemId="1901" description="클릭하여 [성좌활성창,14,yellow,1,0]으로 전환"/>--><!--성좌 표시-->
+<!--<RECORD taskId="2051" taskType="2" step="3" displayCover="1" actionId="30" backTostep="-1" arrowDirection="-1" arrowRotation="45"  gap="2" html="1"   description="[활성된 성좌,14,yellow,1,0]를 클릭하여 선택，[용맹,14,yellow,1,0]부터 시작해보세요"/>--><!--용맹 표시-->
+<!--<RECORD taskId="2051" taskType="2" step="4" displayCover="1" actionId="32" backTostep="-1" arrowDirection="-1" arrowRotation="180"  gap="2" html="1"   description="[활성,14,yellow,1,0] 클릭"/>--><!--활성 표시-->
+
+<!--羽毛傳送引導-->
+<RECORD taskId="201" taskType="2" step="0" displayCover="0" actionId="18" backTostep="-1" arrowDirection="-1" arrowRotation="315" arrowOffsetY="20"  gap="2" html="1" itemId="4" description="[전송룬,14,yellow,1,0]을 사용하면 목적지로 즉시 이동됩니다.[VIP유저는 무료입니다,14,yellow,1,0]"/><!--전송 표시-->
+
+<!--羽毛傳送引導-->
+<RECORD taskId="71" taskType="3" step="0" displayCover="0" actionId="18" backTostep="-1" arrowDirection="-1" arrowRotation="315" arrowOffsetY="20"  gap="2" html="1" itemId="4" description="[전송룬,14,yellow,1,0]을 사용하면 목적지로 즉시 이동됩니다.[VIP유저는 무료입니다,14,yellow,1,0]"/><!--전송 표시-->
+
+<!--接受任務+坐騎乘騎引導-->
+<RECORD taskId="1921" taskType="1" step="0" actionId="156" moviePath="213"/><!--坐騎乘騎动画引導-->
+<!--<RECORD taskId="1921" taskType="1" step="0" displayCover="1" actionId="156" backTostep="-1" arrowDirection="-1" arrowRotation="45"  gap="2" html="1" useBorder="1"   description="클릭하여 [탈것 창,14,yellow,1,0] 열기"/>--><!--탈것 탑승 단축버튼 표시-->
+<!--<RECORD taskId="1921" taskType="1" step="1" displayCover="1" actionId="157" backTostep="-1" arrowDirection="-1" arrowRotation="45"  gap="2" html="1" useBorder="1"   description="[탈것 탑승,14,yellow,1,0] 클릭, 단축키 [W,14,yellow,1,0]를 사용하면 탑승하여 함께 [전투,14,yellow,1,0]에 참가할 수 있습니다"/>--><!--탑승버튼 표시-->
+<RECORD taskId="1921" taskType="1" step="1" displayCover="0" actionId="175" backTostep="-1" arrowDirection="-1" arrowRotation="180" gap="2" html="1"  useBorder="1" /><!--수락 표시-->
+<RECORD taskId="1921" taskType="2" step="0" displayCover="0" actionId="173" backTostep="-1" arrowDirection="-1" arrowRotation="180" gap="2" html="1"  useBorder="1" /><!--완료 표시-->
+
+<!--坐騎魔法麵包餵食+接受任務引導-->
+<RECORD taskId="221" taskType="1" step="0" actionId="42" moviePath="214"/><!--坐騎魔法麵包餵食动画引導-->
+<!--<RECORD taskId="221" taskType="1" step="0" displayCover="1" actionId="42" backTostep="-1" arrowDirection="-1" arrowRotation="45"  gap="2" html="1"  useBorder="1" description="[탈것 창,14,yellow,1,0] 열기"/>--><!--指向騎寵快捷欄按鈕-->
+<!--<RECORD taskId="221" taskType="1" step="1" displayCover="1" actionId="45" backTostep="-1" arrowDirection="-1" arrowRotation="180"  gap="2" html="1"  useBorder="1" description="[자동육성,14,yellow,1,0] 클릭"/>--><!--指向開始自動餵食-->
+<!--<RECORD taskId="221" taskType="1" step="2" displayCover="1" actionId="290" backTostep="-1" arrowDirection="-1" arrowRotation="180"  gap="2" html="1"  useBorder="1" description="[닫기,14,yellow,1,0] 클릭"/>--><!--指向关闭面板-->
+<RECORD taskId="221" taskType="1" step="1" displayCover="0" actionId="172" backTostep="-1" arrowDirection="-1" arrowRotation="180" gap="2" html="1"  useBorder="1" /><!--指向接受-->
+<RECORD taskId="221" taskType="2" step="0" displayCover="0" actionId="173" backTostep="-1" arrowDirection="-1" arrowRotation="180" gap="2" html="1"  useBorder="1" /><!--指向完成-->
+
+<!--幻化引导-->
+<RECORD taskId="3531" taskType="1" step="0" displayCover="1" actionId="291" backTostep="-1" arrowDirection="-1" arrowRotation="45"  gap="2" html="1"  useBorder="1" description="[탈것 창,14,yellow,1,0] 열기"/><!--指向騎寵快捷欄按鈕-->
+<RECORD taskId="3531" taskType="1" step="1" displayCover="1" actionId="48" backTostep="-1" arrowDirection="-1" arrowRotation="45"  gap="2" html="1"  useBorder="1" description="[진화,14,yellow,1,0]를 클릭하여 탈 것을 진화시키세요"/><!--指向幻化-->
+<RECORD taskId="3531" taskType="1" step="2" displayCover="1" actionId="49" backTostep="-1" arrowDirection="-1" arrowRotation="270"  gap="2" html="1" xOffset="-127" useBorder="1" description="페이지를 넘겨 [전투표범 계열,14,yellow,1,0] 선택"/><!--指向翻頁箭頭-->
+<RECORD taskId="3531" taskType="1" step="3" displayCover="1" actionId="108" backTostep="-1" arrowDirection="-1" arrowRotation="270"  gap="2" html="1"  useBorder="1" description="[전투표범으로 진화,14,yellow,1,0]클릭，탈 것 레벨이 높을수록 더욱 다양한 형태로 진화할 수 있습니다"/><!--指向幻化-->
+
+<!--牧歌農場-->
+
+<!--寵物1召喚引導-->
+<RECORD taskId="301" taskType="2" step="0" actionId="35" moviePath="202"/><!--宠物出战动画引导-->
+<!--<RECORD taskId="301" taskType="2" step="0" displayCover="1" actionId="35" backTostep="-1" arrowDirection="-1" arrowRotation="45"  gap="2" html="1"  description="클릭하여 [인벤토리 열기,14,yellow,1,0]"/>--><!--인벤토리 열기-->
+<!--<RECORD taskId="301" taskType="2" step="1" displayCover="1" actionId="36" backTostep="-1" arrowDirection="-1" arrowRotation="315"  gap="2" html="1"  description="[더블클릭,14,yellow,1,0]하여 [소환수계약,14,yellow,1,0]을 사용하면 [소환수 창,14,yellow,1,0]에 소환수가 자동으로 추가됩니다"/>--><!--"소환수 캡슐" 표시-->
+<!--<RECORD taskId="301" taskType="2" step="2" displayCover="1" actionId="38" backTostep="-1" arrowDirection="-1" arrowRotation="45"  gap="2" html="1"   description="[소환수 창,14,yellow,1,0] 열기" />--><!--소환수 열기-->
+<!--<RECORD taskId="301" taskType="2" step="3" displayCover="1" actionId="39" backTostep="-1" arrowDirection="-1" arrowRotation="135"  gap="2" html="1"  useBorder="1" description="[소환수,14,yellow,1,0]는 [소환,14,yellow,1,0]을 통해 전투를 돕거나 [합체,14,yellow,1,0]를 통해 캐릭터 속성을 추가시켜 줍니다. 초반에는 [소환,14,yellow,1,0]이 유리합니다." />--><!--소환 표시-->
+<!--<RECORD taskId="301" taskType="2" step="4" displayCover="1" actionId="150" backTostep="-1" arrowDirection="-1" arrowRotation="180" gap="2" html="1"  useBorder="1" description="클릭하여 [창 닫기,14,yellow,1,0]" description2="1. 소환수 리스트에서 소환할 소환수를 선택하여 【소환】버튼을 클릭하면 해당 소환수를 소환할 수 있습니다.\n2. 소환수는 주인을 도와 타겟을 공격할 뿐 아니라 주인의 신력을 증가시켜 줍니다.\n3. 소환수는 유저가 몬스터 사냥으로 획득한 경험치와 동일한 경험치를 획득할 수 있고 동일하게 레벨이 상승합니다." imgPath="7"/>--><!--OK 표시-->
+
+<!--寵物2召喚引導-->
+<RECORD taskId="421" taskType="1" step="0" actionId="151" moviePath="209"/><!--寵物2召喚动画引導-->
+<!--<RECORD taskId="421" taskType="1" step="0" displayCover="1" actionId="151" backTostep="-1" arrowDirection="-1" arrowRotation="180" gap="2" html="1"  useBorder="1" description="클릭하여 [창 닫기,14,yellow,1,0]" description2="1. 소환수 리스트에서 소환할 소환수를 선택하여 【합체】버튼을 클릭하면 소환수와 합체할 수 있습니다.\n2. 소환수와 합체한 캐릭터의 신력은 대폭 증가합니다.\n3. 합체한 소환수는 유저가 몬스터 사냥으로 획득한 경험치와 동일한 경험치를 획득할 수 있고 동일하게 레벨이 상승합니다." imgPath="8"/>--><!--OK 표시-->
+<!--<RECORD taskId="421" taskType="1" step="1" displayCover="1" actionId="50" backTostep="-1" arrowDirection="-1" arrowRotation="45"  gap="2" html="1"  description="[인벤토리,14,yellow,1,0] 열기" />--><!--인벤토리 열기-->
+<!--<RECORD taskId="421" taskType="1" step="2" displayCover="1" actionId="51" backTostep="-1" arrowDirection="-1" arrowRotation="315"  gap="2" html="1"  description="[더블클릭,14,yellow,1,0]하여 [소환수계약,14,yellow,1,0] 사용하기" />--><!--"소환수 캡슐" 표시-->
+<!--<RECORD taskId="421" taskType="1" step="3" displayCover="1" actionId="53" backTostep="-1" arrowDirection="-1" arrowRotation="45"  gap="2" html="1"   description="[소환수 창,14,yellow,1,0] 열기" />--><!--소환수 열기-->
+<!--<RECORD taskId="421" taskType="1" step="4" displayCover="1" actionId="54" backTostep="-1" arrowDirection="-1" arrowRotation="315"  gap="2" html="1"  useBorder="1" description="[합체,14,yellow,1,0] 클릭" />--><!--합체 표시-->
+
+<!--大炮打氣球引導-->
+<RECORD taskId="441" taskType="1" step="0" displayCover="1" actionId="222" backTostep="-1" arrowDirection="-1" arrowRotation="270" gap="2" html="1"  useBorder="1" description="[풍선게임,14,yellow,1,0] 클릭"/><!--풍선게임 표시-->
+<RECORD taskId="441" taskType="1" step="1" displayCover="1" actionId="223" backTostep="-1" arrowDirection="-1" arrowRotation="45"  gap="2" html="1"  useBorder="1" description="클릭하여 [초급포탄 선택,14,yellow,1,0]" /><!--초급포탄 표시-->
+<RECORD taskId="441" taskType="1" step="2" displayCover="1" actionId="224" backTostep="-1" arrowDirection="-1" arrowRotation="270"  gap="2" html="1"  useBorder="1" description="[게임시작,14,yellow,1,0] 클릭，초급포탄을 사용하면 노란풍선 1개를 맞출 수 있습니다" /><!--게임시작 표시-->
+<RECORD taskId="441" taskType="1" step="3" displayCover="1" actionId="225" backTostep="-1" arrowDirection="-1" arrowRotation="45"  gap="2" html="1"  useBorder="1" description="[풍선게임보상,14,yellow,1,0] 클릭" /><!--풍선게임보상 표시-->
+<RECORD taskId="441" taskType="1" step="4" displayCover="1" actionId="226" backTostep="-1" arrowDirection="-1" arrowRotation="0"  gap="2" html="1"  useBorder="1" description="[인벤에 넣기,14,yellow,1,0] 클릭" /><!--인벤에 넣기 표시-->
+<RECORD taskId="441" taskType="1" step="5" displayCover="1" actionId="278" backTostep="-1" arrowDirection="-1" arrowRotation="135"  gap="2" html="1"  useBorder="1" description="풍선게임창 [닫기,14,yellow,1,0] 클릭" /><!--닫기 표시-->
+
+<!--惡魔耶莉莎自動尋路引導-->
+<RECORD taskId="471" taskType="3" step="0" displayCover="0" actionId="166" backTostep="-1" arrowDirection="-1" arrowRotation="45"  gap="2" html="1" useBorder="1" description="[자동 이동,14,yellow,1,0] 클릭, 악마 엘리사에게 가세요" /><!--퀘스트 추적창의 악마 엘리사 표시-->
+
+<!--使用回城卷引導-->
+<RECORD taskId="481" taskType="2" step="0" displayCover="1" actionId="247" backTostep="-1" arrowDirection="-1" arrowRotation="45"  gap="2" html="1" itemId="1815"  description="[인벤토리,14,yellow,1,0] 열기" /><!--인벤토리 열기-->
+<RECORD taskId="481" taskType="2" step="1" displayCover="1" actionId="248" backTostep="-1" arrowDirection="-1" arrowRotation="225"  gap="2" html="1" itemId="1815" description="[더블클릭,14,yellow,1,0]하여 [귀환서,14,yellow,1,0]를 사용하면 주성 잘츠부르크로 즉시 이동할 수 있습니다"/><!--"귀환서" 표시-->
+<RECORD taskId="481" taskType="2" step="2" displayCover="1" actionId="249" backTostep="-1" arrowDirection="-1" arrowRotation="315"  gap="2" html="1"  description="[지도,14,yellow,1,0]를 [클릭,14,yellow,1,0]하거나 단축키 M을 사용하여 지도를 열어보세요"/><!--우측상단 "지도"아이콘 표시-->
+<RECORD taskId="481" taskType="2" step="3" displayCover="1" actionId="250" backTostep="-1" arrowDirection="-1" arrowRotation="0"  gap="2" html="1" npcId="7" description="[아이콘을 클릭,14,yellow,1,0]하면 순식간에 목적지까지 이동할 수 있습니다. VIP유저가 아닐 경우 전송룬이 소모됩니다"/><!--"월턴" 표시-->
+
+<!--薩爾斯堡-->
+<!--寵物餵養引導-->
+<RECORD taskId="521" taskType="1" step="0" actionId="125" moviePath="203"/><!--宠物喂养动画引导-->
+<!--<RECORD taskId="521" taskType="1" step="0" displayCover="1" actionId="125" backTostep="-1" arrowDirection="-1" arrowRotation="180" gap="2" html="1"  useBorder="1" description="클릭하여 [창 닫기,14,yellow,1,0]" description2="1. 검투사는 백마법코어를 사용하여 소환수 스킬의 위력을 증가시킬 수 있습니다.\n2. 마법사는 흑마법코어을 사용하여 소환수 스킬의 위력을 증가시킬 수 있습니다.\n3. 정령사는 청마법코어를 사용하여 소환수 스킬의 위력을 증가시킬 수 있습니다.\n4. 암살자는 혈마법코어를 사용하여 소환수 스킬의 위력을 증가시킬 수 있습니다." imgPath="2"/>--><!--OK 표시-->
+<!--<RECORD taskId="521" taskType="1" step="1" displayCover="1" actionId="56" backTostep="-1" arrowDirection="-1" arrowRotation="45"  gap="2" html="1"   description="[소환수 창,14,yellow,1,0] 열기" />--><!--소환수 열기-->
+<!--<RECORD taskId="521" taskType="1" step="2" displayCover="1" actionId="57" backTostep="-1" arrowDirection="-1" arrowRotation="135"  gap="2" html="1"  useBorder="1" description="[사육,14,yellow,1,0] 클릭" />--><!--사육 표시-->
+<!--<RECORD taskId="521" taskType="1" step="3" displayCover="1" actionId="58" backTostep="-1" arrowDirection="-1" arrowRotation="225"  gap="2" html="1"  useBorder="1" description="마법코어를 [클릭,14,yellow,1,0]하여 사육칸에 추가하세요" />--><!--마법코어 표시-->
+<!--<RECORD taskId="521" taskType="1" step="4" displayCover="1" actionId="59" backTostep="-1" arrowDirection="-1" arrowRotation="45"  gap="2" html="1"  useBorder="1" description="클릭하면 [사육,14,yellow,1,0]이 완료됩니다" />--><!--확인 표시-->
+
+<!--召喚獸融合引導-->
+<RECORD taskId="791" taskType="1" step="0" actionId="126" moviePath="204"/><!--宠物融合动画引导-->
+<!--<RECORD taskId="791" taskType="1" step="0" displayCover="1" actionId="126" backTostep="-1" arrowDirection="-1" arrowRotation="180" gap="2" html="1"  useBorder="1" description="[닫기,14,yellow,1,0]클릭" description2="1. 소환수를 합체하여 소환수 속성의 성장포인트를 증가시킬 수 있습니다. 또한 소환수 소환과 합체를 통해 캐릭터의 신력을 증가시킬 수 있습니다.\n2. 같은 유형의 소환수끼리만 합성할 수 있습니다." imgPath="3"/>--><!--指向我知道了-->
+<!--<RECORD taskId="791" taskType="1" step="1" displayCover="1" actionId="292" backTostep="-1" arrowDirection="-1" arrowRotation="45"  gap="2" html="1"  itemId="80041" description="[인벤토리,14,yellow,1,0] 열기" />--><!--指向背包面板-->
+<!--<RECORD taskId="791" taskType="1" step="2" displayCover="1" actionId="293" backTostep="-1" arrowDirection="-1" arrowRotation="45"  gap="2" html="1" itemId="80041"  description="더블클릭하여 [소환수계약,14,yellow,1,0]을 사용해보세요." />--><!--指向召唤兽契约-->
+<!--<RECORD taskId="791" taskType="1" step="3" displayCover="1" actionId="60" backTostep="-1" arrowDirection="-1" arrowRotation="45"  gap="2" html="1"   description="[소환수창,14,yellow,1,0] 열기" />--><!--打開召喚獸-->
+<!--<RECORD taskId="791" taskType="1" step="4" displayCover="1" actionId="61" backTostep="-1" arrowDirection="-1" arrowRotation="0"  gap="2" html="1"  useBorder="1" description="[합체,14,yellow,1,0] 클릭" />--><!--指向融合-->
+<!--<RECORD taskId="791" taskType="1" step="5" displayCover="1" actionId="76" backTostep="-1" arrowDirection="-1" arrowRotation="135"  gap="2" html="1"   description="좌측에 있는 소환수 리스트를 [클릭,14,yellow,1,0]하여 합성할 주요소환수를 선택하세요. 합성이 완료되면 속성이 증가합니다." />--><!--指向主寵位置-->
+<!--<RECORD taskId="791" taskType="1" step="6" displayCover="1" actionId="78" backTostep="-1" arrowDirection="-1" arrowRotation="45"  gap="2" html="1"   description="좌측에 있는 소환수 리스트를 [클릭,14,yellow,1,0]하여 합성할 보조소환수를 선택하세요. [소환 또는 합체 중인 소환수는 보조소환수로 선택할 수 없습니다,14,yellow,1,0]. 보조소환수는 합성이 완료되면 소실되므로 주의하세요." />--><!--指向副寵位置-->
+<!--<RECORD taskId="791" taskType="1" step="7" displayCover="1" actionId="79" backTostep="-1" arrowDirection="-1" arrowRotation="225"  gap="2" html="1" description="[합체,14,yellow,1,0]클릭" />--><!--指向融合-->
+
+<!--使用幸運之星開星引導-->
+<RECORD taskId="991" taskType="1" step="0" displayCover="1" actionId="227" backTostep="-1" arrowDirection="-1" arrowRotation="45"  gap="2" html="1" useBorder="1" itemId="1901" itemId1="2" description="[캐릭터 속성창,14,yellow,1,0] 열기"/><!--캐릭터버튼 표시-->
+<RECORD taskId="991" taskType="1" step="1" displayCover="1" actionId="228" backTostep="-1" arrowDirection="-1" arrowRotation="45"  gap="2" html="1" itemId="1901" itemId1="2" description="클릭하여 [성좌활성창,14,yellow,1,0]으로 이동"/><!--성좌 표시-->
+<RECORD taskId="991" taskType="1" step="2" displayCover="1" actionId="229" backTostep="-1" arrowDirection="-1" arrowRotation="45"  gap="2" html="1"   description="[용맹,14,yellow,1,0] 선택"/><!--용맹 표시，용맹페이지인지 판단하여 아닐 경우 튜토리얼 진행하지 않음-->
+<RECORD taskId="991" taskType="1" step="3" displayCover="1" actionId="230" backTostep="-1" arrowDirection="-1" arrowRotation="45"  gap="2" html="1" useBorder="1" description="[행운의 별,14,yellow,1,0]을 사용하여 활성 성공률을 높여보세요"/><!--칸 표시-->
+<RECORD taskId="991" taskType="1" step="4" displayCover="1" actionId="231" backTostep="-1" arrowDirection="-1" arrowRotation="135"  gap="2" html="1" useBorder="1"  description="[+/-,14,yellow,1,0]를 클릭하여 행운의 별 개수를 선택하세요. 행운의 별 1개는 성공률을 5% 증가시켜 줍니다" /><!--+-표시-->
+<RECORD taskId="991" taskType="1" step="5" displayCover="1" actionId="232" backTostep="-1" arrowDirection="-1" arrowRotation="180"  gap="2" html="1"  useBorder="1"  description="[활성,14,yellow,1,0] 클릭"/><!--활성 표시-->
+
+<!--背包擴充引導、倉庫擴充引導-->
+<RECORD taskId="641" taskType="1" step="0" displayCover="1" actionId="149" backTostep="-1" arrowDirection="-1" arrowRotation="180" gap="2" html="1"  useBorder="1" description="클릭하여 [창 닫기,14,yellow,1,0]" description2="1. “인벤토리 확장상자”와 “창고 확장상자”를 사용하여 인벤토리와 창고의 공간을 늘릴 수 있습니다.\n2. 사용하지 않는 아이템은 잠시 동안 창고에 보관할 수 있습니다.\n3. VIP유저는 인벤토리 내【창고】버튼을 클릭하여 휴대창고를 사용할 수 있습니다." imgPath="6"/><!--OK 표시-->
+<RECORD taskId="641" taskType="1" step="1" displayCover="1" actionId="62" backTostep="-1" arrowDirection="-1" arrowRotation="45"  gap="2" html="1"  description="[인벤토리 열기,14,yellow,1,0] 클릭"/><!--인벤토리 열기-->
+<RECORD taskId="641" taskType="1" step="2" displayCover="1" actionId="63" backTostep="-1" arrowDirection="-1" arrowRotation="45"  gap="2" html="1"  description="“인벤토리 확장상자”를 더블클릭하여 인벤토리 공간을 확장하세요"/><!--인벤토리 확장상자 사용-->
+<RECORD taskId="641" taskType="1" step="3" displayCover="1" actionId="70" backTostep="-1" arrowDirection="-1" arrowRotation="45"  gap="2" html="1"  description="클릭하면 인벤토리 공간이 확장됩니다"/><!--확인 표시-->
+<RECORD taskId="641" taskType="1" step="4" displayCover="1" actionId="64" backTostep="-1" arrowDirection="-1" arrowRotation="45"  gap="2" html="1"  description="창고열기"/><!--창고열기 표시-->
+<RECORD taskId="641" taskType="1" step="5" displayCover="1" actionId="178" backTostep="-1" arrowDirection="-1" arrowRotation="45"  gap="2" html="1"  description="클릭하여 [창고닫기,14,yellow,1,0]"/><!--창고닫기 표시-->
+<RECORD taskId="641" taskType="1" step="6" displayCover="1" actionId="69" backTostep="-1" arrowDirection="-1" arrowRotation="315"  gap="2" html="1" description="“창고 확장상자”를 더블클릭하여 창고 공간을 확장하세요"/><!--창고 확장상자 사용-->
+<RECORD taskId="641" taskType="1" step="7" displayCover="1" actionId="71" backTostep="-1" arrowDirection="-1" arrowRotation="45"  gap="2" html="1" description="클릭하면 창고 공간이 확장됩니다"/><!--확인클릭-->
+
+
+<!--納吉森草地-->
+<!--神力覺醒引導-->
+<RECORD taskId="871" taskType="3" step="0" actionId="233" moviePath="210"/><!--神力覺醒动画引導-->
+<!--<RECORD taskId="871" taskType="3" step="0" displayCover="1" actionId="233" backTostep="-1" arrowDirection="-1" arrowRotation="225" gap="2" html="1"  useBorder="1" description="[활성,14,yellow,1,0]을 클릭하면 몸 안의 잠재되어 있던 힘들이 모두 발산되어 속성이 대폭 증가합니다."/>--><!--활성표시--> 
+<!--<RECORD taskId="871" taskType="2" step="0" displayCover="1" actionId="234" backTostep="-1" arrowDirection="-1" arrowRotation="225"  gap="2" html="1" useBorder="1" description="클릭하여 [활성포인트 전환창,14,yellow,1,0]을 열어보세요"/>--><!--전환버튼 표시-->
+<!--<RECORD taskId="871" taskType="2" step="1" displayCover="1" actionId="235" backTostep="-1" arrowDirection="-1" arrowRotation="180"  gap="2" html="1" itemId="8" description="[전환,14,yellow,1,0]을 클릭하면 신성력이 활성포인트로 전환됩니다"/>--><!--전환표시-->
+<!--<RECORD taskId="871" taskType="2" step="2" displayCover="1" actionId="236" backTostep="-1" arrowDirection="-1" arrowRotation="225"  gap="2" html="1"  description="클릭하여 [신력활성,14,yellow,1,0]을 종료하세요"/>--><!--활성아이콘클릭-->
+
+<!--索倫斯中級修行場-->
+<!--前往索倫斯初級修行場引導--> 
+<RECORD taskId="1941" taskType="2" step="0" displayCover="1" actionId="241" backTostep="-1" arrowDirection="-1" arrowRotation="45"  gap="2" html="1" useBorder="0" npcId="131" npcWidth="137" npcHeight="191" description="[수련장 전송사와 대화,14,yellow,1,0]하고 전송지역을 선택하세요" /><!--NPC 수련장 전송사 표시-->
+<RECORD taskId="1941" taskType="2" step="1" displayCover="1" actionId="242" backTostep="-1" arrowDirection="-1" arrowRotation="0"  gap="2" html="1"  useBorder="1" description="[솔론스 언덕 수련장으로 전송,14,yellow,1,0] 선택" /><!--솔론스 언덕 수련장 전송 선택항목 표시-->
+<RECORD taskId="1941" taskType="2" step="2" displayCover="1" actionId="269" backTostep="-1" arrowDirection="-1" arrowRotation="0"  gap="2" html="1"  useBorder="1" description="[이동하기,14,yellow,1,0] 선택" /><!--이동하기 선택항목 표시-->
+
+<!--掛機引導-->
+<RECORD taskId="2121" taskType="3" step="0" displayCover="1" actionId="237" backTostep="-1" arrowDirection="-1" arrowRotation="45"  gap="2" html="1" sceneId="404"  description="[자동사냥,14,yellow,1,0] 열기" /><!--자동사냥 표시-->
+<RECORD taskId="2121" taskType="3" step="1" displayCover="1" actionId="238" backTostep="-1" arrowDirection="-1" arrowRotation="0"  gap="2" html="1"  useBorder="1" description="[자동 장비수리,14,yellow,1,0] [선택,14,yellow,1,0]" /><!--선택칸 표시-->
+<RECORD taskId="2121" taskType="3" step="2" displayCover="1" actionId="239" backTostep="-1" arrowDirection="-1" arrowRotation="45"  gap="2" html="1" description="[설정 저장,14,yellow,1,0] 클릭" /><!--설정저장 표시-->
+<RECORD taskId="2121" taskType="3" step="3" displayCover="1" actionId="240" backTostep="-1" arrowDirection="-1" arrowRotation="180"  gap="2" html="1" description="[자동사냥 시작,14,yellow,1,0] 클릭" /><!--자동사냥 시작 표시-->
+
+
+<!--黑色卷軸使用引導-->
+<RECORD taskId="851" taskType="3" step="0" displayCover="0" actionId="165" backTostep="-1" arrowDirection="-1" arrowRotation="315"  gap="2" html="1"  description="더블클릭하여 “검은빛 스크롤” 사용"/><!--퀘스트추적창 내 아이템 표시-->
+
+
+<!--支線任務-主城薩爾斯堡-->
+<!--活動引導-->
+<RECORD taskId="120" taskType="2" step="0" displayCover="0" actionId="92" backTostep="-1" arrowDirection="-1" arrowRotation="0"  gap="2" html="1" description="[클릭,14,yellow,1,0]"/><!--이벤트 표시-->
+<RECORD taskId="120" taskType="2" step="1" displayCover="0" actionId="93" backTostep="-1" arrowDirection="-1" arrowRotation="90"  gap="2" html="1" description="일일 이벤트를 완료하면 빠르게 레벨업할 수 있습니다！"/><!--일일이벤트 표시-->
+<RECORD taskId="120" taskType="2" step="2" displayCover="0" actionId="94" backTostep="-1" arrowDirection="-1" arrowRotation="135"  gap="2" html="1"  description="클릭하여 [창 닫기,14,yellow,1,0]"/><!--닫기 표시-->
+<!--雜貨店VIP引導-->
+<RECORD taskId="180" taskType="2" step="0" displayCover="0" actionId="120" backTostep="-1" arrowDirection="-1" useBorder="0" arrowRotation="90"  gap="2" html="1" npcId="46" description="NPC클릭"/><!--NPC 표시-->
+<RECORD taskId="180" taskType="2" step="1" displayCover="0" actionId="117" backTostep="-1" arrowDirection="-1" arrowRotation="225"  gap="2" html="1" description="클릭하여 [잡화상점 열기,14,yellow,1,0]"/><!--잡화상점 표시-->
+<RECORD taskId="180" taskType="2" step="2" displayCover="0" actionId="118" backTostep="-1" html="1"  useBorder="0" autoHideTime="2"/><!--화살표 필요없음，잡화상점 페이지에 2초간 표시-->
+<RECORD taskId="180" taskType="2" step="3" displayCover="0" actionId="119" backTostep="-1" arrowDirection="-1" arrowRotation="135"  gap="2" html="1"  description="클릭하여 [창 닫기,14,yellow,1,0]"/><!--닫기 표시-->
+
+<!--創神諭寶典引導-->
+<RECORD taskId="3531" taskType="3" step="0" actionId="190"  moviePath="212"/><!--創神諭寶典動畫引導-->
+<!--<RECORD taskId="3531" taskType="3" step="0" actionId="190" backTostep="-1" arrowDirection="-1" arrowRotation="270" gap="2" html="1"  useBorder="1" description="클릭하여 [G.O.D전서,14,yellow,1,0] 열기"/>--><!--指向創神諭寶典-->
+<!--<RECORD taskId="3531" taskType="3" step="1" actionId="191" backTostep="-1" arrowDirection="-1" arrowRotation="135" gap="2" html="1"  useBorder="1" description="클릭하여 [현상금 퀘스트,14,yellow,1,0] 시작"/>--><!--指向賞金任務-->
+<!--<RECORD taskId="3531" taskType="3" step="1" actionId="192" backTostep="-1" arrowDirection="-1" arrowRotation="135" gap="2" html="1"  useBorder="1" description="클릭하여 [퀘스트,14,yellow,1,0]를 수락한 후 퀘스트를 완료하면 현상금 사냥꾼이 될 수 있습니다"/>--><!--指向賞金任務-->
+<!--<RECORD taskId="3531" taskType="3" step="2" actionId="193" backTostep="-1" arrowDirection="-1" arrowRotation="135" gap="2" html="1"  useBorder="1" description="클릭하여 [퀘스트,14,yellow,1,0] 수락"/>--><!--指向接受-->
+
+<!-- 接取賞金任務-->
+<RECORD taskId="0" taskType="0" step="4" displayCover="1" actionId="272" backTostep="-1" arrowDirection="-1" arrowRotation="45" gap="2" html="1"  useBorder="0" npcId="99" npcWidth="141" npcHeight="248" description="[아밀리유 길드장과 대화,14,yellow,1,0]하고 현상금 퀘스트 수락"/><!--NPC아밀리유 길드장 표시-->
+<RECORD taskId="0" taskType="0" step="5" actionId="273" backTostep="-1" arrowDirection="-1" arrowRotation="135" gap="2" html="1"  useBorder="1"  description="[현상금 퀘스트 수락,14,yellow,1,0]"/><!--현상금 퀘스트 수락 선택항목 표시-->
+<RECORD taskId="0" taskType="0" step="6" actionId="274" backTostep="-1" arrowDirection="-1" arrowRotation="270" gap="2" html="1"  useBorder="1"  description="다른 현상금 퀘스트를 보고 싶은 경우 [새로고침(무료),14,yellow,1,0]을 클릭하여 새로운 현상금 퀘스트를 볼 수 있습니다"/><!--새로고침(무료) 표시-->
+<RECORD taskId="0" taskType="0" step="7" actionId="275" backTostep="-1" arrowDirection="-1" arrowRotation="45" gap="2" html="1"  useBorder="1"  description="[현상금 퀘스트,14,yellow,1,0] 선택，등급이 높을 수록 더 많은 보상을 받을 수 있습니다"/><!--판단：3등급 또는 4등급 퀘스트-->
+<RECORD taskId="0" taskType="0" step="8" actionId="276" backTostep="-1" arrowDirection="-1" arrowRotation="270" gap="2" html="1"  useBorder="1"  description="[수락,14,yellow,1,0] 선택"/><!--수락 표시-->
+
+
+
+
+<!--VIP卡使用-->
+<RECORD taskId="0" taskType="0" step="9" actionId="176" backTostep="-1" arrowDirection="-1" arrowRotation="180" gap="2" html="1"  useBorder="1" description="클릭하여 [창 닫기,14,yellow,1,0]" description2="1.VIP 사용자가 되면 VIP특권을 누릴 수 있습니다.\n2.VIP 사용자는 무료전송 기능 무제한 사용을 비롯하여 휴대창고, 원격상점, 이벤트 참여가능 횟수 증가 등 엄청난 혜택을 누릴 수 있습니다. " imgPath="20"/><!--OK 표시-->
+
+<!--精通引導-->
+<RECORD taskId="2791" taskType="1" step="0" actionId="127" moviePath="205"/><!--精通动画引导-->
+<!--<RECORD taskId="2791" taskType="1" step="0" displayCover="1" actionId="127" backTostep="-1" arrowDirection="-1" arrowRotation="180" gap="2" html="1"  useBorder="1" description="클릭하여 [창 닫기,14,yellow,1,0]" description2="1. 숙련은 장비 개방과 장비 세공으로 나뉩니다. 12궁도를 달성하면 장비는 엄청난 위력을 갖게 됩니다.\n2. 숙련을 통해 장비를 개방/세공하면 속성과 신력이 증가합니다. 장비 속성이 높을수록 속성추가 효과도 증가합니다." imgPath="4"/>--><!--OK 표시-->
+<!--<RECORD taskId="2791" taskType="1" step="1" displayCover="1" actionId="163" backTostep="-1" arrowDirection="-1" arrowRotation="45"  gap="2" html="1" useBorder="1" itemId="8" description="[캐릭터 속성창,14,yellow,1,0] 열기"/>--><!--캐릭터버튼 표시-->
+<!--<RECORD taskId="2791" taskType="1" step="2" displayCover="1" actionId="84" backTostep="-1" arrowDirection="-1" arrowRotation="135"  gap="2" html="1" itemId="8" description="클릭하여 [숙련창 열기,14,yellow,1,0]"/>--><!--숙련 표시-->
+<!--<RECORD taskId="2791" taskType="1" step="3" displayCover="1" actionId="86" backTostep="-1" arrowDirection="-1" arrowRotation="135"  gap="2" html="1"  description="[개방,14,yellow,1,0] 클릭"/>--><!--개방클릭-->
+
+
+<!--煉金術煉金+領取+使用藥水引導-->
+<RECORD taskId="1501" taskType="1" step="0" displayCover="1" actionId="254" backTostep="-1" arrowDirection="-1" arrowRotation="45"  gap="2" html="1" useBorder="1" itemId="303" description="[캐릭터 속성창,14,yellow,1,0] 열기"/><!--캐릭터버튼 표시-->
+<RECORD taskId="1501" taskType="1" step="1" displayCover="1" actionId="255" backTostep="-1" arrowDirection="-1" arrowRotation="135"  gap="2" html="1" useBorder="1" itemId="303"  description="클릭하여 [연금술 열기,14,yellow,1,0]"/><!--연금술 표시-->
+<RECORD taskId="1501" taskType="1" step="2" displayCover="1" actionId="256" backTostep="-1" arrowDirection="-1" arrowRotation="225"  gap="2" html="1" useBorder="1" itemId="303"  description="[연금시작,14,yellow,1,0] 클릭"/><!--연금 표시-->
+<RECORD taskId="1501" taskType="1" step="3" displayCover="1" actionId="257" backTostep="-1" arrowDirection="-1" arrowRotation="180"  gap="2" html="1"  description="클릭하여 석화 룬 물약 [무료받기,14,yellow,1,0]，1일 1회 무료로 받을 수 있습니다"/><!--받기-->
+<RECORD taskId="1501" taskType="1" step="4" displayCover="1" actionId="258" backTostep="-1" arrowDirection="-1" arrowRotation="45"  gap="2" html="1" itemId="1840" description="클릭하여 [인벤토리 열기,14,yellow,1,0]"/><!--인벤토리 열기-->
+<RECORD taskId="1501" taskType="1" step="5" displayCover="1" actionId="259" backTostep="-1" arrowDirection="-1" arrowRotation="135"  gap="2" html="1" itemId="1840" description="클릭하여 [석화 룬 물약 사용,14,yellow,1,0]，사용 후에는 캐릭터 방어력 3포인트와 신력 1포인트가 영구적으로 증가합니다"/><!--인벤토리 내 석화 룬 물약 표시-->
+
+<!--契靈恢復+升級引導-->
+<RECORD taskId="1661" taskType="1" step="0" actionId="260" moviePath="206"/><!--契靈恢復+升級动画引导-->
+<!--<RECORD taskId="1661" taskType="1" step="0" displayCover="1" actionId="260" backTostep="-1" arrowDirection="-1" arrowRotation="45"  gap="2" html="1" useBorder="1"  description="[캐릭터 속성창,14,yellow,1,0] 열기"/>--><!--캐릭터버튼 표시-->
+<!--<RECORD taskId="1661" taskType="1" step="1" displayCover="1" actionId="261" backTostep="-1" arrowDirection="-1" arrowRotation="225"  gap="2" html="1" useBorder="1"  description="클릭하여 [사역마창 열기,14,yellow,1,0]"/>--><!--사역마 표시-->
+<!--<RECORD taskId="1661" taskType="1" step="2" displayCover="1" actionId="262" backTostep="-1" arrowDirection="-1" arrowRotation="180"  gap="2" html="1" useBorder="1"  description="클릭하여 [사역마 체력 회복,14,yellow,1,0]하기"/>--><!--회복 표시-->
+<!--<RECORD taskId="1661" taskType="1" step="3" displayCover="1" actionId="263" backTostep="-1" arrowDirection="-1" arrowRotation="180"  gap="2" html="1" useBorder="1" description="클릭하여 [신성력을 사역마 체력으로 전환하기,14,yellow,1,0]"/>--><!--전환-->
+<!--<RECORD taskId="1661" taskType="1" step="4" displayCover="1" actionId="264" backTostep="-1" arrowDirection="-1" arrowRotation="45"  gap="2" html="1" useBorder="1" itemId="1947"  description="클릭하여 [자동 레벨업 시작,14,yellow,1,0]"/>--><!--자동레벨업 표시，성공 후 창 닫힘-->
+<!--<RECORD taskId="1661" taskType="1" step="5" displayCover="1" actionId="271" backTostep="-1" />--><!--성공 후 창 닫힘-->
+
+<!--太陽神勳章升級引導-->
+<!--<RECORD taskId="2851" taskType="1" step="0" displayCover="1" actionId="265" backTostep="-1" arrowDirection="-1" arrowRotation="45"  gap="2" html="1" useBorder="1" itemId="1889" description="[캐릭터 속성창,14,yellow,1,0] 열기"/>--><!--캐릭터버튼 표시-->
+<!--<RECORD taskId="2851" taskType="1" step="1" displayCover="1" actionId="266" backTostep="-1" arrowDirection="-1" arrowRotation="45"  gap="2" html="1" useBorder="1" itemId="1889"  description="[아폴론,14,yellow,1,0] 클릭"/>--><!--아폴론 표시-->
+<!--<RECORD taskId="2851" taskType="1" step="2" displayCover="1" actionId="267" backTostep="-1" arrowDirection="-1" arrowRotation="180"  gap="2" html="1" useBorder="1" itemId="1889"  description="클릭하여[자동 레벨업 시작,14,yellow,1,0]，레벨업 후에는 속성과 신력이 증가합니다"/>--><!--자동레벨업 표시，성공 후 창 닫힘-->
+<!--<RECORD taskId="2851" taskType="1" step="3" displayCover="1" actionId="270" backTostep="-1" />--><!--成功後關閉所有面板-->
+
+<!--VIP體驗卡引導-->
+<RECORD taskId="1951" taskType="1" step="0" displayCover="1" actionId="279" backTostep="-1" arrowDirection="-1" arrowRotation="45"  gap="2" html="1" useBorder="1" itemId="15" description="[인벤토리,14,yellow,1,0] 열기"/><!--인벤토리 버튼 표시-->
+<RECORD taskId="1951" taskType="1" step="1" displayCover="1" actionId="280" backTostep="-1" arrowDirection="-1" arrowRotation="315"  gap="2" html="1" useBorder="1" itemId="15" description="[더블클릭,14,yellow,1,0]하여 [VIP체험카드,14,yellow,1,0] 사용" /><!--"VIP체험카드" 표시-->
+<RECORD taskId="1951" taskType="1" step="2" displayCover="1" actionId="281" backTostep="-1" arrowDirection="-1" arrowRotation="180" gap="2" html="1"  useBorder="1" description="클릭하여 [창 닫기,14,yellow,1,0]" description2="1. VIP는 3가지 등급으로 분류됩니다. VIP 사용자가 되면 VIP특권을 누릴 수 있습니다.\n2. VIP 사용자는 무료로 전송, 휴대창고, 원격상점 기능을 사용할 수 있습니다.\n3. VIP사용자는 매일 접속과 동시에 골드, 각종 아이템을 획득할 수 있습니다.\n4. VIP사용자는 매일 수호천사를 획득할 기회를 갖게 됩니다! " imgPath="24"/><!--OK 표시-->
+
+<!--尋寶獸尋寶+尋寶升級引導-->
+<RECORD taskId="1071" taskType="1" step="0" actionId="179" moviePath="208"/><!--尋寶獸尋寶+尋寶升級动画引導-->
+
+<!--装备强化引导-->
+<!--<RECORD taskId="1711" taskType="1" step="0" actionId="294" moviePath="211"/>--><!--装备强化动画引導-->
+
+<!--试练塔引导-->
+<RECORD taskId="1271" taskType="1" step="0" actionId="295" moviePath="216"/><!--试练塔动画引導-->
+
+<!--组队引導-->
+<RECORD taskId="0" taskType="0" step="10" displayCover="1" actionId="282" backTostep="-1" arrowDirection="-1" arrowRotation="45"  gap="2" html="1" useBorder="1" description="[파티창,14,yellow,1,0] 열기"/><!--指向队伍按钮-->
+<RECORD taskId="0" taskType="0" step="11" displayCover="1" actionId="283" backTostep="-1" arrowDirection="-1" arrowRotation="45"  gap="2" html="1" useBorder="1" description="[파티창설,14,yellow,1,0] 클릭"/><!--指向创建队伍按钮-->
+<RECORD taskId="0" taskType="0" step="12" displayCover="1" actionId="287" backTostep="-1" arrowDirection="-1" arrowRotation="45"  gap="2" html="1" useBorder="1" description="[네,14,yellow,1,0] 클릭"/><!--指向创建队伍提示确定按钮-->
+<RECORD taskId="0" taskType="0" step="13" displayCover="1" actionId="284" backTostep="-1" arrowDirection="-1" arrowRotation="45"  gap="2" html="1" useBorder="1" description="[등록,14,yellow,1,0] 클릭"/><!--指向发布队伍按钮-->
+<RECORD taskId="0" taskType="0" step="14" displayCover="1" actionId="285" backTostep="-1" arrowDirection="-1" arrowRotation="45"  gap="2" html="1" useBorder="1" description="[닫기,14,yellow,1,0] 클릭"/><!--指向关闭按钮-->
+<RECORD taskId="0" taskType="0" step="15" displayCover="1" actionId="286" backTostep="-1" arrowDirection="-1" arrowRotation="45"  gap="2" html="1" useBorder="1" description="[퀘스트 완료,14,yellow,1,0] 클릭"/><!--指向交付任务链接-->
+
+<!--神格覺醒-->
+<RECORD taskId="0" taskType="0" step="3" displayCover="0" actionId="300" backTostep="-1" arrowDirection="-1" arrowRotation="270" yOffset="-400" hideArrow="1" gap="2" html="1"  useBorder="0" description="다른 성좌를 활성하면 캐릭터의 다른 속성을 강화시킬 수 있습니다"/>
+
+</RECORDS>
+
+
+

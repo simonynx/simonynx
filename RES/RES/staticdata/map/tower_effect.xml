@@ -1,0 +1,7 @@
+<?xml version="1.0" standalone="yes"?>
+<RECORDS>
+<RECORD id="1" name="영웅의 탑" layers="10" difficuName="쉬움" fubenId="2166"/>
+<RECORD id="2" name="절망의 탑" layers="10" difficuName="일반" fubenId="2176"/>
+<RECORD id="3" name="욕망의 탑" layers="10" difficuName="어려움" fubenId="2186"/>
+<RECORD id="4" name="신성의 탑" layers="10" difficuName="지옥" fubenId="2196"/>
+</RECORDS>

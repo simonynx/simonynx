@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" standalone="yes"?>
+<!--說明-->
+<!--id 對應界面上不同的推薦活動顯示區域，顯示在相同區域中的活動配在相同的地方-->
+<!--type 推薦活動類型-->
+<!--	= 0: 普通活動-->
+<!--	= 1：賞金任務-->
+<!--activityId 活動id-->
+<RECORDS>
+<RECORD id="0" type="1" activityId="2" /><!--第一步-->
+<RECORD id="1" type="0" activityId="62" /><!--第二步左-->
+<RECORD id="1" type="0" activityId="64" />
+<RECORD id="1" type="0" activityId="66" />
+<RECORD id="2" type="0" activityId="63" /><!--第二步右-->
+<RECORD id="2" type="0" activityId="65" />
+<RECORD id="2" type="0" activityId="67" />
+<RECORD id="3" type="0" activityId="99" /><!--第三步左上-->
+<RECORD id="4" type="0" activityId="4" /><!--第三步右上-->
+<RECORD id="5" type="0" activityId="5" /><!--第三步左下-->
+<RECORD id="5" type="0" activityId="6" />
+<RECORD id="5" type="0" activityId="7" />
+<RECORD id="6" type="0" activityId="93" disableDesc="여신수호"/>
+</RECORDS>
