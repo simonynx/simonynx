@@ -1,0 +1,30 @@
+﻿<hints>
+	<!--快捷提示2101-2200-->
+	<shortcut id='2101' title='장비획득' level='10' buttonText='즉시장착' content="현재 보유한 장비보다 뛰어난 새 장비 %0s 획득! 지금 바로 장착하시겠습니까?"></shortcut>
+	<shortcut id='2102' title='물약부족' level='7' buttonText='자동이동' content="“생명물약”부족! 자동이동 기능을 사용하여 약품상인에게 이동하시겠습니까?"></shortcut>
+	<shortcut id='2103' title='물약부족' level='7' buttonText='자동이동' content="“마법물약”부족! 자동이동 기능을 사용하여 약품상인에게 이동하시겠습니까?"></shortcut>
+	<shortcut id='2104' title='소환수 충성도 부족' level='17' buttonText='즉시사용' content="소환수의 충성도가 너무 낮습니다.“길들임의 증거”를 사용하여 충성도를 증가시키시겠습니까?"></shortcut>
+	<shortcut id='2105' title='길들임의 증거 부족' level='17' buttonText='자동이동' content="“길들임의 증거” 부족! 자동이동 기능을 사용하여 소환수 상인에게 이동하시겠습니까? "></shortcut>
+	<shortcut id='2106' title='뿔피리 부족' level='1' buttonText='구매' content="인벤토리 내 남은 뿔피리가 없습니다. 뿔피리를 구매하세요"></shortcut>
+	<shortcut id='2107' title='스킬학습' level='1' buttonText='즉시학습' content="%0s레벨 달성. %1s 스킬을 학습할 수 있습니다."></shortcut>
+	<shortcut id='2108' title='스킬 레벨업' level='4' buttonText='즉시 레벨업' content="%0s레벨 달성. %1s 스킬을 레벨업 할 수 있습니다."></shortcut>
+	<shortcut id='2109' title='스킬학습' level='4' buttonText='즉시학습' content="스킬북 %0s 획득! 지금 바로 학습하시겠습니까?"></shortcut>
+	<shortcut id='2110' title='소환수획득' level='5' maxLevel='999' buttonText='즉시획득' content="%0s 획득! 지금 바로 소환수 봉인을 해제하시겠습니까?"></shortcut>
+	<shortcut id='2111' title='펫 획득' level='11' buttonText='즉시획득' content="%0s 획득! 펫 슬롯으로 바로 이동시키시겠습니까?"></shortcut>
+	<shortcut id='2112' title='소환수 슬롯 FULL' level='11' buttonText='보기' content="소환수 슬롯에 더 이상 공간이 없습니다. 불필요한 소환수를 봉인하거나 방출하여 여유 공간을 확보하세요."></shortcut>
+	<shortcut id='2113' title='신성력 최대치 근접' level='10' buttonText='성좌활성' content=" 신성력이 최대치에 근접하였습니다. 성좌를 활성하여 속성을 증가시켜 보세요."></shortcut>
+	<shortcut id='2114' title='소환수 충성도 부족' level='17' buttonText='즉시사용' content="소환수 %0s의 충성도가 낮아 자동해제 되었습니다.“길들임의 증거”를 사용하여 펫의 충성도를 증가시키시겠습니까?"></shortcut>
+	<shortcut id='2115' title='소환수 충성도 부족' level='17' buttonText='즉시사용' content="소환수 %0s의 충성도가 낮아 자동회수 되었습니다.“길들임의 증거”를 사용하여 펫의 충성도를 증가시키시겠습니까?"></shortcut>
+	<shortcut id='2116' title='성좌 성공률 50%이하' level='10' buttonText='구매' content=" 주의：성좌 활성률이 50%이하입니다. 행운의 별을 사용하여 성공률을 높여보세요"></shortcut>
+	<shortcut id='2117' title='일반 VIP카드 획득' level='3' buttonText='즉시사용' content="%0s 획득! 지금 바로 카드를 사용하여 VIP회원이 되시면 차별화된 VIP혜택을 누리실 수 있습니다. 계속하시겠습니까?"></shortcut>
+	<shortcut id='2118' title='자동사냥 TIP' level='0' buttonText='자동사냥' content="자동사냥 기능을 사용하시겠습니까?"></shortcut>
+	<shortcut id='2119' title='인벤토리 공간 부족' level='0' buttonText='인벤토리 정리' content="인벤토리에 남은 공간이 얼마 없습니다. 지금 바로 인벤토리를 정리하시겠습니까?"></shortcut>
+	<shortcut id='2120' title='인벤토리 FULL' level='0' buttonText='인벤토리 정리' content="인벤토리 FULL! 지금 바로 인벤토리를 정리하시겠습니까?"></shortcut>
+	<shortcut id='2121' title='신력스킬' level='999' buttonText='사용' content="신력스킬을 사용하실 수 있습니다. 신력스킬을 사용하면 몬스터를 더욱 손쉽게 처치할 수 있습니다."></shortcut>
+	<shortcut id='2122' title='2레벨 VIP카드 획득' level='3' buttonText='즉시사용' content="%0s 획득! 지금 바로 카드를 사용하여 2레벨 VIP회원이 되면 차별화된 VIP 혜택을 누리실 수 있습니다. 계속하시겠습니까?"></shortcut>
+	<shortcut id='2123' title='3레벨 VIP카드 획득' level='3' buttonText='즉시사용' content="%0s 획득! 지금 바로 카드를 사용하여 3레벨 VIP회원이 되면 차별화된 VIP 혜택을 누리실 수 있습니다. 계속하시겠습니까?"></shortcut>
+	<shortcut id='2124' title='VIP 체험카드 획득' level='999' buttonText='즉시사용' content="%0s 획득! 지금 바로 카드를 사용하여 VIP체험회원이 되시면 차별화된 VIP 혜택을 누리실 수 있습니다. 계속하시겠습니까? "></shortcut>
+	<shortcut id='2125' title='소환수 마법코어 획득' level='1' buttonText='사육' content="진귀한 소환수 마법코어 획득! 소환수를 사육하시겠습니까?  "></shortcut>
+	<shortcut id='2126' title='경험치 물약' level='0' buttonText='즉시사용' content="%0s 획득! 즉시 경험치 물약을 사용하시겠습니까?"></shortcut>
+	<!--快捷提示end...2100-->
+</hints>

@@ -1,0 +1,1644 @@
+<!--說明：-->
+<!--place: 提示的顯示位置-->
+<!--	1...系統公告（頂部滾動文字）-->
+<!--	2...系統消息（右下角提示）-->
+<!--	4...聊天消息-->
+<!--		chatChannel: 消息顯示頻道 5...系統提示, 11...傳言頻道提示-->
+<!--		（傳言頻道文本格式配置方式： {content,color,bold,italic}  內容，顔色，加粗，傾斜  //顔色必須設置  顔色字符串red,green,yellow,blue,white）-->
+<!--		（如：恭喜{[%s],blue,0,1}過關斬將，成功奪得{PK賽冠軍/亞軍/季軍,red,0,1}）-->
+<!--		（%s爲占位符）-->
+<!--	8...滾動提示（屏幕中央縱向滾動）-->
+<!--	32...提示框(或帶確定取消的對話框)-->
+<!--	128...滾動提示（屏幕偏右縱向滾動）-->
+<hints>
+  <!--物品1~100-->
+  <hint id="1" place="8" lanID="50000">
+  </hint>
+  <!--該物品無法打包-->
+  <hint id="2" place="8" lanID="50001">
+  </hint>
+  <!--物品不需要修理-->
+  <hint id="3" place="256" type="3" lanID="50002">
+  </hint>
+  <!--狀態相關-->
+  <hint id="4" place="8" lanID="50003">
+  </hint>
+  <!--物品 %s 冷卻中-->
+  <hint id="5" place="8" lanID="50004">
+  </hint>
+  <!---該物品已綁定-->
+  <hint id="6" place="32" lanID="50005">
+  </hint>
+  <hint id="7" place="32" lanID="50006">
+  </hint>
+  <hint id="8" place="32" lanID="50007">
+  </hint>
+  <hint id="9" place="32" lanID="50008">
+  </hint>
+  <hint id="10" place="256" lanID="50009">
+  </hint>
+  <!--拆分成功-->
+  <hint id="11" place="8" lanID="50010">
+  </hint>
+  <!--背包已滿，無法拆分物品-->
+  <hint id="12" place="256" type="3" lanID="50011">
+  </hint>
+  <!--打開倉庫失敗-->
+  <hint id="13" place="8" lanID="50012">
+  </hint>
+  <!--您身上沒有金幣，無法進行打包-->
+  <hint id="14" place="8" lanID="50013">
+  </hint>
+  <!--您身上沒有魔晶，無法進行打包-->
+  <hint id="15" place="8" lanID="50014">
+  </hint>
+  <!--該物品無法進行打包-->
+  <hint id="16" place="32" lanID="50015">
+  </hint>
+  <hint id="17" place="32" lanID="50016">
+  </hint>
+  <hint id="18" place="32" lanID="50017">
+  </hint>
+  <hint id="19" place="32" lanID="50018">
+  </hint>
+  <dialog id="20" lanID="50019">
+  </dialog>
+  <hint id="21" place="8" lanID="50020">
+  </hint>
+  <!---您的背包擴充次數已達上限-->
+  <hint id="22" place="8" lanID="50021">
+  </hint>
+  <!--您的倉庫擴充次數已達上限-->
+  <dialog id="23" lanID="50022">
+  </dialog>
+  <dialog id="24" lanID="50023">
+  </dialog>
+  <dialog id="25" lanID="50024">
+  </dialog>
+  <dialog id="26" lanID="50025">
+  </dialog>
+  <!---打包金錢/魔晶-->
+  <dialog id="27" lanID="50026">
+  </dialog>
+  <hint id="28" place="32" lanID="50027">
+  </hint>
+  <hint id="29" place="32" lanID="50028">
+  </hint>
+  <hint id="30" place="32" lanID="50029">
+  </hint>
+  <dialog id="31" lanID="50030">
+  </dialog>
+  <alert id="32" place="8" lanID="50031">
+  </alert>
+  <!--無法打包綁定物品-->
+  <alert id="33" place="8" lanID="50032">
+  </alert>
+  <!--無法打包不可交易物品-->
+  <hint id="34" place="8" lanID="50033">
+  </hint>
+  <!--該物品無法雙擊使用-->
+  <hint id="35" place="8" lanID="50034">
+  </hint>
+  <!--因爲物品正在交易中或其它原因-->
+  <hint id="38" place="8" lanID="50035">
+  </hint>
+  <dialog id="39" lanID="50036">
+  </dialog>
+  <!--新增-->
+  <dialog id="40" lanID="50037">
+  </dialog>
+  <!--新增-->
+  <dialog id="41" lanID="50038">
+  </dialog>
+  <!--新增-->
+  <hint id="42" place="32" lanID="50039">
+  </hint>
+  <!--新增-->
+  <hint id="43" place="32" lanID="50040">
+  </hint>
+  <!--新增-->
+  <hint id="44" place="8" lanID="50041">
+  </hint>
+  <!--新增-->
+  <hint id="45" place="8" lanID="50042">
+  </hint>
+  <!--新增-->
+  <hint id="46" place="8" lanID="50043">
+  </hint>
+  <!--新增-->
+  <hint id="47" place="8" lanID="50044">
+  </hint>
+  <!--新增-->
+  <dialog id="48" lanID="50045">
+  </dialog>
+  <!--新增-->
+  <hint id="49" place="32" lanID="50046">
+  </hint>
+  <!--新增-->
+  <hint id="50" place="32" lanID="50047">
+  </hint>
+  <!--新增-->
+  <hint id="51" place="32" lanID="50048">
+  </hint>
+  <!--新增-->
+  <hint id="52" place="32" lanID="50049">
+  </hint>
+  <!--新增-->
+  <hint id="53" place="8" lanID="50050">
+  </hint>
+  <hint id="54" place="8" lanID="50051">
+  </hint>
+  <hint id="55" place="8" lanID="50052">
+  </hint>
+  <hint id="56" place="8" lanID="50053">
+  </hint>
+  <hint id="57" place="8" lanID="50451">
+  </hint>
+  <hint id="58" place="8" lanID="50453">
+  </hint>
+  <!--獎勵倉庫無法儲存物品-->
+  <dialog id="59" lanID="23020">
+  </dialog>
+  <!--確認分解該裝備？-->
+  <hint id="60" place="8" lanID="50458">
+  </hint>
+  <!--您的獎勵倉庫空間不夠-->
+  <hint id="61" place="8" lanID="50456">神佑狀態將在%0s後消失</hint>
+  <hint id="62" place="8" lanID="50457">神佑狀態已消失</hint>
+  <hint id="63" place="8" lanID="50448">
+  </hint>
+  <!--您操作得太快了 (整理冷卻中)-->
+  <hint id="64" place="8" lanID="50496">
+  </hint>
+  <!--該物品已失效-->
+  <hint id="65" place="8" lanID="50497">
+  </hint>
+  <!--不能拆分-->
+  <hint id="66" place="256" type="1" lanID="50536">
+  </hint>
+  <!--自動穿戴%s成功-->
+  <hint id="67" place="8" lanID="50552">
+  </hint>
+  <!--無法使用重鑄鎖-->
+  <hint id="68" place="8" lanID="50553">
+  </hint>
+  <!--鎖定屬性失敗，請在重鑄前使用重鑄鎖。-->
+  <hint id="69" place="8" lanID="50554">
+  </hint>
+  <hint id="70" place="8" lanID="1105"></hint>
+  <hint id="71" place="8" lanID="81327"></hint><!--背包剩余空间不足-->
+  
+  <!--該物品不能修理-->
+  <!---物品...end...100-->
+  <!---=========================================================================-->
+  <!---技能101~200-->
+  <hint id="101" place="8" lanID="50054">
+  </hint>
+  <!--狀態相關-->
+  <hint id="102" place="8" lanID="50055">
+  </hint>
+  <hint id="103" place="8" lanID="50056">
+  </hint>
+  <!--學習技能-->
+  <hint id="104" place="8" lanID="50057">
+  </hint>
+  <!--學習技能等級不足-->
+  <hint id="105" place="8" lanID="50058">
+  </hint>
+  <!--（學習技能物品不足）-->
+  <hint id="106" place="8" lanID="50059">
+  </hint>
+  <!--學習技能金幣不足-->
+  <hint id="107" place="8" lanID="50060">
+  </hint>
+  <!--學習技能信仰力不足-->
+  <hint id="108" place="8" lanID="50061">
+  </hint>
+  <!--（學習技能成功後）-->
+  <dialog id="109" lanID="40012">
+  </dialog>
+  <!--古神像110 120-->
+  <hint id="110" place="8" lanID="1097">
+  </hint>
+  <hint id="111" place="8" lanID="1096">
+  </hint>
+  <hint id="112" place="8" lanID="1098">
+  </hint>
+  <!--確認一鍵升級?-->
+  <!---技能...end...200-->
+  <!---=========================================================================-->
+  <!---探索小游戏201~300-->
+  <hint id="201" place="256" lanID="50567">
+  </hint>
+  <!--寶物就在附近了！-->
+  <hint id="202" place="256" lanID="50568">
+  </hint>
+  <!--周圍好像有什麼。-->
+  <hint id="203" place="256" lanID="50569">
+  </hint>
+  <!--這附近什麼都沒有。-->
+  <hint id="204" place="256" lanID="50570">
+  </hint>
+  <!--發現了一個寶石！-->
+  <hint id="205" place="256" lanID="50571">
+  </hint>
+  <!--發現了一個寶箱！-->
+  <hint id="206" place="256" lanID="50572">
+  </hint>
+  <!--活動未開啟，無法領取-->
+  <hint id="207" place="256" lanID="50573">
+  </hint>
+  <!--獎品已經領取過-->
+  <hint id="208" place="256" lanID="50574">
+  </hint>
+  <!--請切換地圖-->
+  <!---探索小游戏...end...300-->
+  <!---=========================================================================-->
+  <!---場景401~500-->
+  <hint id="401" place="8" lanID="50062">
+  </hint>
+  <hint id="403" place="8" lanID="50063">
+  </hint>
+  <hint id="404" place="8" lanID="50064">
+  </hint>
+  <hint id="405" place="8" lanID="50065">
+  </hint>
+  <!--新增-->
+  <hint id="406" place="8" lanID="50066">
+  </hint>
+  <!--新增-->
+  <hint id="407" place="8" lanID="50067">
+  </hint>
+  <!--新增-->
+  <dialog id="408" lanID="50068">
+  </dialog>
+  <!--新增-->
+  <!--場景上使用任務物品提醒-->
+  <hint id="409" place="8" lanID="50069">
+  </hint>
+  <!--新增-->
+  <hint id="410" place="8" lanID="81070">
+  </hint>
+  <!--新增-->
+  <!---技能...end...500-->
+  <!---=========================================================================-->
+  <!---角色501~600-->
+  <!--值變更提示+XXX-XXX-->
+  <hint id="501" place="2" lanID="50070">
+  </hint>
+  <hint id="502" place="2" lanID="50071">
+  </hint>
+  <hint id="503" place="2" lanID="50072">
+  </hint>
+  <hint id="504" place="2" lanID="50073">
+  </hint>
+  <hint id="505" place="2" lanID="50074">
+  </hint>
+  <hint id="506" place="8" lanID="50075">
+  </hint>
+  <!--人物信息查詢超時-->
+  <hint id="507" place="8" lanID="50076">
+  </hint>
+  <hint id="508" place="256" type="3" lanID="50077">
+  </hint>
+  <!--人物信息查詢-->
+  <hint id="509" place="2" lanID="50078">
+  </hint>
+  <!--信仰力-->
+  <hint id="510" place="2" lanID="50079">
+  </hint>
+  <!--地精聲望增加-->
+  <hint id="511" place="2" lanID="50080">
+  </hint>
+  <!--神廟聲望-->
+  <hint id="512" place="2" lanID="50081">
+  </hint>
+  <!--部王國聲望-->
+  <hint id="513" place="2" lanID="50082">
+  </hint>
+  <!--法師聯盟聲望-->
+  <hint id="514" place="2" lanID="50083">
+  </hint>
+  <!--矮人聲望-->
+  <hint id="515" place="2" lanID="50084">
+  </hint>
+  <!--精靈聲望-->
+  <hint id="516" place="2" lanID="50085">
+  </hint>
+  <!--龍族聲望-->
+  <hint id="517" place="8" lanID="50086">
+  </hint>
+  <!--切換PK模式失敗-->
+  <hint id="518" place="8" lanID="50087">
+  </hint>
+  <hint id="519" place="2" lanID="50088">
+  </hint>
+  <!--切換PK模式失敗(战场模式)-->
+  <hint id="520" place="2" lanID="50575">
+  </hint>
+  <!--切換PK模式-->
+  <!--魔法陣 601~700-->
+  <dialog id="601" lanID="50089">
+  </dialog>
+  <dialog id="608" lanID="50090">
+  </dialog>
+  <hint id="602" place="8" lanID="50091">
+  </hint>
+  <hint id="603" place="8" lanID="50092">
+  </hint>
+  <hint id="604" place="8" lanID="50093">
+  </hint>
+  <hint id="605" place="8" lanID="50094">
+  </hint>
+  <hint id="606" place="8" lanID="50095">
+  </hint>
+  <hint id="607" place="8" lanID="50096">
+  </hint>
+  <dialog id="609" lanID="50097">
+  </dialog>
+  <dialog id="610" lanID="50098">
+  </dialog>
+  <hint id="611" place="8" lanID="50099">
+  </hint>
+  <hint id="612" place="32" lanID="50100">
+  </hint>
+  <hint id="613" place="32" lanID="50101">
+  </hint>
+  <!--新增-->
+  <hint id="614" place="32" lanID="50102">
+  </hint>
+  <!--新增-->
+  <hint id="615" place="32" lanID="50103">
+  </hint>
+  <!--新增-->
+  <dialog id="616" lanID="50104">
+  </dialog>
+  <!--新增-->
+  <hint id="617" place="32" lanID="50105">
+  </hint>
+  <!--新增-->
+  <dialog id="618" lanID="50106">
+  </dialog>
+  <!--新增-->
+  <hint id="619" place="32" lanID="50107">
+  </hint>
+  <!--新增-->
+  <!--交易 701~800-->
+  <hint id="701" place="256" type="1" lanID="50108">
+  </hint>
+  <hint id="702" place="256" type="3" lanID="50109">
+  </hint>
+  <hint id="703" place="8" lanID="50110">
+  </hint>
+  <hint id="704" place="8" lanID="50111">
+  </hint>
+  <hint id="705" place="8" lanID="50112">
+  </hint>
+  <hint id="706" place="8" lanID="50113">
+  </hint>
+  <hint id="707" place="8" lanID="50114">
+  </hint>
+  <hint id="708" place="8" lanID="50115">
+  </hint>
+  <hint id="709" place="8" lanID="50116">
+  </hint>
+  <hint id="710" place="8" lanID="50117">
+  </hint>
+  <!--交易請求失敗類型-->
+  <hint id="711" place="8" lanID="50118">
+  </hint>
+  <hint id="712" place="8" lanID="50119">
+  </hint>
+  <hint id="713" place="8" lanID="50120">
+  </hint>
+  <hint id="714" place="8" lanID="50121">
+  </hint>
+  <hint id="715" place="8" lanID="50122">
+  </hint>
+  <hint id="716" place="8" lanID="50123">
+  </hint>
+  <hint id="717" place="8" lanID="50124">
+  </hint>
+  <hint id="718" place="8" lanID="50125">
+  </hint>
+  <hint id="719" place="8" lanID="50126">
+  </hint>
+  <hint id="720" place="8" lanID="50127">
+  </hint>
+  <hint id="721" place="8" lanID="50128">
+  </hint>
+  <!--放入物品到交易框-->
+  <hint id="722" place="8" lanID="50129">
+  </hint>
+  <!--放入物品到交易框-->
+  <hint id="723" place="8" lanID="50130">
+  </hint>
+  <hint id="724" place="32" lanID="50131">
+  </hint>
+  <!--NPC 商店801-900-->
+  <hint id="801" place="8" lanID="50132">
+  </hint>
+  <!--因爲物品正在交易中或其它原因-->
+  <hint id="802" place="8" lanID="50133">
+  </hint>
+  <!--商店購買-->
+  <hint id="803" place="8" lanID="50134">
+  </hint>
+  <!--商店購買-->
+  <hint id="804" place="8" lanID="50135">
+  </hint>
+  <!---商店購買-->
+  <hint id="805" place="8" lanID="50136">
+  </hint>
+  <!---商店出售-->
+  <hint id="806" place="8" lanID="50137">
+  </hint>
+  <!---商店購買-->
+  <hint id="807" place="256" type="1" lanID="50138">
+  </hint>
+  <hint id="808" place="256" type="3" lanID="50139">
+  </hint>
+  <hint id="809" place="32" lanID="50140">
+  </hint>
+  <hint id="810" place="32" lanID="50141">
+  </hint>
+  <!---商店不允許出售-->
+  <dialog id="811" lanID="50142">
+  </dialog>
+  <dialog id="812" lanID="50143">
+  </dialog>
+  <dialog id="813" lanID="50144">
+  </dialog>
+  <hint id="814" place="32" lanID="50145">
+  </hint>
+  <dialog id="815" lanID="50146">
+  </dialog>
+  <!---NPC商店-->
+  <dialog id="816" lanID="50147">
+  </dialog>
+  <!--商城-->
+  <hint id="817" place="32" lanID="50148">
+  </hint>
+  <dialog id="818" lanID="50149">
+  </dialog>
+  <!--商城 魔晶不足-->
+  <hint id="819" place="32" lanID="50150">
+  </hint>
+  <!--新增-->
+  <!--商城 魔石和積分不足-->
+  <hint id="820" place="32" lanID="50511">
+  </hint>
+  <hint id="821" place="32" lanID="60521"></hint><!--功勋不足-->
+  <!--新增-->
+  <!--天神商城到期-->
+  <!--任務901-1000-->
+  <hint id="901" place="8" lanID="50151">
+  </hint>
+  <hint id="902" place="8" lanID="50152">
+  </hint>
+  <!---聲望物品提交-->
+  <hint id="903" place="8" lanID="50153">
+  </hint>
+  <!---聲望物品提交-->
+  <hint id="904" place="8" lanID="50154">
+  </hint>
+  <dialog id="905" lanID="50155">
+  </dialog>
+  <dialog id="906" lanID="50156">
+  </dialog>
+  <hint id="907" place="32" lanID="50157">
+  </hint>
+  <dialog id="908" lanID="50158">
+  </dialog>
+  <hint id="909" place="32" lanID="50159">
+  </hint>
+  <hint id="910" place="32" lanID="50160">
+  </hint>
+  <dialog id="911" lanID="50161">
+  </dialog>
+  <hint id="912" place="32" lanID="50162">
+  </hint>
+  <dialog id="913" lanID="50163">
+  </dialog>
+  <hint id="914" place="8" lanID="50164">
+  </hint>
+  <!--賞金獵人等級不足-->
+  <hint id="915" place="8" lanID="50165">
+  </hint>
+  <!--賞金獵人聲望不足-->
+  <hint id="916" place="8" lanID="50166">
+  </hint>
+  <!--角色等級不足-->
+  <hint id="917" place="8" lanID="50167">
+  </hint>
+  <!--接取任務失敗-->
+  <hint id="918" place="32" lanID="50168">
+  </hint>
+  <!--新增-->
+  <hint id="919" place="8" lanID="50169">
+  </hint>
+  <!--新增-->
+  <dialog id="920" lanID="50459">恭喜您獲得了%0s任務，完成任務後可以獲得神器戒指，以及超值禮包</dialog>
+  <hint id="921" place="8" lanID="50533">
+  </hint>
+  <!--再次點擊取消自動尋路-->
+  <hint id="922" place="1024" lanID="8056">
+  </hint>
+  <hint id="923" place="512" lanID="8057">
+  </hint>
+  <!--寵物1001-1100-->
+  <hint id="1001" place="8" lanID="50170">
+  </hint>
+  <hint id="1002" place="8" lanID="50171">
+  </hint>
+  <hint id="1003" place="8" lanID="50172">
+  </hint>
+  <hint id="1004" place="8" lanID="50173">
+  </hint>
+  <dialog id="1009" lanID="50174">
+  </dialog>
+  <hint id="1012" place="32" lanID="50175">
+  </hint>
+  <dialog id="1013" lanID="50176">
+  </dialog>
+  <dialog id="1016" lanID="50177">
+  </dialog>
+  <hint id="1017" place="8" lanID="50178">
+  </hint>
+  <hint id="1018" place="8" lanID="50179">
+  </hint>
+  <hint id="1019" place="8" lanID="50180">
+  </hint>
+  <hint id="1020" place="8" lanID="50181">
+  </hint>
+  <hint id="1021" place="8" lanID="50182">
+  </hint>
+  <dialog id="1022" lanID="50183">
+  </dialog>
+  <hint id="1023" place="8" lanID="50184">
+  </hint>
+  <hint id="1024" place="8" lanID="50185">
+  </hint>
+  <hint id="1025" place="8" lanID="50186">
+  </hint>
+  <hint id="1026" place="256" type="1" lanID="50187">
+  </hint>
+  <hint id="1027" place="8" lanID="50188">
+  </hint>
+  <hint id="1028" place="8" lanID="50189">
+  </hint>
+  <hint id="1029" place="8" lanID="50190">
+  </hint>
+  <hint id="1030" place="8" lanID="50191">
+  </hint>
+  <hint id="1031" place="8" lanID="50192">
+  </hint>
+  <hint id="1032" place="8" lanID="50193">
+  </hint>
+  <hint id="1033" place="8" lanID="50194">
+  </hint>
+  <hint id="1034" place="8" lanID="50195">
+  </hint>
+  <hint id="1035" place="8" lanID="50196">
+  </hint>
+  <!--召喚獸欄已滿-->
+  <hint id="1036" place="256" type="1" lanID="50197">
+  </hint>
+  <!--融合成功-->
+  <hint id="1037" place="256" type="3" lanID="50198">
+  </hint>
+  <!--融合失敗-->
+  <hint id="1038" place="8" lanID="50199">
+  </hint>
+  <!--放生召喚獸失敗-->
+  <hint id="1039" place="8" lanID="50200">
+  </hint>
+  <!--融合等級不足-->
+  <dialog id="1040" lanID="50201">
+  </dialog>
+  <hint id="1041" place="8" lanID="50202">
+  </hint>
+  <!--新增-->
+  <hint id="1042" place="8" lanID="50203">
+  </hint>
+  <!--新增-->
+  <hint id="1043" place="8" lanID="50204">
+  </hint>
+  <!--新增-->
+  <hint id="1045" place="32" lanID="50205">
+  </hint>
+  <hint id="1046" place="8" lanID="50206">
+  </hint>
+  <hint id="1047" place="8" lanID="50207">
+  </hint>
+  <hint id="1048" place="8" lanID="50208">
+  </hint>
+  <dialog id="1049" lanID="35069">
+  </dialog>
+  <dialog id="1050" lanID="50510">
+  </dialog>
+  <!--寵靈藥水-->
+  <hint id="1051" place="8" lanID="35075">
+  </hint>
+  <!--融合失敗，副召喚獸需要%級-->
+  <hint id="1052" place="8" lanID="35076">
+  </hint>
+  <!--主召喚獸等級不足%級，無法做爲主召喚獸進行融合。評分越高，融合所需的等級越高。-->
+  <hint id="1053" place="8" lanID="35079">
+  </hint>
+  <!--學習失敗，%s無法學習該技能-->
+  <hint id="1054" place="8" lanID="35086">
+  </hint>
+  <!--該召喚獸等級不足，無法學習技能-->
+  <hint id="1055" place="8" lanID="35087">
+  </hint>
+  <!--召喚獸沒有達到魔法力要求，無法學習技能-->
+  <hint id="1056" place="8" lanID="35088">
+  </hint>
+  <!--金幣不足，無法學習技能-->
+  <hint id="1057" place="8" lanID="35089">
+  </hint>
+  <!--信仰力不足，無法學習技能-->
+  <hint id="1058" place="8" lanID="35090">
+  </hint>
+  <!--背包內沒有%s初級技能書，無法學習。-->
+  <hint id="1059" place="8" lanID="35092">
+  </hint>
+  <!--召喚獸沒有達到魔法力要求，無法升級技能-->
+  <hint id="1060" place="8" lanID="35093">
+  </hint>
+  <!--金幣不足，無法升級技能-->
+  <hint id="1061" place="8" lanID="35094">
+  </hint>
+  <!--信仰力不足，無法升級技能-->
+  <dialog id="1062" lanID="100159">
+  </dialog>
+  <hint id="1063" place="8" lanID="35096">
+  </hint>
+  <!--參加女神祝福和在線冥想可以拿信仰-->
+  <!--聊天1101-1200-->
+  <hint id="1101" place="4" chatChannel="5" lanID="50209">
+  </hint>
+  <hint id="1102" place="4" chatChannel="5" lanID="50210">
+  </hint>
+  <hint id="1103" place="4" chatChannel="5" lanID="50211">
+  </hint>
+  <hint id="1104" place="4" chatChannel="5" lanID="50212">
+  </hint>
+  <hint id="1105" place="4" chatChannel="5" lanID="50213">
+  </hint>
+  <hint id="1106" place="4" chatChannel="5" lanID="50214">
+  </hint>
+  <hint id="1107" place="4" chatChannel="5" lanID="50215">
+  </hint>
+  <hint id="1108" place="4" chatChannel="5" lanID="50216">
+  </hint>
+  <hint id="1109" place="4" chatChannel="5" lanID="50217">
+  </hint>
+  <hint id="1110" place="4" chatChannel="5" lanID="50218">
+  </hint>
+  <hint id="1111" place="4" chatChannel="5" lanID="50219">
+  </hint>
+  <hint id="1112" place="4" chatChannel="5" lanID="50220">
+  </hint>
+  <!--連接聊天服成功提示-->
+  <!--新增-->
+  <hint id="1113" place="4" chatChannel="5" lanID="50221">
+  </hint>
+  <!--新增-->
+  <hint id="1114" place="4" chatChannel="5" lanID="50222">
+  </hint>
+  <!--新增-->
+  <hint id="1115" place="4" chatChannel="5" lanID="50223">
+  </hint>
+  <!--新增-->
+  <hint id="1116" place="4" chatChannel="5" lanID="12017">
+  </hint>
+  <hint id="1117" place="8" lanID="12022">
+  </hint>
+  <hint id='1119' place='4' chatChannel="5" lanID='81129'></hint><!---您還沒進入戰場，無法使用戰場頻道-->
+  <!--号角数量不足提示-->
+  <!--新增-->
+  <!--星座1201-1300-->
+  <hint id="1201" place="8" lanID="50224">
+  </hint>
+  <hint id="1203" place="8" lanID="50225">
+  </hint>
+  <hint id="1204" place="8" lanID="50226">
+  </hint>
+  <hint id="1205" place="8" lanID="50227">
+  </hint>
+  <!---覺醒-->
+  <hint id="1206" place="8" lanID="50228">
+  </hint>
+  <hint id="1207" place="8" lanID="50229">
+  </hint>
+  <!--戰鬥1301-1400-->
+  <hint id="1301" place="8" lanID="50230">
+  </hint>
+  <hint id="1302" place="8" lanID="50231">
+  </hint>
+  <hint id="1303" place="8" lanID="50232">
+  </hint>
+  <hint id="1304" place="8" lanID="50233">
+  </hint>
+  <hint id="1305" place="8" lanID="50234">
+  </hint>
+  <hint id="1306" place="8" lanID="50235">
+  </hint>
+  <hint id="1307" place="8" lanID="50236">
+  </hint>
+  <hint id="1308" place="8" lanID="50237">
+  </hint>
+  <hint id="1309" place="8" lanID="50238">
+  </hint>
+  <!--戰鬥1301-1400-->
+  <hint id="1310" place="8" lanID="4016">
+  </hint>
+  <hint id="1311" place="8" lanID="4017">
+  </hint>
+  <hint id="1312" place="8" lanID="4015">
+  </hint>
+  <hint id="1313" place="8" lanID="4018">
+  </hint>
+  <hint id="1314" place="8" lanID="4019">
+  </hint>
+  <!--狀態1401-1500-->
+  <hint id="1401" place="8" lanID="50239">
+  </hint>
+  <hint id="1402" place="8" lanID="50240">
+  </hint>
+  <hint id="1403" place="8" lanID="50241">
+  </hint>
+  <hint id="1404" place="8" lanID="50242">
+  </hint>
+  <hint id="1405" place="8" lanID="50243">
+  </hint>
+  <hint id="1406" place="8" lanID="50244">
+  </hint>
+  <hint id="1407" place="8" lanID="50245">
+  </hint>
+  <hint id="1408" place="8" lanID="50246">
+  </hint>
+  <hint id="1409" place="8" lanID="50247">
+  </hint>
+  <hint id="1410" place="8" lanID="50248">
+  </hint>
+  <!--掛機1501-1600-->
+  <hint id="1501" place="8" lanID="50249">
+  </hint>
+  <hint id="1502" place="8" lanID="50250">
+  </hint>
+  <hint id="1503" place="8" chatChannel="4" lanID="50251">
+  </hint>
+  <!--其實是以前的配置錯誤，顯示在聊天框中的信息應該place='4'-->
+  <hint id="1504" place="8" lanID="50252">
+  </hint>
+  <!--保存掛機設置-->
+  <hint id="1505" place="8" lanID="50253">
+  </hint>
+  <!--新增-->
+  <hint id="1506" place="256" type="1" lanID="50254">
+  </hint>
+  <!--新增-->
+  <!--坐騎冥想1601-1700-->
+  <hint id="1601" place="8" lanID="50255">
+  </hint>
+  <hint id="1602" place="8" lanID="50256">
+  </hint>
+  <hint id="1603" place="8" lanID="50257">
+  </hint>
+  <hint id="1604" place="8" lanID="50258">
+  </hint>
+  <hint id="1605" place="8" lanID="50259">
+  </hint>
+  <hint id="1606" place="8" lanID="50260">
+  </hint>
+  <hint id="1607" place="8" lanID="50261">
+  </hint>
+  <hint id="1608" place="8" lanID="50262">
+  </hint>
+  <!--新增-->
+  <hint id="1609" place="8" lanID="50263">
+  </hint>
+  <!--新增-->
+  <dialog id="1610" lanID="50264">
+  </dialog>
+  <dialog id="1611" lanID="50265">
+  </dialog>
+  <dialog id="1612" lanID="50266">
+  </dialog>
+  <dialog id="1613" lanID="50267">
+  </dialog>
+  <!--登陸，創角1701-1800-->
+  <alert id="1701" lanID="50268">
+  </alert>
+  <alert id="1702" lanID="50269">
+  </alert>
+  <alert id="1703" lanID="50270">
+  </alert>
+  <alert id="1704" lanID="50271">
+  </alert>
+  <alert id="1705" lanID="50272">
+  </alert>
+  <alert id="1706" lanID="50273">
+  </alert>
+  <alert id="1707" lanID="50274">
+  </alert>
+  <alert id="1708" lanID="50275">
+  </alert>
+  <alert id="1709" lanID="50276">
+  </alert>
+  <alert id="1710" lanID="50277">
+  </alert>
+  <alert id="1711" lanID="50278">
+  </alert>
+  <alert id="1712" lanID="50279">
+  </alert>
+  <!--賬號錯誤-->
+  <alert id="1713" lanID="50280">
+  </alert>
+  <!--密碼錯誤-->
+  <alert id="1714" lanID="50281">
+  </alert>
+  <alert id="1715" lanID="50282">
+  </alert>
+  <!--IP被封-->
+  <alert id="1716" lanID="50283">
+  </alert>
+  <alert id="1717" lanID="50284">
+  </alert>
+  <alert id="1718" lanID="50285">
+  </alert>
+  <alert id="1719" lanID="50286">
+  </alert>
+  <alert id="1720" lanID="50287">
+  </alert>
+  <!--選線-->
+  <dialog id="1721" lanID="50288">
+  </dialog>
+  <alert id="1722" lanID="50289">
+  </alert>
+  <dialog id="1723" lanID="50290">
+  </dialog>
+  <alert id="1724" lanID="50291">
+  </alert>
+  <alert id="1726" lanID="50292">
+  </alert>
+  <alert id="1727" lanID="50293">
+  </alert>
+  <dialog id="1728" lanID="50294">
+  </dialog>
+  <dialog id="1729" lanID="50295">
+  </dialog>
+  <alert id="1730" lanID="50296">
+  </alert>
+  <!--姓名檢測不通過-->
+  <alert id="1731" lanID="50297">
+  </alert>
+  <!--姓名檢測通過-->
+  <!--登陸，創角end...1800-->
+  <!--裝備精通1801-1850-->
+  <hint id="1801" place="8" lanID="50298">
+  </hint>
+  <hint id="1802" place="8" lanID="50299">
+  </hint>
+  <hint id="1803" place="8" lanID="50300">
+  </hint>
+  <dialog id="1804" lanID="50301">
+  </dialog>
+  <hint id="1805" place="8" lanID="13012">
+  </hint>
+  <hint id="1806" place="8" lanID="81092">
+  </hint>
+  <hint id="1807" place="8" lanID="81122">
+  </hint>
+  <!--冷卻時間未到，不能使用免費保星-->
+  <!--裝備精通end...1850-->
+  <!--裝備重鑄1851-1900-->
+  <hint id="1851" place="8" lanID="50463">不是裝備，無法重鑄</hint>
+  <hint id="1852" place="8" lanID="50464">該品質裝備，無法重鑄</hint>
+  <hint id="1853" place="8" lanID="50465">該裝備還沒有鑒定過，無法重鑄</hint>
+  <hint id="1854" place="8" lanID="50466">沒有重鑄裝備所需的物品，無法重鑄</hint>
+  <hint id="1855" place="8" lanID="2094">請先放入裝備</hint>
+  <hint id="1856" place="8" lanID="2095">還沒對自動重鑄進行設置無法進行自動重鑄</hint>
+  <hint id="1857" place="8" lanID="2096">此裝備的屬性已經達到自動重鑄的設置要求，無法進行重鑄</hint>
+  <hint id="1858" place="8" lanID="2093">沒有可重鑄的裝備</hint>
+  <!--裝備重鑄end...1900-->
+  <!---->
+  <!--組隊1901-1950-->
+  <hint id="1901" place="256" type="1" lanID="50302">
+  </hint>
+  <hint id="1902" place="256" type="1" lanID="50303">
+  </hint>
+  <hint id="1903" place="8" lanID="50304">
+  </hint>
+  <hint id="1904" place="8" lanID="50305">
+  </hint>
+  <hint id="1905" place="8" lanID="50306">
+  </hint>
+  <hint id="1906" place="8" lanID="50307">
+  </hint>
+  <hint id="1907" place="8" lanID="50308">
+  </hint>
+  <hint id="1908" place="256" type="1" lanID="50309">
+  </hint>
+  <hint id="1909" place="256" type="1" lanID="50310">
+  </hint>
+  <hint id="1910" place="8" lanID="50311">
+  </hint>
+  <hint id="1911" place="8" lanID="50312">
+  </hint>
+  <hint id="1912" place="8" lanID="50313">
+  </hint>
+  <hint id="1913" place="256" type="14" lanID="50314">
+  </hint>
+  <hint id="1914" place="8" lanID="50315">
+  </hint>
+  <hint id="1915" place="8" lanID="50316">
+  </hint>
+  <hint id="1916" place="8" lanID="50317">
+  </hint>
+  <hint id="1917" place="8" lanID="50318">
+  </hint>
+  <hint id="1918" place="2" lanID="50319">
+  </hint>
+  <hint id="1920" place="256" type="1" lanID="50320">
+  </hint>
+  <hint id="1921" place="8" lanID="50321">
+  </hint>
+  <hint id="1922" place="8" lanID="50322">
+  </hint>
+  <hint id="1923" place="8" lanID="50323">
+  </hint>
+  <hint id="1924" place="256" type="1" lanID="50324">
+  </hint>
+  <hint id="1925" place="8" lanID="50325">
+  </hint>
+  <hint id="1926" place="8" lanID="50326">
+  </hint>
+  <hint id="1927" place="8" lanID="50327">
+  </hint>
+  <hint id="1928" place="8" lanID="50328">
+  </hint>
+  <hint id="1929" place="8" lanID="50329">
+  </hint>
+  <hint id="1930" place="8" lanID="50330">
+  </hint>
+  <dialog id="1931" lanID="50331">
+  </dialog>
+  <dialog id="1932" lanID="50332">
+  </dialog>
+  <dialog id="1933" lanID="50333">
+  </dialog>
+  <hint id="1934" place="8" lanID="50334">
+  </hint>
+  <hint id="1935" place="8" lanID="50335">
+  </hint>
+  <dialog id="1940" lanID="50336">
+  </dialog>
+  <dialog id="1941" lanID="50337">
+  </dialog>
+  <hint id="1942" place="8" lanID="50508">
+  </hint>
+  <hint id="1943" place="8" lanID="50509">
+  </hint>
+  <!--組隊end...1950-->
+  <!--活動商城1951-2000-->
+  <hint id="1951" place="8" lanID="50338">
+  </hint>
+  <hint id="1952" place="8" lanID="60336">
+  </hint>
+  <!--活動商城end...2000-->
+  <!--好友2001-2050-->
+  <hint id="2001" place="256" type="1" lanID="50339">
+  </hint>
+  <hint id="2002" place="256" type="1" lanID="50340">
+  </hint>
+  <hint id="2003" place="256" type="1" lanID="50341">
+  </hint>
+  <hint id="2004" place="8" lanID="50342">
+  </hint>
+  <hint id="2005" place="8" lanID="50343">
+  </hint>
+  <hint id="2006" place="256" type="1" lanID="50344">
+  </hint>
+  <hint id="2007" place="8" lanID="50345">
+  </hint>
+  <hint id="2008" place="8" lanID="50346">
+  </hint>
+  <hint id="2009" place="8" lanID="50347">
+  </hint>
+  <hint id="2010" place="256" type="1" lanID="50348">
+  </hint>
+  <hint id="2011" place="8" lanID="50349">
+  </hint>
+  <dialog id="2012" lanID="50350">
+  </dialog>
+  <hint id="2013" place="8" lanID="50351">
+  </hint>
+  <dialog id="2014" lanID="50352">
+  </dialog>
+  <dialog id="2015" lanID="50353">
+  </dialog>
+  <dialog id="2016" lanID="50354">
+  </dialog>
+  <dialog id="2017" lanID="50355">
+  </dialog>
+  <hint id="2018" place="8" lanID="50356">
+  </hint>
+  <hint id="2019" place="8" lanID="50357">
+  </hint>
+  <hint id="2020" place="8" lanID="50358">
+  </hint>
+  <dialog id="2021" lanID="50359">
+  </dialog>
+  <hint id="2022" place="8" lanID="50360">
+  </hint>
+  <hint id="2024" place="8" lanID="50476">
+  </hint>
+  <!--冥想狀態下無法使用追蹤符-->
+  <hint id="2025" place="8" lanID="50477">
+  </hint>
+  <!--戰鬥狀態下無法使用追蹤符-->
+  <hint id="2026" place="8" lanID="50478">
+  </hint>
+  <!--仇人不在線無法查看。-->
+  <hint id="2027" place="8" lanID="50482">
+  </hint>
+  <!--仇人不在線無法查看。-->
+  <hint id="2028" place="8" lanID="50523">
+  </hint>
+  <hint id="2029" place="8" lanID="50524">
+  </hint>
+  <hint id="2030" place="8" lanID="50525">
+  </hint>
+  <hint id="2031" place="8" lanID="50526">
+  </hint>
+  <hint id="2032" place="8" lanID="50527">
+  </hint>
+  <dialog id="2034" lanID="50529">
+  </dialog>
+  <hint id="2035" place="8" lanID="50530">
+  </hint>
+  <hint id="2036" place="8" lanID="50531">
+  </hint>
+  <hint id="2037" place="8" lanID="50532">
+  </hint>
+  <hint id="2038" place="8" lanID="50535">
+  </hint>
+  <!--好友end...2050-->
+  <!--郵件2051-2100-->
+  <hint id="2051" place="8" lanID="50361">
+  </hint>
+  <hint id="2052" place="8" lanID="50362">
+  </hint>
+  <hint id="2053" place="8" lanID="50363">
+  </hint>
+  <hint id="2054" place="8" lanID="50364">
+  </hint>
+  <hint id="2055" place="8" lanID="50365">
+  </hint>
+  <hint id="2056" place="256" type="1" lanID="50366">
+  </hint>
+  <hint id="2057" place="8" lanID="50367">
+  </hint>
+  <hint id="2058" place="8" lanID="50368">
+  </hint>
+  <hint id="2059" place="256" type="1" lanID="50369">
+  </hint>
+  <hint id="2060" place="8" lanID="50370">
+  </hint>
+  <hint id="2061" place="8" lanID="50371">
+  </hint>
+  <hint id="2062" place="8" lanID="50372">
+  </hint>
+  <hint id="2063" place="8" lanID="50373">
+  </hint>
+  <hint id="2064" place="8" lanID="50374">
+  </hint>
+  <alert id="2065" lanID="50375">
+  </alert>
+  <dialog id="2066" lanID="50376">
+  </dialog>
+  <dialog id="2067" lanID="50377">
+  </dialog>
+  <hint id="2068" place="8" lanID="50378">
+  </hint>
+  <!--郵件end-2100-->
+  <!--公會2101-2150-->
+  <hint id="2101" place="8" lanID="50379">
+  </hint>
+  <hint id="2102" place="8" lanID="50380">
+  </hint>
+  <hint id="2103" place="8" lanID="50381">
+  </hint>
+  <hint id="2104" place="8" lanID="50382">
+  </hint>
+  <dialog id="2105" lanID="50383">
+  </dialog>
+  <hint id="2106" place="8" lanID="50384">
+  </hint>
+  <hint id="2107" place="8" lanID="50385">
+  </hint>
+  <hint id="2108" place="8" lanID="50386">
+  </hint>
+  <hint id="2109" place="8" lanID="50387">
+  </hint>
+  <dialog id="2110" lanID="50388">
+  </dialog>
+  <hint id="2111" place="8" lanID="50389">
+  </hint>
+  <hint id="2112" place="8" lanID="50390">
+  </hint>
+  <hint id="2113" place="8" lanID="50391">
+  </hint>
+  <dialog id="2114" lanID="50392">
+  </dialog>
+  <hint id="2115" place="8" lanID="50393">
+  </hint>
+  <hint id="2116" place="8" lanID="50394">
+  </hint>
+  <hint id="2117" place="8" lanID="50395">
+  </hint>
+  <hint id="2118" place="8" lanID="50396">
+  </hint>
+  <dialog id="2119" lanID="50397">
+  </dialog>
+  <hint id="2120" place="8" lanID="50398">
+  </hint>
+  <hint id="2121" place="8" lanID="50399">
+  </hint>
+  <hint id="2122" place="256" type="1" lanID="50400">
+  </hint>
+  <hint id="2123" place="256" type="1" lanID="50401">
+  </hint>
+  <hint id="2124" place="8" lanID="50488">公會聲望不足，無法升級</hint>
+  <hint id="2125" place="8" lanID="50489">公會資金不足以支付升級費用，無法升級</hint>
+  <hint id="2126" place="8" lanID="50490">身上沒有足夠的皇家公會執照或高級皇家公會執照，無法升級</hint>
+  <hint id="2127" place="8" lanID="50491">公會資金超過上限，捐贈失敗</hint>
+  <hint id="2128" place="8" lanID="50499">%0s職位最低貢獻度要%1s</hint>
+  <hint id="2129" place="256" type="1" lanID="50500">公會圖騰開啓</hint>
+  <hint id="2130" place="8" lanID="50501">捐贈資金不能少於%0s</hint>
+  <hint id="2131" place="8" lanID="50544">神獸成年後才能進行試練</hint>
+  <hint id="2132" place="8" lanID="50545">孵化所需公會資金不足</hint>
+  <hint id="2133" place="8" lanID="50546">神獸成長值不足，無法晉級</hint>
+  <hint id="2134" place="8" lanID="50547">神獸已達最高級</hint>
+  <hint id="2135" place="8" lanID="50548">神獸今日已試練過了</hint>
+  <hint id="2136" place="8" lanID="50549">前往鬥獸場後才能進入試練</hint>
+  <hint id="2137" place="8" lanID="50550">背包空位不足，可能會領取不到神獸恩賜，請清空背包後進行喂養</hint>
+  <hint id="2138" place="8" lanID="50551">晉級所需公會資金不足</hint>
+  <!--公會end-2150-->
+  <!--副本提示2201-2300-->
+  <hint id="2201" place="8" lanID="50402">
+  </hint>
+  <!--未組隊狀態下進入組隊副本-->
+  <hint id="2202" place="8" lanID="50403">
+  </hint>
+  <!--非隊長進入組隊副本-->
+  <hint id="2203" place="8" lanID="50404">
+  </hint>
+  <!--人數過少-->
+  <hint id="2204" place="8" lanID="50405">
+  </hint>
+  <!--人數過多-->
+  <hint id="2205" place="8" lanID="50406">
+  </hint>
+  <!--組隊進單人-->
+  <hint id="2206" place="8" lanID="50407">
+  </hint>
+  <!--等級不足-->
+  <hint id="2207" place="8" lanID="50408">
+  </hint>
+  <!--職業不符-->
+  <hint id="2208" place="8" lanID="50409">
+  </hint>
+  <!--賞金獵人等級不足-->
+  <hint id="2209" place="8" lanID="50410">
+  </hint>
+  <!--星座進度不足-->
+  <hint id="2210" place="8" lanID="50411">
+  </hint>
+  <!--任務未完成-->
+  <hint id="2211" place="8" lanID="50412">
+  </hint>
+  <!--任務未接取-->
+  <hint id="2212" place="8" lanID="50413">
+  </hint>
+  <!--金錢不足-->
+  <hint id="2213" place="8" lanID="50414">
+  </hint>
+  <!--信仰力不足-->
+  <hint id="2214" place="8" lanID="50415">
+  </hint>
+  <!--魔晶不足-->
+  <hint id="2215" place="8" lanID="50416">
+  </hint>
+  <!--物品不足-->
+  <hint id="2216" place="8" lanID="50417">
+  </hint>
+  <!--未選擇副本-->
+  <hint id="2217" place="8" lanID="50418">
+  </hint>
+  <!--新增-->
+  <!--副本提示end...2300-->
+  <!--拍賣行提示2301-2400-->
+  <hint id="2301" place="8" lanID="50419">
+  </hint>
+  <!--出售物品-->
+  <hint id="2302" place="8" lanID="50420">
+  </hint>
+  <!--寄售價格爲0-->
+  <hint id="2303" place="8" lanID="50421">
+  </hint>
+  <!--寄售綁定物品-->
+  <hint id="2304" place="8" lanID="50422">
+  </hint>
+  <!--貨幣不足-->
+  <hint id="2305" place="8" lanID="50487">
+  </hint>
+  <!--出售物品不能超過%s個-->
+  <hint id="2306" place="8" lanID="81059">
+  </hint>
+  <!--只出售信仰罐-->
+  <hint id="2307" place="8" lanID="81063">
+  </hint>
+  <!--信仰罐無法郵寄-->
+  <!--拍賣行提示end...2400-->
+  <!--稱號-->
+  <hint id="2401" place="8" lanID="50423">
+  </hint>
+  <!--新增-->
+  <hint id="2402" place="8" lanID="50424">
+  </hint>
+  <!--新增-->
+  <hint id="2403" place="8" lanID="50425">
+  </hint>
+  <!--新增-->
+  <hint id="2404" place="8" lanID="50426">
+  </hint>
+  <!--新增-->
+  <hint id="2405" place="8" lanID="50427">
+  </hint>
+  <!--新增-->
+  <!--諜影重重-->
+  <hint id="2500" place="8" lanID="50428">
+  </hint>
+  <dialog id="2501" lanID="50429">
+  </dialog>
+  <hint id="2502" place="8" lanID="50430">
+  </hint>
+  <hint id="2503" place="8" lanID="50431">
+  </hint>
+  <!--兌換 2600-2700-->
+  <hint id="2600" place="12" chatChannel="11" lanID="50432">
+  </hint>
+  <hint id="2601" place="12" chatChannel="5" lanID="50433">
+  </hint>
+  <hint id="2602" place="12" chatChannel="5" lanID="50434">
+  </hint>
+  <hint id="2603" place="12" chatChannel="5" lanID="50435">
+  </hint>
+  <!--換線2701~2800-->
+  <hint id="2701" place="2" lanID="50436">
+  </hint>
+  <hint id="2702" place="2" lanID="50437">
+  </hint>
+  <hint id="2703" place="2" lanID="50438">
+  </hint>
+  <hint id="2704" place="2" lanID="50439">
+  </hint>
+  <hint id="2705" place="2" lanID="50440">
+  </hint>
+  <hint id="2706" place="2" lanID="50441">
+  </hint>
+  <hint id="2707" place="2" lanID="50442">
+  </hint>
+  <hint id="2708" place="12" chatChannel="5" lanID="50472">
+  </hint>
+  <hint id="2709" place="8" lanID="60435">
+  </hint>
+  <!--射擊遊戲2801~2900-->
+  <hint id="2801" place="8" lanID="19030">
+  </hint>
+  <!--您的獎勵倉庫剩餘空間不足-->
+  <hint id="2802" place="8" lanID="19031">
+  </hint>
+  <!--您的炮彈不足-->
+  <hint id="2803" place="8" lanID="19032">
+  </hint>
+  <!--使用的炮彈數目至少爲10個-->
+  <!--煉金術-->
+  <hint id="2901" place="8" lanID="9410">
+  </hint>
+  <!--煉金術加的經驗-->
+  <hint id="2902" place="256" type="1" lanID="9405">
+  </hint>
+  <!--煉金成功-->
+  <hint id="2903" place="256" type="3" lanID="9406">
+  </hint>
+  <!--煉金失敗-->
+  <hint id="2904" place="8" lanID="9414">
+  </hint>
+  <!--等級不足以實用煉金藥品-->
+  <hint id="2905" place="8" lanID="9413">
+  </hint>
+  <!--當前等級熟練度已滿-->
+  <hint id="2906" place="8" lanID="9415">
+  </hint>
+  <!--已達到最高級-->
+  <!--尋寶-->
+  <hint id="3001" place="8" lanID="46013">
+  </hint>
+  <!--未學習尋寶技能，無法尋寶-->
+  <hint id="3002" place="8" lanID="46014">
+  </hint>
+  <!--尋寶技能等級不足，需要%s級，當前爲%s級-->
+  <hint id="3003" place="8" lanID="46015">
+  </hint>
+  <!--您的等級不足，需要%s級，當前爲%s級-->
+  <hint id="3004" place="8" lanID="46016">
+  </hint>
+  <!--還未完成任務：%s-->
+  <hint id="3005" place="8" lanID="46017">
+  </hint>
+  <!--當前正在尋寶中-->
+  <hint id="3006" place="8" lanID="46018">
+  </hint>
+  <!--當前地圖考古次數已達到當日上限-->
+  <hint id="3007" place="8" lanID="46019">
+  </hint>
+  <!--未激活尋寶獸-->
+  <hint id="3008" place="8" lanID="46020">
+  </hint>
+  <!--尋寶獸體力不足-->
+  <hint id="3009" place="8" lanID="46021">
+  </hint>
+  <!--背包空間不足，至少需要一格空間-->
+  <hint id="3010" place="8" lanID="46022">
+  </hint>
+  <!--當前不在尋寶中-->
+  <hint id="3011" place="8" lanID="46029">
+  </hint>
+  <!--正在升級尋寶技能，無法進行尋寶-->
+  <hint id="3012" place="8" lanID="46030">
+  </hint>
+  <!--當前尋寶獸已激活-->
+  <hint id="3013" place="8" lanID="46031">
+  </hint>
+  <!--正在進行尋寶，無法激活尋寶獸-->
+  <hint id="3014" place="8" lanID="46039">
+  </hint>
+  <!--金錢不足，無法升級-->
+  <hint id="3015" place="8" lanID="46040">
+  </hint>
+  <!--信仰力不足，無法升級-->
+  <hint id="3016" place="8" lanID="46041">
+  </hint>
+  <!--升級所需的物品不足，無法升級-->
+  <hint id="3017" place="8" lanID="46042">
+  </hint>
+  <!--正在尋寶，無法升級技能-->
+  <hint id="3018" place="8" lanID="46043">
+  </hint>
+  <!--尋寶失敗-->
+  <hint id="3019" place="8" lanID="46047">
+  </hint>
+  <!--還沒領取尋寶獎勵，不能進行尋寶-->
+  <hint id="3020" place="8" lanID="46048">
+  </hint>
+  <!--尋寶已完成-->
+  <hint id="3021" place="8" lanID="46049">
+  </hint>
+  <!--尋寶失敗，沒有可領取的物品-->
+  <hint id="3022" place="8" lanID="46056">
+  </hint>
+  <!--此尋寶獸還不可用-->
+  <hint id="3023" place="8" lanID="46061">
+  </hint>
+  <!--您還沒領取獎勵，請先領取獎勵-->
+  <hint id="3024" place="8" lanID="46065">
+  </hint>
+  <!--绑定的物品不能喂养-->
+  <hint id="3025" place="8" lanID="46080">
+  </hint>
+  <!--背包已滿，無法進行尋寶-->
+  <!--神力爆發3050~3100-->
+  <hint id="3050" place="8" lanID="50537">
+  </hint>
+  <!--爆發點不足，無法爆發-->
+  <hint id="3051" place="8" lanID="50538">
+  </hint>
+  <!--要轉換的信仰力不足，無法轉換-->
+  <hint id="3052" place="8" lanID="50539">
+  </hint>
+  <!--信仰力不足，無法轉換-->
+  <hint id="3053" place="8" lanID="50540">
+  </hint>
+  <!--每小時只能轉換一次-->
+  <hint id="3054" place="8" lanID="50541">
+  </hint>
+  <!--覺醒值未消耗，不需要恢復-->
+  <hint id="3055" place="8" lanID="81054">
+  </hint>
+  <!--當前不在覺醒狀態，無法使用xp技能-->
+  <hint id="3056" place="8" lanID="81056">
+  </hint>
+  <!--覺醒值不足，無法使用技能-->
+  <hint id="3057" place="8" lanID="81057">
+  </hint>
+  <!--尚未學習神力技能-->
+  <!--太陽神3101~3200-->
+  <hint id="3101" place="8" lanID="81004">
+  </hint>
+  <!--升級成功，太陽神徽章升級到%s級-->
+  <hint id="3102" place="8" lanID="81005">
+  </hint>
+  <!--升級失敗，太陽神祝福值增加了-->
+  <hint id="3103" place="8" lanID="81006">
+  </hint>
+  <!--升級成功，契靈升級到%s級-->
+  <hint id="3104" place="8" lanID="81007">
+  </hint>
+  <!--升級失敗，幸運值增加了-->
+  <hint id="3105" place="8" lanID="81008">
+  </hint>
+  <!--契靈生命值已滿，不需要恢複-->
+  <hint id="3106" place="8" lanID="81071">
+  </hint>
+  <!--契靈血量不足，失去契靈效果，屬性下降，請盡快恢復契靈血量-->
+  <hint id="3107" place="8" lanID="81003"></hint><!--背包中升级物品数量不足-->
+  <hint id="3108" place="8" lanID="81124"></hint><!--LuckItem数量不足-->
+  <hint id="3109" place="8" lanID="81125"></hint><!--slowItem数量不足-->
+  <hint id="3110" place="8" lanID="81126"></hint><!--太阳神慢升成功-->
+  <!--VIP3201~3300-->
+  <hint id="3201" place="8" lanID="50566">
+  </hint>
+  <!--您當前的免費原地複活次數已用完-->
+  <hint id="3202" place="8" lanID="81074">
+  </hint>
+  <!--您當日的免費傳送次數已經用完-->
+  <hint id="3203" place="8" lanID="81075">
+  </hint>
+  <!--您當日的遠程商店次數已經用完-->
+  <hint id="3204" place="8" lanID="81076">
+  </hint>
+  <!--您當日的遠程倉庫次數已經用完-->
+  <hint id="3205" place="8" lanID="81077">
+  </hint>
+  <!--剩餘免費傳送次數(%s/%s)-->
+  <hint id="3206" place="8" lanID="81078">
+  </hint>
+  <!--剩餘免費遠程倉庫使用次數(%s/%s)-->
+  <hint id="3207" place="8" lanID="81079">
+  </hint>
+  <!--剩餘免費遠程商店次數(%s/%s)-->
+  <hint id="3208" place="8" lanID="81100">
+  </hint>
+  <!--體驗VIP無法領取此獎勵，請購買%s級VIP-->
+  <hint id="3209" place="8" lanID="81105">
+  </hint>
+  <!--剩餘免費加速尋寶使用次數(%s/%s)-->
+  <!--採集-->
+  <hint id="4001" place="8" lanID="46032">
+  </hint>
+  <!--背包中沒有採集道具-->
+  <hint id="4002" place="8" lanID="46033">
+  </hint>
+  <!--採集物品使用等級不夠-->
+  <hint id="4003" place="8" lanID="46034">
+  </hint>
+  <!--採集道具耐久度不夠-->
+  <hint id="4004" place="8" lanID="46035">
+  </hint>
+  <!--未學習採集技能-->
+  <hint id="4005" place="8" lanID="46036">
+  </hint>
+  <!--採集技能等級不夠-->
+  <!--更换头像-->
+  <hint id="5000" place="8" lanID="100164">
+  </hint>
+  <!--头像已使用-->
+  <hint id="5001" place="8" lanID="100165">
+  </hint>
+  <!--金币不足，无法兑换头像，头像保存失败。-->
+  <hint id="5002" place="8" lanID="100166">
+  </hint>
+  <!--魔晶不足，无法兑换头像，头像保存失败。-->
+  <hint id="5003" place="8" lanID="100167">
+  </hint>
+  <!--是否確認是要用選擇的頭像？確認後將支付%s金币兌換此頭像。-->
+  <hint id="5004" place="8" lanID="100168">
+  </hint>
+  <!--是否確認是要用選擇的頭像？確認後將支付%s魔晶兌換此頭像。-->
+  <hint id="5005" place="8" lanID="100169"></hint><!--請先選擇一個頭像-->
+  <hint id="5006" place="8" lanID="100809"></hint><!--您已经拥有相同形象的头像了-->
+  <!--通用10001~32767-->
+  <hint id="10001" place="32" lanID="50443">
+  </hint>
+  <hint id="10002" place="8" lanID="50444">
+  </hint>
+  <hint id="10003" place="8" lanID="50445">
+  </hint>
+  <hint id="10004" place="8" lanID="50446">
+  </hint>
+  <!--修改密碼-->
+  <hint id="10005" place="8" lanID="50447">
+  </hint>
+  <!--設定密碼-->
+  <hint id="10006" place="8" lanID="50448">
+  </hint>
+  <!--操作太快-->
+  <hint id="10007" place="8" lanID="50449">
+  </hint>
+  <!--原密碼錯誤-->
+  <hint id="10008" place="8" lanID="50450">
+  </hint>
+  <!--該位置無法前往-->
+  <hint id="10009" place="8" lanID="46207">
+  </hint>
+  <!--背包空間不足-->
+  <hint id="10010" place="8" lanID="100063">
+  </hint>
+  <!--接取等級不夠-->
+  <hint id="10011" place="8" lanID="46211">
+  </hint>
+  <!--您已經在試煉塔中了，請離開試煉塔後再選擇進入-->
+  <hint id="10012" place="8" lanID="19003">
+  </hint>
+  <!--等級不足-->
+  <dialog id="10013" lanID="100140">
+  </dialog>
+  <hint id="10014" place="2048" lanID="100181" delay="5" size="30" color="0xFFFF00" font="Microsoft YaHei" />
+  <!--已進入冥想區-->
+  <hint id="10015" place="2048" lanID="100182" delay="5" size="30" color="0xFFFF00" font="Microsoft YaHei" />
+  <!--已進入退出區-->
+  <!--任務功能用6000~7000-->
+  <hint id="6000" place="32" lanID="50455">開啓寶箱後，您將進入“被封印的世界”，與箱魂對話可進行挑戰。若您的神力不足，箱魂將會拒絕您的挑戰。</hint>
+  <hint id="6001" place="32" lanID="0">您即將前往惡魔奧弗尼爾的巢穴探險。有傳聞說，惡魔深淵是惡魔的世界，您最好多招募些同伴前往！</hint>
+  <hint id="6002" place="32" lanID="0">您即將前往冥界探險。有傳聞說，那裏是亡魂騎士墨菲斯托的安魂之所，您最好多招募些同伴前往往！</hint>
+ 
+  <!--神魔战场-->
+  <hint id='8004' place='8' lanID='60623'>报名成功</hint> 
+  <hint id='8005' place='8' lanID='60624'>无细节</hint> 
+  <hint id='8006' place='8' lanID='60625'>非法阵营id</hint> 
+  <hint id='8007' place='8' lanID='60626'>非法活动id</hint> 
+  <hint id='8008' place='8' lanID='60627'>非神魔战场</hint> 
+  <hint id='8009' place='8' lanID='60628'>活动未开始</hint> 
+  <hint id='8010' place='8' lanID='60629'>名額已滿報名結束</hint> 
+  <hint id='8011' place='8' lanID='60630'>名额已满</hint> 
+  <hint id='8012' place='8' lanID='60631'>已在神魔战场中</hint> 
+  <hint id='8013' place='8' lanID='60632'>禁止加入</hint> 
+  <hint id='8014' place='8' lanID='60633'>天堂一線不能參加神魔戰場</hint> 
+  <hint id='8015' place='8' lanID='60634'>禁止投票</hint> 
+  <hint id='8016' place='8' lanID='60635'>今天已无多余的投票机会</hint> 
+  <hint id='8017' place='8' lanID='60636'>投票失敗</hint> 
+  <hint id='8018' place='8' lanID='60637'>投票成功</hint> 
+  <hint id='8019' place='8' lanID='60638'>禁止報名</hint> 
+  <hint id='8020' place='8' lanID='60639'>非法分線</hint> 
+  <hint id='8021' place='8' lanID='60640'>重複報名</hint> 
+  <hint id='8022' place='8' lanID='60641'>報名結束</hint> 
+  <hint id='8023' place='8' lanID='60642'>報名失敗</hint> 
+  <hint id='8024' place='8' lanID='60643'>報名未開始</hint> 
+  <hint id='8025' place='8' lanID='60646'>等級不符合要求</hint> 
+  <hint id='8026' place='8' lanID='60647'>已身在神魔战场中</hint> 
+  <hint id='8027' place='8' lanID='60648'>達到%0s才可進入神魔戰場</hint> 
+  
+  <!--装备强化-->
+  <hint id='8030' place='8' lanID='60654'>强化成功</hint>
+  <hint id='8031' place='8' lanID='60655'>强化失败，强化等级保持不变</hint>
+  <hint id='8032' place='8' lanID='60656'>强化失败</hint>
+  <hint id='8033' place='8' lanID='60657'>真气不足</hint>
+  <hint id='8034' place='8' lanID='60658'>金币不足</hint>
+  <hint id='8035' place='8' lanID='60659'>装备强化等级达到最高级</hint>
+  <hint id='8036' place='8' lanID='60664'>选择的强化等级低于装备的强化等级，不能进行强化</hint>
+  <hint id='8037' place='8' lanID='60668'>装备强化等级已达到最高级，提升角色等级后可以继续进行强化</hint>
+  <hint id='8038' place='8' lanID='60669'>物品数量不足</hint>
+  <hint id='8039' place='8' lanID='60670'>输入的强化等级已经达到可升级的最高等级</hint>
+  <hint id='8040' place='8' lanID='60671'>输入的强化等级已经达到可升级的最低等级</hint>
+  <hint id='8041' place='8' lanID='60673'>强化失败，装备损坏了！</hint>
+  
+  <!--宝石镶嵌-->
+  <hint id='8101' place='8' lanID='81302'></hint><!--宝石部位不符-->
+  <hint id='8102' place='8' lanID='81303'></hint><!--鑲嵌槽位不足-->
+  <hint id='8103' place='8' lanID='81304'></hint><!--镶嵌槽位不足，请先摘取宝石后再进行镶嵌-->
+  <hint id='8104' place='8' lanID='81306'></hint><!--沒有可以鑲嵌的寶石-->
+  <hint id='8105' place='8' lanID='81308'></hint><!--合成寶石不足-->
+  <hint id='8106' place='8' lanID='81309'></hint><!--請按順序依次開啟插槽-->
+  <hint id='8107' place='8' lanID='81310'></hint><!--该插槽不可开启-->
+  <hint id='8108' place='8' lanID='81311'></hint><!--该插槽已经开启-->
+  <hint id='8109' place='8' lanID='81312'></hint><!--装备未鉴定-->
+  <hint id='8110' place='8' lanID='81313'></hint><!--金钱不足-->
+  <hint id='8111' place='8' lanID='81326'></hint><!--物品数量不足-->
+  <hint id='8112' place='8' lanID='81327'></hint><!--背包剩餘空間不足-->
+  <hint id='8113' place='8' lanID='81328'></hint><!--信仰力不足-->
+  <hint id='8114' place='8' lanID='81329'></hint><!--金钱不足-->
+  <hint id='8115' place='8' lanID='81330'></hint><!--合成所需物品不足-->
+  <!--首冲礼包8151~8160占用-->
+  <hint id="8151" place="8" lanID="100761"></hint><!--您还未充值过，首冲礼包不可领取-->
+  <hint id="8152" place="8" lanID="100762"></hint><!--首冲礼包已领取-->
+  <!--占星功能用8161~8170-->
+  <hint id='8161' place='32' lanID='100780'></hint><!--信仰力不足-->
+  <hint id='8162' place='32' lanID='100781'></hint><!--请勾选运势品质-->
+
+</hints>

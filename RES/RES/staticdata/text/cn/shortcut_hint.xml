@@ -1,0 +1,31 @@
+﻿<hints>
+	<!--快捷提示2101-2200-->
+	<shortcut id='2101' title='獲得裝備' level='10' buttonText='立即裝備' content=" 獲得新裝備%0s，比您當前的裝備更好，是否馬上裝備？"></shortcut>
+	<shortcut id='2102' title='藥水不足' level='7' buttonText='自動尋路' content=" 您的“生命藥水”不足，是否自動尋路到藥品商人處？"></shortcut>
+	<shortcut id='2103' title='藥水不足' level='7' buttonText='自動尋路' content=" 您的“魔法藥水”不足，是否自動尋路到藥品商人處？"></shortcut>
+	<shortcut id='2104' title='召喚獸忠誠度過低' level='17' buttonText='立即使用' content=" 您的召喚獸忠誠度過低，是否使用“馴養之證”提升？"></shortcut>
+	<shortcut id='2105' title='馴養之證不足' level='17' buttonText='自動尋路' content=" 您的“馴養之證”不足，是否自動尋路到召喚獸商人處？"></shortcut>
+	<shortcut id='2106' title='號角不足' level='1' buttonText='購買' content=" 您背包中的號角數量為0，進行購買後可以繼續發送號角信息"></shortcut>
+	<shortcut id='2107' title='技能學習' level='1' buttonText='立即學習' content=" 您的等級達到%0s級，可以學習%1s技能。"></shortcut>
+	<shortcut id='2108' title='技能升級' level='4' buttonText='立即升級' content=" 您的等級達到%0s級，可以升級%1s技能。"></shortcut>
+	<shortcut id='2109' title='技能學習' level='4' buttonText='立即學習' content=" 您獲得了%0s技能書，是否立即學習。"></shortcut>
+	<shortcut id='2110' title='召喚獸獲取' level='5' maxLevel='999' buttonText='立即獲得' content=" 您獲得了%0s，是否立即解封召喚獸。"></shortcut>
+	<shortcut id='2111' title='騎寵獲取' level='11' buttonText='立即獲得' content=" 您獲得了%0s，是否立即釋放到騎寵欄中。"></shortcut>
+	<shortcut id='2112' title='召喚獸欄已滿' level='11' buttonText='查看' content=" 您的召喚獸欄位已滿，可以將不需要的召喚獸進行封印或者放生空出召喚獸欄位空間。"></shortcut>
+	<shortcut id='2113' title='信仰力槽接近上限' level='10' buttonText='星座覺醒' content=" 您的信仰力已經接近上限，推薦您進行星座覺醒獲得強大的屬性加成。"></shortcut>
+	<shortcut id='2114' title='召喚獸忠誠度過低' level='17' buttonText='立即使用' content=" 您的%0s召喚獸忠誠度過低，已經自動解體，是否使用“馴養之證”來提升寵物忠誠度？"></shortcut>
+	<shortcut id='2115' title='召喚獸忠誠度過低' level='17' buttonText='立即使用' content=" 您的%0s召喚獸忠誠度過低，已經自動收回，是否使用“馴養之證”來提升寵物忠誠度？"></shortcut>
+	<shortcut id='2116' title='星座成功率低於50%' level='10' buttonText='購買' content=" 注意：您當前星座覺醒率低於50%，推薦您使用幸運之星提高成功率"></shortcut>
+	<shortcut id='2117' title='獲得普通VIP卡' level='3' buttonText='馬上使用' content="恭喜您獲得了%0s，是否馬上使用成為尊貴的VIP用戶，享受眾多獨有的VIP服務？"></shortcut>
+	<shortcut id='2118' title='自動掛機提示' level='0' buttonText='自動掛機' content="是否使用自動掛機功能，輕鬆完成任務？"></shortcut>
+	<shortcut id='2119' title='背包剩餘空間低' level='0' buttonText='整理背包' content="您的背包已經快滿了，是否立即整理？"></shortcut>
+	<shortcut id='2120' title='背包已滿' level='0' buttonText='整理背包' content="您的背包已滿，是否立即整理？"></shortcut>
+	<shortcut id='2121' title='神力技能' level='999' buttonText='使用' content="您的神力技能已經可以使用，馬上使用即可體驗秒殺怪物，技能大爆發的快感"></shortcut>
+	<shortcut id='2122' title='獲得2級VIP卡' level='3' buttonText='馬上使用' content="恭喜您獲得了%0s，是否馬上使用成為尊貴的2級VIP用戶，享受眾多獨有的VIP服務？"></shortcut>
+	<shortcut id='2123' title='獲得3級VIP卡' level='3' buttonText='馬上使用' content="恭喜您獲得了%0s，是否馬上使用成為尊貴的3級VIP卡用戶，享受眾多獨有的VIP服務？"></shortcut>
+	<shortcut id='2124' title='獲得VIP體驗卡' level='999' buttonText='馬上使用' content="恭喜您獲得了%0s，是否馬上使用成為尊貴的VIP體驗卡用戶，享受眾多獨有的VIP服務？"></shortcut>
+	<shortcut id='2125' title='获得宠物魔法内核' level='1' buttonText='喂养' content="恭喜你获得了珍贵的召唤兽魔法内核，是否马上喂养召唤兽？"></shortcut>
+	<shortcut id='2126' title='经验药水' level='0' buttonText='馬上使用' content="恭喜你获得了%0s，建议马上使用"></shortcut>
+	
+	<!--快捷提示end...2100-->
+</hints>

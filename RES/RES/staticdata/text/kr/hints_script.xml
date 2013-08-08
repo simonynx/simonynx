@@ -1,0 +1,369 @@
+<!--說明：-->
+<!--place: 提示的顯示位置-->
+<!--	1...系統公告（頂部滾動文字）-->
+<!--	2...系統消息（右下角提示）-->
+<!--	4...聊天消息-->
+<!--		chatChannel: 消息顯示頻道（5...系統提示, 11...傳言頻道提示-->
+<!--	8...滾動提示（屏幕中央縱向滾動）-->
+<!--	32...提示框(或帶確定取消的對話框)-->
+<!--	128...滾動提示（屏幕偏右縱向滾動）-->
+<hints>
+  <!--메인퀘스트 던정 알림-->
+  <hint id="100" place="8">귓가에 맴도는 위엄있고 영광스러운 신의 계시가 들리지 않습니까?</hint>
+  <hint id="101" place="32" title="퀘스트 TIP">이 곳은 신과 너무 멀리 떨어져 있어 그대의 진심어린 경건한 마음이 신들의 황제 오딘에게 전해지기 어려울 것입니다.</hint>
+  <hint id="102" place="8">질서와 혼돈의 충돌로 변이된 시공간 속 한 줄기 빛 아래 서서 저 멀리 심연에서 뿜어져나와 형성된 정체모를 어둠의 형체와 마주하고 있습니다.</hint>
+  <hint id="103" place="32" title="퀘스트 TIP">이 곳에선 그대의 진심어린 경건한 마음이 신에게 전해지기 어려울 것입니다.</hint>
+  <hint id="104" place="8">브렌마을 여신연못과 같은 기운이 느껴집니다..</hint>
+  <hint id="105" place="8">대지의 진동과 함께 귓가를 파고드는 분노와 고통의 소리에 낭독을 멈췄습니다. </hint>
+  <hint id="106" place="32" title="퀘스트 TIP">마법진 근처에서 희미하고 가느다란 목소리가 들려오지만 자세히 듣기 위해서는 조금 더 가까이 다가가야 할 것 같습니다.</hint>
+  <hint id="107" place="8">갑자기 그림자 하나가 튀어나왔습니다!</hint>
+  <hint id="108" place="32" title="퀘스트 TIP">이 곳에 말러가 없을 수도 있습니다!</hint>
+  <hint id="109" place="8">천천히 타오르는 시체는 더 이상 형체를 알아볼 수 없습니다....</hint>
+  <hint id="110" place="32" title="퀘스트 TIP">이 근처에는 태울만한 것이 별로 없습니다.....</hint>
+  <hint id="111" place="32" title="퀘스트 TIP">소환완료</hint>
+  <hint id="112" place="32" title="퀘스트 TIP">소환완료</hint>
+  <hint id="113" place="8">사악한 주술로 저 멀리 안개 속에서 나타난 악령이 공격을 퍼붓기 시작했습니다.</hint>
+  <hint id="114" place="32" title="퀘스트 TIP">소환완료</hint>
+  <hint id="115" place="32" title="퀘스트 TIP">만일의 경우에 대비하여 도움을 받을 수 있는 곳에서 독니를 뽑아버리는 것이 좋을 것입니다.....</hint>
+  <hint id="116" place="8">하늘이 갈라지고 땅이 흔들리는 듯한 소리의 정의와 영광의 맹세는 어둠속에 만연한 퇴폐의 소리를 쓸어버렸습니다.</hint>
+  <hint id="117" place="32" title="퀘스트 TIP">소환완료</hint>
+  <hint id="118" place="32" title="퀘스트 TIP">혈맥을 안정시켜 사악함을 물리칠 수 있도록 용기를 북돋아 줍니다.</hint>
+  <hint id="119" place="32" title="퀘스트 TIP">제 목숨을 걸고 맹세합니다. 내 몸에 부어진 신성한 기름에 부끄럽지 않도록 정의와 영광을 제 어깨에 지고 갈 것입니다；속박을 단번에 끊어버릴 수 있는 보검으로 재앙에 저항하고 약자를 보호하는 보루이자 진리의 수호자입니다；빛을 향해 나아가는 여정에서 정의와 영광이 나의 갑옷을 비추어 끝이 보이지 않는 어둠과 사악함에 맞서 승리할 수 있길 바랍니다!</hint>
+  <hint id="120" place="32" title="퀘스트 TIP">대주교가 계단에서 당신을 기다리고 있습니다!</hint>
+  <hint id="121" place="32" title="퀘스트 TIP">병이 깨지면서 독소가 먼지처럼 흩날려 부패된 시체의 점액 위로 떨어졌습니다.</hint>
+  <hint id="122" place="32" title="퀘스트 TIP">물약은 위험한 기운을 풍기고 있으니 함부로 사용하지 마세요.</hint>
+  <hint id="123" place="32" title="퀘스트 TIP">진짜와 꼭 닮은 형상이 표지의 도안으로부터 비춰져나왔습니다.기사단은 가시 깃발 아래에서 돌격했습니다.</hint>
+  <hint id="124" place="32" title="퀘스트 TIP">마치 표면은 깍아낸 듯 합니다. 반드시 불빛 아래에서 사용해야 합니다.</hint>
+  <hint id="125" place="32" title="퀘스트 TIP">빛이 눈앞의 모든것을 태워버다 못해 모든 위장을 무력화시킵니다.</hint>
+  <hint id="126" place="32" title="퀘스트 TIP">그 안에 압축되어 있는 빛이 뿜어져 나오려는 힘은 너무 강하여 손이 델듯이 뜨겁습니다.</hint>
+  <hint id="127" place="32" title="퀘스트 TIP">맹렬하고 짧은 불빛은 마치 주위의 생명을 삼켜버리는 듯 하여 사람을 질식하게 만듭니다.</hint>
+  <hint id="128" place="32" title="퀘스트 TIP">그것은 마치 스스로 의식이 있는 듯 당신에게 신전을 파괴하라고 부추깁니다.</hint>
+  <hint id="129" place="32" title="퀘스트 TIP">그것은 땅에 떨어져 녹색의 파도 소용돌이마냥 제단을 휩쓸어 버렸습니다.</hint>
+  <hint id="130" place="32" title="퀘스트 TIP">그것이 포함한 생명력이 갈수록 미약해지고 있습니다. 서둘러 목표를 달성해야 합니다......</hint>
+  <hint id="131" place="8">도무지 믿을 수가 없습니다.이 작은 것들이 주문을 차단한 것처럼 그 위력이 강대합니다.</hint>
+  <hint id="132" place="32" title="퀘스트 TIP">소환완료</hint>
+  <hint id="133" place="32" title="퀘스트 TIP">카도즈는 이 약물은 귀중한 것이라 반드시 목적지에서 사용해야 한다고 당부했습니다.</hint>
+  <hint id="134" place="8">귓가에 울려퍼지는 선서는 눈앞의 사악한 힘을 분별하는 힘을 주었습니다.</hint>
+  <hint id="135" place="32" title="퀘스트 TIP">소환완료</hint>
+  <hint id="136" place="32" title="퀘스트 TIP">솟아오르려는 태양보다 먼저 희미한 빛으로나마 백골 제단을 가르키고 있습니다.</hint>
+  <hint id="137" place="8">온 세상이 모든 것을 뱉어내는 듯한 느낌을 받게 됩니다......</hint>
+  <hint id="138" place="32" title="퀘스트 TIP">절대 함부로 맛을 보면 안되는 것입니다....</hint>
+  <hint id="139" place="8">궁의 모든 형상을 스크롤에 비추고 있습니다.</hint>
+  <hint id="140" place="32" title="퀘스트 TIP">반드시 정해진 곳에서 사용해야 합니다. 그렇지 않으면 퀘스트를 완료하지 못할 뿐 아니라 상금도 받을 수 없습니다.</hint>
+  <hint id="141" place="8">도무지 읽어내려갈 수가 없습니다......</hint>
+  <hint id="142" place="32" title="퀘스트 TIP">반드시 정해진 곳에서 사용해야 합니다. 그렇지 않으면 퀘스트를 완료하지 못할 뿐 아니라 상금도 받을 수 없습니다.</hint>
+  <hint id="143" place="8">점점 더 붉어지고 크기는 커지고 있습니다......</hint>
+  <hint id="144" place="32" title="퀘스트 TIP">소환완료</hint>
+  <hint id="145" place="32" title="퀘스트 TIP">반드시 정해진 곳에서 사용해야 합니다. 그렇지 않으면 퀘스트를 완료하지 못할 뿐 아니라 상금도 받을 수 없습니다.</hint>
+  <hint id="146" place="8">점점 더 붉어지고 크기는 커지고 있습니다......</hint>
+  <hint id="147" place="32" title="퀘스트 TIP">소환완료</hint>
+  <hint id="148" place="32" title="퀘스트 TIP">반드시 정해진 곳에서 사용해야 합니다. 그렇지 않으면 퀘스트를 완료하지 못할 뿐 아니라 상금도 받을 수 없습니다.</hint>
+  <hint id="149" place="8">벼락의 분노!</hint>
+  <hint id="150" place="32" title="퀘스트 TIP">소환완료</hint>
+  <hint id="151" place="32" title="퀘스트 TIP">반드시 정해진 곳에서 사용해야 합니다. 그렇지 않으면 퀘스트를 완료하지 못할 뿐 아니라 상금도 받을 수 없습니다.</hint>
+  <hint id="152" place="8">탕탕……</hint>
+  <hint id="153" place="32" title="퀘스트 TIP">소환완료</hint>
+  <hint id="154" place="32" title="퀘스트 TIP">반드시 정해진 곳에서 사용해야 합니다. 그렇지 않으면 퀘스트를 완료하지 못할 뿐 아니라 상금도 받을 수 없습니다.</hint>
+  <hint id="155" place="8">한 그림자가 벌벌 떨고 있는 제라레인 몸속에서 나왔습니다.</hint>
+  <hint id="156" place="32" title="퀘스트 TIP">소환완료</hint>
+  <hint id="157" place="32" title="퀘스트 TIP">반드시 정해진 곳에서 사용해야 합니다. 그렇지 않으면 퀘스트를 완료하지 못할 뿐 아니라 상금도 받을 수 없습니다.</hint>
+  <hint id="158" place="8">타올라봤자 별 다른게 없군요……</hint>
+  <hint id="159" place="32" title="퀘스트 TIP">반드시 정해진 곳에서 사용해야 합니다. 그렇지 않으면 퀘스트를 완료하지 못할 뿐 아니라 상금도 받을 수 없습니다.</hint>
+  <hint id="160" place="8">짧고 굵은 파동으로 스크롤이 위장을 모두 무력화시켰습니다.</hint>
+  <hint id="161" place="32" title="퀘스트 TIP">소환완료</hint>
+  <hint id="162" place="32" title="퀘스트 TIP">미세한 통증은 당신이 앞으로 나아갈 수 있는 촉진제 역할을 합니다.</hint>
+  <hint id="163" place="8">짧고 굵은 파동으로 스크롤이 위장을 모두 무력화시켰습니다.</hint>
+  <hint id="164" place="32" title="퀘스트 TIP">소환완료</hint>
+  <hint id="165" place="32" title="퀘스트 TIP">미세한 통증은 당신이 앞으로 나아갈 수 있는 촉진제 역할을 합니다.</hint>
+  <hint id="166" place="8">상대는 휘날리는 꽃잎과 은은하게 들려오는 휘파람 소리 속에서 나타났습니다……</hint>
+  <hint id="167" place="32" title="퀘스트 TIP">소환완료</hint>
+  <hint id="168" place="32" title="퀘스트 TIP">반드시 정해진 곳에서 사용해야 합니다. 그렇지 않으면 퀘스트를 완료하지 못할 뿐 아니라 상금도 받을 수 없습니다.</hint>
+  <hint id="169" place="8">짧고 굵은 파동으로 스크롤이 위장을 모두 무력화시켰습니다.</hint>
+  <hint id="170" place="32" title="퀘스트 TIP">소환완료</hint>
+  <hint id="171" place="32" title="퀘스트 TIP">미세한 통증은 당신이 앞으로 나아갈 수 있는 촉진제 역할을 합니다.</hint>
+  <hint id="172" place="8">어둠속에서 갑자기 기습했습니다……</hint>
+  <hint id="173" place="32" title="퀘스트 TIP">소환완료</hint>
+  <hint id="174" place="32" title="퀘스트 TIP">반드시 정해진 곳에서 사용해야 합니다. 그렇지 않으면 퀘스트를 완료하지 못할 뿐 아니라 상금도 받을 수 없습니다.</hint>
+  <hint id="175" place="8">몸 안의 내장들까지 파괴되었습니다……</hint>
+  <hint id="176" place="32" title="퀘스트 TIP">소환완료</hint>
+  <hint id="177" place="32" title="퀘스트 TIP">반드시 정해진 곳에서 사용해야 합니다. 그렇지 않으면 퀘스트를 완료하지 못할 뿐 아니라 상금도 받을 수 없습니다.</hint>
+  <hint id="178" place="8">“뻑뻑뻑”</hint>
+  <hint id="179" place="32" title="퀘스트 TIP">소환완료</hint>
+  <hint id="180" place="32" title="퀘스트 TIP">반드시 정해진 곳에서 사용해야 합니다. 그렇지 않으면 퀘스트를 완료하지 못할 뿐 아니라 상금도 받을 수 없습니다.</hint>
+  <hint id="181" place="8">눈 앞에 서 있는 괴물은 전보다 더 기형의 모습으로 변한 것 같습니다……</hint>
+  <hint id="182" place="32" title="퀘스트 TIP">소환완료</hint>
+  <hint id="183" place="32" title="퀘스트 TIP">반드시 정해진 곳에서 사용해야 합니다. 그렇지 않으면 퀘스트를 완료하지 못할 뿐 아니라 상금도 받을 수 없습니다.</hint>
+  <hint id="184" place="8">그 물건을 만들어 낸 사람은 당신에게 불만이 많은 것 같으니 대화로 풀어볼 필요가 있는 듯 합니다……</hint>
+  <hint id="185" place="32" title="퀘스트 TIP">소환완료</hint>
+  <hint id="186" place="32" title="퀘스트 TIP">반드시 정해진 곳에서 사용해야 합니다. 그렇지 않으면 퀘스트를 완료하지 못할 뿐 아니라 상금도 받을 수 없습니다.</hint>
+  <hint id="187" place="8">입 빼고는 아무런 쓸모없는 몬스터가 당신을 향해 포효하고 있습니다</hint>
+  <hint id="188" place="32" title="퀘스트 TIP">소환완료</hint>
+  <hint id="189" place="32" title="퀘스트 TIP">반드시 정해진 곳에서 사용해야 합니다. 그렇지 않으면 퀘스트를 완료하지 못할 뿐 아니라 상금도 받을 수 없습니다.</hint>
+  <hint id="190" place="8">부패된 시체들은 보아하니 이런 농담은 싫어하는 게 확실하군요.</hint>
+  <hint id="191" place="32" title="퀘스트 TIP">소환완료</hint>
+  <hint id="192" place="32" title="퀘스트 TIP">반드시 정해진 곳에서 사용해야 합니다. 그렇지 않으면 퀘스트를 완료하지 못할 뿐 아니라 상금도 받을 수 없습니다.</hint>
+  <hint id="193" place="8">그들에게 무례를 범한 것 같군요……</hint>
+  <hint id="194" place="32" title="퀘스트 TIP">소환완료</hint>
+  <hint id="195" place="32" title="퀘스트 TIP">드워프의 목표는 여기가 아닙니다.</hint>
+  <hint id="196" place="8">사막이 붕괴되고 거대한 그림자가 나타났습니다.</hint>
+  <hint id="197" place="32" title="퀘스트 TIP">소환완료</hint>
+  <hint id="198" place="32" title="퀘스트 TIP">드워프의 물건을 함부로 건드려서는 안됩니다! 그리고 그들의 궁금증을 자극하지 마세요!</hint>
+  <hint id="199" place="8">"펑"하는 소리와 함께 산산조각 났습니다!</hint>
+  <hint id="200" place="32" title="퀘스트 TIP">소환완료</hint>
+  <hint id="201" place="32" title="퀘스트 TIP">반드시 정해진 곳에서 사용해야 합니다. 그렇지 않으면 퀘스트를 완료하지 못할 뿐 아니라 상금도 받을 수 없습니다.</hint>
+  <hint id="202" place="8">짧고 굵은 파동으로 스크롤이 위장을 모두 무력화시켰습니다.</hint>
+  <hint id="203" place="2048" lanID="100150" delay="5" size="30" color="0xFFFF00" font="Microsoft YaHei" />
+  <!--메인 퀘스트2321-->
+  <hint id="204" place="32" title="퀘스트 TIP">미세한 통증은 당신이 앞으로 나아갈 수 있는 촉진제 역할을 합니다.</hint>
+  <hint id="205" place="8">그것이 폭발하는 힘은 마치 아픈 곳을 건드리는 날카로운 검 같습니다.</hint>
+  <hint id="206" place="32" title="퀘스트 TIP">소환완료</hint>
+  <hint id="207" place="32" title="퀘스트 TIP">반드시 정해진 곳에서 사용해야 합니다. 그렇지 않으면 퀘스트를 완료하지 못할 뿐 아니라 상금도 받을 수 없습니다.</hint>
+  <hint id="208" place="32" title="퀘스트 TIP">온 몸에서 느껴지는 차가운 기운은 당신으로 하여금 아무런 망설임없이 자연을 받아들이도록 만듭니다……</hint>
+  <hint id="209" place="8">보석은 부드럽고 흐릿한 색채의 빛을 뿜어내어 얼음 전사들을 점점 더 유혹합니다.</hint>
+  <hint id="210" place="32" title="퀘스트 TIP">조금 더 멀어져야 탐색팀을 위한 시간을 벌어줄 수 있습니다.</hint>
+  <hint id="211" place="8">난류가 프레디 몸의 얼음을 녹여주고 있어 그의 얼굴색이 회복되었습니다……</hint>
+  <hint id="212" place="32" title="퀘스트 TIP">프레디가 있는 곳에 도착하기 전에 반드시 스크롤의 법력이 사라지는 것을 막아야 합니다.</hint>
+  <hint id="213" place="8">높은 풀삐리 소리가 영혼의 공명을 불러일으켜 빙원은 마치 깊은 잠에서 깨어난 거인마냥 울부짖었습니다...</hint>
+  <hint id="214" place="32" title="퀘스트 TIP">페루는 당신 스스로 소리를 낼 수 없으니 반드시 그 해골유적의 힘을 빌어야 한다고 당부했습니다.</hint>
+  <hint id="215" place="8">눈밭에 가려진 함정을 알아채긴 당신도 마찬가지입니다.</hint>
+  <hint id="216" place="32" title="퀘스트 TIP">함정은 하나만 설치할 수 있으니 더 적합한 곳으로 찾아보세요.</hint>
+  <hint id="217" place="8">신은 무지의 세계에 진입하셨습니다. 수련을 시작하세요.</hint>
+  <hint id="218" place="8">탐욕의 세계에 진입하셨습니다. 수련을 시작하세요.</hint>
+  <hint id="219" place="8">질투의 세계에 진입하셨습니다. 수련을 시작하세요.</hint>
+  <hint id="220" place="8">오만의 세계에 진입하셨습니다. 수련을 시작하세요.</hint>
+  <hint id="221" place="8">지옥 도전을 완료했습니다!</hint>
+  <hint id="222" place="8">무지한 인간같으니라고.. 무지가 당신에게 주는 고통을 고스란히 받아 들이세요!</hint>
+  <hint id="223" place="8">탐욕이 당신에게 주는 고통을 고스란히 받아 들이세요!</hint>
+  <hint id="224" place="8">질투로 인해 스스로 침몰해가는 당신...질투가 당신에게 주는 고통을 고스란히 받아 들이세요!</hint>
+  <hint id="225" place="8">오만은 세상에서 제일 강력한 집념입니다. 오만은 당신에게 참을 수 없는 고통을 줄 것입니다!</hint>
+  <hint id="226" place="32" title="퀘스트 TIP">생명기도문을 획득했습니다.여신의 못 근처로 가서 사용하면 여신 신전에 진입할 수 있습니다.</hint>
+  <hint id="227" place="32" title="퀘스트 TIP">여신상 앞에서 기도해보세요.</hint>
+  <hint id="228" place="8">경건한 마음으로 생명기도문을 낭독하자 한줄기 빛이 당신의 몸을 비추었고 동시에 그림자는 점점 흐릿해지기 시작했습니다...</hint>
+  <hint id="229" place="8">꿈나라의 마력은 천천히 한무리 몬스터들로 응집되어 당신한테 덤벼들었습니다.</hint>
+  <hint id="230" place="8">흉악한 몬스터가 쓰러지자 그 몬스터 몸 안에서 더 많은 숫자의 몬스터들이 튀어나왔습니다.</hint>
+  <hint id="231" place="8">죽은 거미의 몸에서 수많은 거미들이 끊임없이 기어나왔습니다.</hint>
+  <hint id="232" place="8">마침내 처참한 비명소리와 함께 최후의 흉악한 거미가 쓰러졌습니다.</hint>
+  <hint id="233" place="8">혼수 액체를 뿌리자 그 포악한 용의 두목은 깊은 잠에 빠져들었습니다.</hint>
+  <hint id="234" place="32" title="퀘스트 TIP">사용할 수 없는 아이템입니다.</hint>
+  <hint id="235" place="8">쿵…</hint>
+  <hint id="236" place="32" title="퀘스트 TIP">사용할 수 없는 아이템입니다.</hint>
+  <hint id="237" place="8">데굴데굴~~후후~~</hint>
+  <hint id="238" place="2048" lanID="100067" delay="3" size="30" color="0xFFFF00" font="Microsoft YaHei" />
+  <hint id="239" place="2048" lanID="100068" delay="3" size="30" color="0xFFFF00" font="Microsoft YaHei" />
+  <hint id="240" place="2048" lanID="100069" delay="3" size="30" color="0xFFFF00" font="Microsoft YaHei" />
+  <hint id="241" place="2048" lanID="100070" delay="3" size="30" color="0xFFFF00" font="Microsoft YaHei" />
+  <hint id="242" place="8">날카로운 관찰력으로 스파이 색출 성공!</hint>
+  <hint id="243" place="8">스파이 처치 완료!</hint>
+  <hint id="244" place="2048" lanID="100071" delay="3" size="30" color="0xFFFF00" font="Microsoft YaHei" />
+  <hint id="245" place="2048" lanID="100072" delay="3" size="30" color="0xFFFF00" font="Microsoft YaHei" />
+  <hint id="246" place="2048" lanID="100073" delay="3" size="30" color="0xFFFF00" font="Microsoft YaHei" />
+  <hint id="247" place="2048" lanID="100074" delay="3" size="30" color="0xFFFF00" font="Microsoft YaHei" />
+  <hint id="248" place="2048" lanID="100075" delay="3" size="30" color="0xFFFF00" font="Microsoft YaHei" />
+  <hint id="249" place="2048" lanID="100076" delay="3" size="30" color="0xFFFF00" font="Microsoft YaHei" />
+  <hint id="250" place="2048" lanID="100077" delay="3" size="30" color="0xFFFF00" font="Microsoft YaHei" />
+  <hint id="251" place="2048" lanID="100078" delay="3" size="30" color="0xFFFF00" font="Microsoft YaHei" />
+  <hint id="252" place="2048" lanID="100079" delay="3" size="30" color="0xFFFF00" font="Microsoft YaHei" />
+  <hint id="253" place="2048" lanID="100080" delay="3" size="30" color="0xFFFF00" font="Microsoft YaHei" />
+  <hint id="254" place="2048" lanID="100081" delay="3" size="30" color="0xFFFF00" font="Microsoft YaHei" />
+  <hint id="255" place="2048" lanID="100082" delay="3" size="30" color="0xFFFF00" font="Microsoft YaHei" />
+  <hint id="256" place="2048" lanID="100083" delay="3" size="30" color="0xFFFF00" font="Microsoft YaHei" />
+  <hint id="257" place="2048" lanID="100084" delay="3" size="30" color="0xFFFF00" font="Microsoft YaHei" />
+  <hint id="258" place="2048" lanID="100085" delay="3" size="30" color="0xFFFF00" font="Microsoft YaHei" />
+  <hint id="259" place="2048" lanID="100086" delay="3" size="30" color="0xFFFF00" font="Microsoft YaHei" />
+  <hint id="260" place="2048" lanID="100087" delay="3" size="30" color="0xFFFF00" font="Microsoft YaHei" />
+  <hint id="261" place="2048" lanID="100088" delay="3" size="30" color="0xFFFF00" font="Microsoft YaHei" />
+  <hint id="262" place="2048" lanID="100089" delay="3" size="30" color="0xFFFF00" font="Microsoft YaHei" />
+  <hint id="263" place="2048" lanID="100090" delay="3" size="30" color="0xFFFF00" font="Microsoft YaHei" />
+  <hint id="264" place="2048" lanID="100091" delay="3" size="30" color="0xFFFF00" font="Microsoft YaHei" />
+  <hint id="265" place="2048" lanID="100092" delay="3" size="30" color="0xFFFF00" font="Microsoft YaHei" />
+  <hint id="266" place="2048" lanID="100175" delay="3" size="30" color="0xFFFF00" font="Microsoft YaHei" />
+  <hint id="267" place="2048" lanID="100176" delay="3" size="30" color="0xFFFF00" font="Microsoft YaHei" />
+  <hint id="268" place="2048" lanID="100177" delay="3" size="30" color="0xFFFF00" font="Microsoft YaHei" />
+  <hint id="269" place="2048" lanID="100178" delay="3" size="30" color="0xFFFF00" font="Microsoft YaHei" />
+  <hint id="270" place="2048" lanID="100179" delay="3" size="30" color="0xFFFF00" font="Microsoft YaHei" />
+  <hint id="271" place="8" title="이벤트공지">끝없는 악마의 회랑 26번째 라운드 통과!.</hint>
+  <hint id="272" place="8" title="이벤트공지">끝없는 악마의 회랑 27번째 라운드 통과!.</hint>
+  <hint id="273" place="8" title="이벤트공지">끝없는 악마의 회랑 28번째 라운드 통과!.</hint>
+  <hint id="274" place="8" title="이벤트공지">끝없는 악마의 회랑 29번째 라운드 통과!.</hint>
+  <hint id="275" place="8" title="이벤트공지">끝없는 악마의 회랑 30번째 라운드 통과!.</hint>
+  <hint id="276" place="2048" lanID="100151" delay="5" size="30" color="0xFFFF00" font="Microsoft YaHei" />
+  <!--스파이 경보-->
+  <hint id="277" place="2048" lanID="100152" delay="5" size="30" color="0xFFFF00" font="Microsoft YaHei" />
+  <!--스파이 경보-->
+  <hint id="278" place="2" title="이벤트공지">레전드 등급 데몬슬레이어를 획득하셨습니다.레전드 아이템에서 발산되는 빛은 앞으로 당신의 앞길을 환히 비춰줄 것입니다!</hint>
+  <hint id="279" place="2" title="이벤트공지">레전드 등급 서리 영혼을 획득하셨습니다.레전드 아이템에서 발산되는 빛은 앞으로 당신의 앞길을 환히 비춰줄 것입니다!</hint>
+  <hint id="280" place="2" title="이벤트공지">레전드 등급 달의 노래를 획득하셨습니다.레전드 아이템에서 발산되는 빛은 앞으로 당신의 앞길을 환히 비춰줄 것입니다!</hint>
+  <hint id="281" place="2" title="이벤트공지">레전드 등급 용의 어금니를 획득하셨습니다.레전드 아이템에서 발산되는 빛은 앞으로 당신의 앞길을 환히 비춰줄 것입니다!</hint>
+  <hint id="282" place="5" title="이벤트공지">1번째 라운드 통과! 계속해서 다음 라운드를 진행하기 원하지 않는 경우 이벤트 NPC를 찾아가 보상을 받으세요.</hint>
+  <hint id="283" place="5" title="이벤트공지">2번째 라운드 통과! 계속해서 다음 라운드를 진행하기 원하지 않는 경우 이벤트 NPC를 찾아가 보상을 받으세요.</hint>
+  <hint id="284" place="5" title="이벤트공지">3번째 라운드 통과! 계속해서 다음 라운드를 진행하기 원하지 않는 경우 이벤트 NPC를 찾아가 보상을 받으세요.</hint>
+  <hint id="285" place="5" title="이벤트공지">4번째 라운드 통과! 계속해서 다음 라운드를 진행하기 원하지 않는 경우 이벤트 NPC를 찾아가 보상을 받으세요.</hint>
+  <hint id="286" place="5" title="이벤트공지">5번째 라운드 통과! 계속해서 다음 라운드를 진행하기 원하지 않는 경우 이벤트 NPC를 찾아가 보상을 받으세요.</hint>
+  <hint id="287" place="5" title="이벤트공지">6번째 라운드 통과! 계속해서 다음 라운드를 진행하기 원하지 않는 경우 이벤트 NPC를 찾아가 보상을 받으세요.</hint>
+  <hint id="288" place="8" title="알림">귀환서를 사용하실 수 없습니다!</hint>
+  <hint id="289" place="2048" lanID="100093" delay="3" size="30" color="0xFFFF00" font="Microsoft YaHei" />
+  <hint id="290" place="2048" lanID="100094" delay="3" size="30" color="0xFFFF00" font="Microsoft YaHei" />
+  <hint id="291" place="2048" lanID="100095" delay="3" size="30" color="0xFFFF00" font="Microsoft YaHei" />
+  <hint id="292" place="8" title="알림">축하합니다! 콜로세움대회 보상을 획득하셨습니다!</hint>
+  <hint id="293" place="8" title="알림">인벤토리 공간 부족! 인벤토리를 정리하세요!</hint>
+  <hint id="294" place="2048" lanID="100096" delay="3" size="30" color="0xFFFF00" font="Microsoft YaHei" />
+  <hint id="295" place="8" title="퀘스트 TIP">“상자혼백” 황폐의 사신이 도전을 받아들였습니다!</hint>
+  <hint id="296" place="8" title="퀘스트 TIP">“상자혼백” 심연의 서큐버스가 도전을 받아들였습니다!</hint>
+  <hint id="297" place="8" title="퀘스트 TIP">“상자혼백” 얼굴없는 자가 도전을 받아들였습니다!</hint>
+  <hint id="298" place="8" title="퀘스트 TIP">“상자혼백” 심연의 도끼수가 도전을 받아들였습니다!</hint>
+  <hint id="299" place="32" title="퀘스트 TIP">보물상자를 열고 "봉인된 세계"로 들어가 상자혼백과 대화하면 도전을 시작할 수 있습니다. 신력이 부족하다면 상자혼백은 당신의 도전을 거절할 것입니다</hint>
+  <hint id="300" place="2048" lanID="100097" delay="3" size="30" color="0xFFFF00" font="Microsoft YaHei" />
+  <hint id="301" place="2048" lanID="100098" delay="3" size="30" color="0xFFFF00" font="Microsoft YaHei" />
+  <hint id="302" place="32" title="퀘스트 TIP">이미 저를 도와 악마 1마리를 봉인해주셨으니 이제 파트너들과 함께 다른 사제들을 도와주세요</hint>
+  <hint id="303" place="2048" lanID="100099" delay="3" size="30" color="0xFFFF00" font="Microsoft YaHei" />
+  <hint id="304" place="2048" lanID="100100" delay="3" size="30" color="0xFFFF00" font="Microsoft YaHei" />
+  <hint id="305" place="2048" lanID="100101" delay="3" size="30" color="0xFFFF00" font="Microsoft YaHei" />
+  <hint id="306" place="2048" lanID="100102" delay="3" size="30" color="0xFFFF00" font="Microsoft YaHei" />
+  <hint id="307" place="8" title="퀘스트 TIP">지정된 곳에서 아이템을 사용하세요!</hint>
+  <hint id="308" place="2048" lanID="100103" delay="3" size="30" color="0xFFFF00" font="Microsoft YaHei" />
+  <hint id="309" place="2048" lanID="100104" delay="3" size="30" color="0xFFFF00" font="Microsoft YaHei" />
+  <hint id="310" place="2048" lanID="100105" delay="3" size="30" color="0xFFFF00" font="Microsoft YaHei" />
+  <hint id="311" place="2048" lanID="100106" delay="3" size="30" color="0xFFFF00" font="Microsoft YaHei" />
+  <hint id="312" place="2048" lanID="100107" delay="3" size="30" color="0xFFFF00" font="Microsoft YaHei" />
+  <hint id="313" place="8" title="이벤트TIP">축하합니다! 깊은 심연 악마 오프니를 처치하여 보상을 획득하였습니다.</hint>
+  <hint id="314" place="8" title="이벤트TIP">축하합니다! 저주받은 저승 망령기사 메피스토를 처치하여 보상을 획득하였습니다.</hint>
+  <hint id="315" place="8" title="이벤트TIP">축하합니다! 탐험가에게 주어지는 보상을 획득하셨습니다.</hint>
+  <hint id="316" place="4" chatChannel="11">{[%0s],blue,0,1}님께서 심연의 모래시계를 사용하여 깊은 심연에 진입하였습니다.</hint>
+  <hint id="317" place="4" chatChannel="11">{[%0s],blue,0,1}님께서 저승혼령등불을 사용하여 저주받은 저승에 진입하였습니다.</hint>
+  <hint id="318" place="4" chatChannel="11">{[%0s],blue,0,1}님께서 축복의 힘을 발휘하여 악마 오프니르를 처치하고 보물들을 획득하셨습니다.</hint>
+  <hint id="319" place="4" chatChannel="11">{[%0s],blue,0,1}님께서 강인한 정신으로 망령기사 메피스토를 처치하고 보물들을 획득하셨습니다.</hint>
+  <hint id="320" place="4" chatChannel="11">{[%0s],red,0,1}길드의 용사 {[%1s],blue,0,1}님께서 수정 광산에서 위험한 상황들을 극복하며 사악한 고블린 작업반장을 단번에 제압하였습니다. 소속 길드는 엄청난 양의 경험치를 획득하였습니다.우리의 영웅에게 경의를 표합시다!</hint>
+  <hint id="321" place="4" chatChannel="11">{[%0s],red,0,1}길드의 {[%1s],blue,0,1}님께서 화룡엠블렘 1개를 소모하여 길드공헌도 50, 길드명성치 20을 획득하셨습니다.</hint>
+  <hint id="322" place="4" chatChannel="11">{[%0s],red,0,1}길드의 {[%1s],blue,0,1}님께서 화룡엠블렘을 5개를 소모하여 길드공헌도 250, 길드명성치 100을 획득하셨습니다.</hint>
+  <hint id="323" place="4" chatChannel="11">{[%0s],red,0,1}길드의 {[%1s],blue,0,1}는 화룡엠블렘을 50개를 소모하여 길드공헌도 2500, 길드명성치 1000을 획득하셨습니다.</hint>
+  <hint id="324" place="4" chatChannel="11">{[%0s],red,0,1} 길드의 길드장 {[%1s],blue,0,1}님께서 겨울설원에 도착하여 위탁받은 [일반우편] 퀘스트를 완료하셨습니다. 보상으로 소속 길드의 자금과 명성치를 획득하셨습니다!</hint>
+  <hint id="325" place="4" chatChannel="11">{[%0s],red,0,1} 길드의 길드장 {[%1s],blue,0,1}님께서 [일반우편]을 위탁받아 이제 곧 나지스 초원을 지나 겨울설원으로 향할 것입니다. 우리 모두 그의 여정이 순조롭기를 기도합시다! </hint>
+  <hint id="326" place="4" chatChannel="11">{[%0s],red,0,1} 길드의 거북 수레가 {[%1s],blue,0,1}를 약탈하여 대량의 길드물자와 "노상강도"칭호를 획득하였습니다.</hint>
+  <hint id="327" place="2048" lanID="100108" delay="3" size="30" color="0xFFFF00" font="Microsoft YaHei" />
+  <hint id="328" place="2048" lanID="100109" delay="3" size="30" color="0xFFFF00" font="Microsoft YaHei" />
+  <hint id="329" place="2048" lanID="100110" delay="3" size="30" color="0xFFFF00" font="Microsoft YaHei" />
+  <hint id="330" place="4" chatChannel="11">{[%0s],blue,0,1}님께서 깃발을 전달하였습니다. 전쟁깃발은 30초 뒤 갱신됩니다!</hint>
+  <hint id="331" place="8" title="알림">수집한 [고대의 스크롤 조각]이 부족하여 [고대의 스크롤]로 합성할 수 없습니다. 필드 몬스터 사냥 또는 다른 유저와의 거래를 통해 모자라는 [고대 스크롤 조각]을 수집할 수 있습니다.</hint>
+  <hint id="332" place="2048" lanID="100111" delay="3" size="30" color="0xFFFF00" font="Microsoft YaHei" />
+  <hint id="333" place="4" chatChannel="11">{[%0s],blue,0,1}님께서 혼돈 경비병을 처치하여 적군 길드는 60초 동안 점수를 획득할 수 없습니다!</hint>
+  <hint id="334" place="4" chatChannel="11">{[%0s],red,0,1} 길드의 길드장 {[%1s],blue,0,1}님께서 겨울설원에 도착하여 위탁받은 [일반우편] 퀘스트를 완료하셨습니다. 보상으로 소속 길드의 자금과 두배의 명성치를 획득하셨습니다!</hint>
+  <hint id="335" place="8" title="이벤트TIP">거북수레 약탈 성공! 길드명성 200과 개인 공헌도 500을 획득하셨습니다!</hint>
+  <hint id="336" place="8" title="이벤트TIP">거북수레가 약탈 당하여 기탁금을 돌려받을 수 없습니다!</hint>
+  <hint id="337" place="2048" lanID="100112" delay="3" size="30" color="0xFFFF00" font="Microsoft YaHei" />
+  <hint id="338" place="2048" lanID="100113" delay="3" size="30" color="0xFFFF00" font="Microsoft YaHei" />
+  <hint id="339" place="2048" lanID="100114" delay="3" size="30" color="0xFFFF00" font="Microsoft YaHei" />
+  <hint id="340" place="8" title="이벤트TIP">신비한 세트장비를 장착한 자만이 "유아독존"칭호 카드를 구매할 수 있습니다!</hint>
+  <hint id="341" place="8" title="이벤트TIP">수집한 아이템이 부족하여 받을 수 없습니다!</hint>
+  <hint id="342" place="2048" lanID="100115" delay="3" size="30" color="0xFFFF00" font="Microsoft YaHei" />
+  <hint id="343" place="2048" lanID="100116" delay="3" size="30" color="0xFFFF00" font="Microsoft YaHei" />
+  <hint id="344" place="2048" lanID="100117" delay="3" size="30" color="0xFFFF00" font="Microsoft YaHei" />
+  <hint id="345" place="2048" lanID="100118" delay="3" size="30" color="0xFFFF00" font="Microsoft YaHei" />
+  <hint id="346" place="2048" lanID="100119" delay="3" size="30" color="0xFFFF00" font="Microsoft YaHei" />
+  <hint id="347" place="8" title="이벤트TIP">"월말쿠폰" 이 부족하여 보상으로 교환할 수 없습니다!</hint>
+  <hint id="348" place="8" title="이벤트TIP">현재 소유한 사역마 레벨이 3등급이 되여야만 사역마 행운 룬을 사용할 수 있습니다!</hint>
+  <hint id="349" place="2048" lanID="100120" delay="3" size="30" color="0xFFFF00" font="Microsoft YaHei" />
+  <hint id="350" place="8" title="알림">동일한 유형의 사역마는 중복 획득할 수 없습니다.</hint>
+  <hint id="351" place="8" title="알림">사역마 행운 포인트 상태에서는 중복사용할 수 없습니다.</hint>
+  <hint id="352" place="2048" lanID="100121" delay="3" size="30" color="0xFFFF00" font="Microsoft YaHei" />
+  <hint id="353" place="2048" lanID="100122" delay="3" size="30" color="0xFFFF00" font="Microsoft YaHei" />
+  <hint id="354" place="2048" lanID="100123" delay="3" size="30" color="0xFFFF00" font="Microsoft YaHei" />
+  <hint id="355" place="2048" lanID="100124" delay="3" size="30" color="0xFFFF00" font="Microsoft YaHei" />
+  <hint id="356" place="2048" lanID="100125" delay="3" size="30" color="0xFFFF00" font="Microsoft YaHei" />
+  <hint id="357" place="8" title="이벤트TIP">[%0s] 길드의 거북수레가 %1s채널 %2s（%3u,%4u）에서 습격을 당했습니다. 서둘러 그 곳으로 가서 도와주세요!</hint>
+  <hint id="358" place="8" title="이벤트TIP">소환한 펫이 있어야 소환수 광포 물약을 사용할 수 있습니다.</hint>
+  <hint id="359" place="4" chatChannel="11">{[%0s],blue,0,1}는 유디먼즈섬에서 유디먼즈의 왕을 제압하여 대량의 유니크 등급 소환수 캡슐을 획득하셨습니다!</hint>
+  <hint id="360" place="4" chatChannel="11" trackLink="openPanel┆0┆7" trackLinkName="【VIP회원가입】">{[%0s],blue,0,1}님께서 특권(일상) 사용자가 되셨습니다. 앞으로 다양한 혜택을 누리게 될 것입니다!</hint>
+  <hint id="361" place="4" chatChannel="11" trackLink="openPanel┆0┆7" trackLinkName="【VIP회원가입】">{[%0s],blue,0,1}님께서 특권(전투) 사용자가 되셨습니다. 앞으로 다양한 혜택을 누리게 될 것입니다!</hint>
+  <hint id="362" place="4" chatChannel="11" trackLink="openPanel┆0┆7" trackLinkName="【VIP회원가입】">{[%0s],blue,0,1}님께서 VIP(지존) 사용자가 되셨습니다. 앞으로 일상, 전투, VIP특권 등 더욱 다양한 혜택을 누리게 될 것입니다!</hint>
+  <hint id="888888" place="2048" lanID="100065" delay="3" size="30" color="0xFFFF00" font="Microsoft YaHei" />
+  <hint id="363" place="2048" lanID="100066" delay="3" size="30" color="0xFFFF00" font="Microsoft YaHei" />
+  <hint id="364" place="2048" lanID="100067" delay="3" size="30" color="0xFFFF00" font="Microsoft YaHei" />
+  <hint id="365" place="8" title="알림">재 주조석 파편이 부족하여 합성할 수 없습니다!</hint>
+  <hint id="366" place="2048" lanID="100128" delay="5" size="30" color="0xFFFF00" font="Microsoft YaHei" />
+  <!--얼음용 활성화-->
+  <hint id="367" place="2048" lanID="100129" delay="5" size="30" color="0xFFFF00" font="Microsoft YaHei" />
+  <!--화염룡 활성화-->
+  <hint id="368" place="2048" lanID="100130" delay="5" size="30" color="0xFFFF00" font="Microsoft YaHei" />
+  <!--바람용 활성화-->
+  <hint id="369" place="2048" lanID="100131" delay="5" size="30" color="0xFFFF00" font="Microsoft YaHei" />
+  <!--번개용 활성화 완료-->
+  <hint id="370" place="2048" lanID="100132" delay="5" size="30" color="0xFFFF00" font="Microsoft YaHei" />
+  <!--얼음용을 활성화해야 합니다-->
+  <hint id="371" place="2048" lanID="100133" delay="5" size="30" color="0xFFFF00" font="Microsoft YaHei" />
+  <!--화염룡을 활성화해야 합니다-->
+  <hint id="372" place="2048" lanID="100134" delay="5" size="30" color="0xFFFF00" font="Microsoft YaHei" />
+  <!--바람용을 활성화해야 합니다-->
+  <hint id="373" place="2048" lanID="100135" delay="5" size="30" color="0xFFFF00" font="Microsoft YaHei" />
+  <!--번개용을 활성화해야 합니다-->
+  <hint id="374" place="2048" lanID="100136" delay="8" size="30" color="0xFFFF00" font="Microsoft YaHei" />
+  <!--2층 TIP-->
+  <hint id="375" place="2048" lanID="100144" delay="5" size="30" color="0xFFFF00" font="Microsoft YaHei" />
+  <!--몬스터를 클리어하면 STAGE 오픈 TIP을 드립니다-->
+  <hint id="376" place="2048" lanID="100145" delay="5" size="30" color="0xFFFF00" font="Microsoft YaHei" />
+  <!--몬스터 클리어 미완료하고 STAGE 오픈 TIP을 요구합니다-->
+  <hint id="378" place="4" chatChannel="11">빛의 성전으로 통하는 전송문이 열렸습니다! 판테온에 있는 모든 유저들은 용족신전 중앙으로 가서 전송문으로 입장을 하세요!</hint>
+  <!--2층에서 3층으로 가는 전송문 개방시의 TIP-->
+  <hint id="379" place="4" chatChannel="11">빛의 성전 내 모든 신전 경비병을 처치하였습니다! 태양신 아폴론이 나타나 용사들의 도전을 기다리고 있습니다!</hint>
+  <!--3층에서 태양신이 나타날때의 TIP-->
+  <hint id="380" place="4" chatChannel="11">태양신 아폴론의 패배! 빛의 신전 보물상자가 드랍되었으니 서두르세요!</hint>
+  <!--태양신이 격파되면 모든 서버에 나타나는 유저에게 드랍되는 선물 TIP-->
+  <hint id="381" place="8">20레벨 이상만 이 선물주머니를 열 수 있습니다.</hint>
+  <hint id="382" place="2048" lanID="100157" delay="5" size="30" color="0xFFFF00" font="Microsoft YaHei" />
+  <!--2541/2551/2561 3개의 메인 퀘스트가 시작-->
+  <hint id="383" place="2048" lanID="100158" delay="5" size="30" color="0xFFFF00" font="Microsoft YaHei" />
+  <!--2층 STAGE가 모두 개방되었습니다.BOSS가 나타났습니다-->
+  <hint id="384" place="2048" lanID="100160" delay="5" size="30" color="0xFFFF00" font="Microsoft YaHei" />
+  <!--마궁전기 개방. 보물상자(소,대)가 개방 되었습니다-->
+  <hint id="385" place="4" chatChannel="11">[마궁전기] 장로 방에 있던 모든 보물상자가 활성되고 마궁의 장로도 깨어났습니다. 용사들에게 힘이 되어주세요!</hint>
+  <!--마궁전기 BOSS나 나타났습니다-->
+  <hint id="386" place="2048" lanID="100162" delay="5" size="30" color="0xFFFF00" font="Microsoft YaHei" />
+  <!--마궁전기는 유저 전송을 제한합니다-->
+  <hint id="387" place="2048" lanID="100163" delay="10" size="30" color="0xFFFF00" font="Microsoft YaHei" />
+  <!--마족 침입-->
+  <hint id="388" place="4" chatChannel="11">[악마침공] BOSS를 처치한 {[%0s],blue,0,1}님께서 신룡이 남긴 마블을 획득하셨습니다!</hint>
+  <!--마궁전기 BOSS나 나타났습니다-->
+  <hint id="389" place="2048" lanID="100171" delay="10" size="30" color="0xFFFF00" font="Microsoft YaHei" />
+  <!--배낭 공간 부족. 용구슬-->
+  <hint id="390" place="2048" lanID="100172" delay="10" size="30" color="0xFFFF00" font="Microsoft YaHei" />
+  <!--소환할 수 없습니다. 용구슬-->
+  <hint id="391" place="2048" lanID="100173" delay="10" size="30" color="0xFFFF00" font="Microsoft YaHei" />
+  <!--골드가 너무 많습니다-->
+  <hint id="392" place="4" chatChannel="11">{[%0s],blue,0,1}님께서 수집한 마블 7개를 사용하여 최상품 신룡을 소환하였습니다!</hint>
+  <!--신룡이 나타납니다-->
+  <hint id="393" place="4" chatChannel="11">마블 악마혼이 소환되었습니다!</hint>
+  <!--신룡이 나타납니다-->
+  <hint id="394" place="2048" lanID="100180" delay="10" size="30" color="0xFFFF00" font="Microsoft YaHei" />
+  <!--잘츠부르크는 신룡을 소환할수 없습니다-->
+  <hint id="395" place="4" chatChannel="11">{[%0s],blue,0,1}님께서 수집한 마블 7개를 사용하여 최상품 신룡을 소환하였습니다!</hint>
+  <!--신룡이 나타납니다-->
+  <hint id="396" place="2048" lanID="100174" delay="10" size="30" color="0xFFFF00" font="Microsoft YaHei" />
+  <!--만레벨하였습니다-->
+  <hint id="397" place="8" title="아이템TIP">신성력 부족</hint>
+  <hint id="398" place="2048" lanID="100183" delay="10" size="30" color="0xFFFF00" font="Microsoft YaHei" />
+  <!--제국기사의 승인 도전 완료-->
+  <hint id="399" place="2048" lanID="100184" delay="10" size="30" color="0xFFFF00" font="Microsoft YaHei" />
+  <!--제국기사의 승인 BOSS소환 시간 한도 TIP-->
+  <!--神魔戰場-->
+  <hint id='403' place='2048' lanID='100403' delay="3"  size="30" color="0xFFFF00" font="Microsoft YaHei"/><!--守卫女神活动，未集齊足夠的數量-->
+  <hint id='404' place='2048' lanID='100404' delay="3"  size="30" color="0xFFFF00" font="Microsoft YaHei"/><!--守卫女神活动，完成所有波數-->
+  <hint id='405' place='4' chatChannel='11'>{[%0s],blue,0,1}번째 몬스터들이 몰려오고 있습니다!</hint>
+  <hint id='406' place='2048' lanID='100405' delay="8"  size="28" color="0xFFFF00" font="Microsoft YaHei"/><!--守卫女神活动，BOSS出现了-->
+  <hint id='408' place='32' title='이벤트 알림' >생명의 여신의 죽음으로 생명의 숲은 마물들이 점령하였습니다. 여신수호 실패!</hint><!--守卫女神活动，玩家失败-->
+  <hint id='409' place='2048' lanID='100407' delay="3"  size="30" color="0xFFFF00" font="Microsoft YaHei"/><!--神魔战场准备时间-->
+  <hint id='412' place='2048' lanID='100410' delay="3"  size="30" color="0xFFFF00" font="Microsoft YaHei"/><!--守卫女神活动，即将出现偷袭怪-->
+  <hint id='413' place='2048' lanID='100411' delay="3"  size="30" color="0xFFFF00" font="Microsoft YaHei"/><!--神魔战场活动未开启无法传送-->
+  <hint id='414' place='2048' lanID='100412' delay="3"  size="30" color="0xFFFF00" font="Microsoft YaHei"/><!--戰場藥水只有戰場裡面才可以使用-->
+  <hint id='415' place='4' chatChannel='11'>{[%0s],blue,0,1}님께서 적대 진영의 유저 5명을 연킬하여 십부장의 칭호를 획득하셨습니다!</hint>
+  <hint id='416' place='4' chatChannel='11'>{[%0s],blue,0,1}님께서 적대 진영의 유저 10명을 연킬하여 백부장의 칭호를 획득하셨습니다!</hint>
+  <hint id='417' place='4' chatChannel='11'>{[%0s],blue,0,1}님께서 적대 진영의 유저 20명을 연킬하여 천부장의 칭호를 획득하셨습니다!</hint>
+  <hint id='418' place='4' chatChannel='11'>{[%0s],blue,0,1}님께서 적대 진영의 유저 30명을 연킬하여 만부장의 칭호를 획득하셨습니다!</hint>
+  <hint id='419' place='4' chatChannel='11'>{[%0s],blue,0,1}님께서 적대 진영의 유저 100명을 연킬하여 사령관의 칭호를 획득하셨습니다!</hint>
+  <hint id='420' place='32' title='이벤트 알림' >얼음, 불, 흙, 우뢰 등 4가지 수호 정령들을 찾으면 각각 얼음(속도감소), 불(공격증가), 흙(치명증가), 우뢰(현기증)에 해당하는 버프를 사용할 수 있습니다(중복사용 불가)!</hint><!--守卫女神活动，玩家失败-->
+  <hint id='421' place='4' chatChannel='11'>{[%0s],red,0,1}님께서 부활석을 정령의 수호•얼음으로 교환하셨습니다. 60%의 확률로 공격 타겟의 이동속도를 75% 감소시킬 수 있습니다!</hint><!--守卫女神得到冰BUFF提示-->
+  <hint id='422' place='4' chatChannel='11'>{[%0s],red,0,1}님께서 부활석을 정령의 수호•불로 교환하셨습니다.공격 데미지 100% 버프를 획득하셨습니다! </hint><!--守卫女神得到火BUFF提示-->
+  <hint id='423' place='4' chatChannel='11'>{[%0s],red,0,1}님께서 부활석을 정령의 수호•흙으로 교환하셨습니다. 치명률 50%증가, 치명 데미지 100% 증가 버프를 획득하셨습니다!</hint><!--守卫女神得到土BUFF提示-->
+  <hint id='424' place='4' chatChannel='11'>{[%0s],red,0,1}님께서 부활석을 정령의 수호•우뢰로 교환하셨습니다. 30%의 확률로 4초간(군단장0.5초) 타겟에게 현기증을 유발할 수 있는 버프를 획득하셨습니다!</hint><!--守卫女神得到雷BUFF提示-->
+  <hint id='425' place='4' chatChannel='11'>다음 단계는 5분 후 시작됩니다. 시간을 엄수하여 마족 군단장을 처치하세요!</hint><!--守卫女神BOSS出现，5分钟后刷小怪-->
+  <hint id='426' place='2048' lanID='100213' delay="3"  size="30" color="0xFFFF00" font="Microsoft YaHei"/><!--不能使用ok秘药-->
+  <hint id="427" place="8" title="알림">전장엠블렘 부족！</hint><!--战场徽章不足--><!--未翻译-->
+</hints>

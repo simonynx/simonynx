@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" standalone="yes"?>
+<RECORDS>
+<RECORD id="60901" name="神力覺醒者" head_effect="0" getWayDescription="完成主線任務獲得" description="你獲得了神力，注定無法做一個普通人。"/>
+<RECORD id="61001" name="黃金VIP" head_effect="0" getWayDescription="黃金VIP" description="黃金VIP"/>
+<RECORD id="61201" name="牧歌農場保衛者" head_effect="0" getWayDescription="完成主線任務獲得" description="如果沒有你的出現，牧歌農場將毀於一旦。"/>
+<RECORD id="61301" name="納吉森的眼睛" head_effect="0" getWayDescription="完成主線任務獲得" description="任何鬼把戲都逃不過你的眼睛。"/>
+<RECORD id="61401" name="蛇妖終結者" head_effect="0" getWayDescription="完成主線任務獲得" description="你已經成為新的傳說，從此將有無數的人用崇敬地目光望著你的背影。"/>
+<RECORD id="61501" name="救贖者" head_effect="0" getWayDescription="完成主線任務獲得" description="你的敵人臨終的時候說，能夠遇見你，此生無遺憾。"/>
+<RECORD id="61601" name="愛心使者" head_effect="0" getWayDescription="完成主線任務獲得" description="牧歌農場的人們都愛你。"/>
+<RECORD id="61701" name="基友兄弟會" head_effect="0" getWayDescription="完成主線任務獲得" description="寂寞的時候，你不再是一個人。"/>
+<RECORD id="61801" name="狂暴牛犢" head_effect="0" getWayDescription="完成主線任務獲得" description="你霸氣外漏，讓對手知道了什麽叫做“主角光環”。"/>
+<RECORD id="61901" name="賞金獵人" head_effect="0" getWayDescription="完成賞金獵人晉級任務獲得" description="你成為了獵人工會中的一員，所有人都對你充滿期待。"/>
+<RECORD id="62001" name="創神諭之王" head_effect="10001" getWayDescription="角色等級位居【等級總排行榜】第1名可獲得" description="你君臨創神諭世界，是真正的王者，整個阿爾斯特大陸都在低聲傳誦你的史詩。"/>
+<RECORD id="62101" name="十大新星" head_effect="10002" getWayDescription="角色等級位居【等級總排行榜】第2到10名可獲得" description="你是創神諭世界一顆冉冉升起的巨星，是未來的王者，所有人都在期待你的新傳奇。"/>
+<RECORD id="62201" name="角鬥士導師" head_effect="10003" getWayDescription="角色等級位居【角鬥士等級榜】第1名可獲得" description="你贏得“第一角鬥士”的殊榮，是角鬥士們爭相效仿的榜樣。"/>
+<RECORD id="62301" name="暗法師導師" head_effect="10004" getWayDescription="角色等級位居【暗法師等級榜】第1名可獲得" description="你贏得“第一暗法師”的殊榮，是暗法師們爭相效仿的榜樣。"/>
+<RECORD id="62401" name="月神使導師" head_effect="10005" getWayDescription="角色等級位居【月神使等級榜】第1名可獲得" description="你贏得“第一月神使”的殊榮，是月神使們爭相效仿的榜樣。"/>
+<RECORD id="62501" name="魅舞者導師" head_effect="10006" getWayDescription="角色等級位居【魅舞者等級榜】第1名可獲得" description="你贏得“第一魅舞者”的殊榮，是魅舞者們爭相效仿的榜樣。"/>
+<RECORD id="62601" name="創神諭首富" head_effect="10007" getWayDescription="角色擁有的金幣總數位居【財富排行榜】第1名可獲得" description="你成為了創神諭世界經濟的心臟，隨便打個噴嚏，整個大陸的物價都會發生大的波動。"/>
+<RECORD id="62701" name="十大富豪" head_effect="10008" getWayDescription="角色擁有的金幣總數位居【財富排行榜】第2到10名可獲得" description="你是創神諭世界經濟的脈搏，是阿爾斯特大陸上的經濟巨頭。"/>
+<RECORD id="62801" name="殺戮之神" head_effect="10009" getWayDescription="角色的罪惡值位於【罪惡排行榜】第1名可獲得" description="你是徘徊於地獄邊緣的死神。你走過的地方，留下的只有鮮血和哭泣的亡魂。"/>
+<RECORD id="62901" name="十大殺手" head_effect="10010" getWayDescription="角色的罪惡值位於【罪惡排行榜】第2到10名可獲得" description="你的狂笑聲能令兇猛的野獸發出悲鳴，即便是薩爾斯堡最勇猛的戰士見到你，也會繞道而行。"/>
+<RECORD id="63001" name="坐騎之王" head_effect="10011" getWayDescription="角色坐騎階別位居【坐騎排行榜】第1名可獲得" description="你胯下的坐騎踏滅過地獄的火焰，橫趟過冥界的沼澤。惡魔聽見你的馬蹄聲，紛紛奪路而逃。"/>
+<RECORD id="63101" name="十大坐騎" head_effect="10012" getWayDescription="角色坐騎階別位於【坐騎排行榜】第2到10名可獲得" description="你日行千裡，像風一樣馳騁在創神諭世界，人們見到的總是你高大的背影。"/>
+<RECORD id="63201" name="幻獸之王" head_effect="10013" getWayDescription="角色的召喚獸價值量位居【寵物排行榜】第1名可獲得" description="阿爾斯特上最強大的召喚獸臣服於你的腳下，你是傳說中的幻獸之王。"/>
+<RECORD id="63301" name="十大幻獸" head_effect="10014" getWayDescription="角色的召喚獸價值量位於【寵物排行榜】第2至10名可獲得" description="你的召喚獸是阿爾斯特大陸的明星，許多人不遠千裡來到薩爾斯堡，只為一睹你召喚獸的風采。"/>
+<RECORD id="63401" name="眾神之王" head_effect="10015" getWayDescription="角色的神力值位居【神力排行榜】第1名可獲得" description="你是創神諭世界的救世主，你神力的光芒驅散了漫天的陰霾，讓絕望的人們看到了希望。"/>
+<RECORD id="63501" name="十大戰神" head_effect="10016" getWayDescription="角色的神力值位於【神力排行榜】第2到10名可獲得" description="你是創神諭世界的未來，你的神力散發出炫麗奪目的光芒，連阿斯神族都不能久視。"/>
+<RECORD id="63601" name="角鬥士之王" head_effect="10017" getWayDescription="角色神力值位居【角鬥士神力榜】第1名可獲得" description="你的威名傳遍了整個阿爾斯特大陸，讓惡魔產生畏懼，它們極力避免與你交手。"/>
+<RECORD id="63701" name="十大角鬥士" head_effect="10021" getWayDescription="角色神力值位於【角鬥士神力榜】第2到10名可獲得" description="作為杰出角鬥士的代表，你的威名載入了創神諭的史冊。"/>
+<RECORD id="63801" name="暗法師之王" head_effect="10018" getWayDescription="角色神力值位居【暗法師神力榜】第1名可獲得" description="即使是最殘暴的惡魔也不敢隨意提起你的名字，否則它身上的傷口便會發出劇烈的疼痛。"/>
+<RECORD id="63901" name="十大暗法師" head_effect="10022" getWayDescription="角色神力值位於【暗法師神力榜】第2到10名可獲得" description="作為杰出暗法師的代表，你的威名載入了創神諭的史冊。"/>
+<RECORD id="64001" name="月神使之王" head_effect="10019" getWayDescription="角色神力值位居【月神使神力榜】第1名可獲得" description="你是光與影的合體，你是眾人崇敬的天使，是惡魔畏懼的死神。"/>
+<RECORD id="64101" name="十大月神使" head_effect="10023" getWayDescription="角色神力值位於【月神使神力榜】第2到10名可獲得" description="作為杰出月神使的代表，你的威名載入了創神諭的史冊。"/>
+<RECORD id="64201" name="魅舞者之王" head_effect="10020" getWayDescription="角色神力值位居【魅舞者神力榜】第1名可獲得" description="你是隱藏於黑暗中的殺手，每當提起你的名字，惡魔們總是不寒而栗。"/>
+<RECORD id="64301" name="十大魅舞者" head_effect="10024" getWayDescription="角色神力值位於【魅舞者神力榜】第2到10名可獲得" description="作為杰出魅舞者的代表，你的威名載入了創神諭的史冊。"/>
+<RECORD id="64401" name="見習煉金師" head_effect="0" getWayDescription="等級達到25級，開啟煉金系統後獲得" description="你成為了一名見習煉金師，你開始了輝煌煉金生涯。"/>
+<RECORD id="64501" name="初級煉金師" head_effect="0" getWayDescription="煉金術技能達到2級獲得" description="你在薩爾斯堡的煉金師當中，已經小有名氣，人們談起最近的新人，偶爾會提到你的名字。"/>
+<RECORD id="64601" name="中級煉金師" head_effect="0" getWayDescription="煉金術技能達到3級獲得" description="你煉金術實力獲得了進一步提升，不少高級煉金術開始關注你。"/>
+<RECORD id="64701" name="高級煉金師" head_effect="0" getWayDescription="煉金術技能達到4級獲得" description="你成功煉出了一些稀有的藥水，這讓你在薩爾斯堡獲得了空前的關注，幾乎沒有人不知道你的名字。"/>
+<RECORD id="64801" name="皇家煉金師" head_effect="10030" getWayDescription="煉金術技能達到5級獲得" description="為了表彰你在煉金術領域做出的突出貢獻，薩爾斯堡的哈羅德國王任命你為皇家煉金師，你的功勛將被永久地載入史冊。"/>
+<RECORD id="64903" name="PK賽冠軍" head_effect="10027" getWayDescription="PK賽過程中奪得冠軍可獲得" description="鮮血鋪就你成王道路，無數英雄拜倒在你的腳下。試問誰才是阿爾斯特真正的王者？你是唯一的答案。"/>
+<RECORD id="64902" name="PK賽亞軍" head_effect="10028" getWayDescription="PK賽過程中奪得亞軍可獲得" description="橫尸遍野的沙場中，你如同一座屹立不倒的大山。雖然，你沒有加冕為王的儀式，但是無數英雄卻永遠記住了你的名字。"/>
+<RECORD id="64901" name="PK賽季軍" head_effect="10029" getWayDescription="PK賽過程中奪得季軍可獲得" description="你是沙場上的閃亮之星，是收割靈魂的死神，崇拜者期待著你的出現，對手畏懼著你的到來。"/>
+<RECORD id="65001" name="星座之王" head_effect="10025" getWayDescription="角色星座開啟數量位居【星座排行榜】第1名可獲得" description="你是眾人仰望的星座之王，身處困境的人們，只要呼喚你的名字，便能夠獲得力量。"/>
+<RECORD id="65101" name="十大星使" head_effect="10026" getWayDescription="角色星座開啟數量位於【星座排行榜】第2到10名可獲得" description="你是星神在人間的化身，你到過的每一個地方，無不閃耀著信仰的光芒。"/>
+<RECORD id="65201" name="風雪神殿領主" head_effect="10031" getWayDescription="在神殿戰中，擊敗對手，占領風雪神殿的公會會長可獲得" description="你是風雪神殿的領主，伴隨著神殿的聖歌，你的功績正在被傳頌著。"/>
+<RECORD id="65301" name="雷霆神殿領主" head_effect="10032" getWayDescription="在神殿戰中，擊敗對手，占領雷霆神殿的公會會長可獲得" description="你是雷霆神殿的領主，神殿戰一舉成名，備受人們敬仰。"/>
+<RECORD id="65401" name="路霸" head_effect="10033" getWayDescription="擊殺任意公會的烏龜車，將獲得此頭銜。（持續24小時）" description="你還在為自己成功的行動竊喜嗎？沒錯，你在阿爾斯特出盡了風頭，同時你也登上各大公會的黑名單。歡樂是短暫的，請盡情地享受這一刻吧！"/>
+<RECORD id="65501" name="唯我獨尊" head_effect="10034" getWayDescription="穿戴滿全套9件神器裝備的玩家在商城購買唯我獨尊稱號卡後，使用可獲得" description="瓦爾哈拉神殿的光芒照耀在阿爾斯特大陸，靜臥的神器迎來了真正的主人。你屹立在天地之間，用雙手翻開【創神諭】新的一頁。"/>
+<RECORD id="65601" name="至尊VIP" head_effect="20015" getWayDescription="商城購買至尊VIP卡後使用獲得" description="至尊級VIP，能同時享有普通VIP特權、高級戰鬥服務、高級生活服務等相關福利"/>
+<RECORD id="65701" name="第一神拳" head_effect="10036" getWayDescription="拳王爭霸賽過程中奪得冠軍可獲得" description="拳王之爭，誰與爭鋒！第一神拳，無人可擋！"/>
+</RECORDS>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

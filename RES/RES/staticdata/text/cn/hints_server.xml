@@ -1,0 +1,903 @@
+﻿<!--說明：-->
+<!--place: 提示的顯示位置-->
+<!--	1...系統公告（頂部滾動文字）-->
+<!--	2...系統消息（右下角提示）-->
+<!--	4...聊天消息-->
+<!--		chatChannel: 消息顯示頻道 5...系統提示, 11...傳言頻道提示-->
+<!--		（傳言頻道文本格式配置方式： {content,color,bold,italic}  內容，顔色，加粗，傾斜  //顔色必須設置  顔色字符串red,green,yellow,blue,white）-->
+<!--		（如：恭喜{[%s],blue,0,1}過關斬將，成功奪得{PK賽冠軍/亞軍/季軍,red,0,1}）-->
+<!--		（%s爲占位符）-->
+<!--	8...滾動提示（屏幕中央縱向滾動）-->
+<!--	32...提示框(或帶確定取消的對話框)-->
+<!--	128...滾動提示（屏幕偏右縱向滾動）-->
+<hints>
+  <!---物品1~100-->
+  <hint id="1" place="8" lanID="60000">
+  </hint>
+  <hint id="2" place="8" lanID="60001">
+  </hint>
+  <hint id="3" place="8" lanID="60002">
+  </hint>
+  <hint id="4" place="8" lanID="50133">
+  </hint>
+  <!--與客戶端提示一樣-->
+  <hint id="5" place="8" lanID="60004">
+  </hint>
+  <hint id="6" place="8" lanID="60005">
+  </hint>
+  <hint id="7" place="2" lanID="60006">
+  </hint>
+  <hint id="8" place="2" lanID="60007">
+  </hint>
+  <hint id="9" place="8" lanID="50028">
+  </hint>
+  <!--與客戶端提示一樣-->
+  <hint id="10" place="8" lanID="60009">
+  </hint>
+  <hint id="11" place="2" lanID="60010">
+  </hint>
+  <hint id="13" place="8" lanID="60011">
+  </hint>
+  <hint id="14" place="8" lanID="60012">
+  </hint>
+  <hint id="15" place="8" lanID="60013">
+  </hint>
+  <hint id="16" place="8" lanID="60014">
+  </hint>
+  <!--hint id='17' place='8'>別人打出的東西，暫時不能撿（建議刪除，同ID15）</hint-->
+  <!--hint id='18' place='8'>倉庫整理失敗（建議刪除）</hint-->
+  <hint id="19" place="8" lanID="60015">
+  </hint>
+  <hint id="20" place="8" lanID="60016">
+  </hint>
+  <!--hint id='21' place='8'>倉庫已經存在（建議刪除）</hint-->
+  <hint id="22" place="2" lanID="60017">
+  </hint>
+  <hint id="23" place="8" lanID="60018">
+  </hint>
+  <hint id="24" place="256" type="3" lanID="60019">
+  </hint>
+  <hint id="25" place="2" lanID="60020">
+  </hint>
+  <hint id="26" place="8" lanID="60021">
+  </hint>
+  <hint id="27" place="2" lanID="60022">
+  </hint>
+  <hint id="28" place="8" lanID="60023">
+  </hint>
+  <hint id="29" place="2" lanID="60024">
+  </hint>
+  <hint id="30" place="2" lanID="60025">
+  </hint>
+  <hint id="31" place="8" lanID="60026">
+  </hint>
+  <hint id="32" place="8" lanID="60027">
+  </hint>
+  <hint id="33" place="8" lanID="60028">
+  </hint>
+  <hint id="34" place="8" lanID="60029">
+  </hint>
+  <hint id="35" place="8" lanID="60030">
+  </hint>
+  <hint id="36" place="8" lanID="60031">
+  </hint>
+  <hint id="37" place="8" lanID="60032">
+  </hint>
+  <hint id="38" place="8" lanID="60033">
+  </hint>
+  <hint id="39" place="2" lanID="60034">
+  </hint>
+  <hint id="40" place="8" lanID="60035">
+  </hint>
+  <hint id="41" place="8" lanID="60036">
+  </hint>
+  <hint id="42" place="2" lanID="60037">
+  </hint>
+  <!---物品...end...100-->
+  <!---=========================================================================-->
+  <!---技能101~300-->
+  <!--hint id='101' place='8'>無該技能（建議刪除）</hint-->
+  <!--hint id='102' place='8'>無該目標（建議刪除）</hint-->
+  <hint id="103" place="8" lanID="60038">
+  </hint>
+  <hint id="104" place="8" lanID="60039">
+  </hint>
+  <hint id="105" place="8" lanID="60040">
+  </hint>
+  <hint id="106" place="8" lanID="60041">
+  </hint>
+  <hint id="107" place="8" lanID="60042">
+  </hint>
+  <!--hint id='108' place='8'>敵友關係不對，無法施放技能（建議刪除）</hint-->
+  <!--hint id='109' place='8'>包發錯啦。。技能類型與處理接口不一致（建議刪除）</hint-->
+  <hint id="110" place="8" lanID="60043">
+  </hint>
+  <!--hint id='111' place='8'>未擊中（建議刪除）</hint-->
+  <!--hint id='112' place='8'>距離太遠，無法攻擊（建議刪除）</hint-->
+  <!--hint id='113' place='8'>攻擊太快，休息下吧（建議刪除）</hint-->
+  <hint id="114" place="8" lanID="60044">
+  </hint>
+  <!--hint id='115' place='8'>不對攻擊自己（建議刪除）</hint-->
+  <hint id="116" place="8" lanID="60045">
+  </hint>
+  <hint id="117" place="2" lanID="60046">
+  </hint>
+  <hint id="118" place="8" lanID="60047">
+  </hint>
+  <!--hint id='119' place='2'>被%s擊中，傷害-%u（建議刪除，用ID117提示）</hint-->
+  <hint id="120" place="8" lanID="60048">
+  </hint>
+  <hint id="121" place="8" lanID="60049">
+  </hint>
+  <hint id="122" place="8" lanID="60050">
+  </hint>
+  <hint id="123" place="8" lanID="60051">
+  </hint>
+  <hint id="124" place="8" lanID="60455">當前狀態，無法傳送</hint>
+  <!---技能...end...300-->
+  <!---=========================================================================-->
+  <!---場景401~499-->
+  <hint id="401" place="8" lanID="60052">
+  </hint>
+  <hint id="402" place="8" lanID="60053">
+  </hint>
+  <hint id="403" place="8" lanID="60054">
+  </hint>
+  <hint id="404" place="8" lanID="60055">
+  </hint>
+  <hint id="405" place="4" chatChannel="11" trackLink="openPanel┆0┆2$0$4" trackLinkName="【擊殺boss】">{[%0s],blue,0,1}成功擊殺{[%1u線]BOSS[%2s],red,0,1}，獲得豐厚戰利品！</hint>
+  <hint id="407" place="8" lanID="60057">
+  </hint>
+  <hint id="408" place="8" lanID="60058">
+  </hint>
+  <hint id="409" place="8" lanID="60059">
+  </hint>
+  <hint id="410" place="8" lanID="60060">
+  </hint>
+  <scriptAlert id="411" autoAction="cancel" delay="30" pattern="%0s{delay}秒後默認選擇取消" lanID="60061">
+  </scriptAlert>
+  <hint id="412" place="8" lanID="60062">
+  </hint>
+  <hint id="413" place="8" lanID="60063">
+  </hint>
+  <hint id="414" place="8" lanID="60064">
+  </hint>
+  <hint id="415" place="8" lanID="60065">
+  </hint>
+  <hint id="416" place="8" lanID="60066">
+  </hint>
+  <hint id="417" place="8" lanID="60067">
+  </hint>
+  <hint id="418" place="4" chatChannel="11" trackLink="openPanel┆0┆6$0$3" trackLinkName="【我要變強】">恭喜{[%0s],blue,0,1}成功開啓星座！</hint>
+  <hint id="419" place="4" chatChannel="11" trackLink="openPanel┆0┆3$0$3" trackLinkName="【快速獲得神器】">{[%0s],blue,0,1}成功完成任務{[%1s],blue,0,1}，獲得 {充值大禮包,blue,0,1} 以及 {神器`封印戒指,red,0,1} ！</hint>
+  <hint id="420" place="8" lanID="60070">
+  </hint>
+  <hint id="421" place="8" lanID="60071">
+  </hint>
+  <hint id="422" place="8" lanID="60072">
+  </hint>
+  <hint id="423" place="8" lanID="60073">
+  </hint>
+  <hint id="424" place="8" lanID="60074">
+  </hint>
+  <hint id="425" place="8" lanID="60075">
+  </hint>
+  <hint id="426" place="8" lanID="60076">
+  </hint>
+  <hint id="427" place="8" lanID="60077">
+  </hint>
+  <hint id="428" place="8" lanID="60078">
+  </hint>
+  <hint id="429" place="8" lanID="60079">
+  </hint>
+  <hint id="430" place="8" lanID="60080">
+  </hint>
+  <hint id="431" place="8" lanID="60081">
+  </hint>
+  <hint id="432" place="8" lanID="60082">
+  </hint>
+  <hint id="433" place="8" lanID="60083">
+  </hint>
+  <hint id="434" place="8" lanID="60084">
+  </hint>
+  <scriptAlert id="435" autoAction="cancel" delay="30" pattern="%0s{delay}秒後默認選擇取消" lanID="60085">
+  </scriptAlert>
+  <hint id="436" place="8" lanID="60086">
+  </hint>
+  <hint id="437" place="8" lanID="60087">
+  </hint>
+  <hint id="438" place="8" lanID="60088">
+  </hint>
+  <hint id="439" place="32" lanID="60089">
+  </hint>
+  <hint id="440" place="8" lanID="60090">
+  </hint>
+  <hint id="441" place="8" lanID="60091">"每日只可使用%0u次%1s，已達上限，無法使用！"</hint>
+  <hint id="442" place="8" lanID="60092">
+  </hint>
+  <hint id="443" place="8" lanID="60093">
+  </hint>
+  <hint id="444" place="8" lanID="60094">
+  </hint>
+  <hint id="445" place="8" lanID="60095">
+  </hint>
+  <hint id="446" place="4" chatChannel="11" trackLink="openPanel┆0┆7" trackLinkName="【成為尊貴VIP】">{[%0s],blue,0,1}使用VIP卡，成爲尊貴的{VIP,red,0,1}用戶！</hint>
+  <hint id="447" place="8" lanID="60097">
+  </hint>
+  <hint id="448" place="8" lanID="60098">
+  </hint>
+  <hint id="449" place="4" chatChannel="11" trackLink="openPanel┆0┆8" trackLinkName="【進入氣球競技場】">好運連連！{[%0s],blue,0,1}在射擊遊戲中獲得獎品{%1i,red,0,1}</hint>
+  <hint id="450" place="4" chatChannel="11">{[%0s],blue,0,1}成功在秘寶卷軸中獲得{%1i,red,0,1}</hint>
+  <hint id="451" place="4" chatChannel="11" trackLink="openPanel┆0┆9" trackLinkName="【我要變強】">{[%s],blue,0,1}的坐騎成功提升到{%u,red,0,1}階{%u,red,0,1}星，神力加{%u,red,0,1}</hint> 
+  <hint id="452" place="4" chatChannel="11" trackLink="openPanel┆0┆3$0$3" trackLinkName="【我要變強】">{[%0s],blue,0,1}成功鑒定{%1i}，裝備附加屬性出現！</hint>
+  <hint id="453" place="4" chatChannel="11" trackLink="openPanel┆0┆10$0$2" trackLinkName="【我要變強】">{[%0s],blue,0,1}好運連連，成功將{%1i}靈魂提升到{[%2s],red,0,1}，裝備屬性獲得巨大提升！</hint>
+  <hint id="454" place="4" chatChannel="11" trackLink="openPanel┆0┆2$0$4" trackLinkName="【討伐惡魔】">{[%0s],blue,0,1}在 {[%1u線 %2s],red,0,1}出沒，並叫囂說，要給人類一點顔色瞧瞧。請各位勇士前往討伐！</hint>
+  <hint id="455" place="4" chatChannel="11" trackLink="openPanel┆0┆10$0$1" trackLinkName="【我要變強】">{[%0s],blue,0,1}成功重鑄{[%1i],red,0,1}，裝備附加屬性出現！</hint>
+  <hint id="456" place="4" chatChannel="11" trackLink="openPanel┆0┆2$0$4" trackLinkName="【討伐惡魔】">魔王尼德霍格：潛伏在高級修行場、煉獄和葬魔之地的惡魔首領們，從地獄的黑暗中甦醒吧！血洗阿爾斯特的時候到了，向我展示您們的忠心吧！</hint>
+  <!---技能...end...499-->
+  <!---=========================================================================-->
+  <!---角色500~535-->
+  <hint id="491" place="8" lanID="60099">
+  </hint>
+  <hint id="492" place="8" lanID="60100">
+  </hint>
+  <hint id="493" place="8" lanID="60101">
+  </hint>
+  <hint id="494" place="8" lanID="60102">
+  </hint>
+  <hint id="495" place="8" lanID="60103">
+  </hint>
+  <hint id="496" place="8" lanID="60104">
+  </hint>
+  <hint id="497" place="8" lanID="60105">
+  </hint>
+  <hint id="498" place="8" lanID="60106">
+  </hint>
+  <hint id="499" place="8" lanID="60107">
+  </hint>
+  <hint id="500" place="8" lanID="60108">
+  </hint>
+  <hint id="501" place="8" lanID="60109">
+  </hint>
+  <hint id="502" place="8" lanID="60110">
+  </hint>
+  <hint id="503" place="8" lanID="60111">
+  </hint>
+  <hint id="504" place="8" lanID="60112">
+  </hint>
+  <hint id="505" place="8" lanID="60113">
+  </hint>
+  <hint id="506" place="8" lanID="60114">
+  </hint>
+  <hint id="507" place="256" type="3" lanID="60115">!</hint>
+  <hint id="508" place="8" lanID="60116">
+  </hint>
+  <hint id="509" place="8" lanID="60117">
+  </hint>
+  <hint id="510" place="4" chatChannel="11" trackLink="openPanel┆0┆6$0$3" trackLinkName="【我要變強】">{[%0s],blue,0,1}的英雄座全部開啓，獲得巨額屬性加成！</hint>
+  <hint id="511" place="4" chatChannel="11" trackLink="openPanel┆0┆6$0$3" trackLinkName="【我要變強】">{[%0s],blue,0,1}的半神座全部開啓，獲得巨額屬性加成！</hint>
+  <hint id="512" place="4" chatChannel="11" trackLink="openPanel┆0┆6$0$3" trackLinkName="【我要變強】">{[%0s],blue,0,1}的神座全部開啓，獲得巨額屬性加成！</hint>
+  <hint id="513" place="8" lanID="60121">
+  </hint>
+  <hint id="514" place="8" lanID="60122">
+  </hint>
+  <hint id="515" place="8" lanID="60123">
+  </hint>
+  <hint id="516" place="8" lanID="60124">
+  </hint>
+  <hint id="517" place="8" lanID="60125">
+  </hint>
+  <hint id="518" place="256" type="3" lanID="60126">
+  </hint>
+  <hint id="519" place="8" lanID="60127">
+  </hint>
+  <hint id="520" place="8" lanID="60128">
+  </hint>
+  <hint id="521" place="8" lanID="60129">
+  </hint>
+  <hint id="522" place="4" chatChannel="11">{[%0s],blue,0,1}終結了{[%1s],red,0,1}的殺戮</hint>
+  <hint id="523" place="8" lanID="60131">
+  </hint>
+  <hint id="524" place="8" lanID="60132">
+  </hint>
+  <hint id="525" place="8" lanID="60133">
+  </hint>
+  <hint id="526" place="8" lanID="60134">
+  </hint>
+  <hint id="527" place="8" lanID="60135">
+  </hint>
+  <hint id="528" place="8" lanID="60136">
+  </hint>
+  <hint id="529" place="8" lanID="60137">
+  </hint>
+  <hint id="530" place="8" lanID="60138">
+  </hint>
+  <hint id="531" place="8" lanID="60139">
+  </hint>
+  <hint id="532" place="8" lanID="60140">
+  </hint>
+  <hint id="533" place="8" lanID="60141">
+  </hint>
+  <hint id="534" place="8" lanID="60142">
+  </hint>
+  <hint id="535" place="8" lanID="60143">
+  </hint>
+  <!--組隊與好友系統提示 536~559-->
+  <hint id="536" place="8" lanID="60144">
+  </hint>
+  <!--hint id='537' place='8' lanID='60145'></hint-->
+  <hint id="538" place="8" lanID="60146">
+  </hint>
+  <hint id="539" place="8" lanID="60147">
+  </hint>
+  <hint id="540" place="8" lanID="60148">
+  </hint>
+  <hint id="541" place="8" lanID="60149">
+  </hint>
+  <hint id="542" place="8" lanID="60150">
+  </hint>
+  <hint id="543" place="8" lanID="60151">
+  </hint>
+  <hint id="544" place="8" lanID="60152">
+  </hint>
+  <hint id="545" place="8" lanID="60153">
+  </hint>
+  <hint id="546" place="8" lanID="60154">
+  </hint>
+  <hint id="547" place="8" lanID="60155">
+  </hint>
+  <hint id="548" place="8" lanID="60156">
+  </hint>
+  <hint id="549" place="8" lanID="60157">
+  </hint>
+  <!--hint id='550' place='8' lanID='60158'></hint-->
+  <hint id="551" place="8" lanID="60159">
+  </hint>
+  <!--hint id='552' place='8' lanID='60160'></hint-->
+  <hint id="553" place="8" lanID="60161">
+  </hint>
+  <hint id="554" place="8" lanID="60162">
+  </hint>
+  <hint id="555" place="8" lanID="60163">
+  </hint>
+  <hint id="556" place="8" lanID="60164">
+  </hint>
+  <hint id="557" place="256" type="1" lanID="60165">
+  </hint>
+  <hint id="558" place="256" type="1" lanID="60166">
+  </hint>
+  <hint id="559" place="8" lanID="60167">
+  </hint>
+  <!--精通560~563 -->
+  <hint id="560" place="4" chatChannel="11" trackLink="openPanel┆0┆6$0$4" trackLinkName="【我要變強】">{[%0s],blue,0,1}好運連連，{[%1s],red,0,1}成功雕琢6星！</hint>
+  <hint id="561" place="256" type="1" lanID="60169">
+  </hint>
+  <hint id="562" place="4" chatChannel="11" trackLink="openPanel┆0┆6$0$4" trackLinkName="【我要變強】">{[%0s],blue,0,1}好運連連，{[%1s],red,0,1}精通達到%2u連星！</hint>
+  <hint id="563" place="4" chatChannel="11" trackLink="openPanel┆0┆6$0$4" trackLinkName="【我要變強】">{[%0s],blue,0,1}好運連連，{[%1s],red,0,1}完美雕琢12星！</hint>
+  <!--組隊提示增補 564-->
+  <hint id="564" place="8" lanID="60172">
+  </hint>
+  <hint id="565" place="2" lanID="60173">
+  </hint>
+  <hint id="566" place="8" lanID="60174">
+  </hint>
+  <hint id="567" place="8" lanID="60175">
+  </hint>
+  <hint id="568" place="8" lanID="60176">
+  </hint>
+  <hint id="569" place="8" lanID="60177">
+  </hint>
+  <hint id="570" place="8" lanID="60178">
+  </hint>
+  <hint id="571" place="8" lanID="69999">已達一天的郵件峰值20封</hint>
+  <hint id="572" place="8" lanID="70001">郵件發送失敗</hint>
+  <hint id="573" place="8" lanID="70002">另一份郵件正在提取中。。請稍後</hint>
+  <hint id="574" place="8" lanID="70003">郵件發送成功</hint>
+  <hint id="575" place="4" chatChannel="3">[%0i][%1s]擲出%2u點</hint>
+  <hint id="576" place="4" chatChannel="3">[%0s]獲得[%1i]</hint>
+  <hint id="577" place="4" chatChannel="3">[%0i][%1s]放棄擲點</hint>
+  <hint id="578" place="8" lanID="60471">隊伍分配制切換到自由模式！</hint>
+  <hint id="579" place="256" type="1" lanID="60472">隊伍分配制切換到分配模式！</hint>
+  <hint id="580" place="8" lanID="60473">此地圖組隊爲分配模式，自動切換到分配模式！</hint>
+  <hint id="581" place="8" lanID="60474">此地圖組隊爲自由模式，自動切換到自由模式！</hint>
+  <hint id="582" place="8" lanID="60475">該地圖無法切換分配模式！</hint>
+  <!--魔法陣 600~620-->
+  <hint id="600" place="8" lanID="60179">
+  </hint>
+  <hint id="601" place="8" lanID="60180">
+  </hint>
+  <hint id="602" place="8" lanID="60181">
+  </hint>
+  <hint id="603" place="8" lanID="60182">
+  </hint>
+  <hint id="604" place="8" lanID="60183">
+  </hint>
+  <hint id="605" place="8" lanID="60184">
+  </hint>
+  <hint id="606" place="8" lanID="60185">
+  </hint>
+  <hint id="607" place="8" lanID="60186">
+  </hint>
+  <hint id="608" place="8" lanID="60187">
+  </hint>
+  <hint id="609" place="8" lanID="60188">
+  </hint>
+  <hint id="610" place="8" lanID="60189">
+  </hint>
+  <hint id="611" place="8" lanID="60190">
+  </hint>
+  <hint id="612" place="8" lanID="60191">
+  </hint>
+  <hint id="613" place="8" lanID="60192">
+  </hint>
+  <!--交易 700~720-->
+  <hint id="701" place="8" lanID="60193">
+  </hint>
+  <hint id="702" place="8" lanID="60194">
+  </hint>
+  <hint id="703" place="8" lanID="60195">
+  </hint>
+  <hint id="704" place="8" lanID="60196">
+  </hint>
+  <!--寄售720-721-->
+  <hint id="720" place="8" lanID="60197">
+  </hint>
+  <hint id="721" place="8" lanID="60198">
+  </hint>
+  <!--NPC 商店722-730-->
+  <hint id="722" place="8" lanID="60199">
+  </hint>
+  <hint id="723" place="8" lanID="60200">
+  </hint>
+  <hint id="724" place="8" lanID="60201">
+  </hint>
+  <hint id="725" place="8" lanID="60202">
+  </hint>
+  <hint id="726" place="8" lanID="60203">
+  </hint>
+  <hint id="727" place="8" lanID="60409">您已達限購量，無法再購買</hint>
+  <hint id="728" place="4" chatChannel="11" trackLink="openPanel┆0┆6$0$2" trackLinkName="【我要變強】">感謝太陽神的庇佑！{%0s,blue,0,1}的太陽神徽章成功升級到{%1u,red,0,1}級，獲得強大的屬性加成！</hint>
+  <hint id="729" place="4" chatChannel="11" trackLink="openPanel┆0┆11" trackLinkName="【我要變強】">{%0s,blue,0,1}與{%1s,red,0,1}訂立契約，獲得{%2s,red,0,1}的守護！</hint>
+  <!--任務730-750-->
+  <hint id="730" place="8" lanID="60204">
+  </hint>
+  <hint id="731" place="8" lanID="60205">
+  </hint>
+  <hint id="732" place="8" lanID="60206">
+  </hint>
+  <hint id="733" place="8" lanID="60207">
+  </hint>
+  <hint id="734" place="8" lanID="60208">
+  </hint>
+  <hint id="735" place="8" lanID="60209">
+  </hint>
+  <hint id="736" place="8" lanID="60210">
+  </hint>
+  <hint id="737" place="8" lanID="60211">
+  </hint>
+  <!--寵物800-850-->
+  <hint id="800" place="8" lanID="60212">
+  </hint>
+  <hint id="801" place="2" lanID="60213">
+  </hint>
+  <hint id="802" place="8" lanID="60214">
+  </hint>
+  <hint id="803" place="8" lanID="60215">
+  </hint>
+  <hint id="804" place="8" lanID="60216">
+  </hint>
+  <hint id="805" place="8" lanID="60217">
+  </hint>
+  <hint id="806" place="8" lanID="60218">
+  </hint>
+  <hint id="807" place="8" lanID="60219">
+  </hint>
+  <hint id="808" place="8" lanID="60220">
+  </hint>
+  <hint id="809" place="8" lanID="60221">
+  </hint>
+  <hint id="810" place="8" lanID="60222">
+  </hint>
+  <hint id="811" place="8" lanID="60223">
+  </hint>
+  <hint id="812" place="8" lanID="60224">
+  </hint>
+  <hint id="813" place="8" lanID="60225">
+  </hint>
+  <hint id="814" place="8" lanID="60226">
+  </hint>
+  <hint id="815" place="2" lanID="60227">
+  </hint>
+  <hint id="816" place="8" lanID="60228">
+  </hint>
+  <hint id="817" place="8" lanID="60229">
+  </hint>
+  <hint id="818" place="8" lanID="60230">
+  </hint>
+  <hint id="819" place="8" lanID="60231">
+  </hint>
+  <hint id="820" place="8" lanID="60232">
+  </hint>
+  <hint id="821" place="8" lanID="60233">
+  </hint>
+  <hint id="822" place="8" lanID="60234">
+  </hint>
+  <hint id="823" place="8" lanID="60235">
+  </hint>
+  <hint id="824" place="8" lanID="60236">
+  </hint>
+  <hint id="829" place="4" chatChannel="11" trackLink="openPanel┆0┆9" trackLinkName="【我要變強】">{[%0s],blue,0,1}的坐騎提升到{[%1u],red,0,1}階，神力加成{[%2u%%],red,0,1}！</hint>
+  <hint id="830" place="256" type="1" lanID="60238">
+  </hint>
+  <hint id="831" place="256" type="1" lanID="60239">
+  </hint>
+  <!--hint id='832' place='8'>坐騎獲得經驗%u點，當前經驗值爲%u點</hint-->
+  <hint id="833" place="8" lanID="60240">
+  </hint>
+  <scriptAlert id="834" lanID="60241">
+  </scriptAlert>
+  <hint id="835" place="8" lanID="60242">
+  </hint>
+  <hint id="836" place="8" lanID="60243">
+  </hint>
+  <scriptAlert id="837" lanID="60244">
+  </scriptAlert>
+  <hint id="838" place="8" lanID="60245">
+  </hint>
+  <hint id="839" place="8" lanID="60246">
+  </hint>
+  <hint id="840" place="256" type="1" lanID="60247">
+  </hint>
+  <hint id="841" place="4" chatChannel="11" trackLink="openPanel┆0┆12" trackLinkName="【我要變強】">{[%0s],blue,0,1}的{[%1s],red,0,1}經過融合，品質達到{完美,0,1}！</hint>
+  <hint id="842" place="4" chatChannel="11" trackLink="openPanel┆0┆12" trackLinkName="【我要變強】">{[%0s],blue,0,1}的{[%1s],red,0,1}經過融合，品質達到{近神,0,1}！</hint>
+  <!--PK賽851-871-->
+  <hint id="851" place="8" lanID="60250">
+  </hint>
+  <hint id="852" place="8" lanID="60251">
+  </hint>
+  <hint id="853" place="8" lanID="60252">
+  </hint>
+  <hint id="854" place="8" lanID="60253">
+  </hint>
+  <hint id="855" place="8" lanID="60254">
+  </hint>
+  <hint id="856" place="8" lanID="60255">
+  </hint>
+  <hint id="857" place="4" chatChannel="11">{[%0s],blue,0,1}雙手沾滿了鮮血，已經殺得超神了！！</hint>
+  <hint id="858" place="4" chatChannel="11">{[%0s],blue,0,1}終結了{[%1s],blue,0,1}的{超神,red,0,1}殺戮！！</hint>
+  <hint id="859" place="4" chatChannel="11">{[%0s],blue,0,1}獲得了{[%1s],blue,0,1}的{季軍,red,0,1}！</hint>
+  <hint id="860" place="4" chatChannel="11">{[%0s],blue,0,1}獲得了{[%1s],blue,0,1}的{亞軍,red,0,1}！</hint>
+  <hint id="861" place="4" chatChannel="11">{[%0s],blue,0,1}獲得了{[%1s],blue,0,1}的{冠軍,red,0,1}！</hint>
+  <hint id="862" place="1" lanID="60056">PK賽淘汰賽結束，1分鍾後將開始PK賽總決賽！</hint>
+  <hint id="863" place="8" lanID="70004">未連上中心服，無法發送郵件！</hint>
+  <!--奪寶872-879-->
+  <hint id="872" place="8" lanID="60261">
+  </hint>
+  <!--VIP 880-890-->
+  <hint id="880" place="8" lanID="60262">
+  </hint>
+  <!--hint id='881' place='8'>操作失敗，VIP未達到要求等級！</hint-->
+  <hint id="882" place="256" type="3" lanID="60263">
+  </hint>
+  <hint id="883" place="256" type="3" lanID="60264">
+  </hint>
+  <hint id="884" place="4" chatChannel="11" trackLink="openPanel┆0┆7" trackLinkName="【成為尊貴VIP】">{[%0s],blue,0,1}使用生活特權卡，成爲生活特權用戶，享受各種生活福利！</hint>
+  <hint id="885" place="4" chatChannel="11" trackLink="openPanel┆0┆7" trackLinkName="【成為尊貴VIP】">{[%0s],blue,0,1}使用戰鬥特權卡，成爲戰鬥特權用戶，享受各種戰鬥福利！</hint>
+  <hint id="886" place="4" chatChannel="11" trackLink="openPanel┆0┆7" trackLinkName="【成為尊貴VIP】">{[%0s],blue,0,1}使用至尊VIP卡，成爲尊貴的VIP用戶，齊享VIP特權、生活特權、戰鬥特權三種特權！</hint>
+  <!--公會 891-950-->
+  <hint id="891" place="8" lanID="60265">
+  </hint>
+  <hint id="892" place="8" lanID="60266">
+  </hint>
+  <hint id="893" place="8" lanID="60267">
+  </hint>
+  <hint id="894" place="8" lanID="60268">
+  </hint>
+  <hint id="895" place="256" type="1" lanID="60269">
+  </hint>
+  <hint id="897" place="8" lanID="60270">
+  </hint>
+  <hint id="898" place="8" lanID="60271">
+  </hint>
+  <hint id="899" place="8" lanID="60272">
+  </hint>
+  <hint id="900" place="8" lanID="60273">
+  </hint>
+  <hint id="901" place="8" lanID="60274">
+  </hint>
+  <hint id="903" place="8" lanID="60275">
+  </hint>
+  <hint id="904" place="8" lanID="60276">
+  </hint>
+  <hint id="905" place="8" lanID="60277">
+  </hint>
+  <hint id="906" place="256" type="1" lanID="60278">
+  </hint>
+  <hint id="907" place="8" lanID="60279">
+  </hint>
+  <hint id="908" place="8" lanID="60280">
+  </hint>
+  <hint id="909" place="8" lanID="60281">
+  </hint>
+  <hint id="911" place="8" lanID="60282">
+  </hint>
+  <hint id="912" place="8" lanID="60283">
+  </hint>
+  <hint id="913" place="8" lanID="60284">
+  </hint>
+  <hint id="914" place="8" lanID="60285">
+  </hint>
+  <hint id="915" place="8" lanID="60286">
+  </hint>
+  <hint id="916" place="8" lanID="60287">
+  </hint>
+  <hint id="917" place="8" lanID="60288">
+  </hint>
+  <hint id="918" place="2" lanID="60289">您所在的公會被 %0s 解散了!</hint>
+  <hint id="919" place="8" lanID="60290">
+  </hint>
+  <hint id="920" place="8" lanID="60291">
+  </hint>
+  <hint id="921" place="8" lanID="60292">
+  </hint>
+  <hint id="922" place="8" lanID="60293">
+  </hint>
+  <hint id="923" place="8" lanID="60294">
+  </hint>
+  <hint id="924" place="8" lanID="60295">
+  </hint>
+  <hint id="925" place="256" type="1" lanID="60296">
+  </hint>
+  <hint id="926" place="8" lanID="60297">
+  </hint>
+  <hint id="927" place="8" lanID="60298">
+  </hint>
+  <hint id="928" place="8" lanID="60299">
+  </hint>
+  <hint id="929" place="8" lanID="60300">
+  </hint>
+  <hint id="930" place="8" lanID="60301">
+  </hint>
+  <hint id="932" place="8" lanID="60302">
+  </hint>
+  <hint id="933" place="8" lanID="60303">
+  </hint>
+  <hint id="934" place="8" lanID="60304">
+  </hint>
+  <hint id="935" place="8" lanID="60305">
+  </hint>
+  <hint id="936" place="8" lanID="60306">
+  </hint>
+  <hint id="937" place="256" type="1" lanID="60307">
+  </hint>
+  <hint id="938" place="8" lanID="60308">
+  </hint>
+  <hint id="939" place="4" chatChannel="11" trackLink="openPanel┆0┆13" trackLinkName="【加入公會】">恭喜{[%0s],blue,0,1} 成功創建了公會{[%1s],red,0,1}!</hint>
+  <hint id="940" place="256" type="1" lanID="60310">
+  </hint>
+  <hint id="941" place="8" lanID="60311">
+  </hint>
+  <hint id="942" place="8" lanID="60312">
+  </hint>
+  <hint id="943" place="8" lanID="60313">
+  </hint>
+  <hint id="945" place="8" lanID="60314">
+  </hint>
+  <hint id="946" place="8" lanID="60315">
+  </hint>
+  <hint id="947" place="8" lanID="60316">
+  </hint>
+  <hint id="948" place="8" lanID="60328">
+  </hint>
+  <hint id="949" place="8" lanID="60329">
+  </hint>
+  <!--靈魂裝備951-970-->
+  <hint id="951" place="8" lanID="60400">
+  </hint>
+  <hint id="952" place="8" lanID="60401">
+  </hint>
+  <hint id="953" place="8" lanID="60402">
+  </hint>
+  <hint id="954" place="8" lanID="60403">
+  </hint>
+  <hint id="955" place="8" lanID="60404">
+  </hint>
+  <hint id="956" place="8" lanID="60405">
+  </hint>
+  <hint id="957" place="8" lanID="60406">
+  </hint>
+  <hint id="958" place="8" lanID="60454">當前狀態下無法冥想！</hint>
+  <hint id="959" place="8" lanID="60476">您拾取了必掉物品，無法隱身!</hint>
+  <hint id="960" place="8" lanID="60477">當前隱身狀態下，無法拾取該物品！</hint>
+  <hint id="961" place="8" lanID="60479">頻道冷卻中，無法使用！</hint>
+  <!--裝備鑒定 971-980-->
+  <hint id="971" place="256" type="1" lanID="60410">鑒定成功！</hint>
+  <hint id="972" place="256" type="3" lanID="60411">鑒定失敗！</hint>
+  <hint id="973" place="8" lanID="60412">不能鑒定白品裝備！</hint>
+  <hint id="974" place="8" lanID="60413">只能鑒定裝備！</hint>
+  <hint id="975" place="8" lanID="60414">請使用鑒定符鑒定！</hint>
+  <hint id="406" place="8" lanID="70000">交易中，不能換線</hint>
+  <!--拍賣行 981-990-->
+  <hint id="981" place="8" lanID="60420">購買失敗，此物品正在被交易！</hint>
+  <hint id="982" place="8" lanID="60421">購買失敗，此物品已被他人購買！</hint>
+  <!--PK賽 991-995-->
+  <hint id="991" place="8" lanID="60428">PK賽的淘汰賽結束，您未達到前10名，不幸出局！</hint>
+  <hint id="992" place="8" lanID="60429">PK賽總決賽開始！</hint>
+  <hint id="993" place="8" lanID="60430">PK賽還未正式開始，無法攻擊，請耐心等待！</hint>
+  <!-- 996 -->
+  <hint id="996" place="8" lanID="60450">當前狀態下不能傳送！</hint>
+  <!--活動提示 1026-1030-->
+  <hint id="1026" place="1" lanID="60433">[%0s]</hint>
+  <hint id="1027" place="1" lanID="60434">[%0s]即將結束，還有%1u分%2u秒</hint>
+  <!--聊天 1000-1100-->
+  <hint id="1000" place="8" lanID="60317">
+  </hint>
+  <hint id="1001" place="8" lanID="60318">
+  </hint>
+  <hint id="1002" place="8" lanID="60319">
+  </hint>
+  <hint id="1003" place="8" lanID="60320">
+  </hint>
+  <hint id="1004" place="8" lanID="60321">
+  </hint>
+  <hint id="1005" place="8" lanID="60322">
+  </hint>
+  <!--防沈迷 60323-60327-->
+  <hint id="1021" place="64" lanID="60323">
+  </hint>
+  <hint id="1022" place="64" lanID="60324">
+  </hint>
+  <hint id="1023" place="64" lanID="60325">
+  </hint>
+  <hint id="1024" place="64" lanID="60326">
+  </hint>
+  <hint id="1025" place="64" lanID="60327">
+  </hint>
+  <!--裝備重鑄 1101-1105-->
+  <hint id="1101" place="8" lanID="60447">
+  </hint>
+  <hint id="1102" place="8" lanID="60448">
+  </hint>
+  <!--煉金術-->
+  <hint id="1104" place="8" lanID="60451">當前等級已無法再使用此藥品！</hint>
+  <!--時效性-->
+  <hint id="1106" place="8" lanID="60452">該物品已過期，無法使用！</hint>
+  <!--公會 1107-1120-->
+  <hint id="1107" place="8" lanID="60460">您不是會長無法升級公會</hint>
+  <hint id="1108" place="8" lanID="60461">公會等級已達最高，無法升級</hint>
+  <hint id="1109" place="8" lanID="60462">公會資金還達不到升級要求</hint>
+  <hint id="1110" place="8" lanID="60463">公會聲望還達不到升級要求</hint>
+  <hint id="1111" place="8" lanID="60464">升級所需物品不足！</hint>
+  <hint id="1112" place="4" chatChannel="11" trackLink="openPanel┆0┆13" trackLinkName="【加入公會】">恭喜{[%0s],blue,0,1} 成功升級爲{[%1u],red,0,1}級公會!</hint>
+  <hint id="1113" place="8" lanID="60330">公會資金充足，圖騰已開啓！</hint>
+  <hint id="1114" place="8" lanID="60331">圖騰已關!</hint>
+  <hint id="1115" place="8" lanID="60332">只有貢獻度達到 %0u 才能領取哦！</hint>
+  <hint id="1116" place="8" lanID="60333">您已經領取過公會工資啦！</hint>
+  <hint id="1117" place="256" type="1" lanID="60334">成功領取 %0u 公會工資！</hint>
+  <hint id="1118" place="8" lanID="60335">只有貢獻度達到 %0u 才能購買哦！</hint>
+  <!-- 60456-60459 -->
+  <hint id="397" place="4" chatChannel="11" trackLink="openPanel┆0┆3$0$2" trackLinkName="【快速獲得神器】">{[%0s],blue,0,1}成功完成任務{[%1s],blue,0,1}，獲得 {充值大禮包,blue,0,1} 以及 {神器`封印戒指,red,0,1} ！</hint>
+  <hint id="398" place="4" chatChannel="11" trackLink="openPanel┆0┆3$0$2" trackLinkName="【快速獲得神器】">{[%0s],blue,0,1}成功完成任務{[%1s],blue,0,1}，獲得 {充值大禮包,blue,0,1} 以及 {神器`封印戒指,red,0,1} ！</hint>
+  <hint id="399" place="4" chatChannel="11" trackLink="openPanel┆0┆3$0$2" trackLinkName="【快速獲得神器】">{[%0s],blue,0,1}成功完成任務{[%1s],blue,0,1}，獲得 {充值大禮包,blue,0,1} 以及 {神器`封印戒指,red,0,1} ！</hint>
+  <hint id="400" place="4" chatChannel="11" trackLink="openPanel┆0┆3$0$2" trackLinkName="【快速獲得神器】">{[%0s],blue,0,1}成功完成任務{[%1s],blue,0,1}，獲得 {充值大禮包,blue,0,1} 以及 {神器`封印戒指,red,0,1} ！</hint>
+  <!-- 60470 -->
+  <hint id="12" place="8" lanID="60470">%0s已經複活了！</hint>
+  <!-- 60479-60579 -->
+  <!--公會-->
+  <hint id="910" place="8" lanID="60480">您所在的公會已不存在！</hint>
+  <hint id="931" place="8" lanID="60481">淘汰賽結束，請大家通過NPC %0s 離開此場景</hint>
+  <hint id="944" place="4" chatChannel="11">%0s 淘汰賽已結束，%1s 公會獲得了挑戰神殿戰的資格</hint>
+  <!--lanID='60482'-->
+  <hint id="1200" place="8" lanID="60483">公會資金不足！</hint>
+  <hint id="902" place="8" lanID="60500">公會在線人數不足！</hint>
+  <!---->
+  <hint id='1239' place='8' lanID='60518'>功勋不足，无法购买物品</hint>
+  <hint id='1240' place='4' chatChannel='11'>{[%0s],blue,0,1}阵营的勇士{[%1s],blue,0,1}成功占领了胜利仪式为己方阵营增加了大量积分！</hint><!--60519-->
+  <hint id='1241' place='4' chatChannel='11' trackLink="" trackLinkName="【加入队伍】">众人拾柴火焰高，{[%0s],blue,0,1}诚信邀请勇士加入！</hint><!--60520-->
+  <hint id='1242' place='8' lanID='60521'>功勋不足！</hint>
+  <!--神魔战场-->
+  <hint id='1244' place='4' chatChannel='11'>双方阵营积分相同，握手言和！</hint>
+  <!--lanID='60523'-->
+  <scriptAlert id='1245' autoAction='cancel' delay='30' pattern="%s{delay}秒后确认选择取消" lanID='60524'></scriptAlert>
+  <hint id='1246' place='4' chatChannel='11'>{[%0s],blue,0,1}在神魔战场中力挫群雄，获得阵营积分第一！</hint>
+  <!--lanID='60525'-->
+  <hint id='1247' place='4' chatChannel='11'>{[%0s],blue,0,1}阵营在神魔战场获得胜利，所属阵营玩家获得丰厚奖励！</hint>
+  <!--lanID='60526'-->
+  <!--阵营模式-->
+  <hint id='1248' place='8' lanID='60527'>无法切换到阵营模式</hint>
+  <hint id="1250" place="4" chatChannel="11">{[%0s],blue,0,1}人品爆發，輕鬆獲得本次锄草夺寶的第一名！排名前十名的玩家將獲得額外獎勵，請通過郵箱查收。</hint>
+  <!--lanID='60529'-->
+  <hint id="1251" place="4" chatChannel="11">{[%0s],blue,0,1}人品爆發，在鋤草時發現了一個寶箱！</hint>
+  <!--lanID='60530'-->
+  <hint id="1252" place="4" chatChannel="11" trackLink="openPanel┆0┆6$0$4" trackLinkName="【我要變強】">{[%0s],blue,0,1}淬煉{[%1s],blue,0,1}失敗，保持{[%2u],blue,0,1}連星</hint>
+  <!--lanID='60531'-->
+  <hint id="1253" place="4" chatChannel="11" trackLink="openPanel┆0┆6$0$4" trackLinkName="【我要變強】">{[%0s],blue,0,1}淬煉{[%1s],blue,0,1}失敗，降回{[%2u],blue,0,1}連星</hint>
+  <!--lanID='60532'-->
+  <hint id="1254" place="4" chatChannel="11" trackLink="openPanel┆0┆6$0$4" trackLinkName="【我要變強】">{[%0s],blue,0,1}淬煉{[%1s],blue,0,1}成功，達到{[%2u],blue,0,1}連星</hint>
+  <!--lanID='60533'-->
+  <hint id="1255" place="8" lanID="60534">寶石個數不足，淬煉失敗！</hint>
+  <hint id="1256" place="8" lanID="60535">不能跳躍淬煉！</hint>
+  <hint id="1257" place="8" lanID="60536">不能重複淬煉！</hint>
+  <hint id="1258" place="8" lanID="60537">信仰力不足，淬煉失敗！</hint>
+  <hint id="1259" place="8" lanID="60538">金錢不足，淬煉失敗！</hint>
+  <hint id="1260" place="8" lanID="60539">等級不足，淬煉失敗！</hint>
+  <hint id="1261" place="8" lanID='60540'></hint><!--%0s雕琢%1s失敗，保持%2u連星-->
+  <hint id="1262" place="8" lanID='60541'></hint><!--%0s雕琢%1s失敗，降回%2u連星-->
+  <hint id="1263" place="4" chatChannel="11" lanID='60542'>{[%0s],blue,0,1}雕琢{[%1s],blue,0,1}成功，達到{[%2u],blue,0,1}連星</hint>
+  <hint id="1264" place="8" lanID="60543">目標角色已經離開了！</hint>
+  <hint id="1265" place="8" lanID="60544">公會成員%0s在%1s線 %2s（%3s,%4s）擊殺了%5s。</hint>
+  <hint id="1266" place="8" lanID="60545">公會成員%0s在 %1s（%2s,%3s）被%4s 擊殺，請求支援。</hint>
+  <hint id="1267" place="8" lanID="60546">會長把%0s逐出了公會。</hint>
+  <hint id="1268" place="8" lanID="60547">副會長把%0s逐出了公會。</hint>
+  <hint id="1269" place="8" lanID="60548">%0s退出了公會。</hint>
+  <hint id="1270" place="8" lanID="60549">歡迎%0s加入公會，公會即將邁入更加強大的未來。</hint>
+  <hint id="1271" place="4" chatChannel="11" trackLink="openPanel┆0┆5" trackLinkName="【進入試煉塔】">恭喜{[%0s],blue,0,1}成功完成{[%1s],blue,0,1}第{[%2u],blue,0,1}層的試煉，用時僅{[%3u],blue,0,1}分{[%4u],blue,0,1}秒，榮登試煉塔排行榜！</hint>
+  <!--lanID='60550'-->
+  <hint id="1272" place="8" lanID="60551">不能對已重鑄裝備的屬性進行鎖定！</hint>
+  <hint id="1273" place="4" chatChannel="11" trackLink="openPanel┆0┆3$0$8" trackLinkName="【信仰交易所】">{[%0s],blue,0,1}在信仰交易所中出售了{[%1u],blue,0,1}個{[%2i],blue,0,1}，賺了{[%3u],blue,0,1}魔晶</hint>
+  <!--lanID='60552'-->
+  <hint id="1274" place="8" lanID="60553">您所購買的物品已售完！</hint>
+  <hint id="1275" place="4" chatChannel="11" trackLink="openPanel┆0┆5" trackLinkName="【進入試煉塔】">{[%0s],blue,0,1}成功完成{[%1s],blue,0,1}的試煉，用時僅{[%2s],blue,0,1}分{[%3s],blue,0,1}秒，榮登試煉塔排行榜！</hint>
+  <!--lanID='60554'-->
+  <hint id="1276" place="8" lanID="60555">倉庫已滿！</hint>
+  <hint id="1277" place="8" lanID="60556">請先啟動倉庫！</hint>
+  <hint id="1278" place="8" lanID="60557">您的隊伍中%0s背包空間不足！</hint>
+  <!--採集-->
+  <hint id="1279" place="8" lanID="60558">隱身狀態下不能採集！</hint>
+  <hint id="1280" place="8" lanID="60559">採集失敗！</hint>
+  <hint id="1281" place="8" lanID="60560">技能等級不滿足條件！</hint>
+  <hint id="1282" place="8" lanID="60561">距離採集物太遠！</hint>
+  <hint id="1283" place="8" lanID="60562">未學習採集技能！</hint>
+  <hint id="1284" place="8" lanID="60563">採集工具耐久爲0，已無法使用！</hint>
+  <hint id="1285" place="8" lanID="60564">缺少採集工具！</hint>
+  <hint id="1286" place="8" lanID="60565">同時只能採集一樣物品！</hint>
+  <hint id="1287" place="8" lanID="60566">採集物不存在！</hint>
+  <!--物品合成-->
+  <hint id="1288" place="8" lanID="60567">合成材料不足！</hint>
+  <scriptAlert id="1289" autoAction="cancel" delay="30" pattern="%0s{delay}秒後默認選擇取消" lanID="60568">
+  </scriptAlert>
+  <hint id="1290" place="8" lanID="60569">合成道具不足！</hint>
+  <scriptAlert id="1291" autoAction="cancel" delay="30" pattern="%0s{delay}秒後默認選擇取消" lanID="60570">
+  </scriptAlert>
+  <!--公會-->
+  <hint id="1292" place="8" lanID="60571">此地圖不允許切換組隊經驗分享模式</hint>
+  <hint id="1293" place="4" chatChannel="11">%0s 已結束，%1s 公會防守成功，%2s 現在歸屬爲%3s 公會</hint>
+  <!--lanID='60572'-->
+  <hint id="1294" place="4" chatChannel="11">%0s 已結束，%1s 公會成功占領神殿，%2s 現在歸屬爲%3s 公會</hint>
+  <!--lanID='60573'-->
+  <hint id="1295" place="8" lanID="60574">一個公會同時只能挑戰一場神殿戰！</hint>
+  <hint id="1296" place="8" lanID="60575">您的公會已在報名列表中！</hint>
+  <hint id="1297" place="8" lanID="60576">不能自己挑戰自己！</hint>
+  <hint id="1298" place="8" lanID="60577">只有會長能夠報名！</hint>
+  <hint id="1299" place="8" lanID="60578">請先創建一個公會！</hint>
+  <hint id="1300" place="8" lanID="60579">神殿戰名額已滿！</hint>
+  <hint id="1301" place="4" chatChannel="11" trackLink="walkTo┆3┆58┆86┆104" trackLinkName="【我要報名】">{[%0s],blue,0,1}公會會長{[%1s],blue,0,1}上交了上古惡魔?格拉巴克之角，向{[%2s],red,0,1}神殿發起挑戰！</hint>
+  <!--尋寶 1305-1310 60585-60590-->
+  <hint id="1305" place="8" lanID="60585">已經擁有該尋寶獸，無法再次使用！</hint>
+  <hint id="1306" place="8" lanID="60586">尋寶獸已經解封，無法再次使用！</hint>
+  <hint id="1307" place="8" lanID="60587">尋寶獸體力值已經最大，無法使用！</hint>
+  <hint id="1308" place="8" lanID="60588">當前已有公會在試煉，請稍候...</hint>
+  <hint id="1309" place="8" lanID="60589">今天已試練過了</hint>
+  <hint id="1310" place="8" lanID="60590">您的公會神獸還未成年，不能試煉！</hint>
+  <hint id="1311" place="8" lanID="60591">神力覺醒值不夠，無法施法！</hint>
+  <hint id="1312" place="8" lanID="60592">未有神力覺醒狀態，無法施法！</hint>
+  <!--試練塔 1316-1317 60597-60598-->
+  <hint id="1316" place="4" chatChannel="11" trackLink="openPanel┆0┆5" trackLinkName="【進入試煉塔】">恭喜{[%0s],blue,0,1}成功完成{[%1s],blue,0,1}塔的第{[%2d],blue,0,1}層試煉，用時僅{[%3d],blue,0,1}分{[%4d],blue,0,1}秒，榮登試煉塔排行榜！！</hint>
+  <!--原地複活 1320-1326 60600-60606-->
+  <hint id="1330" place="8" lanID="60593">複活失敗，您的複活道具不足！</hint>
+  <hint id="1331" place="8" lanID="60612">PVE伺服器無法切換PK模式</hint>
+  <!--更换头像 60613 -60615-->
+  <hint id="1332" place="8" lanID="60613">頭像已使用</hint>
+  <hint id="1333" place="8" lanID="60614">魔晶不足，無法兌換頭像，頭像保存失敗！</hint>
+  <hint id="1334" place="8" lanID="60615">頭像保存成功！</hint>
+  <hint id="1335" place="1" lanID="60616">拳王爭霸活動即將開始！</hint>
+  <hint id="1336" place="4" chatChannel="11">%0s眼明手快，輕鬆獲得本次拳王爭霸的第一名！獲得大量經驗和金幣獎勵和神秘礼物！</hint>
+  <hint id="1337" place="4" chatChannel="11">%0s和%1s勢均力敵，增加一局比賽。</hint>
+  <hint id="1338" place="1" lanID="60617">拳王爭霸活動結束！</hint>
+  <hint id="1339" place="1" lanID="60618">本輪將進行隨機出拳</hint>
+
+<!--装备强化 --> 
+  <hint id='1340' place='4' chatChannel='11' trackLink="openPanel┆0┆10$0$4" trackLinkName="【我要强化】">{[%0s],blue,0,1}强化{[%1s],red,0,1}失败，等级降至{[%2d],red,0,1}级！</hint>
+  <hint id='1341' place='4' chatChannel='11' trackLink="openPanel┆0┆10$0$4" trackLinkName="【我要强化】">{[%0s],blue,0,1}强化{[%1s],red,0,1}失败，等级保持{[%2d],red,0,1}级！</hint>
+  <hint id='1342' place='4' chatChannel='11' trackLink="openPanel┆0┆10$0$4" trackLinkName="【我要强化】">{[%0s],blue,0,1}强化{[%1s],red,0,1}成功，将{[%2s],red,0,1}强化至{[%3d],red,0,1}级！</hint>
+</hints>

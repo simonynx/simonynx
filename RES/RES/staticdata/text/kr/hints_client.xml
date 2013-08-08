@@ -1,0 +1,1645 @@
+<!--설명：-->
+<!--place: 알림메세지 표시 위치-->
+<!--	1...시스템공지（상단 이동텍스트）-->
+<!--	2...시스템메세지（우측 하단 알림）-->
+<!--	4...채팅 메세지-->
+<!--		chatChannel: 메세지 표시 채널 5...시스템알림, 11...소문채널 알림-->
+<!--		（소문채널 텍스트 격식： {content,color,bold,italic}  내용，색상，굵기，기울임  //색상은 반드시 설정이 필요함  색상문자열red,green,yellow,blue,white）-->
+<!--		（예：{[%s],blue,0,1}님, 축하합니다. 관문을 통과하여 {PK대회 종결자/최강자/전문가,red,0,1} 칭호를 획득하셨습니다.）-->
+<!--		（%s는 고정된 위치）-->
+<!--	8...이동메세지（화면중앙에서 세로로 이동）-->
+<!--	32...알림창(또는 확인, 취소가 있는 대화창)-->
+<!--	128...이동메세지（화면 우측 위치, 세로로 이동）-->
+<hints>
+  <!--아이템1~100-->
+  <hint id="1" place="8" lanID="50000">
+  </hint>
+  <!--,포장 불가 아이템-->
+  <hint id="2" place="8" lanID="50001">
+  </hint>
+  <!--수리할 필요 없는 아이템-->
+  <hint id="3" place="256" type="3" lanID="50002">
+  </hint>
+  <!--버프 관련-->
+  <hint id="4" place="8" lanID="50003">
+  </hint>
+  <!--아이템 %s 쿨타임중-->
+  <hint id="5" place="8" lanID="50004">
+  </hint>
+  <!---이미 귀속된 아이템-->
+  <hint id="6" place="32" lanID="50005">
+  </hint>
+  <hint id="7" place="32" lanID="50006">
+  </hint>
+  <hint id="8" place="32" lanID="50007">
+  </hint>
+  <hint id="9" place="32" lanID="50008">
+  </hint>
+  <hint id="10" place="256" lanID="50009">
+  </hint>
+  <!--분할 성공-->
+  <hint id="11" place="8" lanID="50010">
+  </hint>
+  <!--인벤토리에 여유공간이 없습니다. 아이템 분할 불가-->
+  <hint id="12" place="256" type="3" lanID="50011">
+  </hint>
+  <!--창고 열기 실패-->
+  <hint id="13" place="8" lanID="50012">
+  </hint>
+  <!--골드가 없어 포장을 진행할 수 없습니다.-->
+  <hint id="14" place="8" lanID="50013">
+  </hint>
+  <!--마정이 없어 포장을 진행할 수 없습니다.-->
+  <hint id="15" place="8" lanID="50014">
+  </hint>
+  <!--포장 불가 아이템-->
+  <hint id="16" place="32" lanID="50015">
+  </hint>
+  <hint id="17" place="32" lanID="50016">
+  </hint>
+  <hint id="18" place="32" lanID="50017">
+  </hint>
+  <hint id="19" place="32" lanID="50018">
+  </hint>
+  <dialog id="20" lanID="50019">
+  </dialog>
+  <hint id="21" place="8" lanID="50020">
+  </hint>
+  <!---인벤토리 확장가능 횟수 모두 사용-->
+  <hint id="22" place="8" lanID="50021">
+  </hint>
+  <!--창고 확장가능 횟수 모두 사용-->
+  <dialog id="23" lanID="50022">
+  </dialog>
+  <dialog id="24" lanID="50023">
+  </dialog>
+  <dialog id="25" lanID="50024">
+  </dialog>
+  <dialog id="26" lanID="50025">
+  </dialog>
+  <!---골드/마정 포장-->
+  <dialog id="27" lanID="50026">
+  </dialog>
+  <hint id="28" place="32" lanID="50027">
+  </hint>
+  <hint id="29" place="32" lanID="50028">
+  </hint>
+  <hint id="30" place="32" lanID="50029">
+  </hint>
+  <dialog id="31" lanID="50030">
+  </dialog>
+  <alert id="32" place="8" lanID="50031">
+  </alert>
+  <!--귀속 아이템은 포장 불가-->
+  <alert id="33" place="8" lanID="50032">
+  </alert>
+  <!--거래불가 아이템은 포장 불가-->
+  <hint id="34" place="8" lanID="50033">
+  </hint>
+  <!--더블 클릭으로 사용할 수 없는 아이템 입니다-->
+  <hint id="35" place="8" lanID="50034">
+  </hint>
+  <!--거래중인 아이템이거나 다른 원인 때문입니다-->
+  <hint id="38" place="8" lanID="50035">
+  </hint>
+  <dialog id="39" lanID="50036">
+  </dialog>
+  <!--추가-->
+  <dialog id="40" lanID="50037">
+  </dialog>
+  <!--추가-->
+  <dialog id="41" lanID="50038">
+  </dialog>
+  <!--추가-->
+  <hint id="42" place="32" lanID="50039">
+  </hint>
+  <!--추가-->
+  <hint id="43" place="32" lanID="50040">
+  </hint>
+  <!--추가-->
+  <hint id="44" place="8" lanID="50041">
+  </hint>
+  <!--추가-->
+  <hint id="45" place="8" lanID="50042">
+  </hint>
+  <!--추가-->
+  <hint id="46" place="8" lanID="50043">
+  </hint>
+  <!--추가-->
+  <hint id="47" place="8" lanID="50044">
+  </hint>
+  <!--추가-->
+  <dialog id="48" lanID="50045">
+  </dialog>
+  <!--추가-->
+  <hint id="49" place="32" lanID="50046">
+  </hint>
+  <!--추가-->
+  <hint id="50" place="32" lanID="50047">
+  </hint>
+  <!--추가-->
+  <hint id="51" place="32" lanID="50048">
+  </hint>
+  <!--추가-->
+  <hint id="52" place="32" lanID="50049">
+  </hint>
+  <!--추가-->
+  <hint id="53" place="8" lanID="50050">
+  </hint>
+  <hint id="54" place="8" lanID="50051">
+  </hint>
+  <hint id="55" place="8" lanID="50052">
+  </hint>
+  <hint id="56" place="8" lanID="50053">
+  </hint>
+  <hint id="57" place="8" lanID="50451">
+  </hint>
+  <hint id="58" place="8" lanID="50453">
+  </hint>
+  <!--보상창고 내 아이템 저장 불가-->
+  <dialog id="59" lanID="23020">
+  </dialog>
+  <!--이 장비를 분할하시겠습니까？-->
+  <hint id="60" place="8" lanID="50458">
+  </hint>
+  <!--보상창고에 여유공간이 없습니다-->
+  <hint id="61" place="8" lanID="50456">%0s초 후 보호상태가 해제됩니다</hint>
+  <hint id="62" place="8" lanID="50457">보호상태가 해제되었습니다</hint>
+  <hint id="63" place="8" lanID="50448">
+  </hint>
+  <!--연속 조작시간 간격이 너무 짧습니다.(정리 쿨타임중)-->
+  <hint id="64" place="8" lanID="50496">
+  </hint>
+  <!--기간만료된 아이템-->
+  <hint id="65" place="8" lanID="50497">
+  </hint>
+  <!--분할 불가-->
+  <hint id="66" place="256" type="1" lanID="50536">
+  </hint>
+  <!--%s 자동장착 성공-->
+  <hint id="67" place="8" lanID="50552">
+  </hint>
+  <!--속성잠금 사용불가-->
+  <hint id="68" place="8" lanID="50553">
+  </hint>
+  <!--속성잠금 실패! 재 주조를 실행하기 전 속성을 잠그세요 -->
+  <hint id="69" place="8" lanID="50554">
+  </hint>
+  <hint id="70" place="8" lanID="1105">사용가능한 시간이 아닙니다</hint>
+  <hint id="71" place="8" lanID="81327"></hint><!--背包剩余空间不足-->
+
+  <!--수리 불가 아이템-->
+  <!---아이템...end...100-->
+  <!---=========================================================================-->
+  <!---스킬101~200-->
+  <hint id="101" place="8" lanID="50054">
+  </hint>
+  <!--버트관련-->
+  <hint id="102" place="8" lanID="50055">
+  </hint>
+  <hint id="103" place="8" lanID="50056">
+  </hint>
+  <!--스킬습득-->
+  <hint id="104" place="8" lanID="50057">
+  </hint>
+  <!--스킬습득 레벨 부족-->
+  <hint id="105" place="8" lanID="50058">
+  </hint>
+  <!--（스킬습득 아이템 부족）-->
+  <hint id="106" place="8" lanID="50059">
+  </hint>
+  <!--스킬습득 골드 부족-->
+  <hint id="107" place="8" lanID="50060">
+  </hint>
+  <!--스킬습득 신성력 부족-->
+  <hint id="108" place="8" lanID="50061">
+  </hint>
+  <!--（스킬습득 성공후）-->
+  <dialog id="109" lanID="40012">
+  </dialog>
+  <!--古神像110 120-->
+  <hint id="110" place="8" lanID="1097">
+  </hint>
+  <hint id="111" place="8" lanID="1096">
+  </hint>
+  <hint id="112" place="8" lanID="1098">
+  </hint>
+  <!--일괄로 레벨업 하시겠습니까?-->
+  <!---스킬...end...200-->
+  <!---=========================================================================-->
+  <!---탐색 미니게임201~300-->
+  <hint id="201" place="256" lanID="50567">
+  </hint>
+  <!--보물이 바로 근처에 있습니다!-->
+  <hint id="202" place="256" lanID="50568">
+  </hint>
+  <!--근처에 뭔가 있는 것 같습니다.-->
+  <hint id="203" place="256" lanID="50569">
+  </hint>
+  <!--근처에 아무것도 없습니다,-->
+  <hint id="204" place="256" lanID="50570">
+  </hint>
+  <!--보석 1개를 발견했습니다!-->
+  <hint id="205" place="256" lanID="50571">
+  </hint>
+  <!--보물상자 1개를 발견했습니다!-->
+  <hint id="206" place="256" lanID="50572">
+  </hint>
+  <!--이벤트가 개방되지 않아 수령하실 수 없습니다.-->
+  <hint id="207" place="256" lanID="50573">
+  </hint>
+  <!--보상을 이미 수령하셨습니다-->
+  <hint id="208" place="256" lanID="50574">
+  </hint>
+  <!--지도를 전환하세요-->
+  <!---탐색 미니게임...end...300-->
+  <!---=========================================================================-->
+  <!---화면401~500-->
+  <hint id="401" place="8" lanID="50062">
+  </hint>
+  <hint id="403" place="8" lanID="50063">
+  </hint>
+  <hint id="404" place="8" lanID="50064">
+  </hint>
+  <hint id="405" place="8" lanID="50065">
+  </hint>
+  <!--추가-->
+  <hint id="406" place="8" lanID="50066">
+  </hint>
+  <!--추가-->
+  <hint id="407" place="8" lanID="50067">
+  </hint>
+  <!--추가-->
+  <dialog id="408" lanID="50068">
+  </dialog>
+  <!--추가-->
+  <!--화면 내 퀘스트 아이템 사용 알림-->
+  <hint id="409" place="8" lanID="50069">
+  </hint>
+  <!--추가-->
+  <hint id="410" place="8" lanID="81070">
+  </hint>
+  <!--추가-->
+  <!---스킬...end...500-->
+  <!---=========================================================================-->
+  <!---캐릭터501~600-->
+  <!--값 변경 알림+XXX-XXX-->
+  <hint id="501" place="2" lanID="50070">
+  </hint>
+  <hint id="502" place="2" lanID="50071">
+  </hint>
+  <hint id="503" place="2" lanID="50072">
+  </hint>
+  <hint id="504" place="2" lanID="50073">
+  </hint>
+  <hint id="505" place="2" lanID="50074">
+  </hint>
+  <hint id="506" place="8" lanID="50075">
+  </hint>
+  <!--캐릭터 정보 조회 시간 초과-->
+  <hint id="507" place="8" lanID="50076">
+  </hint>
+  <hint id="508" place="256" type="3" lanID="50077">
+  </hint>
+  <!--캐릭터 정보 조회-->
+  <hint id="509" place="2" lanID="50078">
+  </hint>
+  <!--신성력-->
+  <hint id="510" place="2" lanID="50079">
+  </hint>
+  <!--고블린 명성 증가-->
+  <hint id="511" place="2" lanID="50080">
+  </hint>
+  <!--사윈명성-->
+  <hint id="512" place="2" lanID="50081">
+  </hint>
+  <!--왕국명성-->
+  <hint id="513" place="2" lanID="50082">
+  </hint>
+  <!--마법사 연맹명성-->
+  <hint id="514" place="2" lanID="50083">
+  </hint>
+  <!--드워프명성-->
+  <hint id="515" place="2" lanID="50084">
+  </hint>
+  <!--정령명성-->
+  <hint id="516" place="2" lanID="50085">
+  </hint>
+  <!--용족명성-->
+  <hint id="517" place="8" lanID="50086">
+  </hint>
+  <!--PK모드 전환 실패-->
+  <hint id="518" place="8" lanID="50087">
+  </hint>
+  <!--PK모드 전환 실패-->
+  <hint id="519" place="2" lanID="50088">
+  </hint>
+  <!--切換PK模式失敗(战场模式)-->
+  <hint id="520" place="2" lanID="50575">
+  </hint>
+  <!--PK모드 전환-->
+  <!--마법진 601~700-->
+  <dialog id="601" lanID="50089">
+  </dialog>
+  <dialog id="608" lanID="50090">
+  </dialog>
+  <hint id="602" place="8" lanID="50091">
+  </hint>
+  <hint id="603" place="8" lanID="50092">
+  </hint>
+  <hint id="604" place="8" lanID="50093">
+  </hint>
+  <hint id="605" place="8" lanID="50094">
+  </hint>
+  <hint id="606" place="8" lanID="50095">
+  </hint>
+  <hint id="607" place="8" lanID="50096">
+  </hint>
+  <dialog id="609" lanID="50097">
+  </dialog>
+  <dialog id="610" lanID="50098">
+  </dialog>
+  <hint id="611" place="8" lanID="50099">
+  </hint>
+  <hint id="612" place="32" lanID="50100">
+  </hint>
+  <hint id="613" place="32" lanID="50101">
+  </hint>
+  <!--추가-->
+  <hint id="614" place="32" lanID="50102">
+  </hint>
+  <!--추가-->
+  <hint id="615" place="32" lanID="50103">
+  </hint>
+  <!--추가-->
+  <dialog id="616" lanID="50104">
+  </dialog>
+  <!--추가-->
+  <hint id="617" place="32" lanID="50105">
+  </hint>
+  <!--추가-->
+  <dialog id="618" lanID="50106">
+  </dialog>
+  <!--추가-->
+  <hint id="619" place="32" lanID="50107">
+  </hint>
+  <!--추가-->
+  <!--거래 701~800-->
+  <hint id="701" place="256" type="1" lanID="50108">
+  </hint>
+  <hint id="702" place="256" type="3" lanID="50109">
+  </hint>
+  <hint id="703" place="8" lanID="50110">
+  </hint>
+  <hint id="704" place="8" lanID="50111">
+  </hint>
+  <hint id="705" place="8" lanID="50112">
+  </hint>
+  <hint id="706" place="8" lanID="50113">
+  </hint>
+  <hint id="707" place="8" lanID="50114">
+  </hint>
+  <hint id="708" place="8" lanID="50115">
+  </hint>
+  <hint id="709" place="8" lanID="50116">
+  </hint>
+  <hint id="710" place="8" lanID="50117">
+  </hint>
+  <!--거래요청 실패 유형-->
+  <hint id="711" place="8" lanID="50118">
+  </hint>
+  <hint id="712" place="8" lanID="50119">
+  </hint>
+  <hint id="713" place="8" lanID="50120">
+  </hint>
+  <hint id="714" place="8" lanID="50121">
+  </hint>
+  <hint id="715" place="8" lanID="50122">
+  </hint>
+  <hint id="716" place="8" lanID="50123">
+  </hint>
+  <hint id="717" place="8" lanID="50124">
+  </hint>
+  <hint id="718" place="8" lanID="50125">
+  </hint>
+  <hint id="719" place="8" lanID="50126">
+  </hint>
+  <hint id="720" place="8" lanID="50127">
+  </hint>
+  <hint id="721" place="8" lanID="50128">
+  </hint>
+  <!--아이템 거래슬롯에 넣기-->
+  <hint id="722" place="8" lanID="50129">
+  </hint>
+  <!--아이템 거래슬롯에 넣기-->
+  <hint id="723" place="8" lanID="50130">
+  </hint>
+  <hint id="724" place="32" lanID="50131">
+  </hint>
+  <!--NPC 상점801-900-->
+  <hint id="801" place="8" lanID="50132">
+  </hint>
+  <!--거래중인 아이템 또는 기타 이유로 조작불가-->
+  <hint id="802" place="8" lanID="50133">
+  </hint>
+  <!--상점 구매-->
+  <hint id="803" place="8" lanID="50134">
+  </hint>
+  <!--상점 구매-->
+  <hint id="804" place="8" lanID="50135">
+  </hint>
+  <!---상점 구매-->
+  <hint id="805" place="8" lanID="50136">
+  </hint>
+  <!---상점 판매-->
+  <hint id="806" place="8" lanID="50137">
+  </hint>
+  <!---상점 구매-->
+  <hint id="807" place="256" type="1" lanID="50138">
+  </hint>
+  <hint id="808" place="256" type="3" lanID="50139">
+  </hint>
+  <hint id="809" place="32" lanID="50140">
+  </hint>
+  <hint id="810" place="32" lanID="50141">
+  </hint>
+  <!---상점 판매 불가-->
+  <dialog id="811" lanID="50142">
+  </dialog>
+  <dialog id="812" lanID="50143">
+  </dialog>
+  <dialog id="813" lanID="50144">
+  </dialog>
+  <hint id="814" place="32" lanID="50145">
+  </hint>
+  <dialog id="815" lanID="50146">
+  </dialog>
+  <!---NPC상점-->
+  <dialog id="816" lanID="50147">
+  </dialog>
+  <!--상점-->
+  <hint id="817" place="32" lanID="50148">
+  </hint>
+  <dialog id="818" lanID="50149">
+  </dialog>
+  <!--상점 마정 부족 -->
+  <hint id="819" place="32" lanID="50150">
+  </hint>
+  <!--추가-->
+  <!--상점 마법석과 포인트 부족-->
+  <hint id="820" place="32" lanID="50511">
+  <hint id="821" place="32" lanID="60521"></hint><!--功勋不足-->
+  </hint>
+  <!--추가-->
+  <!--천신 상점 기간 만료-->
+  <!--퀘스트901-1000-->
+  <hint id="901" place="8" lanID="50151">
+  </hint>
+  <hint id="902" place="8" lanID="50152">
+  </hint>
+  <!---명성 아이템 제출-->
+  <hint id="903" place="8" lanID="50153">
+  </hint>
+  <!---명성 아이템 제출-->
+  <hint id="904" place="8" lanID="50154">
+  </hint>
+  <dialog id="905" lanID="50155">
+  </dialog>
+  <dialog id="906" lanID="50156">
+  </dialog>
+  <hint id="907" place="32" lanID="50157">
+  </hint>
+  <dialog id="908" lanID="50158">
+  </dialog>
+  <hint id="909" place="32" lanID="50159">
+  </hint>
+  <hint id="910" place="32" lanID="50160">
+  </hint>
+  <dialog id="911" lanID="50161">
+  </dialog>
+  <hint id="912" place="32" lanID="50162">
+  </hint>
+  <dialog id="913" lanID="50163">
+  </dialog>
+  <hint id="914" place="8" lanID="50164">
+  </hint>
+  <!--현상금 사냥꾼 레벨부족-->
+  <hint id="915" place="8" lanID="50165">
+  </hint>
+  <!--현상금 사냥꾼 명성부족-->
+  <hint id="916" place="8" lanID="50166">
+  </hint>
+  <!--캐릭터 레벨부족-->
+  <hint id="917" place="8" lanID="50167">
+  </hint>
+  <!--퀘스트 수령 실패-->
+  <hint id="918" place="32" lanID="50168">
+  </hint>
+  <!--추가-->
+  <hint id="919" place="8" lanID="50169">
+  </hint>
+  <!--추가-->
+  <dialog id="920" lanID="50459">%0s 퀘스트 획득! 퀘스트를 완료하면 레전드 등급 반지와 초호화 선물세트를 획득할 수 있습니다</dialog>
+  <hint id="921" place="8" lanID="50533">
+  </hint>
+  <!--재클릭하여 자동 길 찾기 취소-->
+  <hint id="922" place="1024" lanID="8056">
+  </hint>
+  <hint id="923" place="512" lanID="8057">
+  </hint>
+  <!--펫1001-1100-->
+  <hint id="1001" place="8" lanID="50170">
+  </hint>
+  <hint id="1002" place="8" lanID="50171">
+  </hint>
+  <hint id="1003" place="8" lanID="50172">
+  </hint>
+  <hint id="1004" place="8" lanID="50173">
+  </hint>
+  <dialog id="1009" lanID="50174">
+  </dialog>
+  <hint id="1012" place="32" lanID="50175">
+  </hint>
+  <dialog id="1013" lanID="50176">
+  </dialog>
+  <dialog id="1016" lanID="50177">
+  </dialog>
+  <hint id="1017" place="8" lanID="50178">
+  </hint>
+  <hint id="1018" place="8" lanID="50179">
+  </hint>
+  <hint id="1019" place="8" lanID="50180">
+  </hint>
+  <hint id="1020" place="8" lanID="50181">
+  </hint>
+  <hint id="1021" place="8" lanID="50182">
+  </hint>
+  <dialog id="1022" lanID="50183">
+  </dialog>
+  <hint id="1023" place="8" lanID="50184">
+  </hint>
+  <hint id="1024" place="8" lanID="50185">
+  </hint>
+  <hint id="1025" place="8" lanID="50186">
+  </hint>
+  <hint id="1026" place="256" type="1" lanID="50187">
+  </hint>
+  <hint id="1027" place="8" lanID="50188">
+  </hint>
+  <hint id="1028" place="8" lanID="50189">
+  </hint>
+  <hint id="1029" place="8" lanID="50190">
+  </hint>
+  <hint id="1030" place="8" lanID="50191">
+  </hint>
+  <hint id="1031" place="8" lanID="50192">
+  </hint>
+  <hint id="1032" place="8" lanID="50193">
+  </hint>
+  <hint id="1033" place="8" lanID="50194">
+  </hint>
+  <hint id="1034" place="8" lanID="50195">
+  </hint>
+  <hint id="1035" place="8" lanID="50196">
+  </hint>
+  <!--소환수 슬롯에 여유공간이 없습니다.-->
+  <hint id="1036" place="256" type="1" lanID="50197">
+  </hint>
+  <!--합성성공-->
+  <hint id="1037" place="256" type="3" lanID="50198">
+  </hint>
+  <!--합성실패-->
+  <hint id="1038" place="8" lanID="50199">
+  </hint>
+  <!--소환수 방출 실패-->
+  <hint id="1039" place="8" lanID="50200">
+  </hint>
+  <!--합성 레벨부족-->
+  <dialog id="1040" lanID="50201">
+  </dialog>
+  <hint id="1041" place="8" lanID="50202">
+  </hint>
+  <!--추가-->
+  <hint id="1042" place="8" lanID="50203">
+  </hint>
+  <!--추가-->
+  <hint id="1043" place="8" lanID="50204">
+  </hint>
+  <!--추가-->
+  <hint id="1045" place="32" lanID="50205">
+  </hint>
+  <hint id="1046" place="8" lanID="50206">
+  </hint>
+  <hint id="1047" place="8" lanID="50207">
+  </hint>
+  <hint id="1048" place="8" lanID="50208">
+  </hint>
+  <dialog id="1049" lanID="35069">
+  </dialog>
+  <dialog id="1050" lanID="50510">
+  </dialog>
+  <!--소환수 영혼 물약-->
+  <hint id="1051" place="8" lanID="35075">
+  </hint>
+  <!--합성 실패. 보조 소환수는 %레벨이상이어야 합니다-->
+  <hint id="1052" place="8" lanID="35076">
+  </hint>
+  <!--%레벨이하의 소환수는 주요 소환수로 합성할 수 없습니다. 평점이 높을수록 합성에 필요한 레벨이 높아집니다-->
+  <hint id="1053" place="8" lanID="35079">
+  </hint>
+  <!--학습실패. %s는 해당 스킬을 습득할 수 없습니다-->
+  <hint id="1054" place="8" lanID="35086">
+  </hint>
+  <!--레벨이 낮아 스킬을 학습할 수 없습니다-->
+  <hint id="1055" place="8" lanID="35087">
+  </hint>
+  <!--소환수 마법력이 부족하여 스킬을 학습할 수 없습니다-->
+  <hint id="1056" place="8" lanID="35088">
+  </hint>
+  <!--골드 부족, 스킬을 학습할 수 없습니다-->
+  <hint id="1057" place="8" lanID="35089">
+  </hint>
+  <!--신성력 부족, 스킬을 학습할 수 없습니다-->
+  <hint id="1058" place="8" lanID="35090">
+  </hint>
+  <!--인벤토리 내 보유한 초급 스킬북 %s가 없으면 학습할 수 없습니다-->
+  <hint id="1059" place="8" lanID="35092">
+  </hint>
+  <!--소환수 마법력이 부족하여 스킬을 레벨업할 수 없습니다-->
+  <hint id="1060" place="8" lanID="35093">
+  </hint>
+  <!--골드 부족, 스킬을 레벨업할 수 없습니다-->
+  <hint id="1061" place="8" lanID="35094">
+  </hint>
+  <!--신성력 부족, 스킬을 레벨업할 수 없습니다-->
+  <dialog id="1062" lanID="100159">
+  </dialog>
+  <hint id="1063" place="8" lanID="35096">
+  </hint>
+  <!--여신의 축복 이벤트에 참가 또는 명상을 통해 신성력을 획득할 수 있습니다.-->
+  <!--채팅1101-1200-->
+  <hint id="1101" place="4" chatChannel="5" lanID="50209">
+  </hint>
+  <hint id="1102" place="4" chatChannel="5" lanID="50210">
+  </hint>
+  <hint id="1103" place="4" chatChannel="5" lanID="50211">
+  </hint>
+  <hint id="1104" place="4" chatChannel="5" lanID="50212">
+  </hint>
+  <hint id="1105" place="4" chatChannel="5" lanID="50213">
+  </hint>
+  <hint id="1106" place="4" chatChannel="5" lanID="50214">
+  </hint>
+  <hint id="1107" place="4" chatChannel="5" lanID="50215">
+  </hint>
+  <hint id="1108" place="4" chatChannel="5" lanID="50216">
+  </hint>
+  <hint id="1109" place="4" chatChannel="5" lanID="50217">
+  </hint>
+  <hint id="1110" place="4" chatChannel="5" lanID="50218">
+  </hint>
+  <hint id="1111" place="4" chatChannel="5" lanID="50219">
+  </hint>
+  <hint id="1112" place="4" chatChannel="5" lanID="50220">
+  </hint>
+  <!--채팅서버 접속 성공 알림-->
+  <!--추가-->
+  <hint id="1113" place="4" chatChannel="5" lanID="50221">
+  </hint>
+  <!--추가-->
+  <hint id="1114" place="4" chatChannel="5" lanID="50222">
+  </hint>
+  <!--추가-->
+  <hint id="1115" place="4" chatChannel="5" lanID="50223">
+  </hint>
+  <!--추가-->
+  <hint id="1116" place="4" chatChannel="5" lanID="12017">
+  </hint>
+  <hint id="1117" place="8" lanID="12022">
+  </hint>
+  <hint id='1119' place='4' chatChannel="5" lanID='81129'></hint><!---您還沒進入戰場，無法使用戰場頻道-->
+  <!--뿔피리 수량 부족 알림-->
+  <!--추가-->
+  <!--성좌1201-1300-->
+  <hint id="1201" place="8" lanID="50224">
+  </hint>
+  <hint id="1203" place="8" lanID="50225">
+  </hint>
+  <hint id="1204" place="8" lanID="50226">
+  </hint>
+  <hint id="1205" place="8" lanID="50227">
+  </hint>
+  <!---활성-->
+  <hint id="1206" place="8" lanID="50228">
+  </hint>
+  <hint id="1207" place="8" lanID="50229">
+  </hint>
+  <!--전투1301-1400-->
+  <hint id="1301" place="8" lanID="50230">
+  </hint>
+  <hint id="1302" place="8" lanID="50231">
+  </hint>
+  <hint id="1303" place="8" lanID="50232">
+  </hint>
+  <hint id="1304" place="8" lanID="50233">
+  </hint>
+  <hint id="1305" place="8" lanID="50234">
+  </hint>
+  <hint id="1306" place="8" lanID="50235">
+  </hint>
+  <hint id="1307" place="8" lanID="50236">
+  </hint>
+  <hint id="1308" place="8" lanID="50237">
+  </hint>
+  <hint id="1309" place="8" lanID="50238">
+  </hint>
+  <!--전투1301-1400-->
+  <hint id="1310" place="8" lanID="4016">
+  </hint>
+  <hint id="1311" place="8" lanID="4017">
+  </hint>
+  <hint id="1312" place="8" lanID="4015">
+  </hint>
+  <hint id="1313" place="8" lanID="4018">
+  </hint>
+  <hint id="1314" place="8" lanID="4019">
+  </hint>
+  <!--버프1401-1500-->
+  <hint id="1401" place="8" lanID="50239">
+  </hint>
+  <hint id="1402" place="8" lanID="50240">
+  </hint>
+  <hint id="1403" place="8" lanID="50241">
+  </hint>
+  <hint id="1404" place="8" lanID="50242">
+  </hint>
+  <hint id="1405" place="8" lanID="50243">
+  </hint>
+  <hint id="1406" place="8" lanID="50244">
+  </hint>
+  <hint id="1407" place="8" lanID="50245">
+  </hint>
+  <hint id="1408" place="8" lanID="50246">
+  </hint>
+  <hint id="1409" place="8" lanID="50247">
+  </hint>
+  <hint id="1410" place="8" lanID="50248">
+  </hint>
+  <!--자동사냥1501-1600-->
+  <hint id="1501" place="8" lanID="50249">
+  </hint>
+  <hint id="1502" place="8" lanID="50250">
+  </hint>
+  <hint id="1503" place="8" chatChannel="4" lanID="50251">
+  </hint>
+  <!--이전 사양 오류 발생. 채팅창에 표시되는 정보는 place='4'입니다.-->
+  <hint id="1504" place="8" lanID="50252">
+  </hint>
+  <!--자동사냥 설정 저장-->
+  <hint id="1505" place="8" lanID="50253">
+  </hint>
+  <!--추가-->
+  <hint id="1506" place="256" type="1" lanID="50254">
+  </hint>
+  <!--추가-->
+  <!--탈것명상1601-1700-->
+  <hint id="1601" place="8" lanID="50255">
+  </hint>
+  <hint id="1602" place="8" lanID="50256">
+  </hint>
+  <hint id="1603" place="8" lanID="50257">
+  </hint>
+  <hint id="1604" place="8" lanID="50258">
+  </hint>
+  <hint id="1605" place="8" lanID="50259">
+  </hint>
+  <hint id="1606" place="8" lanID="50260">
+  </hint>
+  <hint id="1607" place="8" lanID="50261">
+  </hint>
+  <hint id="1608" place="8" lanID="50262">
+  </hint>
+  <!--추가-->
+  <hint id="1609" place="8" lanID="50263">
+  </hint>
+  <!--추가-->
+  <dialog id="1610" lanID="50264">
+  </dialog>
+  <dialog id="1611" lanID="50265">
+  </dialog>
+  <dialog id="1612" lanID="50266">
+  </dialog>
+  <dialog id="1613" lanID="50267">
+  </dialog>
+  <!--로그인，캐릭터 생성1701-1800-->
+  <alert id="1701" lanID="50268">
+  </alert>
+  <alert id="1702" lanID="50269">
+  </alert>
+  <alert id="1703" lanID="50270">
+  </alert>
+  <alert id="1704" lanID="50271">
+  </alert>
+  <alert id="1705" lanID="50272">
+  </alert>
+  <alert id="1706" lanID="50273">
+  </alert>
+  <alert id="1707" lanID="50274">
+  </alert>
+  <alert id="1708" lanID="50275">
+  </alert>
+  <alert id="1709" lanID="50276">
+  </alert>
+  <alert id="1710" lanID="50277">
+  </alert>
+  <alert id="1711" lanID="50278">
+  </alert>
+  <alert id="1712" lanID="50279">
+  </alert>
+  <!--계정오류-->
+  <alert id="1713" lanID="50280">
+  </alert>
+  <!--비밀번호오류-->
+  <alert id="1714" lanID="50281">
+  </alert>
+  <alert id="1715" lanID="50282">
+  </alert>
+  <!--IP차단-->
+  <alert id="1716" lanID="50283">
+  </alert>
+  <alert id="1717" lanID="50284">
+  </alert>
+  <alert id="1718" lanID="50285">
+  </alert>
+  <alert id="1719" lanID="50286">
+  </alert>
+  <alert id="1720" lanID="50287">
+  </alert>
+  <!--서버 선택-->
+  <dialog id="1721" lanID="50288">
+  </dialog>
+  <alert id="1722" lanID="50289">
+  </alert>
+  <dialog id="1723" lanID="50290">
+  </dialog>
+  <alert id="1724" lanID="50291">
+  </alert>
+  <alert id="1726" lanID="50292">
+  </alert>
+  <alert id="1727" lanID="50293">
+  </alert>
+  <dialog id="1728" lanID="50294">
+  </dialog>
+  <dialog id="1729" lanID="50295">
+  </dialog>
+  <alert id="1730" lanID="50296">
+  </alert>
+  <!--이름 검색 통과못함-->
+  <alert id="1731" lanID="50297">
+  </alert>
+  <!--이름 검색 통과-->
+  <!--로그인，캐릭터 생성end...1800-->
+  <!--장비숙련1801-1850-->
+  <hint id="1801" place="8" lanID="50298">
+  </hint>
+  <hint id="1802" place="8" lanID="50299">
+  </hint>
+  <hint id="1803" place="8" lanID="50300">
+  </hint>
+  <dialog id="1804" lanID="50301">
+  </dialog>
+  <hint id="1805" place="8" lanID="13012">
+  </hint>
+  <hint id="1806" place="8" lanID="81092">
+  </hint>
+  <hint id="1807" place="8" lanID="81122">
+  </hint>
+  <!--쿨타임이 남아 무료 보호석을 사용할 수 없습니다-->
+  <!--장비숙련end...1850-->
+  <!--장비 재 주조1851-1900-->
+  <hint id="1851" place="8" lanID="50463">장비만 재 주조할 수 있습니다</hint>
+  <hint id="1852" place="8" lanID="50464">재 주조할 수 없는 등급의 장비입니다</hint>
+  <hint id="1853" place="8" lanID="50465">감정을 하지 않은 장비는 재 주조할 수 없습니다</hint>
+  <hint id="1854" place="8" lanID="50466">장비 재 주조에 필요한 아이템이 없어 재 주조할 수 없습니다</hint>
+  <hint id="1855" place="8" lanID="2094">먼저 장비를 추가하세요</hint>
+  <hint id="1856" place="8" lanID="2095">먼저 자동 재주조를 설정하세요</hint>
+  <hint id="1857" place="8" lanID="2096">이 장비 속성은 자동 재주조 설정 제한때문에 더 이상 재 주조할 수 없습니다</hint>
+  <hint id="1858" place="8" lanID="2093">재 주조할 수 있는 장비가 없습니다</hint>
+  <!--장비 재 주조end...1900-->
+  <!---->
+  <!--파티1901-1950-->
+  <hint id="1901" place="256" type="1" lanID="50302">
+  </hint>
+  <hint id="1902" place="256" type="1" lanID="50303">
+  </hint>
+  <hint id="1903" place="8" lanID="50304">
+  </hint>
+  <hint id="1904" place="8" lanID="50305">
+  </hint>
+  <hint id="1905" place="8" lanID="50306">
+  </hint>
+  <hint id="1906" place="8" lanID="50307">
+  </hint>
+  <hint id="1907" place="8" lanID="50308">
+  </hint>
+  <hint id="1908" place="256" type="1" lanID="50309">
+  </hint>
+  <hint id="1909" place="256" type="1" lanID="50310">
+  </hint>
+  <hint id="1910" place="8" lanID="50311">
+  </hint>
+  <hint id="1911" place="8" lanID="50312">
+  </hint>
+  <hint id="1912" place="8" lanID="50313">
+  </hint>
+  <hint id="1913" place="256" type="14" lanID="50314">
+  </hint>
+  <hint id="1914" place="8" lanID="50315">
+  </hint>
+  <hint id="1915" place="8" lanID="50316">
+  </hint>
+  <hint id="1916" place="8" lanID="50317">
+  </hint>
+  <hint id="1917" place="8" lanID="50318">
+  </hint>
+  <hint id="1918" place="2" lanID="50319">
+  </hint>
+  <hint id="1920" place="256" type="1" lanID="50320">
+  </hint>
+  <hint id="1921" place="8" lanID="50321">
+  </hint>
+  <hint id="1922" place="8" lanID="50322">
+  </hint>
+  <hint id="1923" place="8" lanID="50323">
+  </hint>
+  <hint id="1924" place="256" type="1" lanID="50324">
+  </hint>
+  <hint id="1925" place="8" lanID="50325">
+  </hint>
+  <hint id="1926" place="8" lanID="50326">
+  </hint>
+  <hint id="1927" place="8" lanID="50327">
+  </hint>
+  <hint id="1928" place="8" lanID="50328">
+  </hint>
+  <hint id="1929" place="8" lanID="50329">
+  </hint>
+  <hint id="1930" place="8" lanID="50330">
+  </hint>
+  <dialog id="1931" lanID="50331">
+  </dialog>
+  <dialog id="1932" lanID="50332">
+  </dialog>
+  <dialog id="1933" lanID="50333">
+  </dialog>
+  <hint id="1934" place="8" lanID="50334">
+  </hint>
+  <hint id="1935" place="8" lanID="50335">
+  </hint>
+  <dialog id="1940" lanID="50336">
+  </dialog>
+  <dialog id="1941" lanID="50337">
+  </dialog>
+  <hint id="1942" place="8" lanID="50508">
+  </hint>
+  <hint id="1943" place="8" lanID="50509">
+  </hint>
+  <!--파티end...1950-->
+  <!--이벤트상점1951-2000-->
+  <hint id="1951" place="8" lanID="50338">
+  </hint>
+  <hint id="1952" place="8" lanID="60336">
+  </hint>
+  <!--이벤트상점end...2000-->
+  <!--친구2001-2050-->
+  <hint id="2001" place="256" type="1" lanID="50339">
+  </hint>
+  <hint id="2002" place="256" type="1" lanID="50340">
+  </hint>
+  <hint id="2003" place="256" type="1" lanID="50341">
+  </hint>
+  <hint id="2004" place="8" lanID="50342">
+  </hint>
+  <hint id="2005" place="8" lanID="50343">
+  </hint>
+  <hint id="2006" place="256" type="1" lanID="50344">
+  </hint>
+  <hint id="2007" place="8" lanID="50345">
+  </hint>
+  <hint id="2008" place="8" lanID="50346">
+  </hint>
+  <hint id="2009" place="8" lanID="50347">
+  </hint>
+  <hint id="2010" place="256" type="1" lanID="50348">
+  </hint>
+  <hint id="2011" place="8" lanID="50349">
+  </hint>
+  <dialog id="2012" lanID="50350">
+  </dialog>
+  <hint id="2013" place="8" lanID="50351">
+  </hint>
+  <dialog id="2014" lanID="50352">
+  </dialog>
+  <dialog id="2015" lanID="50353">
+  </dialog>
+  <dialog id="2016" lanID="50354">
+  </dialog>
+  <dialog id="2017" lanID="50355">
+  </dialog>
+  <hint id="2018" place="8" lanID="50356">
+  </hint>
+  <hint id="2019" place="8" lanID="50357">
+  </hint>
+  <hint id="2020" place="8" lanID="50358">
+  </hint>
+  <dialog id="2021" lanID="50359">
+  </dialog>
+  <hint id="2022" place="8" lanID="50360">
+  </hint>
+  <hint id="2024" place="8" lanID="50476">
+  </hint>
+  <!--명상상태에서는 추적 주문서를 사용할 수 없습니다-->
+  <hint id="2025" place="8" lanID="50477">
+  </hint>
+  <!--전투상태에서는 추적 주문서를 사용할 수 없습니다-->
+  <hint id="2026" place="8" lanID="50478">
+  </hint>
+  <!--원수가 오프라인 상태일 경우 검색할 수 없습니다.-->
+  <hint id="2027" place="8" lanID="50482">
+  </hint>
+  <!--원수가 오프라인 상태일 경우 검색할 수 없습니다.-->
+  <hint id="2028" place="8" lanID="50523">
+  </hint>
+  <hint id="2029" place="8" lanID="50524">
+  </hint>
+  <hint id="2030" place="8" lanID="50525">
+  </hint>
+  <hint id="2031" place="8" lanID="50526">
+  </hint>
+  <hint id="2032" place="8" lanID="50527">
+  </hint>
+  <dialog id="2034" lanID="50529">
+  </dialog>
+  <hint id="2035" place="8" lanID="50530">
+  </hint>
+  <hint id="2036" place="8" lanID="50531">
+  </hint>
+  <hint id="2037" place="8" lanID="50532">
+  </hint>
+  <hint id="2038" place="8" lanID="50535">
+  </hint>
+  <!--친구end...2050-->
+  <!--메일2051-2100-->
+  <hint id="2051" place="8" lanID="50361">
+  </hint>
+  <hint id="2052" place="8" lanID="50362">
+  </hint>
+  <hint id="2053" place="8" lanID="50363">
+  </hint>
+  <hint id="2054" place="8" lanID="50364">
+  </hint>
+  <hint id="2055" place="8" lanID="50365">
+  </hint>
+  <hint id="2056" place="256" type="1" lanID="50366">
+  </hint>
+  <hint id="2057" place="8" lanID="50367">
+  </hint>
+  <hint id="2058" place="8" lanID="50368">
+  </hint>
+  <hint id="2059" place="256" type="1" lanID="50369">
+  </hint>
+  <hint id="2060" place="8" lanID="50370">
+  </hint>
+  <hint id="2061" place="8" lanID="50371">
+  </hint>
+  <hint id="2062" place="8" lanID="50372">
+  </hint>
+  <hint id="2063" place="8" lanID="50373">
+  </hint>
+  <hint id="2064" place="8" lanID="50374">
+  </hint>
+  <alert id="2065" lanID="50375">
+  </alert>
+  <dialog id="2066" lanID="50376">
+  </dialog>
+  <dialog id="2067" lanID="50377">
+  </dialog>
+  <hint id="2068" place="8" lanID="50378">
+  </hint>
+  <!--메일end-2100-->
+  <!--길드2101-2150-->
+  <hint id="2101" place="8" lanID="50379">
+  </hint>
+  <hint id="2102" place="8" lanID="50380">
+  </hint>
+  <hint id="2103" place="8" lanID="50381">
+  </hint>
+  <hint id="2104" place="8" lanID="50382">
+  </hint>
+  <dialog id="2105" lanID="50383">
+  </dialog>
+  <hint id="2106" place="8" lanID="50384">
+  </hint>
+  <hint id="2107" place="8" lanID="50385">
+  </hint>
+  <hint id="2108" place="8" lanID="50386">
+  </hint>
+  <hint id="2109" place="8" lanID="50387">
+  </hint>
+  <dialog id="2110" lanID="50388">
+  </dialog>
+  <hint id="2111" place="8" lanID="50389">
+  </hint>
+  <hint id="2112" place="8" lanID="50390">
+  </hint>
+  <hint id="2113" place="8" lanID="50391">
+  </hint>
+  <dialog id="2114" lanID="50392">
+  </dialog>
+  <hint id="2115" place="8" lanID="50393">
+  </hint>
+  <hint id="2116" place="8" lanID="50394">
+  </hint>
+  <hint id="2117" place="8" lanID="50395">
+  </hint>
+  <hint id="2118" place="8" lanID="50396">
+  </hint>
+  <dialog id="2119" lanID="50397">
+  </dialog>
+  <hint id="2120" place="8" lanID="50398">
+  </hint>
+  <hint id="2121" place="8" lanID="50399">
+  </hint>
+  <hint id="2122" place="256" type="1" lanID="50400">
+  </hint>
+  <hint id="2123" place="256" type="1" lanID="50401">
+  </hint>
+  <hint id="2124" place="8" lanID="50488">길드 레벨업에 필요한 명성이 부족합니다</hint>
+  <hint id="2125" place="8" lanID="50489">길드 레벨업에 필요한 자금이 부족합니다</hint>
+  <hint id="2126" place="8" lanID="50490">레벨업에 필요한 왕립길드 허가증 또는 고급 왕립길드 허가증이 부족합니다</hint>
+  <hint id="2127" place="8" lanID="50491">길드 자금 한도를 초과하여 기부에 실패하였습니다</hint>
+  <hint id="2128" place="8" lanID="50499">%0s의 최소공헌도는 %1s입니다</hint>
+  <hint id="2129" place="256" type="1" lanID="50500">길드토템 활성</hint>
+  <hint id="2130" place="8" lanID="50501">최소 %0s이상의 길드자금만 기부할 수 있습니다</hint>
+  <hint id="2131" place="8" lanID="50544">성년이 된 신수만 수련할 수 있습니다</hint>
+  <hint id="2132" place="8" lanID="50545">부화에 필요한 길드 자금이 부족합니다.</hint>
+  <hint id="2133" place="8" lanID="50546">신수 성장포인트가 부족하여 레벨업 할 수 없습니다</hint>
+  <hint id="2134" place="8" lanID="50547">이미 최고레벨을 달성한 신수입니다</hint>
+  <hint id="2135" place="8" lanID="50548">오늘 수련을 마친 신수입니다</hint>
+  <hint id="2136" place="8" lanID="50549">사역마 투기장을 통해서만 수련을 실행할 수 있습니다</hint>
+  <hint id="2137" place="8" lanID="50550">인벤토리에 빈 공간이 없는 경우 신수의 축복을 받지 못할 수 있으니 먼저 인벤토리를 정리한 후 사육을 실행하세요</hint>
+  <hint id="2138" place="8" lanID="50551">레벨업에 필요한 길드 자금이 부족합니다</hint>
+  <!--길드end-2150-->
+  <!--던전알림2201-2300-->
+  <hint id="2201" place="8" lanID="50402">
+  </hint>
+  <!--파티상태에서만 파티던전에 입장할 수 있습니다-->
+  <hint id="2202" place="8" lanID="50403">
+  </hint>
+  <!--파티장은 입장할 수 없습니다-->
+  <hint id="2203" place="8" lanID="50404">
+  </hint>
+  <!--인원부족-->
+  <hint id="2204" place="8" lanID="50405">
+  </hint>
+  <!--인원초과-->
+  <hint id="2205" place="8" lanID="50406">
+  </hint>
+  <!--파티 1인 입장-->
+  <hint id="2206" place="8" lanID="50407">
+  </hint>
+  <!--레벨부족-->
+  <hint id="2207" place="8" lanID="50408">
+  </hint>
+  <!--올바른 직업이 아닙니다-->
+  <hint id="2208" place="8" lanID="50409">
+  </hint>
+  <!--현상금 사냥꾼 레벨부족-->
+  <hint id="2209" place="8" lanID="50410">
+  </hint>
+  <!--성좌 활성 부족-->
+  <hint id="2210" place="8" lanID="50411">
+  </hint>
+  <!--퀘스트 미완료-->
+  <hint id="2211" place="8" lanID="50412">
+  </hint>
+  <!--퀘스트 미수락-->
+  <hint id="2212" place="8" lanID="50413">
+  </hint>
+  <!--골드부족-->
+  <hint id="2213" place="8" lanID="50414">
+  </hint>
+  <!--신성력부족-->
+  <hint id="2214" place="8" lanID="50415">
+  </hint>
+  <!--마정부족-->
+  <hint id="2215" place="8" lanID="50416">
+  </hint>
+  <!--아이템부족-->
+  <hint id="2216" place="8" lanID="50417">
+  </hint>
+  <!--던전을 선택하세요-->
+  <hint id="2217" place="8" lanID="50418">
+  </hint>
+  <!--추가-->
+  <!--던전알림end...2300-->
+  <!--경매장알림2301-2400-->
+  <hint id="2301" place="8" lanID="50419">
+  </hint>
+  <!--아이템 판매-->
+  <hint id="2302" place="8" lanID="50420">
+  </hint>
+  <!--판매 가격 0-->
+  <hint id="2303" place="8" lanID="50421">
+  </hint>
+  <!--귀속아이템 판매-->
+  <hint id="2304" place="8" lanID="50422">
+  </hint>
+  <!--골드부족-->
+  <hint id="2305" place="8" lanID="50487">
+  </hint>
+  <!--아이템은 %s개까지만 판매할 수 있습니다-->
+  <hint id="2306" place="8" lanID="81059">
+  </hint>
+  <!--신성한 단지만 판매-->
+  <hint id="2307" place="8" lanID="81063">
+  </hint>
+  <!--신성한 단지 발송 불가-->
+  <!--경매장알림end...2400-->
+  <!--칭호-->
+  <hint id="2401" place="8" lanID="50423">
+  </hint>
+  <!--추가-->
+  <hint id="2402" place="8" lanID="50424">
+  </hint>
+  <!--추가-->
+  <hint id="2403" place="8" lanID="50425">
+  </hint>
+  <!--추가-->
+  <hint id="2404" place="8" lanID="50426">
+  </hint>
+  <!--추가-->
+  <hint id="2405" place="8" lanID="50427">
+  </hint>
+  <!--추가-->
+  <!--스파이 경보-->
+  <hint id="2500" place="8" lanID="50428">
+  </hint>
+  <dialog id="2501" lanID="50429">
+  </dialog>
+  <hint id="2502" place="8" lanID="50430">
+  </hint>
+  <hint id="2503" place="8" lanID="50431">
+  </hint>
+  <!--교환 2600-2700-->
+  <hint id="2600" place="12" chatChannel="11" lanID="50432">
+  </hint>
+  <hint id="2601" place="12" chatChannel="5" lanID="50433">
+  </hint>
+  <hint id="2602" place="12" chatChannel="5" lanID="50434">
+  </hint>
+  <hint id="2603" place="12" chatChannel="5" lanID="50435">
+  </hint>
+  <!--채널전환2701~2800-->
+  <hint id="2701" place="2" lanID="50436">
+  </hint>
+  <hint id="2702" place="2" lanID="50437">
+  </hint>
+  <hint id="2703" place="2" lanID="50438">
+  </hint>
+  <hint id="2704" place="2" lanID="50439">
+  </hint>
+  <hint id="2705" place="2" lanID="50440">
+  </hint>
+  <hint id="2706" place="2" lanID="50441">
+  </hint>
+  <hint id="2707" place="2" lanID="50442">
+  </hint>
+  <hint id="2708" place="12" chatChannel="5" lanID="50472">
+  </hint>
+  <hint id="2709" place="8" lanID="60435">
+  </hint>
+  <!--풍선게임2801~2900-->
+  <hint id="2801" place="8" lanID="19030">
+  </hint>
+  <!--보상창고 공간 부족-->
+  <hint id="2802" place="8" lanID="19031">
+  </hint>
+  <!--포탄 부족-->
+  <hint id="2803" place="8" lanID="19032">
+  </hint>
+  <!--포단은 최소 10개이상 사용해야 합니다-->
+  <!--연금술-->
+  <hint id="2901" place="8" lanID="9410">
+  </hint>
+  <!--연금술로 증가한 경험치-->
+  <hint id="2902" place="256" type="1" lanID="9405">
+  </hint>
+  <!--연금성공-->
+  <hint id="2903" place="256" type="3" lanID="9406">
+  </hint>
+  <!--연금실패-->
+  <hint id="2904" place="8" lanID="9414">
+  </hint>
+  <!--레벨이 부족하여 연금약품을 사용할 수 없습니다-->
+  <hint id="2905" place="8" lanID="9413">
+  </hint>
+  <!--현재 레벨 최대숙련도 달성-->
+  <hint id="2906" place="8" lanID="9415">
+  </hint>
+  <!--최고레벨 달성-->
+  <!--탐험-->
+  <hint id="3001" place="8" lanID="46013">
+  </hint>
+  <!--탐험스킬을 습득해야 탐험을 실행할 수 있습니다-->
+  <hint id="3002" place="8" lanID="46014">
+  </hint>
+  <!--탐험스킬 레벨 부족! %s레벨 이상만 가능합니다. 현재레벨은 %s입니다-->
+  <hint id="3003" place="8" lanID="46015">
+  </hint>
+  <!--레벨부족! %s레벨 이상만 가능합니다. 현재레벨은 %s입니다-->
+  <hint id="3004" place="8" lanID="46016">
+  </hint>
+  <!--퀘스트 미완료：%s-->
+  <hint id="3005" place="8" lanID="46017">
+  </hint>
+  <!--탐험중-->
+  <hint id="3006" place="8" lanID="46018">
+  </hint>
+  <!--현재 지도 1일 탐색가능 횟수를 모두 사용하셨습니다-->
+  <hint id="3007" place="8" lanID="46019">
+  </hint>
+  <!--파인더 비활성화-->
+  <hint id="3008" place="8" lanID="46020">
+  </hint>
+  <!--파인더 체력 부족-->
+  <hint id="3009" place="8" lanID="46021">
+  </hint>
+  <!--인벤토리에 여유공간이 부족합니다. 최소 1칸의 여유공간이 필요합니다-->
+  <hint id="3010" place="8" lanID="46022">
+  </hint>
+  <!--현재 파인중이 아닙니다-->
+  <hint id="3011" place="8" lanID="46029">
+  </hint>
+  <!--파인 스킬 레벨업중입니다. 파인을 할 수 없습니다-->
+  <hint id="3012" place="8" lanID="46030">
+  </hint>
+  <!--현재 파인더는 이미 활성화되었습니다-->
+  <hint id="3013" place="8" lanID="46031">
+  </hint>
+  <!--파인중에는 파인더를 활성화할 수 없습니다-->
+  <hint id="3014" place="8" lanID="46039">
+  </hint>
+  <!--골드부족. 레벨업할 수 없습니다-->
+  <hint id="3015" place="8" lanID="46040">
+  </hint>
+  <!--신성력 부족. 레벨업 할 수 없습니다-->
+  <hint id="3016" place="8" lanID="46041">
+  </hint>
+  <!--레벨업 필요 아이템 부족. 레벨업할 수 없습니다-->
+  <hint id="3017" place="8" lanID="46042">
+  </hint>
+  <!--파인중. 스킬를 레벨업 할 수 없습니다.-->
+  <hint id="3018" place="8" lanID="46043">
+  </hint>
+  <!--파인 실패-->
+  <hint id="3019" place="8" lanID="46047">
+  </hint>
+  <!--파인 보상을 수령해야만 파인할 수 있습니다-->
+  <hint id="3020" place="8" lanID="46048">
+  </hint>
+  <!--파인 완료-->
+  <hint id="3021" place="8" lanID="46049">
+  </hint>
+  <!--파인 실패. 수령가능 아이템이 없습니다-->
+  <hint id="3022" place="8" lanID="46056">
+  </hint>
+  <!--사용 불가한 파인더입니다-->
+  <hint id="3023" place="8" lanID="46061">
+  </hint>
+  <!--보상을 획득하세요-->
+  <hint id="3024" place="8" lanID="46065">
+  </hint>
+  <!--绑定的物品不能喂养-->
+  <hint id="3025" place="8" lanID="46080">
+  </hint>
+  <!--인벤토리에 여유 공간이 없으면 파인을 진행할 수 없습니다-->
+  <!--신력폭발3050~3100-->
+  <hint id="3050" place="8" lanID="50537">
+  </hint>
+  <!--폭발포인트 부족. 폭발할수 없습니다-->
+  <hint id="3051" place="8" lanID="50538">
+  </hint>
+  <!--전환하려는 신성력 부족. 전환할 수 없습니다-->
+  <hint id="3052" place="8" lanID="50539">
+  </hint>
+  <!--신성력 부족. 전환할 수 없습니다-->
+  <hint id="3053" place="8" lanID="50540">
+  </hint>
+  <!--1시간당 1회 전환 가능-->
+  <hint id="3054" place="8" lanID="50541">
+  </hint>
+  <!--활성수치 미사용. 회복할 필요가 없습니다-->
+  <hint id="3055" place="8" lanID="81054">
+  </hint>
+  <!--현재 활성 상태가 아닙니다.xp스킬 사용 불가-->
+  <hint id="3056" place="8" lanID="81056">
+  </hint>
+  <!--활성수치 부족. 스킬 상용 불가-->
+  <hint id="3057" place="8" lanID="81057">
+  </hint>
+  <!--신력 스킬 습득을 하지 않았습니다-->
+  <!--아폴론3101~3200-->
+  <hint id="3101" place="8" lanID="81004">
+  </hint>
+  <!--레벨업 성공. 아폴론휘장이 %s레벨에 도달-->
+  <hint id="3102" place="8" lanID="81005">
+  </hint>
+  <!--레벨업 실패. 아플론휘장 축복치가 증가-->
+  <hint id="3103" place="8" lanID="81006">
+  </hint>
+  <!--레벨업 성공. 사역마가 %s레벨에 도달-->
+  <hint id="3104" place="8" lanID="81007">
+  </hint>
+  <!--레벨업 실패. 행운치가 증가-->
+  <hint id="3105" place="8" lanID="81008">
+  </hint>
+  <!--사역마 생명력이 찼습니다. 회복할 필요가 없습니다-->
+  <hint id="3106" place="8" lanID="81071">
+  </hint>
+  <hint id="3107" place="8" lanID="81003"></hint><!--背包中升级物品数量不足-->
+  <hint id="3108" place="8" lanID="81124"></hint><!--LuckItem数量不足-->
+  <hint id="3109" place="8" lanID="81125"></hint><!--slowItem数量不足-->
+  <hint id="3110" place="8" lanID="81126"></hint><!--太阳神慢升成功-->
+  <!--사역마 체력 부족으로 사역마 효과를 잃었으며 속성이 감소되었습니다. 속히 사역마 체력을 회복하세요-->
+  <!--VIP3201~3300-->
+  <hint id="3201" place="8" lanID="50566">
+  </hint>
+  <!--현재 무료제자리 부활 횟수 소진 완료-->
+  <hint id="3202" place="8" lanID="81074">
+  </hint>
+  <!--현재 무료전송 횟수 소진 완료-->
+  <hint id="3203" place="8" lanID="81075">
+  </hint>
+  <!--금일 원격상점 횟수 소진 완료-->
+  <hint id="3204" place="8" lanID="81076">
+  </hint>
+  <!--금일 원격창고 횟수 소진 완료-->
+  <hint id="3205" place="8" lanID="81077">
+  </hint>
+  <!--무료전송 잔여횟수는 (%s/%s)입니다-->
+  <hint id="3206" place="8" lanID="81078">
+  </hint>
+  <!--무료원격창고 잔여횟수는 (%s/%s)입니다-->
+  <hint id="3207" place="8" lanID="81079">
+  </hint>
+  <!--무료원격상점 잔여횟수는 (%s/%s)입니다-->
+  <hint id="3208" place="8" lanID="81100">
+  </hint>
+  <!--체험VIP는 이 보상을 획득할수 었습니다. %s레벨 VIP를 구매하세요-->
+  <hint id="3209" place="8" lanID="81105">
+  </hint>
+  <!--무료가속파인 잔여횟수는 (%s/%s)입니다-->
+  <!--채집-->
+  <hint id="4001" place="8" lanID="46032">
+  </hint>
+  <!--인벤토리에 채집 아이템이 없습니다-->
+  <hint id="4002" place="8" lanID="46033">
+  </hint>
+  <!--채집 아이템 레벨 부족-->
+  <hint id="4003" place="8" lanID="46034">
+  </hint>
+  <!--채집 아이템 내구도 부족-->
+  <hint id="4004" place="8" lanID="46035">
+  </hint>
+  <!--채집 스킬을 습득하지 않았습니다-->
+  <hint id="4005" place="8" lanID="46036">
+  </hint>
+  <!--채집 스킬 레벨 부족-->
+  <!--얼굴수정-->
+  <hint id="5000" place="8" lanID="100164">
+  </hint>
+  <!--사용했던 얼굴입니다-->
+  <hint id="5001" place="8" lanID="100165">
+  </hint>
+  <!--골드가 부족합니다. 얼굴을 바꿀수 없습니다. 얼굴 보관 실패-->
+  <hint id="5002" place="8" lanID="100166">
+  </hint>
+  <!--마정이 부족합니다. 얼굴을 바꿀수 없습니다. 얼굴 보관 실패-->
+  <hint id="5003" place="8" lanID="100167">
+  </hint>
+  <!--사용하고자 하는 얼굴이 맞습니까? 확인하면 %s골드로 얼굴을 바꾸세요-->
+  <hint id="5004" place="8" lanID="100168">
+  </hint>
+  <!--사용하고자 하는 얼굴이 맞습니까? 확인하면 %s마정으로 얼굴을 바꾸세요-->
+  <hint id="5005" place="8" lanID="100169"></hint><!--얼굴을 선택하세요-->
+  <hint id="5006" place="8" lanID="100809"></hint><!--您已经拥有相同形象的头像了-->
+  <!--일반10001~32767-->
+  <hint id="10001" place="32" lanID="50443">
+  </hint>
+  <hint id="10002" place="8" lanID="50444">
+  </hint>
+  <hint id="10003" place="8" lanID="50445">
+  </hint>
+  <hint id="10004" place="8" lanID="50446">
+  </hint>
+  <!--비밀번호 바꾸기-->
+  <hint id="10005" place="8" lanID="50447">
+  </hint>
+  <!--비밀번호 설정-->
+  <hint id="10006" place="8" lanID="50448">
+  </hint>
+  <!--조작이 너무 빠릅니다-->
+  <hint id="10007" place="8" lanID="50449">
+  </hint>
+  <!--기존 비밀번호가 틀렸습니다-->
+  <hint id="10008" place="8" lanID="50450">
+  </hint>
+  <!--이 위치는 앞으로 갈 수 없습니다-->
+  <hint id="10009" place="8" lanID="46207">
+  </hint>
+  <!--인벤토리에 여유 공간이 없습니다-->
+  <hint id="10010" place="8" lanID="100063">
+  </hint>
+  <!--수령 레벨 부족-->
+  <hint id="10011" place="8" lanID="46211">
+  </hint>
+  <!--이미 시련중입니다. 시련탑에서 나가서 입장을 다시 선택하세요-->
+  <hint id="10012" place="8" lanID="19003">
+  </hint>
+  <!--레벨부족-->
+  <dialog id="10013" lanID="100140">
+  </dialog>
+  <hint id="10014" place="2048" lanID="100181" delay="5" size="30" color="0xFFFF00" font="Microsoft YaHei" />
+  <!--명상 구역에 이미 입장하였습니다-->
+  <hint id="10015" place="2048" lanID="100182" delay="5" size="30" color="0xFFFF00" font="Microsoft YaHei" />
+  <!--탈퇴 구역에 이미 입장하였습니다-->
+  <!--퀘스트기능6000~7000-->
+  <hint id="6000" place="32" lanID="50455">보물상자가 개방되면 "봉인된 세계"로 들어가 상자혼백과 대화하면 도전을 시작할 수 있습니다. 신력이 부족할 경우 상자혼백에게 도전을 거절당하게 됩니다</hint>
+  <hint id="6001" place="32" lanID="0">이제 곧 악마 오프니르 소굴을 탐험하게 될 것입니다. 악마들이 들끓는 악마의 세계가 바로 악마심연입니다. 그만큼 위험한 곳이니 될수록 많은 파트너를 소집하여 같이 가는 것이 유리합니다!</hint>
+  <hint id="6002" place="32" lanID="0">이제 곧 저승을 탐험하게 될 것입니다.그 곳은 망령기사 메피스토가 잠들어 있어 매우 위험하니 될수록 많은 파트너를 소집하여 같이 가는 것이 유리합니다!</hint>
+  
+  <!--神魔战场-->
+  <hint id='8004' place='8' lanID='60623'>신청성공</hint> 
+  <hint id='8005' place='8' lanID='60624'>상세내용 없음</hint> 
+  <hint id='8006' place='8' lanID='60625'>제한진영id</hint> 
+  <hint id='8007' place='8' lanID='60626'>제한이벤트id</hint> 
+  <hint id='8008' place='8' lanID='60627'>신념의 전장 외 지역</hint> 
+  <hint id='8009' place='8' lanID='60628'>이벤트 시작 전</hint> 
+  <hint id='8010' place='8' lanID='60629'>인원수 FULL, 신청종료!</hint> 
+  <hint id='8011' place='8' lanID='60630'>인원수 FULL!</hint> 
+  <hint id='8012' place='8' lanID='60631'>이미 신념의 전장에 입장하셨습니다</hint> 
+  <hint id='8013' place='8' lanID='60632'>가입제한</hint> 
+  <hint id='8014' place='8' lanID='60633'>1채널 유저는 신념의 전장에 참여할 수 없습니다</hint> 
+  <hint id='8015' place='8' lanID='60634'>선택제한</hint> 
+  <hint id='8016' place='8' lanID='60635'>오늘은 더 이상 진영을 선택하실 수 없습니다</hint> 
+  <hint id='8017' place='8' lanID='60636'>선택실패</hint> 
+  <hint id='8018' place='8' lanID='60637'>선택성공</hint> 
+  <hint id='8019' place='8' lanID='60638'>신청제한</hint> 
+  <hint id='8020' place='8' lanID='60639'>제한채널</hint> 
+  <hint id='8021' place='8' lanID='60640'>중복신청</hint> 
+  <hint id='8022' place='8' lanID='60641'>신청종료</hint> 
+  <hint id='8023' place='8' lanID='60642'>신청실패</hint> 
+  <hint id='8024' place='8' lanID='60643'>신청시작 전</hint> 
+  <hint id='8025' place='8' lanID='60646'>제한레벨 부족</hint> 
+  <hint id='8026' place='8' lanID='60647'></hint><!--已身在神魔战场中--> 
+  <hint id='8027' place='8' lanID='60648'></hint><!--達到%0s才可進入神魔戰場-->  
+  
+  <!--装备强化-->
+  <hint id='8030' place='8' lanID='60654'>강화성공</hint> 
+  <hint id='8031' place='8' lanID='60655'>강화실패，강화레벨이 보존되었습니다!</hint> 
+  <hint id='8032' place='8' lanID='60656'>강화실패</hint> 
+  <hint id='8033' place='8' lanID='60657'>신성력부족</hint> 
+  <hint id='8034' place='8' lanID='60658'>골드부족</hint>
+  <hint id='8035' place='8' lanID='60659'>장비 강화 최고레벨 달성</hint>
+  <hint id='8036' place='8' lanID='60664'>선택하신 레벨이 장비의 강화레벨보다 낮아 강화를 실행할 수 없습니다</hint>
+  <hint id='8037' place='8' lanID='60668'>장비 강화 최고레벨 달성, 캐릭터 레벨을 올린 후 다시 강화를 시도해주세요.</hint>
+  <hint id='8038' place='8' lanID='60669'>아이템 수량 부족</hint>
+  <hint id='8039' place='8' lanID='60670'>입력하신 강화레벨이 강화가능한 최대 레벨을 초과했습니다</hint>
+  <hint id='8040' place='8' lanID='60670'>입력하신 강화레벨이 강화가능한 최저 레벨보다 낮습니다</hint>
+  <hint id='8041' place='8' lanID='60673'>강화실패! 장비가 파괴되었습니다!</hint>
+  
+  <!--宝石镶嵌-->
+  <hint id='8101' place='8' lanID='81302'></hint><!--宝石部位不符-->
+  <hint id='8102' place='8' lanID='81303'></hint><!--鑲嵌槽位不足-->
+  <hint id='8103' place='8' lanID='81304'></hint><!--镶嵌槽位不足，请先摘取宝石后再进行镶嵌-->
+  <hint id='8104' place='8' lanID='81306'></hint><!--沒有可以鑲嵌的寶石-->
+  <hint id='8105' place='8' lanID='81308'></hint><!--合成寶石不足-->
+  <hint id='8106' place='8' lanID='81309'></hint><!--請按順序依次開啟插槽-->
+  <hint id='8107' place='8' lanID='81310'></hint><!--该插槽不可开启-->
+  <hint id='8108' place='8' lanID='81311'></hint><!--该插槽已经开启-->
+  <hint id='8109' place='8' lanID='81312'></hint><!--装备未鉴定-->
+  <hint id='8110' place='8' lanID='81313'></hint><!--金钱不足-->
+  <hint id='8111' place='8' lanID='81326'></hint><!--物品数量不足-->
+  <hint id='8112' place='8' lanID='81327'></hint><!--背包剩餘空間不足-->
+  <hint id='8113' place='8' lanID='81328'></hint><!--信仰力不足-->
+  <hint id='8114' place='8' lanID='81329'></hint><!--金钱不足-->
+  <hint id='8115' place='8' lanID='81330'></hint><!--合成所需物品不足-->
+  <!--首冲礼包8151~8161占用-->
+  <hint id="8151" place="8" lanID="100761"></hint><!--您还未充值过，首冲礼包不可领取-->
+  <hint id="8152" place="8" lanID="100762"></hint><!--首冲礼包已领取-->
+  <!--占星功能用8161~8170-->
+  <hint id='8161' place='32' lanID='100780'></hint><!--信仰力不足-->
+  <hint id='8162' place='32' lanID='100781'></hint><!--请勾选运势品质-->
+
+</hints>

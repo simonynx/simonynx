@@ -1,0 +1,902 @@
+<!--설명：-->
+<!--place: 알림메세지 표시 위치-->
+<!--	1...시스템공지（상단 이동텍스트）-->
+<!--	2...시스템메세지（우측 하단 알림）-->
+<!--	4...채팅 메세지-->
+<!--		chatChannel: 메세지 표시 채널 5...시스템알림, 11...소문채널 알림-->
+<!--		（소문채널 텍스트 격식： {content,color,bold,italic} 내용，색상，굵기，기울임  //색상은 반드시 설정이 필요함  색상문자열red,green,yellow,blue,white）-->
+<!--		（예：{[%s],blue,0,1}님, 축하합니다. 관문을 통과하여 {콜로세움대회 종결자/최강자/전문가,red,0,1} 칭호를 획득하셨습니다.）-->
+<!--		（%s는 고정된 위치）-->
+<!--	8...이동메세지（화면중앙에서 세로로 이동）-->
+<!--	32...알림창(또는 확인, 취소가 있는 대화창)-->
+<!--	128...이동메세지（화면 우측 위치, 세로로 이동）-->
+<hints>
+  <!---아이템1~100-->
+  <hint id="1" place="8" lanID="60000">
+  </hint>
+  <hint id="2" place="8" lanID="60001">
+  </hint>
+  <hint id="3" place="8" lanID="60002">
+  </hint>
+  <hint id="4" place="8" lanID="50133">
+  </hint>
+  <!--클라이언트 TIP과 동일-->
+  <hint id="5" place="8" lanID="60004">
+  </hint>
+  <hint id="6" place="8" lanID="60005">
+  </hint>
+  <hint id="7" place="2" lanID="60006">
+  </hint>
+  <hint id="8" place="2" lanID="60007">
+  </hint>
+  <hint id="9" place="8" lanID="50028">
+  </hint>
+  <!--클라이언트 TIP과 동일-->
+  <hint id="10" place="8" lanID="60009">
+  </hint>
+  <hint id="11" place="2" lanID="60010">
+  </hint>
+  <hint id="13" place="8" lanID="60011">
+  </hint>
+  <hint id="14" place="8" lanID="60012">
+  </hint>
+  <hint id="15" place="8" lanID="60013">
+  </hint>
+  <hint id="16" place="8" lanID="60014">
+  </hint>
+  <!--hint id='17' place='8'>다른사람이 드랍한 아이템은 잠시 줍기를 할 수 없습니다.（삭제하기를 권장합니다. ID15와 동일）</hint-->
+  <!--hint id='18' place='8'>창고정리 실패（삭제하기를 권장합니다）</hint-->
+  <hint id="19" place="8" lanID="60015">
+  </hint>
+  <hint id="20" place="8" lanID="60016">
+  </hint>
+  <!--hint id='21' place='8'>존재하는 창고합니다.（삭제하기를 권장합니다）</hint-->
+  <hint id="22" place="2" lanID="60017">
+  </hint>
+  <hint id="23" place="8" lanID="60018">
+  </hint>
+  <hint id="24" place="256" type="3" lanID="60019">
+  </hint>
+  <hint id="25" place="2" lanID="60020">
+  </hint>
+  <hint id="26" place="8" lanID="60021">
+  </hint>
+  <hint id="27" place="2" lanID="60022">
+  </hint>
+  <hint id="28" place="8" lanID="60023">
+  </hint>
+  <hint id="29" place="2" lanID="60024">
+  </hint>
+  <hint id="30" place="2" lanID="60025">
+  </hint>
+  <hint id="31" place="8" lanID="60026">
+  </hint>
+  <hint id="32" place="8" lanID="60027">
+  </hint>
+  <hint id="33" place="8" lanID="60028">
+  </hint>
+  <hint id="34" place="8" lanID="60029">
+  </hint>
+  <hint id="35" place="8" lanID="60030">
+  </hint>
+  <hint id="36" place="8" lanID="60031">
+  </hint>
+  <hint id="37" place="8" lanID="60032">
+  </hint>
+  <hint id="38" place="8" lanID="60033">
+  </hint>
+  <hint id="39" place="2" lanID="60034">
+  </hint>
+  <hint id="40" place="8" lanID="60035">
+  </hint>
+  <hint id="41" place="8" lanID="60036">
+  </hint>
+  <hint id="42" place="2" lanID="60037">
+  </hint>
+  <!---아이템...end...100-->
+  <!---=========================================================================-->
+  <!---스킬101~300-->
+  <!--hint id='101' place='8'>스킬이 없습니다.（삭제하기를 권장합니다）</hint-->
+  <!--hint id='102' place='8'>이 목표가 없습니다.（삭제하기를 권장합니다）</hint-->
+  <hint id="103" place="8" lanID="60038">
+  </hint>
+  <hint id="104" place="8" lanID="60039">
+  </hint>
+  <hint id="105" place="8" lanID="60040">
+  </hint>
+  <hint id="106" place="8" lanID="60041">
+  </hint>
+  <hint id="107" place="8" lanID="60042">
+  </hint>
+  <!--hint id='108' place='8'>적 관계가 틀립니다. 스킬을 사용할 수 없습니다.（삭제하기를 권장합니다）</hint-->
+  <!--hint id='109' place='8'>주머니 베포 오류. 스킬 유형과 처리 연동이 다릅니다（삭제하기를 권장합니다）</hint-->
+  <hint id="110" place="8" lanID="60043">
+  </hint>
+  <!--hint id='111' place='8'>명줄 실패（삭제하기를 권장합니다）</hint-->
+  <!--hint id='112' place='8'>거리가 멀어 공격할 수 없습니다.（삭제하기를 권장합니다）</hint-->
+  <!--hint id='113' place='8'>공격이 너무 빠릅니다. 잠시 휴식하세요.（삭제하기를 권장합니다）</hint-->
+  <hint id="114" place="8" lanID="60044">
+  </hint>
+  <!--hint id='115' place='8'>자기를 공격하면 안됩니다（삭제하기를 권장합니다）</hint-->
+  <hint id="116" place="8" lanID="60045">
+  </hint>
+  <hint id="117" place="2" lanID="60046">
+  </hint>
+  <hint id="118" place="8" lanID="60047">
+  </hint>
+  <!--hint id='119' place='2'>%s에게 명중，-%u 데미지를 입었습니다.（삭제하기를 권장합니다. ID117 TIP 사용）</hint-->
+  <hint id="120" place="8" lanID="60048">
+  </hint>
+  <hint id="121" place="8" lanID="60049">
+  </hint>
+  <hint id="122" place="8" lanID="60050">
+  </hint>
+  <hint id="123" place="8" lanID="60051">
+  </hint>
+  <hint id="124" place="8" lanID="60455">현재 상태에서는 전송할 수 없습니다!</hint>
+  <!---스킬...end...300-->
+  <!---=========================================================================-->
+  <!---화면401~499-->
+  <hint id="401" place="8" lanID="60052">
+  </hint>
+  <hint id="402" place="8" lanID="60053">
+  </hint>
+  <hint id="403" place="8" lanID="60054">
+  </hint>
+  <hint id="404" place="8" lanID="60055">
+  </hint>
+  <hint id="405" place="4" chatChannel="11" trackLink="openPanel┆0┆2$0$4" trackLinkName="【boss처치】">{[%0s],blue,0,1}님께서 {[%1u채널] BOSS [%2s],red,0,1}를 처치하셨습니다!</hint>
+  <hint id="407" place="8" lanID="60057">
+  </hint>
+  <hint id="408" place="8" lanID="60058">
+  </hint>
+  <hint id="409" place="8" lanID="60059">
+  </hint>
+  <hint id="410" place="8" lanID="60060">
+  </hint>
+  <scriptAlert id="411" autoAction="cancel" delay="30" pattern="%0s{delay}초 후 선택이 초기화됩니다" lanID="60061">
+  </scriptAlert>
+  <hint id="412" place="8" lanID="60062">
+  </hint>
+  <hint id="413" place="8" lanID="60063">
+  </hint>
+  <hint id="414" place="8" lanID="60064">
+  </hint>
+  <hint id="415" place="8" lanID="60065">
+  </hint>
+  <hint id="416" place="8" lanID="60066">
+  </hint>
+  <hint id="417" place="8" lanID="60067">
+  </hint>
+  <hint id="418" place="4" chatChannel="11" trackLink="openPanel┆0┆6$0$3" trackLinkName="【실력향상 방법】">{[%0s],blue,0,1}님의 성좌가 활성되었습니다!</hint>
+  <hint id="419" place="4" chatChannel="11" trackLink="openPanel┆0┆3$0$3" trackLinkName="【레전드 장비 획득방법】">{[%0s],blue,0,1}님께서 {[%1s],blue,0,1} 퀘스트를 완료하고 {충전 선물주머니,blue,0,1}와 {레전드`봉인된 반지,red,0,1}를 획득하셨습니다!</hint>
+  <hint id="420" place="8" lanID="60070">
+  </hint>
+  <hint id="421" place="8" lanID="60071">
+  </hint>
+  <hint id="422" place="8" lanID="60072">
+  </hint>
+  <hint id="423" place="8" lanID="60073">
+  </hint>
+  <hint id="424" place="8" lanID="60074">
+  </hint>
+  <hint id="425" place="8" lanID="60075">
+  </hint>
+  <hint id="426" place="8" lanID="60076">
+  </hint>
+  <hint id="427" place="8" lanID="60077">
+  </hint>
+  <hint id="428" place="8" lanID="60078">
+  </hint>
+  <hint id="429" place="8" lanID="60079">
+  </hint>
+  <hint id="430" place="8" lanID="60080">
+  </hint>
+  <hint id="431" place="8" lanID="60081">
+  </hint>
+  <hint id="432" place="8" lanID="60082">
+  </hint>
+  <hint id="433" place="8" lanID="60083">
+  </hint>
+  <hint id="434" place="8" lanID="60084">
+  </hint>
+  <scriptAlert id="435" autoAction="cancel" delay="30" pattern="%0s{delay}초 후 선택이 초기화됩니다" lanID="60085">
+  </scriptAlert>
+  <hint id="436" place="8" lanID="60086">
+  </hint>
+  <hint id="437" place="8" lanID="60087">
+  </hint>
+  <hint id="438" place="8" lanID="60088">
+  </hint>
+  <hint id="439" place="32" lanID="60089">
+  </hint>
+  <hint id="440" place="8" lanID="60090">
+  </hint>
+  <hint id="441" place="8" lanID="60091">"%1s 아이템은 1일 %0u회만 사용할 수 있습니다. 사용가능 횟수를 모두 사용하셨습니다."</hint>
+  <hint id="442" place="8" lanID="60092">
+  </hint>
+  <hint id="443" place="8" lanID="60093">
+  </hint>
+  <hint id="444" place="8" lanID="60094">
+  </hint>
+  <hint id="445" place="8" lanID="60095">
+  </hint>
+  <hint id="446" place="4" chatChannel="11" trackLink="openPanel┆0┆7" trackLinkName="【VIP되기】">{[%0s],blue,0,1}님, {VIP,red,0,1} 획득!</hint>
+  <hint id="447" place="8" lanID="60097">
+  </hint>
+  <hint id="448" place="8" lanID="60098">
+  </hint>
+  <hint id="449" place="4" chatChannel="11" trackLink="openPanel┆0┆8" trackLinkName="【풍선게임 진입】">{[%0s],blue,0,1}님, 풍선게임에서 {%1i,red,0,1} 아이템 획득!</hint>
+  <hint id="450" place="4" chatChannel="11">{[%0s],blue,0,1}님, 숨겨진 보물 스크롤 중 {%1i,red,0,1} 아이템 획득!</hint>
+  <hint id="451" place="4" chatChannel="11" trackLink="openPanel┆0┆9" trackLinkName="【실력향상 방법】">{[%0s],blue,0,1}님, 탈것 {%1u,red,0,1}레벨 달성(신력{%2u,red,0,1}증가)!</hint>
+  <hint id="452" place="4" chatChannel="11" trackLink="openPanel┆0┆3$0$3" trackLinkName="【실력향상 방법】">{[%0s],blue,0,1}님, {%1i} 아이템 감정 성공!</hint>
+  <hint id="453" place="4" chatChannel="11" trackLink="openPanel┆0┆10$0$2" trackLinkName="【실력향상 방법】">{[%0s],blue,0,1}님, {%1i} 영혼 {[%2s],red,0,1}레벨 달성!</hint>
+  <hint id="454" place="4" chatChannel="11" trackLink="openPanel┆0┆2$0$4" trackLinkName="【악마토벌】">{[%0s],blue,0,1} {[%1u채널 %2s],red,0,1} 출현!</hint>
+  <hint id="455" place="4" chatChannel="11" trackLink="openPanel┆0┆10$0$1" trackLinkName="【실력향상 방법】">{[%0s],blue,0,1}님, {[%1i],red,0,1} 재 주조 성공!</hint>
+  <hint id="456" place="4" chatChannel="11" trackLink="openPanel┆0┆2$0$4" trackLinkName="【악마토벌】">마왕 니드호그:고급 수련장, 지옥, 악마가 잠든 땅에 숨어있는 악의 지배자들이여! 지옥의 캄캄한 어둠속에서 깨어나라! 얼스터를 피로 물 들일 때가 왔다!</hint>
+  <!---스킬...end...499-->
+  <!---=========================================================================-->
+  <!---캐릭터500~535-->
+  <hint id="491" place="8" lanID="60099">
+  </hint>
+  <hint id="492" place="8" lanID="60100">
+  </hint>
+  <hint id="493" place="8" lanID="60101">
+  </hint>
+  <hint id="494" place="8" lanID="60102">
+  </hint>
+  <hint id="495" place="8" lanID="60103">
+  </hint>
+  <hint id="496" place="8" lanID="60104">
+  </hint>
+  <hint id="497" place="8" lanID="60105">
+  </hint>
+  <hint id="498" place="8" lanID="60106">
+  </hint>
+  <hint id="499" place="8" lanID="60107">
+  </hint>
+  <hint id="500" place="8" lanID="60108">
+  </hint>
+  <hint id="501" place="8" lanID="60109">
+  </hint>
+  <hint id="502" place="8" lanID="60110">
+  </hint>
+  <hint id="503" place="8" lanID="60111">
+  </hint>
+  <hint id="504" place="8" lanID="60112">
+  </hint>
+  <hint id="505" place="8" lanID="60113">
+  </hint>
+  <hint id="506" place="8" lanID="60114">
+  </hint>
+  <hint id="507" place="256" type="3" lanID="60115">!</hint>
+  <hint id="508" place="8" lanID="60116">
+  </hint>
+  <hint id="509" place="8" lanID="60117">
+  </hint>
+  <hint id="510" place="4" chatChannel="11" trackLink="openPanel┆0┆6$0$3" trackLinkName="【실력향상 방법】">{[%0s],blue,0,1}님, 영웅성좌 활성 완료!</hint>
+  <hint id="511" place="4" chatChannel="11" trackLink="openPanel┆0┆6$0$3" trackLinkName="【실력향상 방법】">{[%0s],blue,0,1}님, 반신성좌 활성 완료!</hint>
+  <hint id="512" place="4" chatChannel="11" trackLink="openPanel┆0┆6$0$3" trackLinkName="【실력향상 방법】">{[%0s],blue,0,1}님, 천신성좌 활성 완료!</hint>
+  <hint id="513" place="8" lanID="60121">
+  </hint>
+  <hint id="514" place="8" lanID="60122">
+  </hint>
+  <hint id="515" place="8" lanID="60123">
+  </hint>
+  <hint id="516" place="8" lanID="60124">
+  </hint>
+  <hint id="517" place="8" lanID="60125">
+  </hint>
+  <hint id="518" place="256" type="3" lanID="60126">
+  </hint>
+  <hint id="519" place="8" lanID="60127">
+  </hint>
+  <hint id="520" place="8" lanID="60128">
+  </hint>
+  <hint id="521" place="8" lanID="60129">
+  </hint>
+  <hint id="522" place="4" chatChannel="11">{[%0s],blue,0,1}님께서 {[%1s],red,0,1}님의 살육을 종결시켰습니다.</hint>
+  <hint id="523" place="8" lanID="60131">
+  </hint>
+  <hint id="524" place="8" lanID="60132">
+  </hint>
+  <hint id="525" place="8" lanID="60133">
+  </hint>
+  <hint id="526" place="8" lanID="60134">
+  </hint>
+  <hint id="527" place="8" lanID="60135">
+  </hint>
+  <hint id="528" place="8" lanID="60136">
+  </hint>
+  <hint id="529" place="8" lanID="60137">
+  </hint>
+  <hint id="530" place="8" lanID="60138">
+  </hint>
+  <hint id="531" place="8" lanID="60139">
+  </hint>
+  <hint id="532" place="8" lanID="60140">
+  </hint>
+  <hint id="533" place="8" lanID="60141">
+  </hint>
+  <hint id="534" place="8" lanID="60142">
+  </hint>
+  <hint id="535" place="8" lanID="60143">
+  </hint>
+  <!--파티 및 친구 시스템 TIP 536~559-->
+  <hint id="536" place="8" lanID="60144">
+  </hint>
+  <!--hint id='537' place='8' lanID='60145'></hint-->
+  <hint id="538" place="8" lanID="60146">
+  </hint>
+  <hint id="539" place="8" lanID="60147">
+  </hint>
+  <hint id="540" place="8" lanID="60148">
+  </hint>
+  <hint id="541" place="8" lanID="60149">
+  </hint>
+  <hint id="542" place="8" lanID="60150">
+  </hint>
+  <hint id="543" place="8" lanID="60151">
+  </hint>
+  <hint id="544" place="8" lanID="60152">
+  </hint>
+  <hint id="545" place="8" lanID="60153">
+  </hint>
+  <hint id="546" place="8" lanID="60154">
+  </hint>
+  <hint id="547" place="8" lanID="60155">
+  </hint>
+  <hint id="548" place="8" lanID="60156">
+  </hint>
+  <hint id="549" place="8" lanID="60157">
+  </hint>
+  <!--hint id='550' place='8' lanID='60158'></hint-->
+  <hint id="551" place="8" lanID="60159">
+  </hint>
+  <!--hint id='552' place='8' lanID='60160'></hint-->
+  <hint id="553" place="8" lanID="60161">
+  </hint>
+  <hint id="554" place="8" lanID="60162">
+  </hint>
+  <hint id="555" place="8" lanID="60163">
+  </hint>
+  <hint id="556" place="8" lanID="60164">
+  </hint>
+  <hint id="557" place="256" type="1" lanID="60165">
+  </hint>
+  <hint id="558" place="256" type="1" lanID="60166">
+  </hint>
+  <hint id="559" place="8" lanID="60167">
+  </hint>
+  <!--숙련560~563 -->
+  <hint id="560" place="4" chatChannel="11" trackLink="openPanel┆0┆6$0$4" trackLinkName="【실력향상 방법】">{[%0s],blue,0,1}님, {[%1s],red,0,1} 6단계 세공 성공!</hint>
+  <hint id="561" place="256" type="1" lanID="60169">
+  </hint>
+  <hint id="562" place="4" chatChannel="11" trackLink="openPanel┆0┆6$0$4" trackLinkName="【실력향상 방법】">{[%0s],blue,0,1}님, {[%1s],red,0,1} 연속 %2u단계 활성 성공!</hint>
+  <hint id="563" place="4" chatChannel="11" trackLink="openPanel┆0┆6$0$4" trackLinkName="【실력향상 방법】">{[%0s],blue,0,1}님, {[%1s],red,0,1} 12단계 세공 성공!</hint>
+  <!--파티TIP 추가 564-->
+  <hint id="564" place="8" lanID="60172">
+  </hint>
+  <hint id="565" place="2" lanID="60173">
+  </hint>
+  <hint id="566" place="8" lanID="60174">
+  </hint>
+  <hint id="567" place="8" lanID="60175">
+  </hint>
+  <hint id="568" place="8" lanID="60176">
+  </hint>
+  <hint id="569" place="8" lanID="60177">
+  </hint>
+  <hint id="570" place="8" lanID="60178">
+  </hint>
+  <hint id="571" place="8" lanID="69999">1일 우편 발송가능 횟수 20회를 초과하셨습니다!</hint>
+  <hint id="572" place="8" lanID="70001">우편발송 실패! 존재하지 않는 유저입니다.</hint>
+  <hint id="573" place="8" lanID="70002">다른 우편을 추출중입니다..잠시만 기다려주세요</hint>
+  <hint id="574" place="8" lanID="70003">우편발송 성공</hint>
+  <hint id="575" place="4" chatChannel="3">[%0i][%1s] 주사위 %2u</hint>
+  <hint id="576" place="4" chatChannel="3">[%0s][%1i] 획득</hint>
+  <hint id="577" place="4" chatChannel="3">[%0i][%1s] 주사위 포기</hint>
+  <hint id="578" place="8" lanID="60471">자유습득 모드로 전환되었습니다!</hint>
+  <hint id="579" place="256" type="1" lanID="60472">주사위 분배모드로 전환되었습니다!</hint>
+  <hint id="580" place="8" lanID="60473">주사위 분배 모드 맵입니다. 주사위 분배 모드로 자동전환됩니다!</hint>
+  <hint id="581" place="8" lanID="60474">자유습득 모드 맵입니다. 자유습득 모드로 자동 전환됩니다!</hint>
+  <hint id="582" place="8" lanID="60475">이 맵에서는 주사위 분배 모드로 전환할 수 없습니다!</hint>
+  <!--마법진 600~620-->
+  <hint id="600" place="8" lanID="60179">
+  </hint>
+  <hint id="601" place="8" lanID="60180">
+  </hint>
+  <hint id="602" place="8" lanID="60181">
+  </hint>
+  <hint id="603" place="8" lanID="60182">
+  </hint>
+  <hint id="604" place="8" lanID="60183">
+  </hint>
+  <hint id="605" place="8" lanID="60184">
+  </hint>
+  <hint id="606" place="8" lanID="60185">
+  </hint>
+  <hint id="607" place="8" lanID="60186">
+  </hint>
+  <hint id="608" place="8" lanID="60187">
+  </hint>
+  <hint id="609" place="8" lanID="60188">
+  </hint>
+  <hint id="610" place="8" lanID="60189">
+  </hint>
+  <hint id="611" place="8" lanID="60190">
+  </hint>
+  <hint id="612" place="8" lanID="60191">
+  </hint>
+  <hint id="613" place="8" lanID="60192">
+  </hint>
+  <!--거래 700~720-->
+  <hint id="701" place="8" lanID="60193">
+  </hint>
+  <hint id="702" place="8" lanID="60194">
+  </hint>
+  <hint id="703" place="8" lanID="60195">
+  </hint>
+  <hint id="704" place="8" lanID="60196">
+  </hint>
+  <!--위탁판매720-721-->
+  <hint id="720" place="8" lanID="60197">
+  </hint>
+  <hint id="721" place="8" lanID="60198">
+  </hint>
+  <!--NPC 상점722-730-->
+  <hint id="722" place="8" lanID="60199">
+  </hint>
+  <hint id="723" place="8" lanID="60200">
+  </hint>
+  <hint id="724" place="8" lanID="60201">
+  </hint>
+  <hint id="725" place="8" lanID="60202">
+  </hint>
+  <hint id="726" place="8" lanID="60203">
+  </hint>
+  <hint id="727" place="8" lanID="60409">구매가능 개수를 초과하여 더 이상 구매할 수 없습니다</hint>
+  <hint id="728" place="4" chatChannel="11" trackLink="openPanel┆0┆6$0$2" trackLinkName="【실력향상 방법】">{%0s,blue,0,1}님, 아폴론 휘장 {%1u,red,0,1}레벨 달성!</hint>
+  <hint id="729" place="4" chatChannel="11" trackLink="openPanel┆0┆11" trackLinkName="【실력향상 방법】">{%0s,blue,0,1}님, {%1s,red,0,1} 사역마와 계약! {%2s,red,0,1} 수호 획득!</hint>
+  <!--퀘스트730-750-->
+  <hint id="730" place="8" lanID="60204">
+  </hint>
+  <hint id="731" place="8" lanID="60205">
+  </hint>
+  <hint id="732" place="8" lanID="60206">
+  </hint>
+  <hint id="733" place="8" lanID="60207">
+  </hint>
+  <hint id="734" place="8" lanID="60208">
+  </hint>
+  <hint id="735" place="8" lanID="60209">
+  </hint>
+  <hint id="736" place="8" lanID="60210">
+  </hint>
+  <hint id="737" place="8" lanID="60211">
+  </hint>
+  <!--펫800-850-->
+  <hint id="800" place="8" lanID="60212">
+  </hint>
+  <hint id="801" place="2" lanID="60213">
+  </hint>
+  <hint id="802" place="8" lanID="60214">
+  </hint>
+  <hint id="803" place="8" lanID="60215">
+  </hint>
+  <hint id="804" place="8" lanID="60216">
+  </hint>
+  <hint id="805" place="8" lanID="60217">
+  </hint>
+  <hint id="806" place="8" lanID="60218">
+  </hint>
+  <hint id="807" place="8" lanID="60219">
+  </hint>
+  <hint id="808" place="8" lanID="60220">
+  </hint>
+  <hint id="809" place="8" lanID="60221">
+  </hint>
+  <hint id="810" place="8" lanID="60222">
+  </hint>
+  <hint id="811" place="8" lanID="60223">
+  </hint>
+  <hint id="812" place="8" lanID="60224">
+  </hint>
+  <hint id="813" place="8" lanID="60225">
+  </hint>
+  <hint id="814" place="8" lanID="60226">
+  </hint>
+  <hint id="815" place="2" lanID="60227">
+  </hint>
+  <hint id="816" place="8" lanID="60228">
+  </hint>
+  <hint id="817" place="8" lanID="60229">
+  </hint>
+  <hint id="818" place="8" lanID="60230">
+  </hint>
+  <hint id="819" place="8" lanID="60231">
+  </hint>
+  <hint id="820" place="8" lanID="60232">
+  </hint>
+  <hint id="821" place="8" lanID="60233">
+  </hint>
+  <hint id="822" place="8" lanID="60234">
+  </hint>
+  <hint id="823" place="8" lanID="60235">
+  </hint>
+  <hint id="824" place="8" lanID="60236">
+  </hint>
+  <hint id="829" place="4" chatChannel="11" trackLink="openPanel┆0┆9" trackLinkName="【실력향상 방법】">{[%0s],blue,0,1}님, 탈것 {[%1u],red,0,1}레벨 달성(신력{[%2u%%],red,0,1}증가)!</hint>
+  <hint id="830" place="256" type="1" lanID="60238">
+  </hint>
+  <hint id="831" place="256" type="1" lanID="60239">
+  </hint>
+  <!--hint id='832' place='8'>탈것은 %u포인트 경험 획득. 현재 경험치는 %u포인트입니다.</hint-->
+  <hint id="833" place="8" lanID="60240">
+  </hint>
+  <scriptAlert id="834" lanID="60241">
+  </scriptAlert>
+  <hint id="835" place="8" lanID="60242">
+  </hint>
+  <hint id="836" place="8" lanID="60243">
+  </hint>
+  <scriptAlert id="837" lanID="60244">
+  </scriptAlert>
+  <hint id="838" place="8" lanID="60245">
+  </hint>
+  <hint id="839" place="8" lanID="60246">
+  </hint>
+  <hint id="840" place="256" type="1" lanID="60247">
+  </hint>
+  <hint id="841" place="4" chatChannel="11" trackLink="openPanel┆0┆12" trackLinkName="【실력향상 방법】">{[%0s],blue,0,1}님, {[%1s],red,0,1} 사역마 합성 완료! {유니크,0,1}등급 달성!</hint>
+  <hint id="842" place="4" chatChannel="11" trackLink="openPanel┆0┆12" trackLinkName="【실력향상 방법】">{[%0s],blue,0,1}님, {[%1s],red,0,1} 사역마 합성 완료! {에픽,0,1}등급 달성!</hint>
+  <!--콜로세움대회851-871-->
+  <hint id="851" place="8" lanID="60250">
+  </hint>
+  <hint id="852" place="8" lanID="60251">
+  </hint>
+  <hint id="853" place="8" lanID="60252">
+  </hint>
+  <hint id="854" place="8" lanID="60253">
+  </hint>
+  <hint id="855" place="8" lanID="60254">
+  </hint>
+  <hint id="856" place="8" lanID="60255">
+  </hint>
+  <hint id="857" place="4" chatChannel="11">{[%0s],blue,0,1}님이 미쳐 날뛰고 있습니다!</hint>
+  <hint id="858" place="4" chatChannel="11">{[%0s],blue,0,1}님께서 {[%1s],blue,0,1}님의 {전설,red,0,1}적 학살을 종결시켰습니다!!</hint>
+  <hint id="859" place="4" chatChannel="11">{[%0s],blue,0,1}님, {[%1s],blue,0,1} {3위,red,0,1} 등극!</hint>
+  <hint id="860" place="4" chatChannel="11">{[%0s],blue,0,1}님, {[%1s],blue,0,1} {2위,red,0,1} 등극!</hint>
+  <hint id="861" place="4" chatChannel="11">{[%0s],blue,0,1}님, {[%1s],blue,0,1} {1위,red,0,1} 등극!</hint>
+  <hint id="862" place="1" lanID="60056">콜로세움대회 토너먼트 종료!! 1분 후 콜로세움대회 결승전이 시작됩니다</hint>
+  <hint id="863" place="8" lanID="70004">서버에 연결 되지 않아 우편을 발송할 수 없습니다!</hint>
+  <!--보물강탈872-879-->
+  <hint id="872" place="8" lanID="60261">
+  </hint>
+  <!--VIP 880-890-->
+  <hint id="880" place="8" lanID="60262">
+  </hint>
+  <!--hint id='881' place='8'>조작에 실패하셨습니다. VIP레벨 요구에 도달하지 못했습니다!</hint-->
+  <hint id="882" place="256" type="3" lanID="60263">
+  </hint>
+  <hint id="883" place="256" type="3" lanID="60264">
+  </hint>
+  <hint id="884" place="4" chatChannel="11" trackLink="openPanel┆0┆7" trackLinkName="【VIP되기】">{[%0s],blue,0,1}님께서 특권카드(일상)을 사용하여 특권(일상) 사용자가 되셨습니다! 다양한 혜택을 누려보세요!</hint>
+  <hint id="885" place="4" chatChannel="11" trackLink="openPanel┆0┆7" trackLinkName="【VIP되기】">{[%0s],blue,0,1}님께서 특권카드(전투)를 사용하여 특권(전투) 사용자가 되셨습니다!다양한 혜택을 누려보세요!</hint>
+  <hint id="886" place="4" chatChannel="11" trackLink="openPanel┆0┆7" trackLinkName="【VIP되기】">{[%0s],blue,0,1}님께서 VIP카드를 사용하여 VIP사용자가 되셨습니다. VIP특권을 비롯한 일상/전투 혜택을 모두 누려보세요!</hint>
+  <!--길드 891-950-->
+  <hint id="891" place="8" lanID="60265">
+  </hint>
+  <hint id="892" place="8" lanID="60266">
+  </hint>
+  <hint id="893" place="8" lanID="60267">
+  </hint>
+  <hint id="894" place="8" lanID="60268">
+  </hint>
+  <hint id="895" place="256" type="1" lanID="60269">
+  </hint>
+  <hint id="897" place="8" lanID="60270">
+  </hint>
+  <hint id="898" place="8" lanID="60271">
+  </hint>
+  <hint id="899" place="8" lanID="60272">
+  </hint>
+  <hint id="900" place="8" lanID="60273">
+  </hint>
+  <hint id="901" place="8" lanID="60274">
+  </hint>
+  <hint id="903" place="8" lanID="60275">
+  </hint>
+  <hint id="904" place="8" lanID="60276">
+  </hint>
+  <hint id="905" place="8" lanID="60277">
+  </hint>
+  <hint id="906" place="256" type="1" lanID="60278">
+  </hint>
+  <hint id="907" place="8" lanID="60279">
+  </hint>
+  <hint id="908" place="8" lanID="60280">
+  </hint>
+  <hint id="909" place="8" lanID="60281">
+  </hint>
+  <hint id="911" place="8" lanID="60282">
+  </hint>
+  <hint id="912" place="8" lanID="60283">
+  </hint>
+  <hint id="913" place="8" lanID="60284">
+  </hint>
+  <hint id="914" place="8" lanID="60285">
+  </hint>
+  <hint id="915" place="8" lanID="60286">
+  </hint>
+  <hint id="916" place="8" lanID="60287">
+  </hint>
+  <hint id="917" place="8" lanID="60288">
+  </hint>
+  <hint id="918" place="2" lanID="60289">소속 길드 %0s가 해산되었습니다!</hint>
+  <hint id="919" place="8" lanID="60290">
+  </hint>
+  <hint id="920" place="8" lanID="60291">
+  </hint>
+  <hint id="921" place="8" lanID="60292">
+  </hint>
+  <hint id="922" place="8" lanID="60293">
+  </hint>
+  <hint id="923" place="8" lanID="60294">
+  </hint>
+  <hint id="924" place="8" lanID="60295">
+  </hint>
+  <hint id="925" place="256" type="1" lanID="60296">
+  </hint>
+  <hint id="926" place="8" lanID="60297">
+  </hint>
+  <hint id="927" place="8" lanID="60298">
+  </hint>
+  <hint id="928" place="8" lanID="60299">
+  </hint>
+  <hint id="929" place="8" lanID="60300">
+  </hint>
+  <hint id="930" place="8" lanID="60301">
+  </hint>
+  <hint id="932" place="8" lanID="60302">
+  </hint>
+  <hint id="933" place="8" lanID="60303">
+  </hint>
+  <hint id="934" place="8" lanID="60304">
+  </hint>
+  <hint id="935" place="8" lanID="60305">
+  </hint>
+  <hint id="936" place="8" lanID="60306">
+  </hint>
+  <hint id="937" place="256" type="1" lanID="60307">
+  </hint>
+  <hint id="938" place="8" lanID="60308">
+  </hint>
+  <hint id="939" place="4" chatChannel="11" trackLink="openPanel┆0┆13" trackLinkName="【길드가입】">축하합니다! {[%0s],blue,0,1}님, {[%1s],red,0,1} 길드 창설!</hint>
+  <hint id="940" place="256" type="1" lanID="60310">
+  </hint>
+  <hint id="941" place="8" lanID="60311">
+  </hint>
+  <hint id="942" place="8" lanID="60312">
+  </hint>
+  <hint id="943" place="8" lanID="60313">
+  </hint>
+  <hint id="945" place="8" lanID="60314">
+  </hint>
+  <hint id="946" place="8" lanID="60315">
+  </hint>
+  <hint id="947" place="8" lanID="60316">
+  </hint>
+  <hint id="948" place="8" lanID="60328">
+  </hint>
+  <hint id="949" place="8" lanID="60329">
+  </hint>
+  <!--영혼장비951-970-->
+  <hint id="951" place="8" lanID="60400">
+  </hint>
+  <hint id="952" place="8" lanID="60401">
+  </hint>
+  <hint id="953" place="8" lanID="60402">
+  </hint>
+  <hint id="954" place="8" lanID="60403">
+  </hint>
+  <hint id="955" place="8" lanID="60404">
+  </hint>
+  <hint id="956" place="8" lanID="60405">
+  </hint>
+  <hint id="957" place="8" lanID="60406">
+  </hint>
+  <hint id="958" place="8" lanID="60454">현재 상태에서는 명상을 할 수 없습니다!</hint>
+  <hint id="959" place="8" lanID="60476">드랍 아이템을 습득하여 은신할 수 없습니다!</hint>
+  <hint id="960" place="8" lanID="60477">은신상태에서는 이 아이템을 습득할 수 없습니다!</hint>
+  <hint id="961" place="8" lanID="60479">채널 대기중, 사용할 수 없습니다!</hint>
+  <!--장비감정 971-980-->
+  <hint id="971" place="256" type="1" lanID="60410">감정성공!</hint>
+  <hint id="972" place="256" type="3" lanID="60411">감정실패!</hint>
+  <hint id="973" place="8" lanID="60412">커먼 장비는 감정할 수 없습니다!</hint>
+  <hint id="974" place="8" lanID="60413">장비만 감정할 수 있습니다!</hint>
+  <hint id="975" place="8" lanID="60414">감정부적을 사용하여 감정하세요!</hint>
+  <hint id="406" place="8" lanID="70000">거래중에는 채널을 전환할 수 없습니다</hint>
+  <!--경매장 981-990-->
+  <hint id="981" place="8" lanID="60420">구매실패，거래중인 아이템입니다!</hint>
+  <hint id="982" place="8" lanID="60421">구매실패，다른 유저가 이미 구매한 아이템입니다!</hint>
+  <!--콜로세움대회 991-995-->
+  <hint id="991" place="8" lanID="60428">콜로세움대회 토너먼트가 종료되었습니다. 안타깝게도 10위 안에 들지 못하셨습니다!</hint>
+  <hint id="992" place="8" lanID="60429">콜로세움대회 결승전이 시작되었습니다!</hint>
+  <hint id="993" place="8" lanID="60430">콜로세움대회 시작 전입니다. 공격할 수 없으니 조금만 더 기다려주세요!</hint>
+  <!-- 996 -->
+  <hint id="996" place="8" lanID="60450">전송할 수 없습니다!</hint>
+  <!--이벤트TIP 1026-1030-->
+  <hint id="1026" place="1" lanID="60433">[%0s]</hint>
+  <hint id="1027" place="1" lanID="60434">[%0s] 이벤트가 %1u분 %2u초 후 종료됩니다</hint>
+  <!--채팅 1000-1100-->
+  <hint id="1000" place="8" lanID="60317">
+  </hint>
+  <hint id="1001" place="8" lanID="60318">
+  </hint>
+  <hint id="1002" place="8" lanID="60319">
+  </hint>
+  <hint id="1003" place="8" lanID="60320">
+  </hint>
+  <hint id="1004" place="8" lanID="60321">
+  </hint>
+  <hint id="1005" place="8" lanID="60322">
+  </hint>
+  <!--셧다운 60323-60327-->
+  <hint id="1021" place="64" lanID="60323">
+  </hint>
+  <hint id="1022" place="64" lanID="60324">
+  </hint>
+  <hint id="1023" place="64" lanID="60325">
+  </hint>
+  <hint id="1024" place="64" lanID="60326">
+  </hint>
+  <hint id="1025" place="64" lanID="60327">
+  </hint>
+  <!--장비 재주조 1101-1105-->
+  <hint id="1101" place="8" lanID="60447">
+  </hint>
+  <hint id="1102" place="8" lanID="60448">
+  </hint>
+  <!--연금술-->
+  <hint id="1104" place="8" lanID="60451">현재 레벨에서는 이 물약을 다시 사용할 수 없습니다!</hint>
+  <!--유효성-->
+  <hint id="1106" place="8" lanID="60452">유효기간이 만료된 아이템입니다!</hint>
+  <!--길드 1107-1120-->
+  <hint id="1107" place="8" lanID="60460">길드 레벨업은 길드장만 실행할 수 있습니다.</hint>
+  <hint id="1108" place="8" lanID="60461">길드가 이미 최고레벨을 달성하여 더 이상 레벨업할 수 없습니다.</hint>
+  <hint id="1109" place="8" lanID="60462">길드 레벨업에 필요한 자금이 부족합니다.</hint>
+  <hint id="1110" place="8" lanID="60463">길드 레벨업에 필요한 명성치가 부족합니다.</hint>
+  <hint id="1111" place="8" lanID="60464">레벨업에 필요한 아이템이 부족합니다!</hint>
+  <hint id="1112" place="4" chatChannel="11" trackLink="openPanel┆0┆13" trackLinkName="【길드가입】">{[%0s],blue,0,1}님, 길드 {[%1u],red,0,1}레벨 달성!</hint>
+  <hint id="1113" place="8" lanID="60330">길드자금이 충분합니다. 토템이 개방되었습니다!</hint>
+  <hint id="1114" place="8" lanID="60331">토템개방!</hint>
+  <hint id="1115" place="8" lanID="60332">공헌도 %0u이상만 받을 수 있습니다!</hint>
+  <hint id="1116" place="8" lanID="60333">길드 월급을 이미 받으셨습니다!</hint>
+  <hint id="1117" place="256" type="1" lanID="60334">길드 월급 %0u을 받으셨습니다!</hint>
+  <hint id="1118" place="8" lanID="60335">공헌도 %0u이상만 구매할 수 있습니다!</hint>
+  <!-- 60456-60459 -->
+  <hint id="397" place="4" chatChannel="11" trackLink="openPanel┆0┆3$0$2" trackLinkName="【레전드 장비 획득방법】">{[%0s],blue,0,1}님, {[%1s],blue,0,1} 퀘스트 완료! {충전 선물주머니,blue,0,1}와 {유물`봉인된 반지,red,0,1} 획득!</hint>
+  <hint id="398" place="4" chatChannel="11" trackLink="openPanel┆0┆3$0$2" trackLinkName="【레전드 장비 획득방법】">{[%0s],blue,0,1}님, {[%1s],blue,0,1} 퀘스트 완료! {충전 선물주머니,blue,0,1}와 {유물`봉인된 반지,red,0,1} 획득!</hint>
+  <hint id="399" place="4" chatChannel="11" trackLink="openPanel┆0┆3$0$2" trackLinkName="【레전드 장비 획득방법】">{[%0s],blue,0,1}님, {[%1s],blue,0,1} 퀘스트 완료! {충전 선물주머니,blue,0,1}와 {유물`봉인된 반지,red,0,1} 획득!</hint>
+  <hint id="400" place="4" chatChannel="11" trackLink="openPanel┆0┆3$0$2" trackLinkName="【레전드 장비 획득방법】">{[%0s],blue,0,1}님, {[%1s],blue,0,1} 퀘스트 완료! {충전 선물주머니,blue,0,1}와 {유물`봉인된 반지,red,0,1} 획득!</hint>
+  <!-- 60470 -->
+  <hint id="12" place="8" lanID="60470">%0s님께서 부활하셨습니다!</hint>
+  <!-- 60479-60579 -->
+  <!--길드-->
+  <hint id="910" place="8" lanID="60480">소속길드가 더 이상 존재하지 않습니다!</hint>
+  <hint id="931" place="8" lanID="60481">토너먼트 경기가 종료되었습니다! %0s NPC를 통해 다른 지역으로 이동하실 수 있습니다.</hint>
+  <hint id="944" place="4" chatChannel="11">%0s 토너먼트가 종료되었습니다. %1s 길드는 신전 전쟁에 참여할 수 있는 자격을 획득하셨습니다.</hint>
+  <!--lanID='60482'-->
+  <hint id="1200" place="8" lanID="60483">길드자금이 부족합니다!</hint>
+  <hint id="902" place="8" lanID="60500">접속중인 길드원 수가 부족합니다!</hint>
+  <!---->
+  <hint id='1240' place='4' chatChannel='11'>{[%0s],blue,0,1}진영의 용사 {[%1s],blue,0,1}님께서 승리의 의식을 점령하셨습니다!</hint>
+  <hint id='1241' place='4' chatChannel='11' trackLink="" trackLinkName="【파티가입】">사람이 많을 수록 힘도 강해집니다. {[%0s],blue,0,1}님, 다른 용사들을 초대해보세요!</hint>
+  <hint id='1242' place='8' lanID='60521'>공훈부족!</hint>
+  <!--神魔战场-->
+  <hint id='1244' place='4' chatChannel='11'>무승부! 두 진영의 점수가 동일합니다!</hint>
+  <!--lanID='60523'-->
+  <scriptAlert id='1245' autoAction='cancel' delay='30' pattern="%s{delay}초 후, 확인 선택이 해제됩니다" lanID='60524'></scriptAlert>
+  <hint id='1246' place='4' chatChannel='11'>{[%0s],blue,0,1}님께서 신념의 전장에서 수많은 영웅들을 물리치고 최고 점수를 기록하셨습니다!</hint>
+  <!--lanID='60525'-->
+  <hint id='1247' place='4' chatChannel='11'>{[%0s],blue,0,1} 진영이 신념의 전장에서 승리를 거둬 해당 진영 유저들 모두 보상을 획득하였습니다!</hint>
+  <!--lanID='60526'-->
+  <hint id="1250" place="4" chatChannel="11">{[%0s],blue,0,1}님! 이번 잡초제거에서 1위에 등극하셨습니다! 1-10위의 유저들은 추가로 보상을 획득하게 됩니다. 우편함을 확인해주세요.</hint>
+  <!--lanID='60529'-->
+  <hint id="1251" place="4" chatChannel="11">{[%0s],blue,0,1}님! 잡초제거 중 보물상자를 발견하셨습니다.</hint>
+  <!--lanID='60530'-->
+  <hint id="1252" place="4" chatChannel="11" trackLink="openPanel┆0┆6$0$4" trackLinkName="【실력향상 방법】">{[%0s],blue,0,1}님, {[%1s],blue,0,1} 제련 실패!  {[%2u],blue,0,1}단계 보존!</hint>
+  <!--lanID='60531'-->
+  <hint id="1253" place="4" chatChannel="11" trackLink="openPanel┆0┆6$0$4" trackLinkName="【실력향상 방법】">{[%0s],blue,0,1}님, {[%1s],blue,0,1} 제련 실패! {[%2u],blue,0,1}단계로 하락!</hint>
+  <!--lanID='60532'-->
+  <hint id="1254" place="4" chatChannel="11" trackLink="openPanel┆0┆6$0$4" trackLinkName="【실력향상 방법】">{[%0s],blue,0,1}님, {[%1s],blue,0,1} 제련 성공! {[%2u],blue,0,1}단계 활성 성공!</hint>
+  <!--lanID='60533'-->
+  <hint id="1255" place="8" lanID="60534">보석이 부족하여 제련에 실패하셨습니다!</hint>
+  <hint id="1256" place="8" lanID="60535">제련으로 건너뛸 수 없습니다!</hint>
+  <hint id="1257" place="8" lanID="60536">다시 제련할 수 없습니다!</hint>
+  <hint id="1258" place="8" lanID="60537">신성력이 부족하여 제련할 수 없습니다!</hint>
+  <hint id="1259" place="8" lanID="60538">골드가 부족하여 제련할 수 없습니다!</hint>
+  <hint id="1260" place="8" lanID="60539">레벨이 부족하여 제련할 수 없습니다!</hint>
+  <hint id="1261" place="8" lanID='60540'>%0s님, %1s세공 실패! %2u단계 보존!</hint>
+  <hint id="1262" place="8" lanID='60541'>%0s님, %1s세공 실패! %2u단계로 하락!</hint>
+  <hint id="1263" place="4" chatChannel="11" lanID='60542'>{[%0s],blue,0,1}님, {[%1s],blue,0,1} 세공 성공! {[%2u],blue,0,1}단계 활성 성공!</hint>
+  <!---->
+  <hint id="1264" place="8" lanID="60543">상대방이 나갔습니다!</hint>
+  <hint id="1265" place="8" lanID="60544">길드원 %0s님께서 %1s채널 %2s（%3s,%4s）에서 %5s를 처치했습니다.</hint>
+  <hint id="1266" place="8" lanID="60545">길드원 %0s님께서 %1s채널 %2s（%3s,%4s）에서 %5s에게 당했습니다. 도와주세요.</hint>
+  <hint id="1267" place="8" lanID="60546">길드장이 %0s님을 길드에서 추방하셨습니다.</hint>
+  <hint id="1268" place="8" lanID="60547">부길드장이 %0s님을 길드에서 추방하셨습니다.</hint>
+  <hint id="1269" place="8" lanID="60548">%0s님께서 길드를 탈퇴하셨습니다.</hint>
+  <hint id="1270" place="8" lanID="60549">%0s님께서 길드에 가입하셨습니다. 앞으로 더욱 강력한 길드로 거듭날 수 있을 것입니다.</hint>
+  <hint id="1271" place="4" chatChannel="11" trackLink="openPanel┆0┆5" trackLinkName="【시련의 탑 진입】">{[%0s],blue,0,1}님, {[%1s],blue,0,1} {[%2u],blue,0,1}층 수련 완료! 완료 소모시간은 {[%3u],blue,0,1}분 {[%4u],blue,0,1}초로 수련의 탑 랭킹에 등극하셨습니다!</hint>
+  <!--lanID='60550'-->
+  <hint id="1272" place="8" lanID="60551">재 주조한 장비의 속성은 잠금기능을 사용할 수 없습니다!</hint>
+  <hint id="1273" place="4" chatChannel="11" trackLink="openPanel┆0┆3$0$8" trackLinkName="【신성력 거래소】">{[%0s],blue,0,1}님, {[%2u],blue,0,1} {[%1i],blue,0,1}개 판매, {[%3u],blue,0,1}마정 획득!</hint>
+  <!--lanID='60552'-->
+  <hint id="1274" place="8" lanID="60553">구매하신 모든 아이템이 판매완료되었습니다!</hint>
+  <hint id="1275" place="4" chatChannel="11" trackLink="openPanel┆0┆5" trackLinkName="【시련의 탑 진입】">{[%0s],blue,0,1}님, {[%1s],blue,0,1} 수련 완료! 완료 소모시간은 {[%2u],blue,0,1}분 {[%3u],blue,0,1}초로 수련의 탑 랭킹에 등극하셨습니다!</hint>
+  <!--lanID='60554'-->
+  <hint id="1276" place="8" lanID="60555">창고 FULL!</hint>
+  <hint id="1277" place="8" lanID="60556">창고를 활성시키세요!</hint>
+  <hint id="1278" place="8" lanID="60557">파티원 %0s의 인벤토리 공간이 부족합니다!</hint>
+  <!--채집-->
+  <hint id="1279" place="8" lanID="60558">은신 상태에서는 채집을 할 수 없습니다!</hint>
+  <hint id="1280" place="8" lanID="60559">채집 실패!</hint>
+  <hint id="1281" place="8" lanID="60560">스킬 레벨이 부족합니다!</hint>
+  <hint id="1282" place="8" lanID="60561">채집 아이템이 너무 멀리 있습니다!</hint>
+  <hint id="1283" place="8" lanID="60562">먼저 채집스킬을 습득하세요!</hint>
+  <hint id="1284" place="8" lanID="60563">채집도구 내구도가 0입니다. 더 이상 사용하실 수 없습니다!</hint>
+  <hint id="1285" place="8" lanID="60564">채집도구 부족!</hint>
+  <hint id="1286" place="8" lanID="60565">한번에 한가지 아이템만 채집할 수 있습니다!</hint>
+  <hint id="1287" place="8" lanID="60566">채집아이템이 존재하지 않습니다!</hint>
+  <!--아이템 합성-->
+  <hint id="1288" place="8" lanID="60567">합성 재료 부족!</hint>
+  <scriptAlert id="1289" autoAction="cancel" delay="30" pattern="%0s{delay}초 후 선택이 초기화됩니다" lanID="60568">
+  </scriptAlert>
+  <hint id="1290" place="8" lanID="60569">합성 아이템 부족!</hint>
+  <scriptAlert id="1291" autoAction="cancel" delay="30" pattern="%0s{delay}초 후 선택이 초기화됩니다" lanID="60570">
+  </scriptAlert>
+  <!--길드-->
+  <hint id="1292" place="8" lanID="60571">이 지역에서는 경험치분배 모드로 전환할 수 없습니다</hint>
+  <hint id="1293" place="4" chatChannel="11">%0s 종료! %1s 길드 방어 성공! %2s님께서는 %3s 길드로 귀속되셨습니다.</hint>
+  <!--lanID='60572'-->
+  <hint id="1294" place="4" chatChannel="11">%0s 종료! %1s 길드 신전 점령 성공! %2s님께서는 %3s 길드로 귀속되셨습니다.</hint>
+  <!--lanID='60573'-->
+  <hint id="1295" place="8" lanID="60574">1개 길드는 동시에 1개의 신전전쟁만 치룰 수 있습니다!</hint>
+  <hint id="1296" place="8" lanID="60575">이미 신청하셨습니다!</hint>
+  <hint id="1297" place="8" lanID="60576">자신에게 도전할 수 없습니다!</hint>
+  <hint id="1298" place="8" lanID="60577">길드장만 신청할 수 있습니다!</hint>
+  <hint id="1299" place="8" lanID="60578">먼저 길드를 창설하세요!</hint>
+  <hint id="1300" place="8" lanID="60579">신전 전쟁 참여인원이 꽉 찼습니다!</hint>
+  <hint id="1301" place="4" chatChannel="11" trackLink="walkTo┆3┆58┆86┆104" trackLinkName="【신청방법】">{[%0s],blue,0,1}의 길드장 {[%1s],blue,0,1}님께서 고대 악마그레백의 뿔을 사용하여 {[%2s],red,0,1}신전에 도전하셨습니다!</hint>
+  <!--탐색 1305-1310 60585-60590-->
+  <hint id="1305" place="8" lanID="60585">이미 보유한 탐험펫입니다!</hint>
+  <hint id="1306" place="8" lanID="60586">이미 봉인이 해제된 탐험펫입니다.</hint>
+  <hint id="1307" place="8" lanID="60587">탐험펫 체력이 최대입니다</hint>
+  <hint id="1308" place="8" lanID="60588">길드가 수련중입니다. 잠시후 다시 시도하세요...</hint>
+  <hint id="1309" place="8" lanID="60589">오늘은 이미 수련을 완료하셨습니다</hint>
+  <hint id="1310" place="8" lanID="60590">길드 신수가 아직 성인이 되지 않았기 때문에 수련할 수 없습니다!</hint>
+  <hint id="1311" place="8" lanID="60591">신력 활성수치가 부족하여 마법을 사용할 수 없습니다</hint>
+  <hint id="1312" place="8" lanID="60592">신력 활성상태가 아니기 때문에 마법을 사용할 수 없습니다!</hint>
+  <!--시련의탑 1316-1317 60597-60598-->
+  <hint id="1316" place="4" chatChannel="11" trackLink="openPanel┆0┆5" trackLinkName="【시련의 탑 진입】">{[%0s],blue,0,1}님, {[%1s],blue,0,1} {[%2u],blue,0,1}층 수련 완료! 완료 소모시간은 {[%3u],blue,0,1}분 {[%4u],blue,0,1}초로 수련의 탑 랭킹에 등극되셨습니다!</hint>
+  <!--제자리부활 1320-1326 60600-60606-->
+  <hint id="1330" place="8" lanID="60593">부활실패, 부활 아이템이 부족합니다!</hint>
+  <hint id="1331" place="8" lanID="60612">PVE에서는 PK모드로 전환할 수 없습니다</hint>
+  <!--얼굴바꾸기 60613 -60615-->
+  <hint id="1332" place="8" lanID="60613">이미 사용중인 얼굴입니다.</hint>
+  <hint id="1333" place="8" lanID="60614">마정이 부족하여 얼굴을 바꿀 수 없습니다. 저장실패!</hint>
+  <hint id="1334" place="8" lanID="60615">얼굴 저장성공!</hint>
+  <hint id="1335" place="1" lanID="60616">최고의 주먹 쟁탈전 이벤트가 곧 시작됩니다!</hint>
+  <hint id="1336" place="4" chatChannel="11">순발력과 재치를 겸비한 %0s님께서 이번 최고의 주먹 쟁탈전에서 1위에 등극하여 경험치를 비롯한 골드, 신비한 선물을 보상으로 획득하셨습니다!</hint>
+  <hint id="1337" place="4" chatChannel="11">%0s와 %1s는 팽팽한 실력을 보유하고 있습니다. 승패를 가리기 위해 1라운드가 추가되었습니다.</hint>
+  <hint id="1338" place="1" lanID="60617">최고의 주먹 쟁탈전 이벤트가 종료되었습니다!</hint>
+  <hint id="1339" place="1" lanID="60618">이번 라운드는 자동으로 진행됩니다</hint>
+  <!--装备强化 --> 
+  <!--<hint id='1340' place='8' lanID="60674">强化失败，强化等级降至 %0s 级！</hint>--> 
+  <!--<hint id='1341' place='8' lanID="60675">强化失败，强化等级保持不变！</hint>--> 
+  <hint id='1342' place='4' chatChannel='11' trackLink="openPanel┆0┆10$0$4" trackLinkName="【강화】">{[%0s],blue,0,1}님, {[%1s],red,0,1} 강화성공. {[%2s],red,0,1} {[%3d],red,0,1}레벨 달성! </hint> 
+  <!--物品合成 --> 
+  <hint id='1349' place='4' chatChannel='11'>{[%0s],blue,0,1}님께서 하늘의 성스러운 빛을 받아 엄청난 위력을 가진 {%1i} 레전드 장비 합성에 성공했습니다.</hint><!--lanID='46515'-->
+</hints>

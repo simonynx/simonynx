@@ -1,0 +1,23 @@
+﻿<hotkeys>
+	<hotkey name='C' >캐릭터 속성창 열기</hotkey>
+	<hotkey name='S' >스킬창 열기</hotkey>
+	<hotkey name='B' >인벤토리창 열기</hotkey>
+	<hotkey name='Q' >퀘스트창 열기</hotkey>
+	<hotkey name='T' >파티창 열기</hotkey>
+	<hotkey name='F' >친구창 열기</hotkey>
+	<hotkey name='G' >길드창 열기</hotkey>
+	<hotkey name='O' >상점창 열기</hotkey>
+	<hotkey name='P' >소환수창 열기</hotkey>
+	<hotkey name='M' >지역 지도 열기</hotkey>
+	<hotkey name='W' >탈것 탑승/회수</hotkey>
+	<hotkey name='ESC' >조작 취소</hotkey>
+	<hotkey name='~' >제일 가까운 몬스터 타겟 설정</hotkey>
+	<hotkey name='Ctrl+X' >신력 활성</hotkey>
+	<hotkey name='X' >신력 폭발</hotkey>
+	<hotkey name='스페이스바' >자동진행</hotkey>
+	<hotkey name='Z' >아이템 줍기</hotkey>
+	<hotkey name='숫자1-0' >퀵슬롯 1-0에 해당하는 아이템 또는 스킬 사용</hotkey>
+	<hotkey name='L' >시스템 설정창 열기</hotkey>
+	<hotkey name='Y' >우편창 열기</hotkey>
+	<hotkey name='A' >자동사냥 시작/종료 단축키</hotkey>
+</hotkeys>

@@ -1,0 +1,369 @@
+<!--說明：-->
+<!--place: 提示的顯示位置-->
+<!--	1...系統公告（頂部滾動文字）-->
+<!--	2...系統消息（右下角提示）-->
+<!--	4...聊天消息-->
+<!--		chatChannel: 消息顯示頻道（5...系統提示, 11...傳言頻道提示-->
+<!--	8...滾動提示（屏幕中央縱向滾動）-->
+<!--	32...提示框(或帶確定取消的對話框)-->
+<!--	128...滾動提示（屏幕偏右縱向滾動）-->
+<hints>
+  <!--主線任務腳本提示-->
+  <hint id="100" place="8">你感受到神的光耀，威严的法旨萦绕在你耳边。</hint>
+  <hint id="101" place="32" title="任務提示">这个地方离神像太过遥远，你的虔诚之音无法送达神皇奥丁。</hint>
+  <hint id="102" place="8">序与混乱的冲突使得空间扭曲，你站在光芒之中，面对着黑暗自深渊中凝聚出的形体。</hint>
+  <hint id="103" place="32" title="任務提示">这个地方，神听不到你的虔诚之音.</hint>
+  <hint id="104" place="8">它让你感受到布兰镇女神之池同样的气息……</hint>
+  <hint id="105" place="8">伴随着大地的震颤，一个愤怒而痛苦的喊声打断了你的颂读。</hint>
+  <hint id="106" place="32" title="任務提示">你隐约听到了微弱的回应从法阵附近传来，还需要再靠近一些。</hint>
+  <hint id="107" place="8">一个身影窜了出来！</hint>
+  <hint id="108" place="32" title="任務提示">也许马勒不在这里！</hint>
+  <hint id="109" place="8">尸骨烧得很慢，但已经认不出形状……</hint>
+  <hint id="110" place="32" title="任務提示">这附近没什么可烧的……</hint>
+  <hint id="111" place="32" title="任務提示">目标已被召唤。</hint>
+  <hint id="112" place="32" title="任務提示">目标已被召唤。</hint>
+  <hint id="113" place="8">伴随着恶毒的咒骂，一个恶灵从烟雾中对你发起了攻击。</hint>
+  <hint id="114" place="32" title="任務提示">目标已被召唤。</hint>
+  <hint id="115" place="32" title="任務提示">为防万一，在能得到照应的地方拔除毒牙比较妥当……</hint>
+  <hint id="116" place="8">正义与荣誉的誓言像爆炸的声浪，驱散了阴霾中的靡靡之音。</hint>
+  <hint id="117" place="32" title="任務提示">目标已被召唤。</hint>
+  <hint id="118" place="32" title="任務提示">它使你的血脉镇定，鼓舞你去驱赶邪恶。</hint>
+  <hint id="119" place="32" title="任務提示">我以我的生命起誓：我将无愧于泼洒在我身上的圣油，以左肩扛起正义，以右肩扛起荣誉；我是斩断枷锁的宝剑，我是抗击灾难的巨人，我是庇护弱者的堡垒，我是捍卫真理的支柱；我将走上这条开辟光明的道路，愿正义与荣誉照耀我的盔甲，去抵御亘古绵长的黑暗，邪恶不绝，道路不尽！）</hint>
+  <hint id="120" place="32" title="任務提示">大主教在台阶上等待你!</hint>
+  <hint id="121" place="32" title="任務提示">瓶子碎裂開來，粉塵狀的毒素彌漫在半空，附著在積腐者的粘液之上。</hint>
+  <hint id="122" place="32" title="任務提示">藥劑中透出危險的氣息，不要輕易使用。</hint>
+  <hint id="123" place="32" title="任務提示">逼真的影像從封面的圖案上投射出來，騎士團在芒刺旗幟下沖鋒。</hint>
+  <hint id="124" place="32" title="任務提示">封面似乎是鏤空的，科特囑咐要在火光處使用。</hint>
+  <hint id="125" place="32" title="任務提示">光芒燒灼著眼前的一切，剝除任何僞裝。</hint>
+  <hint id="126" place="32" title="任務提示">光芒被壓縮其中，迸射的欲望燙手般強烈。</hint>
+  <hint id="127" place="32" title="任務提示">猛烈而短暫的火光，仿佛在吞噬著周圍的生命，讓人窒息。</hint>
+  <hint id="128" place="32" title="任務提示">它像是有著自己的意識，催促您去破壞那神殿。</hint>
+  <hint id="129" place="32" title="任務提示">它墜入地面，綠色的浪潮漩渦般卷住了祭臺。</hint>
+  <hint id="130" place="32" title="任務提示">它蘊含的生命力越來越微弱，必須盡快達成目標……</hint>
+  <hint id="131" place="8">簡直不能相信，這種小東西像禁咒一樣威力巨大。</hint>
+  <hint id="132" place="32" title="任務提示">目標已被召喚。</hint>
+  <hint id="133" place="32" title="任務提示">卡多斯叮囑，這藥劑很稀有，必須在目標地點使用。</hint>
+  <hint id="134" place="8">那段宣誓回現在您耳邊，使您辨認出眼前的邪惡。</hint>
+  <hint id="135" place="32" title="任務提示">目標已被召喚。</hint>
+  <hint id="136" place="32" title="任務提示">它像先於旭日的啓明星，以微弱的光束指向白骨祭臺。</hint>
+  <hint id="137" place="8">您覺得整個世界都在嘔吐……</hint>
+  <hint id="138" place="32" title="任務提示">這種東西不應該胡亂嘗試……</hint>
+  <hint id="139" place="8">它將皇宮的影像投射在了卷軸上。</hint>
+  <hint id="140" place="32" title="任務提示">到該用的地方再用，不然任務就完成不了，賞金就拿不到了。</hint>
+  <hint id="141" place="8">簡直讓人念不下去……</hint>
+  <hint id="142" place="32" title="任務提示">到該用的地方再用，不然任務就完成不了，賞金就拿不到了。</hint>
+  <hint id="143" place="8">吧嘰正在變紅變大……</hint>
+  <hint id="144" place="32" title="任務提示">目標已被召喚。</hint>
+  <hint id="145" place="32" title="任務提示">到該用的地方再用，不然任務就完成不了，賞金就拿不到了。</hint>
+  <hint id="146" place="8">啪嘰正在變紅變大……</hint>
+  <hint id="147" place="32" title="任務提示">目標已被召喚。</hint>
+  <hint id="148" place="32" title="任務提示">到該用的地方再用，不然任務就完成不了，賞金就拿不到了。</hint>
+  <hint id="149" place="8">落雷之怒！</hint>
+  <hint id="150" place="32" title="任務提示">目標已被召喚。</hint>
+  <hint id="151" place="32" title="任務提示">到該用的地方再用，不然任務就完成不了，賞金就拿不到了。</hint>
+  <hint id="152" place="8">劈裏啪啦……</hint>
+  <hint id="153" place="32" title="任務提示">目標已被召喚。</hint>
+  <hint id="154" place="32" title="任務提示">到該用的地方再用，不然任務就完成不了，賞金就拿不到了。</hint>
+  <hint id="155" place="8">一個陰影從顫抖不已的傑拉比體內鑽出來。</hint>
+  <hint id="156" place="32" title="任務提示">目標已被召喚。</hint>
+  <hint id="157" place="32" title="任務提示">到該用的地方再用，不然任務就完成不了，賞金就拿不到了。</hint>
+  <hint id="158" place="8">它點起來一樣沒什麼特別……</hint>
+  <hint id="159" place="32" title="任務提示">到該用的地方再用，不然任務就完成不了，賞金就拿不到了。</hint>
+  <hint id="160" place="8">短暫的震蕩，卷軸擊碎了僞裝。</hint>
+  <hint id="161" place="32" title="任務提示">目標已被召喚。</hint>
+  <hint id="162" place="32" title="任務提示">它傳遞出微弱的刺痛感，指引您前進。</hint>
+  <hint id="163" place="8">短暫的震蕩，卷軸擊碎了僞裝。</hint>
+  <hint id="164" place="32" title="任務提示">目標已被召喚。</hint>
+  <hint id="165" place="32" title="任務提示">它傳遞出微弱的刺痛感，指引您前進。</hint>
+  <hint id="166" place="8">鮮花與口哨聲中，對手優雅登場……</hint>
+  <hint id="167" place="32" title="任務提示">目標已被召喚。</hint>
+  <hint id="168" place="32" title="任務提示">到該用的地方再用，不然任務就完成不了，賞金就拿不到了。</hint>
+  <hint id="169" place="8">短暫的震蕩，卷軸擊碎了僞裝。</hint>
+  <hint id="170" place="32" title="任務提示">目標已被召喚。</hint>
+  <hint id="171" place="32" title="任務提示">它傳遞出微弱的刺痛感，指引您前進。</hint>
+  <hint id="172" place="8">黑暗猛撲而來……</hint>
+  <hint id="173" place="32" title="任務提示">目標已被召喚。</hint>
+  <hint id="174" place="32" title="任務提示">到該用的地方再用，不然任務就完成不了，賞金就拿不到了。</hint>
+  <hint id="175" place="8">一記穿刺對著狀子落下……</hint>
+  <hint id="176" place="32" title="任務提示">目標已被召喚。</hint>
+  <hint id="177" place="32" title="任務提示">到該用的地方再用，不然任務就完成不了，賞金就拿不到了。</hint>
+  <hint id="178" place="8">“滋滋滋”</hint>
+  <hint id="179" place="32" title="任務提示">目標已被召喚。</hint>
+  <hint id="180" place="32" title="任務提示">到該用的地方再用，不然任務就完成不了，賞金就拿不到了。</hint>
+  <hint id="181" place="8">您眼前的畸形怪獸似乎更加畸形了……</hint>
+  <hint id="182" place="32" title="任務提示">目標已被召喚。</hint>
+  <hint id="183" place="32" title="任務提示">到該用的地方再用，不然任務就完成不了，賞金就拿不到了。</hint>
+  <hint id="184" place="8">它的製造者似乎對您很不滿，您們需要談談……</hint>
+  <hint id="185" place="32" title="任務提示">目標已被召喚。</hint>
+  <hint id="186" place="32" title="任務提示">到該用的地方再用，不然任務就完成不了，賞金就拿不到了。</hint>
+  <hint id="187" place="8">一只除了嘴以外都很多余的怪物對您咆哮著。</hint>
+  <hint id="188" place="32" title="任務提示">目標已被召喚。</hint>
+  <hint id="189" place="32" title="任務提示">到該用的地方再用，不然任務就完成不了，賞金就拿不到了。</hint>
+  <hint id="190" place="8">積腐者看上去很不喜歡這樣的玩笑！</hint>
+  <hint id="191" place="32" title="任務提示">目標已被召喚。</hint>
+  <hint id="192" place="32" title="任務提示">到該用的地方再用，不然任務就完成不了，賞金就拿不到了。</hint>
+  <hint id="193" place="8">您似乎冒犯到了他們……</hint>
+  <hint id="194" place="32" title="任務提示">目標已被召喚。</hint>
+  <hint id="195" place="32" title="任務提示">矮人的目標不在這裏。</hint>
+  <hint id="196" place="8">沙漠塌陷下去，一個巨大身影升起。</hint>
+  <hint id="197" place="32" title="任務提示">目標已被召喚。</hint>
+  <hint id="198" place="32" title="任務提示">別亂動矮人的東西，更別勾起他們的好奇心。</hint>
+  <hint id="199" place="8">它“砰”地一聲裂開了！</hint>
+  <hint id="200" place="32" title="任務提示">目標已被召喚。</hint>
+  <hint id="201" place="32" title="任務提示">到該用的地方再用，不然任務就完成不了，賞金就拿不到了。</hint>
+  <hint id="202" place="8">短暫的震蕩，卷軸擊碎了僞裝。</hint>
+  <hint id="203" place="2048" lanID="100150" delay="5" size="30" color="0xFFFF00" font="Microsoft YaHei" />
+  <!--主线任务2321-->
+  <hint id="204" place="32" title="任務提示">它傳遞出微弱的刺痛感，指引您前進。</hint>
+  <hint id="205" place="8">它爆發出的力量，像直逼痛處的利劍。</hint>
+  <hint id="206" place="32" title="任務提示">目標已被召喚。</hint>
+  <hint id="207" place="32" title="任務提示">到該用的地方再用，不然任務就完成不了，賞金就拿不到了。</hint>
+  <hint id="208" place="32" title="任務提示">冰涼的觸感爬遍全身，讓您毫無保留地面對自然……</hint>
+  <hint id="209" place="8">寶石中漏出柔和迷離的彩色光芒，艾斯人戰士被吸引著靠攏而來。</hint>
+  <hint id="210" place="32" title="任務提示">還需要再遠一些，才能爲探索隊的行動爭取足夠時間。</hint>
+  <hint id="211" place="8">暖流正在融化普雷達身上的冰殼，使他的面色複蘇……</hint>
+  <hint id="212" place="32" title="任務提示">在抵達普雷達所在地前，必須防止卷軸法力流失。</hint>
+  <hint id="213" place="8">昂揚的號角聲引起靈魂的共鳴，冰原如一個從沈睡中蘇醒的巨人那樣怒吼。。</hint>
+  <hint id="214" place="32" title="任務提示">您無法吹響它，帕魯囑咐必須借助那座骨頭遺跡。</hint>
+  <hint id="215" place="8">陷阱成功地隱沒在雪地中，連您自己都難以發覺。</hint>
+  <hint id="216" place="32" title="任務提示">陷阱只有一個，再找找更合適的地點吧。</hint>
+  <hint id="217" place="8">您進入了無知幻境，開始您的試煉吧。</hint>
+  <hint id="218" place="8">您進入了貪婪幻境，開始您的試煉吧。</hint>
+  <hint id="219" place="8">您進入了嫉妒幻境，開始您的試煉吧。</hint>
+  <hint id="220" place="8">您進入了傲慢幻境，開始您的試煉吧。</hint>
+  <hint id="221" place="8">您完成了煉獄挑戰！</hint>
+  <hint id="222" place="8">無知的人，接受無知給您帶來的痛楚吧！</hint>
+  <hint id="223" place="8">接受貪婪給您帶來的痛楚吧！</hint>
+  <hint id="224" place="8">您會被自己的嫉妒所吞沒的，接受嫉妒給您帶來的痛楚吧！</hint>
+  <hint id="225" place="8">傲慢是最堅固的執念，它將給您帶來極大的痛楚！</hint>
+  <hint id="226" place="32" title="任務提示">您獲得了生命禱言，到女神池子邊上使用可以進入女神殿。</hint>
+  <hint id="227" place="32" title="任務提示">請在女神像前進行禱告。</hint>
+  <hint id="228" place="8">您懷著虔誠的心朗誦這生命禱言，只見一束光籠罩在您的身上，您的身影漸漸模糊…</hint>
+  <hint id="229" place="8">幻境的魔力漸漸凝結成了一群怪物向您撲來。</hint>
+  <hint id="230" place="8">猙獰的怪物倒下了，卻從它的體內湧出了更多的怪物。</hint>
+  <hint id="231" place="8">源源不絕的蜘蛛從死去的蜘蛛體內爬出來</hint>
+  <hint id="232" place="8">隨著一聲淒厲的慘叫，最後一只猙獰的蜘蛛終於倒下了</hint>
+  <hint id="233" place="8">您灑出了昏睡汁液，那個暴躁的龍頭深深的睡去。</hint>
+  <hint id="234" place="32" title="任務提示">不能使用該物品</hint>
+  <hint id="235" place="8">轟…</hint>
+  <hint id="236" place="32" title="任務提示">不能使用該物品</hint>
+  <hint id="237" place="8">咕魯咕魯~~呼呼~~</hint>
+  <hint id="238" place="2048" lanID="100067" delay="3" size="30" color="0xFFFF00" font="Microsoft YaHei" />
+  <hint id="239" place="2048" lanID="100068" delay="3" size="30" color="0xFFFF00" font="Microsoft YaHei" />
+  <hint id="240" place="2048" lanID="100069" delay="3" size="30" color="0xFFFF00" font="Microsoft YaHei" />
+  <hint id="241" place="2048" lanID="100070" delay="3" size="30" color="0xFFFF00" font="Microsoft YaHei" />
+  <hint id="242" place="8">您眼光銳利，正確的找到了一個惡魔！</hint>
+  <hint id="243" place="8">您成功擊殺了一名惡魔！</hint>
+  <hint id="244" place="2048" lanID="100071" delay="3" size="30" color="0xFFFF00" font="Microsoft YaHei" />
+  <hint id="245" place="2048" lanID="100072" delay="3" size="30" color="0xFFFF00" font="Microsoft YaHei" />
+  <hint id="246" place="2048" lanID="100073" delay="3" size="30" color="0xFFFF00" font="Microsoft YaHei" />
+  <hint id="247" place="2048" lanID="100074" delay="3" size="30" color="0xFFFF00" font="Microsoft YaHei" />
+  <hint id="248" place="2048" lanID="100075" delay="3" size="30" color="0xFFFF00" font="Microsoft YaHei" />
+  <hint id="249" place="2048" lanID="100076" delay="3" size="30" color="0xFFFF00" font="Microsoft YaHei" />
+  <hint id="250" place="2048" lanID="100077" delay="3" size="30" color="0xFFFF00" font="Microsoft YaHei" />
+  <hint id="251" place="2048" lanID="100078" delay="3" size="30" color="0xFFFF00" font="Microsoft YaHei" />
+  <hint id="252" place="2048" lanID="100079" delay="3" size="30" color="0xFFFF00" font="Microsoft YaHei" />
+  <hint id="253" place="2048" lanID="100080" delay="3" size="30" color="0xFFFF00" font="Microsoft YaHei" />
+  <hint id="254" place="2048" lanID="100081" delay="3" size="30" color="0xFFFF00" font="Microsoft YaHei" />
+  <hint id="255" place="2048" lanID="100082" delay="3" size="30" color="0xFFFF00" font="Microsoft YaHei" />
+  <hint id="256" place="2048" lanID="100083" delay="3" size="30" color="0xFFFF00" font="Microsoft YaHei" />
+  <hint id="257" place="2048" lanID="100084" delay="3" size="30" color="0xFFFF00" font="Microsoft YaHei" />
+  <hint id="258" place="2048" lanID="100085" delay="3" size="30" color="0xFFFF00" font="Microsoft YaHei" />
+  <hint id="259" place="2048" lanID="100086" delay="3" size="30" color="0xFFFF00" font="Microsoft YaHei" />
+  <hint id="260" place="2048" lanID="100087" delay="3" size="30" color="0xFFFF00" font="Microsoft YaHei" />
+  <hint id="261" place="2048" lanID="100088" delay="3" size="30" color="0xFFFF00" font="Microsoft YaHei" />
+  <hint id="262" place="2048" lanID="100089" delay="3" size="30" color="0xFFFF00" font="Microsoft YaHei" />
+  <hint id="263" place="2048" lanID="100090" delay="3" size="30" color="0xFFFF00" font="Microsoft YaHei" />
+  <hint id="264" place="2048" lanID="100091" delay="3" size="30" color="0xFFFF00" font="Microsoft YaHei" />
+  <hint id="265" place="2048" lanID="100092" delay="3" size="30" color="0xFFFF00" font="Microsoft YaHei" />
+  <hint id="266" place="2048" lanID="100175" delay="3" size="30" color="0xFFFF00" font="Microsoft YaHei" />
+  <hint id="267" place="2048" lanID="100176" delay="3" size="30" color="0xFFFF00" font="Microsoft YaHei" />
+  <hint id="268" place="2048" lanID="100177" delay="3" size="30" color="0xFFFF00" font="Microsoft YaHei" />
+  <hint id="269" place="2048" lanID="100178" delay="3" size="30" color="0xFFFF00" font="Microsoft YaHei" />
+  <hint id="270" place="2048" lanID="100179" delay="3" size="30" color="0xFFFF00" font="Microsoft YaHei" />
+  <hint id="271" place="8" title="活動公告">恭喜您闖過了無盡惡魔回廊第26關。</hint>
+  <hint id="272" place="8" title="活動公告">恭喜您闖過了無盡惡魔回廊第27關。</hint>
+  <hint id="273" place="8" title="活動公告">恭喜您闖過了無盡惡魔回廊第28關。</hint>
+  <hint id="274" place="8" title="活動公告">恭喜您闖過了無盡惡魔回廊第29關。</hint>
+  <hint id="275" place="8" title="活動公告">恭喜您闖過了無盡惡魔回廊第30關。</hint>
+  <hint id="276" place="2048" lanID="100151" delay="5" size="30" color="0xFFFF00" font="Microsoft YaHei" />
+  <!--谍影重重-->
+  <hint id="277" place="2048" lanID="100152" delay="5" size="30" color="0xFFFF00" font="Microsoft YaHei" />
+  <!--谍影重重-->
+  <hint id="278" place="2" title="活動公告">恭喜您獲得了一把神器神隕，神器的光芒將照亮您前進的道路！</hint>
+  <hint id="279" place="2" title="活動公告">恭喜您獲得了一把神器霜魂，神器的光芒將照亮您前進的道路！</hint>
+  <hint id="280" place="2" title="活動公告">恭喜您獲得了一把神器月歌，神器的光芒將照亮您前進的道路！</hint>
+  <hint id="281" place="2" title="活動公告">恭喜您獲得了一把神器龍牙，神器的光芒將照亮您前進的道路！</hint>
+  <hint id="282" place="8" title="活動公告">恭喜闖過了第一關，如果支撐不下去可以到活動指導員那裏領取第一關獎勵</hint>
+  <hint id="283" place="8" title="活動公告">恭喜闖過了第二關，如果支撐不下去可以到活動指導員那裏領取第二關獎勵</hint>
+  <hint id="284" place="8" title="活動公告">恭喜闖過了第三關，如果支撐不下去可以到活動指導員那裏領取第三關獎勵</hint>
+  <hint id="285" place="8" title="活動公告">恭喜闖過了第四關，如果支撐不下去可以到活動指導員那裏領取第四關獎勵</hint>
+  <hint id="286" place="8" title="活動公告">恭喜闖過了第五關，如果支撐不下去可以到活動指導員那裏領取第五關獎勵</hint>
+  <hint id="287" place="8" title="活動公告">恭喜闖過了第六關，您可以到活動指導員那裏領取獎勵</hint>
+  <hint id="288" place="8" title="溫馨提示">無法使用回城卷！</hint>
+  <hint id="289" place="2048" lanID="100093" delay="3" size="30" color="0xFFFF00" font="Microsoft YaHei" />
+  <hint id="290" place="2048" lanID="100094" delay="3" size="30" color="0xFFFF00" font="Microsoft YaHei" />
+  <hint id="291" place="2048" lanID="100095" delay="3" size="30" color="0xFFFF00" font="Microsoft YaHei" />
+  <hint id="292" place="8" title="道具提示">恭喜您獲得了PK賽獎勵！</hint>
+  <hint id="293" place="8" title="道具提示">背包空間不足，請清理背包空間！</hint>
+  <hint id="294" place="2048" lanID="100096" delay="3" size="30" color="0xFFFF00" font="Microsoft YaHei" />
+  <hint id="295" place="8" title="任務提示">“箱魂”蠻荒邪神已經接受了您的挑戰！</hint>
+  <hint id="296" place="8" title="任務提示">“箱魂”深淵魅魔已經接受了您的挑戰！</hint>
+  <hint id="297" place="8" title="任務提示">“箱魂”無面者已經接受了您的挑戰！</hint>
+  <hint id="298" place="8" title="任務提示">“箱魂”深淵斧僕已經接受了您的挑戰！</hint>
+  <hint id="299" place="32" title="任務提示">開啓寶箱後，您將進入“被封印的世界”，與箱魂對話可進行挑戰。若您的神力不足，箱魂將會拒絕您的挑戰。</hint>
+  <hint id="300" place="2048" lanID="100097" delay="3" size="30" color="0xFFFF00" font="Microsoft YaHei" />
+  <hint id="301" place="2048" lanID="100098" delay="3" size="30" color="0xFFFF00" font="Microsoft YaHei" />
+  <hint id="302" place="32" title="任務提示">您們已經幫我封印了一個魔物，您可以帶著同伴去幫助其他祭祀。</hint>
+  <hint id="303" place="2048" lanID="100099" delay="3" size="30" color="0xFFFF00" font="Microsoft YaHei" />
+  <hint id="304" place="2048" lanID="100100" delay="3" size="30" color="0xFFFF00" font="Microsoft YaHei" />
+  <hint id="305" place="2048" lanID="100101" delay="3" size="30" color="0xFFFF00" font="Microsoft YaHei" />
+  <hint id="306" place="2048" lanID="100102" delay="3" size="30" color="0xFFFF00" font="Microsoft YaHei" />
+  <hint id="307" place="8" title="任務提示">請在指定地點使用物品！</hint>
+  <hint id="308" place="2048" lanID="100103" delay="3" size="30" color="0xFFFF00" font="Microsoft YaHei" />
+  <hint id="309" place="2048" lanID="100104" delay="3" size="30" color="0xFFFF00" font="Microsoft YaHei" />
+  <hint id="310" place="2048" lanID="100105" delay="3" size="30" color="0xFFFF00" font="Microsoft YaHei" />
+  <hint id="311" place="2048" lanID="100106" delay="3" size="30" color="0xFFFF00" font="Microsoft YaHei" />
+  <hint id="312" place="2048" lanID="100107" delay="3" size="30" color="0xFFFF00" font="Microsoft YaHei" />
+  <hint id="313" place="8" title="活動提示">恭喜您在惡魔巢穴副本中在擊敗了惡魔奧弗尼爾，獲得了豐厚的獎勵。</hint>
+  <hint id="314" place="8" title="活動提示">恭喜您在安魂之地副本中在擊敗了亡魂騎士墨菲斯托，獲得了豐厚的獎勵。</hint>
+  <hint id="315" place="8" title="活動提示">恭喜您獲得了探索者獎勵。</hint>
+  <hint id="316" place="4" chatChannel="11">{[%0s],blue,0,1}所在的隊伍，使用了深淵沙漏進入了惡魔巢穴。</hint>
+  <hint id="317" place="4" chatChannel="11">{[%0s],blue,0,1}所在的隊伍，使用了冥界魂燈進入了安魂之地。</hint>
+  <hint id="318" place="4" chatChannel="11">{[%0s],blue,0,1}所在的隊伍，在惡魔巢穴中所向披靡，擊敗了惡魔奧弗尼爾，斬獲了大量的稀世珍寶。</hint>
+  <hint id="319" place="4" chatChannel="11">{[%0s],blue,0,1}所在的隊伍，在安魂之地中所向披靡，擊敗了亡魂騎士墨菲斯托，斬獲了大量的稀世珍寶。</hint>
+  <hint id="320" place="4" chatChannel="11">{[%0s],red,0,1}公會的{[%1s],blue,0,1}勇士，在水晶礦場力挽狂瀾，一舉擊敗了邪惡的地精工頭。其所在公會獲得了大量的公會經驗。讓我們向英雄致敬！</hint>
+  <hint id="321" place="4" chatChannel="11">{[%0s],red,0,1}公會的{[%1s],blue,0,1}交納了1個火龍徽記，獲得了50點公會貢獻度和20點公會聲望。</hint>
+  <hint id="322" place="4" chatChannel="11">{[%0s],red,0,1}公會的{[%1s],blue,0,1}交納了5個火龍徽記，獲得了250點公會貢獻度和100點公會聲望。</hint>
+  <hint id="323" place="4" chatChannel="11">{[%0s],red,0,1}公會的{[%1s],blue,0,1}交納了50個火龍徽記，獲得了2500點公會貢獻度和1000點公會聲望。</hint>
+  <hint id="324" place="4" chatChannel="11">{[%0s],red,0,1}公會的{[%1s],blue,0,1}會長曆經艱險，終於抵達凜冬雪原，完成【烏龜慢遞】委托了，其所在的公會獲得了大量的公會資金和公會聲望！</hint>
+  <hint id="325" place="4" chatChannel="11">{[%0s],red,0,1}公會的{[%1s],blue,0,1}會長接受了一個【烏龜慢遞】委托，即將途徑納吉森草地，前往凜冬雪原交付，讓我們祝願他一路順風！</hint>
+  <hint id="326" place="4" chatChannel="11">{[%0s],red,0,1}公會的烏龜車被{[%1s],blue,0,1}洗劫了，斬獲了大量公會物資，獲得了“路霸”頭銜。</hint>
+  <hint id="327" place="2048" lanID="100108" delay="3" size="30" color="0xFFFF00" font="Microsoft YaHei" />
+  <hint id="328" place="2048" lanID="100109" delay="3" size="30" color="0xFFFF00" font="Microsoft YaHei" />
+  <hint id="329" place="2048" lanID="100110" delay="3" size="30" color="0xFFFF00" font="Microsoft YaHei" />
+  <hint id="330" place="4" chatChannel="11">{[%0s],blue,0,1}交了旗幟，戰旗將在30秒後刷新！</hint>
+  <hint id="331" place="8" title="道具提示">您還沒有收集到足夠的【上古卷軸殘片】，無法合成【上古卷軸】。您可以通過擊殺野外小怪獲取，或者與其他玩家交易來集齊10個【上古卷軸殘片】。</hint>
+  <hint id="332" place="2048" lanID="100111" delay="3" size="30" color="0xFFFF00" font="Microsoft YaHei" />
+  <hint id="333" place="4" chatChannel="11">{[%0s],blue,0,1}擊殺了混噸守衛，敵方公會將在60秒內無法獲得積分！</hint>
+  <hint id="334" place="4" chatChannel="11">{[%0s],red,0,1}公會的{[%1s],blue,0,1}會長曆經艱險，終於抵達凜冬雪原，完成【烏龜慢遞】委托了，其所在的公會獲得了大量的公會資金和雙倍公會聲望！</hint>
+  <hint id="335" place="8" title="活動提示">成功劫下烏龜車，公會聲望增加200點，個人貢獻增加500點！</hint>
+  <hint id="336" place="8" title="活動提示">成烏龜車被劫，失去所抵押的公會資金！</hint>
+  <hint id="337" place="2048" lanID="100112" delay="3" size="30" color="0xFFFF00" font="Microsoft YaHei" />
+  <hint id="338" place="2048" lanID="100113" delay="3" size="30" color="0xFFFF00" font="Microsoft YaHei" />
+  <hint id="339" place="2048" lanID="100114" delay="3" size="30" color="0xFFFF00" font="Microsoft YaHei" />
+  <hint id="340" place="8" title="活動提示">只有穿戴神器套裝的王者才可以購買“唯我獨尊”稱號卡！</hint>
+  <hint id="341" place="8" title="活動提示">物品數量未收集滿，無法進行領取！</hint>
+  <hint id="342" place="2048" lanID="100115" delay="3" size="30" color="0xFFFF00" font="Microsoft YaHei" />
+  <hint id="343" place="2048" lanID="100116" delay="3" size="30" color="0xFFFF00" font="Microsoft YaHei" />
+  <hint id="344" place="2048" lanID="100117" delay="3" size="30" color="0xFFFF00" font="Microsoft YaHei" />
+  <hint id="345" place="2048" lanID="100118" delay="3" size="30" color="0xFFFF00" font="Microsoft YaHei" />
+  <hint id="346" place="2048" lanID="100119" delay="3" size="30" color="0xFFFF00" font="Microsoft YaHei" />
+  <hint id="347" place="8" title="活動提示">您的“月末禮券”數量不夠，無法兌換獎勵！</hint>
+  <hint id="348" place="8" title="活動提示">現有契靈等級需要達到3階以後才能使用契靈幸運符！</hint>
+  <hint id="349" place="2048" lanID="100120" delay="3" size="30" color="0xFFFF00" font="Microsoft YaHei" />
+  <hint id="350" place="8" title="溫馨提示">您已經擁同類型的契靈，無法重複獲得。</hint>
+  <hint id="351" place="8" title="溫馨提示">您已經擁契靈幸運值狀態，無法重複使用。</hint>
+  <hint id="352" place="2048" lanID="100121" delay="3" size="30" color="0xFFFF00" font="Microsoft YaHei" />
+  <hint id="353" place="2048" lanID="100122" delay="3" size="30" color="0xFFFF00" font="Microsoft YaHei" />
+  <hint id="354" place="2048" lanID="100123" delay="3" size="30" color="0xFFFF00" font="Microsoft YaHei" />
+  <hint id="355" place="2048" lanID="100124" delay="3" size="30" color="0xFFFF00" font="Microsoft YaHei" />
+  <hint id="356" place="2048" lanID="100125" delay="3" size="30" color="0xFFFF00" font="Microsoft YaHei" />
+  <hint id="357" place="8" title="活動提示">[%0s]公會的烏龜在%1s線 %2s（%3u,%4u）遭到襲擊，兄弟們快前去護衛。</hint>
+  <hint id="358" place="8" title="活動提示">您沒有出戰的寵物，無法使用寵物狂暴藥水。</hint>
+  <hint id="359" place="4" chatChannel="11">{[%0s],blue,0,1}在幻獸島上成功擊敗了幻獸王，斬獲了大量史詩級的幻獸蛋！</hint>
+  <hint id="360" place="4" chatChannel="11" trackLink="openPanel┆0┆7" trackLinkName="【成為尊貴VIP】">{[%0s],blue,0,1}使用生活特權卡，成爲生活特權用戶，享受各種生活福利！</hint>
+  <hint id="361" place="4" chatChannel="11" trackLink="openPanel┆0┆7" trackLinkName="【成為尊貴VIP】">{[%0s],blue,0,1}使用戰鬥特權卡，成爲戰鬥特權用戶，享受各種戰鬥福利！</hint>
+  <hint id="362" place="4" chatChannel="11" trackLink="openPanel┆0┆7" trackLinkName="【成為尊貴VIP】">{[%0s],blue,0,1}使用至尊VIP卡，成爲尊貴的VIP用戶，齊享VIP特權、生活特權、戰鬥特權三種特權！</hint>
+  <hint id="888888" place="2048" lanID="100065" delay="3" size="30" color="0xFFFF00" font="Microsoft YaHei" />
+  <hint id="363" place="2048" lanID="100066" delay="3" size="30" color="0xFFFF00" font="Microsoft YaHei" />
+  <hint id="364" place="2048" lanID="100067" delay="3" size="30" color="0xFFFF00" font="Microsoft YaHei" />
+  <hint id="365" place="8" title="溫馨提示">您沒有足夠的重鑄石碎片，無法進行合成！</hint>
+  <hint id="366" place="2048" lanID="100128" delay="5" size="30" color="0xFFFF00" font="Microsoft YaHei" />
+  <!--激活冰龍-->
+  <hint id="367" place="2048" lanID="100129" delay="5" size="30" color="0xFFFF00" font="Microsoft YaHei" />
+  <!--激活炎龍-->
+  <hint id="368" place="2048" lanID="100130" delay="5" size="30" color="0xFFFF00" font="Microsoft YaHei" />
+  <!--激活風龍-->
+  <hint id="369" place="2048" lanID="100131" delay="5" size="30" color="0xFFFF00" font="Microsoft YaHei" />
+  <!--激活雷龍，開啟完畢-->
+  <hint id="370" place="2048" lanID="100132" delay="5" size="30" color="0xFFFF00" font="Microsoft YaHei" />
+  <!--需要激活冰龍-->
+  <hint id="371" place="2048" lanID="100133" delay="5" size="30" color="0xFFFF00" font="Microsoft YaHei" />
+  <!--需要激活炎龍-->
+  <hint id="372" place="2048" lanID="100134" delay="5" size="30" color="0xFFFF00" font="Microsoft YaHei" />
+  <!--需要激活風龍-->
+  <hint id="373" place="2048" lanID="100135" delay="5" size="30" color="0xFFFF00" font="Microsoft YaHei" />
+  <!--需要激活雷龍-->
+  <hint id="374" place="2048" lanID="100136" delay="8" size="30" color="0xFFFF00" font="Microsoft YaHei" />
+  <!--第二层提示-->
+  <hint id="375" place="2048" lanID="100144" delay="5" size="30" color="0xFFFF00" font="Microsoft YaHei" />
+  <!--小怪都清理完毕后给予开机关的提示-->
+  <hint id="376" place="2048" lanID="100145" delay="5" size="30" color="0xFFFF00" font="Microsoft YaHei" />
+  <!--未清完小怪就要开机关的提示-->
+  <hint id="378" place="4" chatChannel="11">通往光明聖殿的傳送門開啟了！請萬神殿內的所有玩家前往龍族神殿的中央抓緊進入傳送門！</hint>
+  <!--第二層通往第三層的傳送門已經開啟時候的提示-->
+  <hint id="379" place="4" chatChannel="11">光明聖殿內的神殿守衛已經被全部打敗了，太陽神阿波羅已經現身準備迎接勇士們的挑戰了！</hint>
+  <!--第三層太陽神出現時候的提示-->
+  <hint id="380" place="4" chatChannel="11">太陽神阿波羅被打敗了！光明神殿的寶箱散落一地，勇士們趕緊去搶吧！</hint>
+  <!--太陽神掛掉后給予玩家禮品時全服提示-->
+  <hint id="381" place="8">您的等級不足20級，無法打開該禮包。</hint>
+  <hint id="382" place="2048" lanID="100157" delay="5" size="30" color="0xFFFF00" font="Microsoft YaHei" />
+  <!--2541/2551/2561三个主线任务开始-->
+  <hint id="383" place="2048" lanID="100158" delay="5" size="30" color="0xFFFF00" font="Microsoft YaHei" />
+  <!--第二層機關被全部開啟，BOSS出現啦-->
+  <hint id="384" place="2048" lanID="100160" delay="5" size="30" color="0xFFFF00" font="Microsoft YaHei" />
+  <!--魔宫传奇开启大小寶箱都開啟完了-->
+  <hint id="385" place="4" chatChannel="11">【魔宮傳奇】法老房間的寶箱已經全部開啟，魔宮的法老已經覺醒，請勇士們儘快前去合力擊敗它</hint>
+  <!--魔宫传奇BOSS出现-->
+  <hint id="386" place="2048" lanID="100162" delay="5" size="30" color="0xFFFF00" font="Microsoft YaHei" />
+  <!--魔宫传奇限制玩家傳送-->
+  <hint id="387" place="2048" lanID="100163" delay="10" size="30" color="0xFFFF00" font="Microsoft YaHei" />
+  <!--魔族入侵-->
+  <hint id="388" place="4" chatChannel="11">【魔物入侵】的BOSS被打敗了後，給予最後一擊的{[%0s],blue,0,1}獲得一顆遠古神聖巨龍遺留的龍珠！</hint>
+  <!--魔宫传奇BOSS出现-->
+  <hint id="389" place="2048" lanID="100171" delay="10" size="30" color="0xFFFF00" font="Microsoft YaHei" />
+  <!--背包空间不足，龙珠-->
+  <hint id="390" place="2048" lanID="100172" delay="10" size="30" color="0xFFFF00" font="Microsoft YaHei" />
+  <!--無法召喚，龙珠-->
+  <hint id="391" place="2048" lanID="100173" delay="10" size="30" color="0xFFFF00" font="Microsoft YaHei" />
+  <!--金幣太多-->
+  <hint id="392" place="4" chatChannel="11">{[%0s],blue,0,1}用集齊的七顆龍珠召喚了遠古神聖巨龍！</hint>
+  <!--神龍出現-->
+  <hint id="393" place="4" chatChannel="11">龍珠魔魂被召喚出來了！</hint>
+  <!--神龍出現-->
+  <hint id="394" place="2048" lanID="100180" delay="10" size="30" color="0xFFFF00" font="Microsoft YaHei" />
+  <!--萨尔斯堡不能召唤神龙-->
+  <hint id="395" place="4" chatChannel="11">{[%0s],blue,0,1}用集齊的七顆龍珠召喚了遠古神聖巨龍！</hint>
+  <!--神龍出現-->
+  <hint id="396" place="2048" lanID="100174" delay="10" size="30" color="0xFFFF00" font="Microsoft YaHei" />
+  <!--已經滿級-->
+  <hint id="397" place="8" title="道具提示">您的信仰力不足。</hint>
+  <hint id="398" place="2048" lanID="100183" delay="10" size="30" color="0xFFFF00" font="Microsoft YaHei" />
+  <!--帝國騎士認證完成挑戰-->
+  <hint id="399" place="2048" lanID="100184" delay="10" size="30" color="0xFFFF00" font="Microsoft YaHei" />
+  <!--帝國騎士認證召喚出來BOSS的時限提示-->
+  <!--神魔戰場--><!--未翻译-->
+  <hint id='403' place='2048' lanID='100403' delay="3"  size="30" color="0xFFFF00" font="Microsoft YaHei"/><!--守卫女神活动，未集齊足夠的數量-->
+  <hint id='404' place='2048' lanID='100404' delay="3"  size="30" color="0xFFFF00" font="Microsoft YaHei"/><!--守卫女神活动，完成所有波數-->
+  <hint id='405' place='4' chatChannel='11'>第{[%0s],blue,0,1}波怪即将來襲！</hint>
+  <hint id='406' place='2048' lanID='100405' delay="8"  size="28" color="0xFFFF00" font="Microsoft YaHei"/><!--守卫女神活动，BOSS出现了-->
+  <hint id='408' place='32' title='活動提示' >生命之森隨著生命女神的死亡而被魔物佔領，你們失敗了！</hint><!--守卫女神活动，玩家失败-->
+  <hint id='409' place='2048' lanID='100407' delay="3"  size="30" color="0xFFFF00" font="Microsoft YaHei"/><!--神魔战场准备时间--><!--未翻译-->
+  <hint id='412' place='2048' lanID='100410' delay="3"  size="30" color="0xFFFF00" font="Microsoft YaHei"/><!--守卫女神活动，即将出现偷袭怪-->
+  <hint id='413' place='2048' lanID='100411' delay="3"  size="30" color="0xFFFF00" font="Microsoft YaHei"/><!--神魔战场活动未开启无法传送--><!--未翻译-->
+  <hint id='414' place='2048' lanID='100412' delay="3"  size="30" color="0xFFFF00" font="Microsoft YaHei"/><!--戰場藥水只有戰場裡面才可以使用--><!--未翻译-->
+  <hint id='415' place='4' chatChannel='11'>{[%0s],blue,0,1}牛刀小試，擊殺5名敵對玩家，獲得殺人如麻稱號！</hint><!--未翻译-->
+  <hint id='416' place='4' chatChannel='11'>{[%0s],blue,0,1}神出鬼沒，擊殺10名敵對玩家，獲得十步一殺稱號！</hint><!--未翻译-->
+  <hint id='417' place='4' chatChannel='11'>{[%0s],blue,0,1}勢如破竹，擊殺20名敵對玩家，獲得百戰百勝稱號！</hint><!--未翻译-->
+  <hint id='418' place='4' chatChannel='11'>{[%0s],blue,0,1}勇不可擋，擊殺30名敵對玩家，獲得橫掃千軍稱號！</hint><!--未翻译-->
+  <hint id='419' place='4' chatChannel='11'>{[%0s],blue,0,1}氣吞乾坤，擊殺100名敵對玩家，獲得萬夫莫敵稱號！</hint><!--未翻译-->
+  <hint id='420' place='32' title='活動提示' >找冰、火、土、雷四大守護精靈分別可以用一個復活石換取冰（減速）、火（攻擊加成）、土（暴擊加成）、雷（幾率眩暈）四大守護狀態其中一個（不可疊加）！</hint><!--守卫女神活动，玩家失败-->
+  <hint id='421' place='4' chatChannel='11'>{[%0s],red,0,1}使用復活石向守護精靈兌換了精靈的守護•冰，獲得60%幾率降低目標移動速度75%的狀態加成！</hint><!--守卫女神得到冰BUFF提示-->
+  <hint id='422' place='4' chatChannel='11'>{[%0s],red,0,1}使用復活石向守護精靈兌換了精靈的守護•火，獲得攻擊傷害100%的狀態加成！</hint><!--守卫女神得到火BUFF提示-->
+  <hint id='423' place='4' chatChannel='11'>{[%0s],red,0,1}使用復活石向守護精靈兌換了精靈的守護•土，獲得獲得暴擊率提升50%及暴擊傷害提升100%的狀態加成！</hint><!--守卫女神得到土BUFF提示-->
+  <hint id='424' place='4' chatChannel='11'>{[%0s],red,0,1}使用復活石向守護精靈兌換了精靈的守護•雷，獲得30%幾率將目標震暈4S（軍團長0.5S）的狀態加成！</hint><!--守卫女神得到雷BUFF提示-->
+  <hint id='425' place='4' chatChannel='11'>下一波小怪将在5分钟后来临，请抓紧时间消灭魔族军团长！</hint><!--守卫女神BOSS出现，5分钟后刷小怪-->
+  <hint id='426' place='2048' lanID='100213' delay="3"  size="30" color="0xFFFF00" font="Microsoft YaHei"/><!--不能使用ok秘药--><!--未翻译-->
+  <hint id="427" place="8" title="道具提示">战场徽章不足！</hint><!--战场徽章不足--><!--未翻译-->
+</hints>

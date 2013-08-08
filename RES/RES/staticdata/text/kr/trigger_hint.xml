@@ -1,0 +1,44 @@
+﻿<hints>
+	<hint id='1' level='99' title='레벨업 TIP' pattern='판타지 세계에 오신 것을 환영합니다. 신과 같은 존재가 되고 싶으십니까? 갓온라인에서는 무엇이든 가능합니다.' />
+	<hint id='2' level='99' title='레벨업 TIP' pattern='신이 되기 위한 첫 발을 내디뎠습니다!레벨업할 때 획득하게 되는 속성포인트를 분배하여 캐릭터를 키울 수 있습니다!' />
+	<hint id='3' level='99' title='레벨업 TIP' pattern='레벨업 성공! 획득한 속성포인트를 바로 분배해보세요.' />
+	<hint id='4' level='99' title='레벨업 TIP' pattern='G.O.D세계의 장비는 “커먼, 언커먼, 레어, 유니크, 에픽” 5등급으로 나뉩니다. 즉시 장착하여 생존능력을 높여보세요.'/>
+	<hint id='5' level='99' title='레벨업 TIP' pattern='인벤토리에 장착가능한 장비가 있습니다. 장비를 장착하여 실력을 증가시켜 보세요.'/>
+	<hint id='6' level='99' title='레벨업 TIP' pattern='생명물약과 마법물약을 큇슬롯에 배치하면 위기의 순간에 재빨리 사용할 수 있습니다.'/>
+	<hint id='7' level='99' title='레벨업 TIP' pattern='스킬을 사용하면 몬스터를 보다 빠르고 쉽게 처치할 수 있습니다.'/>
+	<hint id='8' taskIdSubmit='101' title='레벨업 TIP' pattern='“~”버튼을 사용하여 주변 몬스터를 타겟으로 설정할 수 있습니다.'/>
+	<hint id='9' level='99' title='레벨업 TIP' pattern='스페이스바를 사용하면 땅 위의 아이템을 빠르게 주을 수 있습니다.'/>
+	<hint id='10' level='99' title='레벨업 TIP' pattern='성좌를 활성시키려면 신성력이 필요합니다.필요한 신성력은 명상을 통해 획득할 수 있습니다.'/>
+	<hint id='11' level='99' title='레벨업 TIP' pattern='강력한 소환수를 통해 전투능력을 대폭 향상시킬 수 있습니다.'/>
+	<hint id='12' level='99' title='레벨업 TIP' pattern='레벨업 성공! 획득한 속성포인트를 분배해보세요.' />
+	<hint id='13' level='99' title='레벨업 TIP' pattern='레벨업 성공! 획득한 속성포인트를 분배해보세요.' />
+	<hint id='14' level='99' title='레벨업 TIP' pattern='레벨업 성공! 획득한 속성포인트를 분배해보세요.' />
+	<hint id='15' level='99' title='레벨업 TIP' pattern='레벨업 성공! 획득한 속성포인트를 분배해보세요.' />
+	<hint id='16' level='99' title='레벨업 TIP' pattern='탈것을 이용하여 더 빠르게 이동할 수 있습니다.'/>
+	<hint id='17' level='99' title='레벨업 TIP' pattern='“W”를 사용하면 더욱 간편하게 탈 것에 탑승하고 내릴 수 있습니다.' />
+	<hint id='18' level='99' title='레벨업 TIP' pattern='레벨업 성공! 획득한 속성포인트를 분배해보세요.' />
+	<hint id='19' level='99' title='레벨업 TIP' pattern='레벨업 성공! 획득한 속성포인트를 분배해보세요.' />
+	<hint id='20' level='99' title='레벨업 TIP' pattern='레벨업 성공! 획득한 속성포인트를 분배해보세요.' />
+	<hint id='21' level='99' title='레벨업 TIP' pattern='레벨업 성공! 획득한 속성포인트를 분배해보세요.' />
+	<hint id='22' level='99' title='레벨업 TIP' pattern='레벨업 성공! 획득한 속성포인트를 분배해보세요.' />
+	<hint id='23' level='99' title='레벨업 TIP' pattern='레벨업 성공! 획득한 속성포인트를 분배해보세요.' />
+	<hint id='24' level='99' title='레벨업 TIP' pattern='레벨업 성공! 획득한 속성포인트를 분배해보세요.' />
+	<hint id='25' level='99' title='레벨업 TIP' pattern='소환수는 합성 또는 사육을 통해 성장시킬 수 있습니다.' />
+	<hint id='26' level='99' title='레벨업 TIP' pattern='레벨업 성공! 획득한 속성포인트를 분배해보세요.' />
+	<hint id='27' level='99' title='레벨업 TIP' pattern='레벨업 성공! 획득한 속성포인트를 분배해보세요.' />
+	<hint id='28' level='99' title='레벨업 TIP' pattern='성좌를 개방하면 속성을 증가시키고 경험치도 획득할 수 있습니다.' />
+	<hint id='29' level='99' title='레벨업 TIP' pattern='레벨업 성공! 획득한 속성포인트를 분배해보세요.' />
+	<hint id='30' level='99' title='레벨업 TIP' pattern='레벨업 성공! 획득한 속성포인트를 분배해보세요.' />
+	<hint id='31' level='99' title='레벨업 TIP' pattern='레벨업 성공! 획득한 속성포인트를 분배해보세요.' />
+	<hint id='32' level='99' title='레벨업 TIP' pattern='레벨업 성공! 획득한 속성포인트를 분배해보세요.' />
+	<hint id='33' level='99' title='레벨업 TIP' pattern='레벨업 성공! 획득한 속성포인트를 분배해보세요.' />
+	<hint id='34' level='99' title='레벨업 TIP' pattern='레벨업 성공! 획득한 속성포인트를 분배해보세요.' />
+	<hint id='35' level='99' title='레벨업 TIP' pattern='레벨업 성공! 획득한 속성포인트를 분배해보세요.' />
+	<hint id='36' level='99' title='레벨업 TIP' pattern='레벨업 성공! 획득한 속성포인트를 분배해보세요.' />
+	<hint id='37' level='99' title='레벨업 TIP' pattern='레벨업 성공! 획득한 속성포인트를 분배해보세요.' />
+	<hint id='38' level='99' title='레벨업 TIP' pattern='레벨업 성공! 획득한 속성포인트를 분배해보세요.' />
+	<hint id='39' level='99' title='레벨업 TIP' pattern='레벨업 성공! 획득한 속성포인트를 분배해보세요.' />
+	<hint id='40' level='99' title='레벨업 TIP' pattern='레벨업 성공! 획득한 속성포인트를 분배해보세요.' />
+	<hint id='41' level='99' title='레벨업 TIP' pattern='레벨업 성공! 획득한 속성포인트를 분배해보세요.' />
+</hints>
+
