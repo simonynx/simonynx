@@ -1,0 +1,270 @@
+﻿<?xml version="1.0" standalone="yes"?>
+<!--skin-->
+<!--id皮肤资源id xx_xx(类型_递增编号)  is_cache皮肤资源是否缓存(不缓存重新打开需要再次加载，面板资源大开启频率低的面板建议使用) isPreload是否预加载(如mainui)-->
+<!--window-->
+<!--name窗口类名(必须对应) id窗口编号 xx_xxx(功能编号_递增编号),symbol皮肤导出类名,constraints布局,is_esc_close是否可esc关闭, is_change_line_close是否换线关闭 
+is_change_scene_close是否切换场景关闭,isSacheAsBitmap是否缓存位图,isUseEffect是否使用切换效果,isCloseDispose是否关闭后销毁-->
+<RECORDS>
+<!--活动1-->
+ <skin id="activitylist" name="活动"   isCache="1" isPreload="0">
+ <window id="1001"  name="ActivityPanel2" symbol="ui_game_gui_res_activity_panel" isCacheAsBitmap="1" isEseClose="1" isChangeLineClose="0" isChangeSceneClose="0" isUseEffect="1" isCloseDispose="0"/>
+ <window id="1002"  name="PositionPanel" symbol="ui_game_gui_activity_baohe" isCacheAsBitmap="1" isEseClose="1" isChangeLineClose="0" isChangeSceneClose="0" isUseEffect="1" isCloseDispose="0"/>
+ <window id="1003"  name="DemonCountPanel" symbol="ui_game_ui_demon" isCacheAsBitmap="1" isEseClose="1" isChangeLineClose="0" isChangeSceneClose="0" isUseEffect="1" isCloseDispose="0"/>
+ <window id="1004"  name="RocketCourierPanel" symbol="ui_game_gui_activity_rocketCourier" isCacheAsBitmap="1" isEseClose="1" isChangeLineClose="0" isChangeSceneClose="0" isUseEffect="1" isCloseDispose="0"/>
+ <window id="1005"  name="ActivityPanel" symbol="ui_game_gui_activity" isCacheAsBitmap="1" isEseClose="1" isChangeLineClose="0" isChangeSceneClose="0" isUseEffect="1" isCloseDispose="0"/>
+ </skin>
+ <!--功能预告2-->
+ <skin id="advance"  name="功能预告" isCache="1" isPreload="0">
+ <window id="201" name="AdvancePanel" symbol="ui_game_gui_advance" isCacheAsBitmap="1" isEseClose="1" isChangeLineClose="1" isChangeSceneClose="1" isUseEffect="1" isCloseDispose="0"/>
+ <window id="202" name="AdvanceEffectPanel" symbol="effect_advance" isCacheAsBitmap="1" isEseClose="1" isChangeLineClose="1" isChangeSceneClose="1" isUseEffect="1" isCloseDispose="0"/>
+ </skin>
+ <!--考古3-->
+ <skin id="301"  name="考古" isCache="1" isPreload="0">
+ </skin>
+ <!--除草4-->
+ <skin id="exploration"  name="除草" isCache="1" isPreload="0">
+ <window id="401" name="ExplorationPanel" symbol="ui_game_gui_exploration" isCacheAsBitmap="1" isEseClose="1" isChangeLineClose="1" isChangeSceneClose="1" isUseEffect="1" isCloseDispose="0"/>
+ </skin>
+ <!--好友5-->
+ <skin id="friend"  name="好友" isCache="1" isPreload="0">
+ <window id="501" name="FriendPanel" symbol="ui_game_gui_Friends" isCacheAsBitmap="1" isEseClose="1" isChangeLineClose="1" isChangeSceneClose="1" isUseEffect="1" isCloseDispose="0"/>
+ <window id="502" name="FindPanel" symbol="ui_game_gui_find" isCacheAsBitmap="1" isEseClose="1" isChangeLineClose="1" isChangeSceneClose="1" isUseEffect="1" isCloseDispose="0"/>
+ </skin>
+ <!--副本6-->
+ <skin id="fuben"  name="副本" isCache="1" isPreload="0">
+ <window id="601" name="FuBenPanel" symbol="ui_game_gui_fuben" isCacheAsBitmap="1" isEseClose="1" isChangeLineClose="1" isChangeSceneClose="1" isUseEffect="1" isCloseDispose="0"/>
+ <window id="602" name="FuBenWinPanel" symbol="ui_game_fuben_win" isCacheAsBitmap="1" isEseClose="1" isChangeLineClose="1" isChangeSceneClose="1" isUseEffect="1" isCloseDispose="0"/>
+ <window id="603" name="FuBenFinishPanel" symbol="ui_game_fuben_finish" isCacheAsBitmap="1" isEseClose="1" isChangeLineClose="1" isChangeSceneClose="1" isUseEffect="1" isCloseDispose="0"/>
+ <window id="604" name="FuBenJiangLiPanel" symbol="ui_game_fuben_jiangli" isCacheAsBitmap="1" isEseClose="1" isChangeLineClose="1" isChangeSceneClose="1" isUseEffect="1" isCloseDispose="0"/>
+ <window id="605" name="FubenHintPanel" symbol="fuben_hint_discription" isCacheAsBitmap="1" isEseClose="1" isChangeLineClose="1" isChangeSceneClose="1" isUseEffect="1" isCloseDispose="0"/>
+ </skin>
+ <!--礼包7-->
+ <skin id="giftbag"  name="礼包" isCache="1" isPreload="0">
+ <window id="701" name="GiftBagPanel" symbol="ui_game_gui_giftbag" isCacheAsBitmap="1" isEseClose="1" isChangeLineClose="1" isChangeSceneClose="1" isUseEffect="1" isCloseDispose="0"/>
+ </skin>
+ <!--神魔战场8-->  
+ <skin id="801"  name="神魔战场" isCache="1" isPreload="0">
+ </skin>
+ <!--物品9-->
+ <skin id="herobag"  name="背包" isCache="1" isPreload="0">
+ <window id="901" name="HeroBag" symbol="ui_game_gui_HeroBag" isCacheAsBitmap="1" isEseClose="1" isChangeLineClose="1" isChangeSceneClose="1" isUseEffect="1" isCloseDispose="0"/>
+ <window id="902" name="HeroDepotPanel" symbol="ui_game_gui_HeroDepot" isCacheAsBitmap="1" isEseClose="1" isChangeLineClose="1" isChangeSceneClose="1" isUseEffect="1" isCloseDispose="0"/>
+ <window id="903" name="AwardDepotPanel" symbol="ui_game_gui_AwordDepot" isCacheAsBitmap="1" isEseClose="1" isChangeLineClose="1" isChangeSceneClose="1" isUseEffect="1" isCloseDispose="0"/>
+ </skin>
+ <!--限时活动10-->
+ <skin id="1001"  name="限时活动" isCache="1" isPreload="0">
+ </skin>
+ <!--登录11-->
+ <skin id="1101"  name="登录" isCache="1" isPreload="0">
+ </skin>
+ <!--邮件12-->
+ <skin id="mail"  name="邮件" isCache="1" isPreload="0">
+ <window id="1201" name="MailTabPanel" symbol="ui_game_gui_Mail" isCacheAsBitmap="1" isEseClose="1" isChangeLineClose="1" isChangeSceneClose="1" isUseEffect="1" isCloseDispose="0"/>
+ <window id="1202" name="MailInfoPanel" symbol="ui_game_gui_MailOpenPanel" isCacheAsBitmap="1" isEseClose="1" isChangeLineClose="1" isChangeSceneClose="1" isUseEffect="1" isCloseDispose="0"/>
+ <window id="1202" name="MiniFriendsPanel" symbol="ui_game_gui_MiniFriend" isCacheAsBitmap="1" isEseClose="1" isChangeLineClose="1" isChangeSceneClose="1" isUseEffect="1" isCloseDispose="0"/>
+ </skin>
+ <!--mainui13-->		
+<skin id="1301"  name="mainui" isCache="1" isPreload="0">
+</skin> 
+ <!--商城14-->
+ <skin id="store"  name="商城" isCache="1" isPreload="0">
+ <window id="1401" name="MallPanel" symbol="ui_game_gui_Store" isCacheAsBitmap="1" isEseClose="1" isChangeLineClose="1" isChangeSceneClose="1" isUseEffect="1" isCloseDispose="0"/>
+ </skin>
+ <!--信息提示15-->
+ <skin id="messagebox"  name="信息提示" isCache="1" isPreload="0">
+ <window id="1501" name="MessagePanel" symbol="ui_game_gui_messageBox" isCacheAsBitmap="1" isEseClose="1" isChangeLineClose="1" isChangeSceneClose="1" isUseEffect="1" isCloseDispose="0"/>
+ </skin>
+ <!--猜拳16-->
+ <skin id="1601"  name="猜拳" isCache="1" isPreload="0">
+ </skin>
+ <!--坐骑17-->
+ <skin id="1701"  name="坐骑" isCache="1" isPreload="0">
+ </skin>
+ <!--npc商店18-->
+ <skin id="npcshop"  name="npc商店" isCache="1" isPreload="0">
+ <window id="1801" name="NPCShopPanel" symbol="ui_game_gui_NPCShop" isCacheAsBitmap="1" isEseClose="1" isChangeLineClose="1" isChangeSceneClose="1" isUseEffect="1" isCloseDispose="0"/>
+ </skin>
+ <!--在线奖励19-->
+ <skin id="onlinereward"  name="在线奖励" isCache="1" isPreload="0">
+ <window id="1901" name="OnlineRewardPanel" symbol="ui_game_gui_online_reward" isCacheAsBitmap="1" isEseClose="1" isChangeLineClose="1" isChangeSceneClose="1" isUseEffect="1" isCloseDispose="0"/>
+ </skin>
+ <!--交易20-->
+ <skin id="trade"  name="交易" isCache="1" isPreload="0">
+ <window id="2001" name="PlayerTradePanel" symbol="ui_game_gui_PlayerTrade" isCacheAsBitmap="1" isEseClose="1" isChangeLineClose="1" isChangeSceneClose="1" isUseEffect="1" isCloseDispose="0"/>
+ </skin>
+ <!--排行21-->
+ <skin id="2101"  name="排行" isCache="1" isPreload="0">
+ </skin>
+ <!--系统设置22-->
+ <skin id="setting"  name="系统设置" isCache="1" isPreload="0">
+ <window id="2201" name="SettingPanel" symbol="ui_game_gui_SystemSetting" isCacheAsBitmap="1" isEseClose="1" isChangeLineClose="1" isChangeSceneClose="1" isUseEffect="1" isCloseDispose="0"/>
+ </skin>
+ <!--射击游戏23-->
+ <skin id="2301"  name="射击游戏" isCache="1" isPreload="0">
+ </skin>
+ <!--小地图24-->
+ <skin id="map"  name="小地图" isCache="1" isPreload="0">
+ <window id="2401" name="SmallMapPanel" symbol="ui_game_gui_SmallMap" isCacheAsBitmap="1" isEseClose="1" isChangeLineClose="1" isChangeSceneClose="1" isUseEffect="1" isCloseDispose="0"/>
+ </skin>
+ <!--技能25-->
+ <skin id="2501"  name="技能" isCache="1" isPreload="0">
+ </skin>
+ <!--任务26-->
+ <skin id="task"  name="任务" isCache="1" isPreload="0">
+ <window id="26001"  name="ReWardPanel" symbol="ui_game_gui_reward" isCacheAsBitmap="1" isEseClose="1" isChangeLineClose="1" isChangeSceneClose="1" isUseEffect="1" isCloseDispose="0"/>
+ <window id="26002"  name="ReWardTalkPanl" symbol="reward_talk" isCacheAsBitmap="1" isEseClose="1" isChangeLineClose="1" isChangeSceneClose="1" isUseEffect="1" isCloseDispose="0"/>
+ <window id="26003"  name="TeamRewardPanel" symbol="ui_game_gui_team_reward" isCacheAsBitmap="1" isEseClose="1" isChangeLineClose="1" isChangeSceneClose="1" isUseEffect="1" isCloseDispose="0"/>
+ <window id="26004"  name="TaskPanel" symbol="ui_gui_game_newtask" isCacheAsBitmap="1" isEseClose="1" isChangeLineClose="1" isChangeSceneClose="1" isUseEffect="1" isCloseDispose="0"/>
+ <window id="26005"  name="TaskNpcChatPanel" symbol="ui_game_gui_npcchat" isCacheAsBitmap="1" isEseClose="1" isChangeLineClose="1" isChangeSceneClose="1" isUseEffect="1" isCloseDispose="0"/>
+ <window id="26006"  name="TaskCardListPanel" symbol="ui_gui_game_task_bianshen" isCacheAsBitmap="1" isEseClose="1" isChangeLineClose="1" isChangeSceneClose="1" isUseEffect="1" isCloseDispose="0"/>
+ </skin>
+ <!--组队27-->
+ <skin id="team"  name="组队" isCache="1" isPreload="0">
+ <window id="27001"  name="TeamTabPanel" symbol="ui_game_gui_Team" isCacheAsBitmap="1" isEseClose="1" isChangeLineClose="1" isChangeSceneClose="1" isUseEffect="1" isCloseDispose="0"/>
+ </skin>
+ <!--称号28-->
+ <skin id="title"  name="称号" isCache="1" isPreload="0">
+ <window id="28001"  name="TitleView" symbol="ui_game_gui_Title" isCacheAsBitmap="1" isEseClose="1" isChangeLineClose="1" isChangeSceneClose="1" isUseEffect="1" isCloseDispose="0"/>
+ </skin>
+ <!--vip29-->
+ <skin id="vip"  name="vip" isCache="1" isPreload="0">
+ <window id="29001"  name="VIPPanel" symbol="ui_game_gui_vip" isCacheAsBitmap="1" isEseClose="1" isChangeLineClose="1" isChangeSceneClose="1" isUseEffect="1" isCloseDispose="0"/>
+ </skin>
+  <!--元神30-->
+ <skin id="yuanshen"  name="元神" isCache="1" isPreload="0">
+ <window id="30001"  name="YuanshenPanel" symbol="ui_game_gui_yuanshen" isCacheAsBitmap="1" isEseClose="1" isChangeLineClose="1" isChangeSceneClose="1" isUseEffect="1" isCloseDispose="0"/>
+</skin>
+  <!--法宝31-->
+ <skin id="fabao"  name="法宝" isCache="1" isPreload="0">
+ <window id="31001"  name="FabaoPanel" symbol="ui_game_gui_fabao" isCacheAsBitmap="1" isEseClose="1" isChangeLineClose="1" isChangeSceneClose="1" isUseEffect="1" isCloseDispose="0"/>
+</skin>
+  <!--神将32-->
+ <skin id="godsoldier"  name="神将" isCache="1" isPreload="0">
+ <window id="32001"  name="GodSoldierPanel" symbol="ui_game_gui_res_godSoldier" isCacheAsBitmap="1" isEseClose="1" isChangeLineClose="1" isChangeSceneClose="1" isUseEffect="1" isCloseDispose="0"/>
+ <window id="32002"  name="GodSoldierFeedPanel" symbol="ui_game_gui_res_godSoldier_feed" isCacheAsBitmap="1" isEseClose="1" isChangeLineClose="1" isChangeSceneClose="1" isUseEffect="1" isCloseDispose="0"/>
+</skin>
+  <!--坐骑33-->
+ <skin id="horse"  name="坐骑" isCache="1" isPreload="0">
+ <window id="33001"  name="HorsePanel" symbol="ui_game_gui_horse" isCacheAsBitmap="1" isEseClose="1" isChangeLineClose="1" isChangeSceneClose="1" isUseEffect="1" isCloseDispose="0"/>
+ <window id="33002"  name="HorseNextPanel" symbol="ui_game_gui_next_horse" isCacheAsBitmap="1" isEseClose="1" isChangeLineClose="1" isChangeSceneClose="1" isUseEffect="1" isCloseDispose="0"/>
+</skin>
+ <!--角色面板34-->
+ <skin id="roleinfo"  name="角色面板" isCache="1" isPreload="0">
+ <window id="34001"  name="HeroDetailPanel" symbol="ui_game_gui_res_role" isCacheAsBitmap="1" isEseClose="1" isChangeLineClose="1" isChangeSceneClose="1" isUseEffect="1" isCloseDispose="0"/>
+ <window id="34002"  name="EquipAutoStrengthenPanel" symbol="ui_game_gui_res_auto_strengthen" isCacheAsBitmap="1" isEseClose="0" isChangeLineClose="0" isChangeSceneClose="0" isUseEffect="1" isCloseDispose="0"/>
+ <window id="34003"  name="EquipXiangQianZhaiQuPanel" symbol="ui_gui_game_res_zhaiqu_panel" isCacheAsBitmap="1" isEseClose="0" isChangeLineClose="0" isChangeSceneClose="0" isUseEffect="1" isCloseDispose="0"/>
+ <window id="34004"  name="DianShiChengJingPanel" symbol="ui_gui_game_res_xilian_dianshi_panel" isCacheAsBitmap="1" isEseClose="0" isChangeLineClose="0" isChangeSceneClose="0" isUseEffect="1" isCloseDispose="0"/>
+</skin>
+<!--智力问答35-->
+ <skin id="wenda"  name="智力问答" isCache="1" isPreload="0">
+ <window id="35001"  name="AnswerQuestionJoinPanel" symbol="ui_game_gui_answer_question_jion" isCacheAsBitmap="1" isEseClose="1" isChangeLineClose="1" isChangeSceneClose="1" isUseEffect="1" isCloseDispose="0"/>
+ <window id="35002"  name="AnswerQuestionPanel" symbol="ui_game_gui_answer_question" isCacheAsBitmap="1" isEseClose="0" isChangeLineClose="1" isChangeSceneClose="1" isUseEffect="1" isCloseDispose="0"/>
+ <window id="35003"  name="AnswerQuestionCountPanel" symbol="ui_game_gui_answer_question_count" isCacheAsBitmap="1" isEseClose="0" isChangeLineClose="1" isChangeSceneClose="1" isUseEffect="1" isCloseDispose="0"/>
+</skin>
+ <!--转生36-->
+ <skin id="changelife"  name="转生" isCache="1" isPreload="0">
+ <window id="36001"  name="ChangeLifeTimesPanel" symbol="ui_game_gui_change_life_panel" isCacheAsBitmap="1" isEseClose="1" isChangeLineClose="1" isChangeSceneClose="1" isUseEffect="1" isCloseDispose="0"/>
+ </skin>
+  <!--排行榜37-->
+ <skin id="rankinglist"  name="排行榜" isCache="1" isPreload="0">
+ <window id="37001"  name="RankView" symbol="ui_game_gui_res_rank_panel" isCacheAsBitmap="1" isEseClose="1" isChangeLineClose="1" isChangeSceneClose="1" isUseEffect="1" isCloseDispose="0"/>
+ <window id="37002"  name="RankSearchPanenl" symbol="ui_game_gui_res_my_rank_panel" isCacheAsBitmap="1" isEseClose="1" isChangeLineClose="1" isChangeSceneClose="1" isUseEffect="1" isCloseDispose="0"/>
+ </skin>
+ 
+  <!--摆摊38-->
+ <skin id="baitan"  name="摆摊" isCache="1" isPreload="0">
+ <window id="38001"  name="StallBuyPanel" symbol="ui_game_gui_stall_buy" isCacheAsBitmap="1" isEseClose="1" isChangeLineClose="1" isChangeSceneClose="1" isUseEffect="1" isCloseDispose="0"/>
+ <window id="38002"  name="StallHistroyPanel" symbol="ui_game_gui_stall_note" isCacheAsBitmap="1" isEseClose="1" isChangeLineClose="1" isChangeSceneClose="1" isUseEffect="1" isCloseDispose="0"/>
+ <window id="38003"  name="StallSalePanel" symbol="ui_game_gui_stall_sale" isCacheAsBitmap="1" isEseClose="1" isChangeLineClose="1" isChangeSceneClose="1" isUseEffect="1" isCloseDispose="0"/>
+ <window id="38004"  name="StallSetPanel" symbol="ui_game_gui_stall_set" isCacheAsBitmap="1" isEseClose="1" isChangeLineClose="1" isChangeSceneClose="1" isUseEffect="1" isCloseDispose="0"/>
+ <window id="38005"  name="StallSetPricePanel" symbol="ui_game_gui_stall_sale_input" isCacheAsBitmap="1" isEseClose="1" isChangeLineClose="1" isChangeSceneClose="1" isUseEffect="1" isCloseDispose="0"/>
+ </skin>
+ 
+  <!--元神39-->
+ <skin id="welcom"  name="欢迎" isCache="1" isPreload="0">
+ <window id="39001"  name="WelcomePanel" symbol="ui_game_gui_welcomeHint" isCacheAsBitmap="1" isEseClose="1" isChangeLineClose="1" isChangeSceneClose="1" isUseEffect="1" isCloseDispose="0"/>
+</skin>
+
+  <!--角色查看40-->
+ <skin id="playeroverview"  name="角色查看" isCache="1" isPreload="0">
+ <window id="40001"  name="PlayerOverViewPanel" symbol="ui_game_gui_res_role_view" isCacheAsBitmap="1" isEseClose="1" isChangeLineClose="1" isChangeSceneClose="1" isUseEffect="1" isCloseDispose="0"/>
+</skin>
+  <!--心法41-->
+ <skin id="centermethod"  name="心法" isCache="1" isPreload="0">
+ <window id="41001"  name="CenterMethodPanel" symbol="ui_game_gui_res_centermethod_panel" isCacheAsBitmap="1" isEseClose="1" isChangeLineClose="1" isChangeSceneClose="1" isUseEffect="1" isCloseDispose="0"/>
+</skin>
+
+ <!--帮派42-->
+ <skin id="bangpai"  name="帮派" isCache="1" isPreload="0">
+  <window id="42001" name="BPTabPanel" symbol="ui_game_gui_guild_info" isCacheAsBitmap="1" isEseClose="1" isChangeLineClose="1" isChangeSceneClose="1" isUseEffect="1" isCloseDispose="0"/>
+  <window id="42002" name="BPCreatePanel" symbol="ui_game_gui_guild_create" isCacheAsBitmap="1" isEseClose="1" isChangeLineClose="1" isChangeSceneClose="1" isUseEffect="1" isCloseDispose="0"/>
+  <window id="42003" name="BPApplyListPanel" symbol="ui_game_gui_guild_apply_list" isCacheAsBitmap="1" isEseClose="1" isChangeLineClose="1" isChangeSceneClose="1" isUseEffect="1" isCloseDispose="0"/>
+  <window id="42004" name="BPInviteListPanel" symbol="ui_game_gui_guild_invite_list" isCacheAsBitmap="1" isEseClose="1" isChangeLineClose="1" isChangeSceneClose="1" isUseEffect="1" isCloseDispose="0"/>
+  <window id="42005" name="BPDonatePanel" symbol="ui_game_gui_guild_money" isCacheAsBitmap="1" isEseClose="1" isChangeLineClose="1" isChangeSceneClose="1" isUseEffect="1" isCloseDispose="0"/>
+</skin>
+<!--挂机43-->
+ <skin id="guaji"  name="挂机" isCache="1" isPreload="0">
+ <window id="43001" name="AssistPanel" symbol="ui_game_gui_GuajiPanel" isCacheAsBitmap="1" isEseClose="1" isChangeLineClose="1" isChangeSceneClose="1" isUseEffect="1" isCloseDispose="0"/>
+ </skin>
+ <!--蟠桃44-->
+ <skin id="peach"  name="蟠桃树" isCache="1" isPreload="0">
+ <window id="44001" name="PeachPanel" symbol="ui_game_gui_peach_panel" isCacheAsBitmap="1" isEseClose="1" isChangeLineClose="1" isChangeSceneClose="1" isUseEffect="1" isCloseDispose="0"/>
+ </skin>
+  <!--神魔战场45-->
+ <skin id="godevilwar"  name="神魔战场" isCache="1" isPreload="0">
+ <window id="45001" name="GEWPanel" symbol="ui_game_gui_GoldAndEvil" isCacheAsBitmap="1" isEseClose="1" isChangeLineClose="1" isChangeSceneClose="1" isUseEffect="1" isCloseDispose="0"/>
+ <window id="45002" name="GEWRankPanel" symbol="ui_game_gui_GoldAndEvilRank" isCacheAsBitmap="1" isEseClose="1" isChangeLineClose="1" isChangeSceneClose="1" isUseEffect="1" isCloseDispose="0"/>
+ <window id="45003" name="GEWRankInfoPanel" symbol="ui_game_gui_GoldAndEvilRankInfo" isCacheAsBitmap="1" isEseClose="1" isChangeLineClose="1" isChangeSceneClose="1" isUseEffect="1" isCloseDispose="0"/>
+ </skin>
+ <!--封神战46-->
+ <skin id="battlefield"  name="封神战" isCache="1" isPreload="0">
+ <window id="46001" name="BattleFieldPanel" symbol="ui_game_gui_battlefield" isCacheAsBitmap="1" isEseClose="1" isChangeLineClose="1" isChangeSceneClose="1" isUseEffect="1" isCloseDispose="0"/>
+ </skin>
+  <!--常用面板47-->
+ <skin id="commonpanel"  name="常用面板" isCache="1" isPreload="0">
+ <window id="47001" name="SplitDialog" symbol="ui_game_gui_Split" isCacheAsBitmap="1" isEseClose="1" isChangeLineClose="1" isChangeSceneClose="1" isUseEffect="1" isCloseDispose="0"/>
+ <window id="47002" name="ShopBuyNumDialog" symbol="ui_game_gui_BuyNumDialog" isCacheAsBitmap="1" isEseClose="1" isChangeLineClose="1" isChangeSceneClose="1" isUseEffect="1" isCloseDispose="0"/>
+ <window id="47003" name="RebornPanel" symbol="ui_game_gui_Reborn" isCacheAsBitmap="1" isEseClose="1" isChangeLineClose="1" isChangeSceneClose="1" isUseEffect="1" isCloseDispose="0"/>
+ <window id="47004" name="LotteryPanel" symbol="ui_game_gui_LotteryPanel" isCacheAsBitmap="1" isEseClose="1" isChangeLineClose="1" isChangeSceneClose="1" isUseEffect="1" isCloseDispose="0"/>
+ <window id="47005" name="SystemPackDialog" symbol="ui_game_gui_GiftPack" isCacheAsBitmap="1" isEseClose="1" isChangeLineClose="1" isChangeSceneClose="1" isUseEffect="1" isCloseDispose="0"/>
+ <window id="47006" name="PrizeLevelDialog" symbol="ui_game_gui_GiftPack" isCacheAsBitmap="1" isEseClose="1" isChangeLineClose="1" isChangeSceneClose="1" isUseEffect="1" isCloseDispose="0"/>
+ <window id="47007" name="PrizeOnlineDialog" symbol="ui_game_gui_GiftPack" isCacheAsBitmap="1" isEseClose="1" isChangeLineClose="1" isChangeSceneClose="1" isUseEffect="1" isCloseDispose="0"/>
+ <window id="47008" name="PrizePowerDialog" symbol="ui_game_gui_GiftPack" isCacheAsBitmap="1" isEseClose="1" isChangeLineClose="1" isChangeSceneClose="1" isUseEffect="1" isCloseDispose="0"/>
+ <window id="47009" name="PrizeUnLineDialog" symbol="ui_game_gui_prize_unline" isCacheAsBitmap="1" isEseClose="1" isChangeLineClose="1" isChangeSceneClose="1" isUseEffect="1" isCloseDispose="0"/>
+ <window id="47010" name="MoneyPackMakerDialog" symbol="ui_game_gui_MoneyPack" isCacheAsBitmap="1" isEseClose="1" isChangeLineClose="1" isChangeSceneClose="1" isUseEffect="1" isCloseDispose="0"/>
+ <window id="47011" name="ExpendDialog" symbol="ui_game_gui_ExpendDialog" isCacheAsBitmap="1" isEseClose="1" isChangeLineClose="1" isChangeSceneClose="1" isUseEffect="1" isCloseDispose="0"/>
+ <window id="47012" name="ScrollPanelDialog" symbol="ui_game_gui_scroll" isCacheAsBitmap="1" isEseClose="1" isChangeLineClose="1" isChangeSceneClose="1" isUseEffect="1" isCloseDispose="0"/>
+ <window id="47013" name="ActivityShowHidePanel" symbol="ui_game_ui_showHide" isCacheAsBitmap="1" isEseClose="1" isChangeLineClose="1" isChangeSceneClose="1" isUseEffect="1" isCloseDispose="0"/> 
+ <window id="47014" name="AwardAlertPanel" symbol="ui_game_gui_getAward" isCacheAsBitmap="1" isEseClose="1" isChangeLineClose="1" isChangeSceneClose="1" isUseEffect="1" isCloseDispose="0"/> 
+ <window id="47015" name="GodPowerTeachPanel" symbol="ui_game_ui_godPowerUpgrade" isCacheAsBitmap="1" isEseClose="1" isChangeLineClose="1" isChangeSceneClose="1" isUseEffect="1" isCloseDispose="0"/>
+ <window id="47016" name="GuideImageWindow" symbol="ui_game_gui_GuideImageView" isCacheAsBitmap="1" isEseClose="1" isChangeLineClose="1" isChangeSceneClose="1" isUseEffect="1" isCloseDispose="0"/> 
+ <window id="47017" name="MutiUseItemPanel" symbol="ui_game_gui_muti_itemuse" isCacheAsBitmap="1" isEseClose="1" isChangeLineClose="1" isChangeSceneClose="1" isUseEffect="1" isCloseDispose="0"/> 
+ <window id="47018" name="UpdateLogPanel" symbol="ui_game_gui_update_log" isCacheAsBitmap="1" isEseClose="1" isChangeLineClose="1" isChangeSceneClose="1" isUseEffect="1" isCloseDispose="0"/> 
+ <window id="47019" name="FirstRechargeAdvertisePanel" symbol="ui_game_gui_firstRecharge_advertise" isCacheAsBitmap="1" isEseClose="1" isChangeLineClose="1" isChangeSceneClose="1" isUseEffect="1" isCloseDispose="0"/> 
+ </skin>
+  <!--号角48-->
+ <skin id="horninput"  name="号角" isCache="1" isPreload="0">
+ <window id="48001" name="HornInputPanel" symbol="ui_game_gui_HornDialog" isCacheAsBitmap="1" isEseClose="1" isChangeLineClose="1" isChangeSceneClose="1" isUseEffect="1" isCloseDispose="0"/>
+ </skin>
+  <!--头像更换49-->
+ <skin id="headswitch"  name="头像更换" isCache="1" isPreload="0">
+ <window id="49001" name="HeadProtraitPanel" symbol="ui_game_gui_headprotrait" isCacheAsBitmap="1" isEseClose="1" isChangeLineClose="1" isChangeSceneClose="1" isUseEffect="1" isCloseDispose="0"/>
+ </skin>
+  <!--开服活动50-->
+ <skin id="newlineactivity"  name="开服活动" isCache="1" isPreload="0">
+ <window id="50001" name="LimitActivitiesPanel" symbol="ui_game_gui_limitActivities" isCacheAsBitmap="1" isEseClose="1" isChangeLineClose="1" isChangeSceneClose="1" isUseEffect="1" isCloseDispose="0"/>
+ </skin>
+ <!--兑换51-->
+ <skin id="exchange"  name="兑换" isCache="1" isPreload="0">
+ <window id="51001" name="ExchangePanel" symbol="ui_game_gui_Exchange" isCacheAsBitmap="1" isEseClose="1" isChangeLineClose="1" isChangeSceneClose="1" isUseEffect="1" isCloseDispose="0"/>
+ </skin>
+ <!--武将仓库52-->
+ <skin id="cardbag"  name="武将仓库" isCache="1" isPreload="0">
+ <window id="52001" name="CardBagPanel" symbol="ui_game_gui_CardBag" isCacheAsBitmap="1" isEseClose="1" isChangeLineClose="1" isChangeSceneClose="1" isUseEffect="1" isCloseDispose="0"/>
+ <window id="52002" name="CardInfoPanel" symbol="ui_game_gui_CardInfo" isCacheAsBitmap="1" isEseClose="1" isChangeLineClose="1" isChangeSceneClose="1" isUseEffect="1" isCloseDispose="0"/>
+ </skin>
+ <!--布阵53-->
+ <skin id="formation"  name="布阵" isCache="1" isPreload="0">
+ <window id="53001" name="FormationPanel" symbol="ui_game_gui_Formation" isCacheAsBitmap="1" isEseClose="1" isChangeLineClose="1" isChangeSceneClose="1" isUseEffect="1" isCloseDispose="0"/>
+ </skin>
+</RECORDS>

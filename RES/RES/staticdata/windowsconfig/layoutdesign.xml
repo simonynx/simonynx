@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" standalone="yes"?>
+<!--模塊 左 右 上 下 水平居中 上下居中-->
+<!--id="1" left="0" right="0" top="0" bottom="0" horizontalCenter="0"(正數往右) verticalCenter="0"（正數往下）-->
+<RECORDS>
+<!--玩家信息-->
+<RECORD id="1" left="20" top="-5"/>
+<!--神力覺醒-->
+<RECORD id="2" left="250" top="0"/>
+<!--目標信息-->
+<RECORD id="3" top="0" horizontalCenter="-100"/>
+<!--小地圖-->
+<RECORD id="4" top="0" right="-15"/>
+<!--出戰寵-->
+<RECORD id="5" left="123" top="36"/>
+<!--合體寵-->
+<RECORD id="6" left="180" top="36"/>
+<!--BUFF-->
+<RECORD id="7" left="135" top="100"/>
+<!--任務追蹤-->
+<RECORD id="8" right="-10" top="278"/>
+<!--聊天信息面板-->
+<RECORD id="9" left="0" bottom="93"/>
+<!--主菜單-->
+<RECORD id="10" horizontalCenter="0" bottom="-50"/>
+<!--戰鬥信息-->
+<RECORD id="11" right="0" bottom="93"/>
+<!--連擊-->
+<RECORD id="12" right="250" top="258"/>
+<!--裝備耐久-->
+<RECORD id="13" right="238" top="260"/>
+<!--副本時間-->
+<RECORD id="14" right="162" top="165"/>
+<!--隊員信息-->
+<RECORD id="15" left="0" top="120"/>
+<!--尋寶-->
+<RECORD id="16" right="200" top="0"/>
+<!--試煉之塔-->
+<RECORD id="17" right="255" top="0"/>
+<!--打氣球游戲-->
+<RECORD id="18" right="310" top="0"/>
+<!--龍耀寶典-->
+<RECORD id="19" right="365" top="2"/>
+<!--活動-->
+<RECORD id="20" right="440" top="2"/>
+<!--開服活動-->
+<RECORD id="21" right="200" top="60"/>
+<!--副本小貼士-->
+<RECORD id="22" right="162" top="165"/>
+<!--超級炮彈廣告圖標-->
+<RECORD id="23" right="260" top="213"/>
+<!--提示區域-->
+<RECORD id="24" horizontalCenter="0" top="110"/>
+<!--系統提示滾動文字-->
+<RECORD id="25" left="250" right="250" top="112"/>
+<!--中央滾動文字-->
+<RECORD id="26" top="115" horizontalCenter="0"/>
+<!--中央滾動文字2-->
+<RECORD id="27" top="150" horizontalCenter="0"/>
+<!--中央滾動文字3-->
+<RECORD id="28" bottom="200" horizontalCenter="0"/>
+<!--右邊提示-->
+<RECORD id="29" horizontalCenter="200" verticalCenter="100"/>
+<!--中間底部提示-->
+<RECORD id="30" horizontalCenter="0" bottom="200"/>
+<!--底部提示-->
+<RECORD id="32" horizontalCenter="0" bottom="50"/>
+<!--在線獎勵-->
+<RECORD id="33" right="245" top="60"/>
+<!--手動退出副本的按鈕-->
+<RECORD id="34"  right="0" top="278"/>
+<!--场景名-->
+<RECORD id="36" top="150" horizontalCenter="0"/>
+<!--场景名2-->
+<RECORD id="37" top="150" horizontalCenter="0"/>
+<!--功能预告-->
+<RECORD id="38" verticalCenter="0" horizontalCenter="0"/>
+<!--邀请facebook好友-->
+<RECORD id="39" right="175" top="215"/>
+<!--探索小游戏-->
+<RECORD id="40" right="300" top="60"/>
+<!--探索小游戏提示-->
+<RECORD id="41" horizontalCenter="0" top="70"/>
+<!--神魔战场-->
+<RECORD id="45" right="430" top="60"/>
+<!--女神守护-->
+<RECORD id="46" right="430" top="160"/>
+<!--布阵-->
+<RECORD id="47" verticalCenter="0" horizontalCenter="0"/>
+<!--武将背包-->
+<RECORD id="48" verticalCenter="0" horizontalCenter="0"/>
+<!--武将信息-->
+<RECORD id="49" verticalCenter="0" horizontalCenter="440"/>
+</RECORDS>

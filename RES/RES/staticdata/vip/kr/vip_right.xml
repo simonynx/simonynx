@@ -1,0 +1,53 @@
+<?xml version="1.0" standalone="yes"?>
+<RECORDS>
+  <!--1레벨 VIP-->
+  <RECORD id="11" level="1" content="몬스터 사냥 경험치 {20%,red,0,1} 증가" />
+  <RECORD id="21" level="1" content="명상시 신성력 획득속도 {25%,red,0,1} 증가" />
+  <RECORD id="51" level="1" content="매일 {은색사자갈기 붓,blue,0,1} {2,red,0,1}개 무료" />
+  <RECORD id="61" level="1" maxTimes="20" content="매일 {퀘스트 전송,blue,0,1}기능 {20,red,0,1}회 무료 사용						(%0s/%1s)" />
+  <RECORD id="71" level="1" maxTimes="3" content="매일 {휴대창고,blue,0,1}기능 {3,red,0,1}회 무료 사용								(%0s/%1s)" />
+  <RECORD id="81" level="1" maxTimes="20" content="매일 {원격상점,blue,0,1}기능 {20,red,0,1}회 무료 사용							(%0s/%1s)" />
+  <RECORD id="101" level="1" addTimes="1" content="던전 이벤트 참여가능 횟수 추가" />
+  <RECORD id="111" level="1" content="현상금 퀘스트 1일 수락가능 횟수 추가" />
+  <RECORD id="0" level="1" content="1레벨 VIP날개 1개 지급"/>
+  <RECORD id="0" level="1" content="1레벨 VIP 유효기간 {24,red,0,1}시간" />
+  <!--2레벨 VIP-->
+  <RECORD id="12" level="2" content="몬스터 사냥 획득 경험치 {40%,red,0,1}증가" />
+  <RECORD id="22" level="2" content="명상시 신성력 획득속도 {100%,red,0,1}증가" />
+  <RECORD id="52" level="2" content="매일 {은색사자갈기 붓,blue,0,1} {5,red,0,1}개 무료" />
+  <RECORD id="62" level="2" content="{퀘스트 전송,blue,0,1}기능 무제한 사용" />
+  <RECORD id="72" level="2" maxTimes="5" content="매일 {휴대창고,blue,0,1}기능 {5,red,0,1}회 무료 사용								(%0s/%1s)" />
+  <RECORD id="82" level="2" content="{원격상점,blue,0,1}기능 무제한 사용" />
+  <RECORD id="102" level="2" addTimes="1" content="던전 이벤트 참여가능 횟수 1회 추가" />
+  <RECORD id="112" level="2" content="현상금 퀘스트 1일 수락가능 횟수 2회 추가" />
+  <RECORD id="32" level="2" content="매일 {3만,blue,0,1}골드 증정" />
+  <RECORD id="0" level="2" content="2레벨 VIP날개 1개 지급"/>
+  <RECORD id="0" level="2" content="2레벨VIP 첫구매 또는 기간 연장시 40%확률로 수호천사 펫 {1,red,0,1}마리 획득가능" />
+  <RECORD id="0" level="2" content="2레벨 VIP 유효기간 {30,red,0,1}일" />
+  <!--3级VIP-->
+  <RECORD id="13" level="3" content="몬스터 사냥 획득 경험치 {60%,red,0,1증가}" />
+  <RECORD id="23" level="3" content="명상시 신성력 획득속도 {150%,red,0,1}증가" />
+  <RECORD id="53" level="3" content="매일 {은색사자갈기 붓,blue,0,1} {7,red,0,1} 개, {천신상점 카드,blue,0,1} {1,red,0,1} 개 획득" />
+  <RECORD id="0" level="3" content="매일 강력한 {펫,blue,0,1} {1,red,0,1}마리 획득 가능"/>
+  <RECORD id="63" level="3" content="{퀘스트 전송,blue,0,1} 기능 무제한 사용" />
+  <RECORD id="73" level="3" content="{휴대창고,blue,0,1}기능 무제한 사용" />
+  <RECORD id="83" level="3" content="{원격상점,blue,0,1}기능 무제한 사용" />
+  <RECORD id="103" level="3" addTimes="2" content="던전 진입 횟수 2회 추가"/>
+  <RECORD id="113" level="3" content="현상금 퀘스트 1일 수락가능 횟수 4회 추가" />
+  <RECORD id="33" level="3" content="매일 {10만,blue,0,1}골드 증정" />
+  <RECORD id="223" level="3" content="매일 고급포탄 1개 증정" />
+  <RECORD id="0" level="3" content="3레벨VIP 첫구매 또는 기간 연장시 60%확률로 수호천사 펫 {1,red,0,1}마리 획득가능" />
+  <RECORD id="0" level="3" content="3레벨 VIP날개 1개 지급"/>
+  <RECORD id="273" level="3" content="탐험 시간 50% 단축 혜택"/>
+  <RECORD id="0" level="3" content="3레벨 VIP 유효기간 {30,red,0,1}일" />
+  <!---->
+  <RECORD id="19" level="9" content="몬스터 사냥 획득 경험치 {60%,red,0,1}증가" />
+  <RECORD id="29" level="9" content="명상시 신성력 획득속도 {150%,red,0,1}증가" />
+  <RECORD id="69" level="9" content="{퀘스트 전송,blue,0,1}기능 무제한 사용" />
+  <RECORD id="79" level="9" content="{휴대창고,blue,0,1}기능 무제한 사용" />
+  <RECORD id="89" level="9" content="{원격상점,blue,0,1}기능 무제한 사용" />
+  <RECORD id="109" level="9" addTimes="1" content="던전 이벤트 참여가능 횟수 1회 추가" />
+  <RECORD id="119" level="9" content="현상금 퀘스트 1일 수락가능 횟수 4회 추가" />
+  <RECORD id="279" level="9" content="탐험 시간 50% 단축 혜택"/>
+  <RECORD id="0" level="9" content="VIP체험 유효기간 {1,red,0,1}일" />
+</RECORDS>
