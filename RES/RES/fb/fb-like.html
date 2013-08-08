@@ -1,0 +1,33 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="Pragma" content="no-cache">
+<meta http-equiv="Cache-Control" content="no-store, must-revalidate">
+<meta http-equiv="expires" content="Wed, 26 Feb 1997 08:21:57 GMT"> 
+<meta http-equiv="expires" content="0">
+<title>fb-like</title>
+<script src="http://connect.facebook.net/en_US/all.js"></script>
+<script>
+  FB.init({
+    appId      : '395726093853429', 
+    channelURL : 'http://www.facebook.com/pages/Guilty-Of-Darkness/468206833212760', // Channel File
+    status     : true, // check login status
+    cookie     : true, // enable cookies to allow the server to access the session
+    oauth      : true, // enable OAuth 2.0
+    xfbml      : true  // parse XFBML
+  });
+  FB.Event.subscribe('edge.create',function(response){
+		 //点击赞调用
+		 window.opener.doLike(); 
+  });
+  FB.Event.subscribe('edge.remove',function(response){
+	    //取消赞调用  
+		 window.opener.unLike();  
+  });
+</script>
+</head>
+<body>
+<div id="fb-root"></div>
+<div class="fb-like" data-href="http://www.facebook.com/pages/Guilty-Of-Darkness/468206833212760" data-send="false" data-width="450" data-show-faces="false"></div>
+</body>
+</html>
