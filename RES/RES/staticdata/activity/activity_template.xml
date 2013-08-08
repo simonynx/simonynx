@@ -1,0 +1,28 @@
+<?xml version="1.0" standalone="yes"?>
+<RECORDS>
+<RECORD id="1" name="콜로세움대회" mapid="2024" level_need_min="25" level_need_max="100"/>
+<RECORD id="2" name="보물상자 쟁탈전" mapid="2141" level_need_min="25" level_need_max="80"/>
+<RECORD id="3" name="특급 우편" mapid="0" level_need_min="1" level_need_max="100"/>
+<RECORD id="4" name="여신의 축복" mapid="0" level_need_min="1" level_need_max="100"/>
+<RECORD id="5" name="번개신전 토너먼트" mapid="2151" level_need_min="10" level_need_max="100"/>
+<RECORD id="6" name="번개신전 결승전" mapid="2154" level_need_min="10" level_need_max="100"/>
+<RECORD id="9" name="수정광산 쟁탈전" mapid="2150" level_need_min="10" level_need_max="100"/>
+<RECORD id="10" name="일반 우편" mapid="0" level_need_min="1" level_need_max="100"/>
+<RECORD id="11" name="판테온" mapid="2158" level_need_min="30" level_need_max="100"/>
+<RECORD id="12" name="판테온" mapid="2159" level_need_min="0" level_need_max="0"/>
+<RECORD id="13" name="판테온" mapid="2160" level_need_min="0" level_need_max="0"/>
+<RECORD id="14" name="판테온" mapid="0" level_need_min="0" level_need_max="0"/>
+<RECORD id="15" name="유디먼즈섬" mapid="2164" level_need_min="30" level_need_max="100"/>
+<RECORD id="19" name="마궁전기" mapid="2206" level_need_min="30" level_need_max="100"/>
+<RECORD id="21" name="잡초제거" mapid="0" level_need_min="1" level_need_max="100"/>
+<RECORD id="22" name="전쟁신의 축복" mapid="0" level_need_min="1" level_need_max="100"/>
+<RECORD id="23" name="1차보스침략" mapid="0" level_need_min="1" level_need_max="100"/>
+<RECORD id="24" name="2차보스침략" mapid="0" level_need_min="1" level_need_max="100"/>
+<RECORD id="25" name="1,2,3차보스침략" mapid="0" level_need_min="1" level_need_max="100"/>
+<RECORD id="26" name="최고의 주먹 쟁탈전" mapid="0" level_need_min="1" level_need_max="100"/>
+<RECORD id="27" name="파멸의 땅" mapid="2209" level_need_min="1" level_need_max="100"/>
+<RECORD id="28" name="신념의 전장" mapid="2211" level_need_min="30" level_need_max="100"/>
+<RECORD id="29" name="신념의 전장" mapid="2212" level_need_min="30" level_need_max="100"/>
+<RECORD id="30" name="신념의 전장" mapid="2213" level_need_min="30" level_need_max="100"/>
+<RECORD id="31" name="신념의 전장" mapid="2214" level_need_min="30" level_need_max="100"/>
+</RECORDS>

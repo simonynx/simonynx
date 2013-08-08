@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" standalone="yes"?>
+<RECORDS>
+<RECORD shortcut="#bs" link="expression1" desc="무시"/>
+<RECORD shortcut="#sq" link="expression2" desc="화남"/>
+<RECORD shortcut="#gz" link="expression3" desc="박수"/>
+<RECORD shortcut="#gk" link="expression4" desc="꺼져!"/>
+<RECORD shortcut="#hp" link="expression5" desc="두려움"/>
+<RECORD shortcut="#hx" link="expression6" desc="부끄러움"/>
+<RECORD shortcut="#lh" link="expression7" desc="삐질"/>
+<RECORD shortcut="#dx" link="expression8" desc="크게웃음"/>
+<RECORD shortcut="#hw" link="expression9" desc="재밌음"/>
+<RECORD shortcut="#xx" link="expression10" desc="사악한웃음"/>
+<RECORD shortcut="#jp" link="expression11" desc="최상품"/>
+<RECORD shortcut="#kx" link="expression12" desc="즐거움"/>
+<RECORD shortcut="#kl" link="expression13" desc="불쌍함"/>
+<RECORD shortcut="#ks" link="expression14" desc="침"/>
+<RECORD shortcut="#kq" link="expression15" desc="흐느낌"/>
+<RECORD shortcut="#pf" link="expression16" desc="감탄"/>
+<RECORD shortcut="#sc" link="expression17" desc="심각"/>
+<RECORD shortcut="#zk" link="expression18" desc="잘난척"/>
+<RECORD shortcut="#tx" link="expression19" desc="도발"/>
+<RECORD shortcut="#xt" link="expression20" desc="토나옴"/>
+<RECORD shortcut="#qw" link="expression21" desc="뽀뽀"/>
+<RECORD shortcut="#yd" link="expression22" desc="기절"/>
+<RECORD shortcut="#zj" link="expression23" desc="빠이"/>
+</RECORDS>

@@ -1,0 +1,6 @@
+<?xml version="1.0" standalone="yes"?>
+<RECORDS>
+<RECORD id="1" npc_name="여사제" npc_describe="평범한 운세를 획득할 가능성이 높습니다" ast_expend="1000" quality="3" min_value="0" max_value="10" headId="3107"/>
+<RECORD id="2" npc_name="제사장" npc_describe="좋은 운세를 획득할 가능성이 높습니다" ast_expend="5000" quality="4" min_value="0" max_value="20" headId="3111"/>
+<RECORD id="3" npc_name="주교" npc_describe="매우 좋은 운세를  획득할 가능성이 높습니다" ast_expend="10000" quality="5" min_value="0" max_value="30" headId="3119"/>
+</RECORDS>

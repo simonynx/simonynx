@@ -1,0 +1,11 @@
+<?xml version="1.0" standalone="yes"?>
+<RECORDS>
+<RECORD id="100" fe_describe="매우나쁨" fe_status="76201"/>
+<RECORD id="200" fe_describe="운수나쁨" fe_status="76202"/>
+<RECORD id="300" fe_describe="평범함" fe_status="76203"/>
+<RECORD id="400" fe_describe="좋은편" fe_status="76204"/>
+<RECORD id="500" fe_describe="약간좋음" fe_status="76205"/>
+<RECORD id="600" fe_describe="아주좋음" fe_status="76206"/>
+<RECORD id="700" fe_describe="매우좋음" fe_status="76207"/>
+<RECORD id="800" fe_describe="운수대통" fe_status="76208"/>
+</RECORDS>

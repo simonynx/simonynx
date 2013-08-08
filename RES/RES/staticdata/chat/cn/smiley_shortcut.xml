@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" standalone="yes"?>
+<RECORDS>
+<RECORD shortcut="#bs" link="expression1" desc="鄙視"/>
+<RECORD shortcut="#sq" link="expression2" desc="生氣"/>
+<RECORD shortcut="#gz" link="expression3" desc="鼓掌"/>
+<RECORD shortcut="#gk" link="expression4" desc="滾開"/>
+<RECORD shortcut="#hp" link="expression5" desc="害怕"/>
+<RECORD shortcut="#hx" link="expression6" desc="害羞"/>
+<RECORD shortcut="#lh" link="expression7" desc="流汗"/>
+<RECORD shortcut="#dx" link="expression8" desc="大笑"/>
+<RECORD shortcut="#hw" link="expression9" desc="好玩"/>
+<RECORD shortcut="#xx" link="expression10" desc="邪笑"/>
+<RECORD shortcut="#jp" link="expression11" desc="極品"/>
+<RECORD shortcut="#kx" link="expression12" desc="開心"/>
+<RECORD shortcut="#kl" link="expression13" desc="可憐"/>
+<RECORD shortcut="#ks" link="expression14" desc="口水"/>
+<RECORD shortcut="#kq" link="expression15" desc="哭泣"/>
+<RECORD shortcut="#pf" link="expression16" desc="佩服"/>
+<RECORD shortcut="#sc" link="expression17" desc="深沉"/>
+<RECORD shortcut="#zk" link="expression18" desc="裝酷"/>
+<RECORD shortcut="#tx" link="expression19" desc="挑釁"/>
+<RECORD shortcut="#xt" link="expression20" desc="想吐"/>
+<RECORD shortcut="#qw" link="expression21" desc="親吻"/>
+<RECORD shortcut="#yd" link="expression22" desc="暈倒"/>
+<RECORD shortcut="#zj" link="expression23" desc="再見"/>
+</RECORDS>

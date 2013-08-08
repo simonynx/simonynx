@@ -1,0 +1,4 @@
+<?xml version="1.0" standalone="yes"?>
+<RECORDS>
+<RECORD id="1" name="옛 늑대인간 정원" icon="0" manual="2" time="180" dailyTimes="50" spellLevel="1" reqPlayerLev="23" condition="0" description="일반 탐험지역. 풍요로웠던 루시앙 가족들이 있던 늑대인간의 정원에 위치하고 있습니다. 수십년 전 이 곳은 원인모를 화재로 잿더미가 되었습니다. 늑대인간 정원에는 무너진 벽들만 남아있는 것 같지만 전해져 오는 소문에 따르면 지하에 엄청난 보물들이 숨겨져 있다고 합니다." completeUseItem="1965" itemNum="1" add_owner_exp="2000" packsGeneral="50095_1|50096_1|50097_1|50098_1|50099_1|50100_1|50101_1|50102_1|50103_1|50104_1|50105_1|50106_1" packsAdvaced="" packsSpecial="" imgId="0"/>
+</RECORDS>

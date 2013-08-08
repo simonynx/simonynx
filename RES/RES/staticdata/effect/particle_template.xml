@@ -1,0 +1,5 @@
+﻿<particleList>
+<particle  id="1" name="下雪"  description="當前屏幕范圍內下雪" center_x="100" center_y="100"/>
+<particle  id="2" name="流星"  description="指定地點開始下流星雨" center_x="100" center_y="100"/>
+<particle  id="3" name="煙花"  description="指定地點開始放煙花"  center_x="100" center_y="100"/>
+</particleList>

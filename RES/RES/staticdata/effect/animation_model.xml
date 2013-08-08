@@ -1,0 +1,365 @@
+﻿<?xml version="1.0" encoding="utf-8" ?> 
+<animations>
+
+
+<!--水系开始-->
+<animation id="10411" name="水1-施法-普通-19-10411" centerX="400" centerY="400" frameTotal="19" interval="50" kind="1"  blend_mode="0" body_place="1"  around_place="2" target_place="2" shadow_place="1"/>
+<animation id="10412" name="水1-受击-普通-18-10412" centerX="400" centerY="400" frameTotal="18" interval="60" kind="1"  blend_mode="0" body_place="2"  around_place="1" target_place="2" shadow_place="1"/>
+<animation id="10421" name="水2-过程-普通-1-10421" centerX="400" centerY="400" frameTotal="1" interval="60" kind="1"  blend_mode="0" body_place="2"  around_place="1" target_place="2" shadow_place="1"/>
+<animation id="10422" name="水2-碰撞-普通-17-10422" centerX="400" centerY="400" frameTotal="17" interval="60" kind="1"  blend_mode="0" body_place="1"  around_place="1" target_place="2" shadow_place="1"/>
+<animation id="10423" name="水2-碰撞-添加-13-10423" centerX="400" centerY="400" frameTotal="13" interval="60" kind="1"  blend_mode="2" body_place="1"  around_place="1" target_place="2" shadow_place="1"/>
+<animation id="10424" name="水2-施法-普通-19-10424" centerX="400" centerY="400" frameTotal="19" interval="60" kind="1"  blend_mode="0" body_place="4"  around_place="1" target_place="2" shadow_place="1"/>
+<animation id="10432" name="水3-施法-普通-12-10432" centerX="400" centerY="400" frameTotal="12" interval="60" kind="1"  blend_mode="0" body_place="2"  around_place="1" target_place="2" shadow_place="1"/>
+<animation id="10433" name="水3-施法-添加-12-10433" centerX="400" centerY="400" frameTotal="12" interval="60" kind="1"  blend_mode="2" body_place="2"  around_place="1" target_place="2" shadow_place="1"/>
+<animation id="10434" name="水3-受击-普通-18-10434" centerX="400" centerY="400" frameTotal="18" interval="60" kind="1"  blend_mode="0" body_place="2"  around_place="1" target_place="2" shadow_place="1"/>
+<animation id="10441" name="水4-buff-普通-25-10441" centerX="400" centerY="400" frameTotal="25" interval="60" kind="1"  blend_mode="0" body_place="1"  around_place="2" target_place="1" shadow_place="1"/>
+<animation id="10442" name="水4-施法-普通-14-10442" centerX="400" centerY="400" frameTotal="14" interval="60" kind="1"  blend_mode="0" body_place="1"  around_place="1" target_place="2" shadow_place="1"/>
+<animation id="10443" name="水4-施法-添加-13-10443" centerX="400" centerY="400" frameTotal="13" interval="60" kind="1"  blend_mode="2" body_place="1"  around_place="1" target_place="2" shadow_place="1"/>
+
+
+<animation id="10151" name="火4-buff-普通-15-10151" centerX="400" centerY="400" frameTotal="15" interval="60" kind="1"  blend_mode="0" body_place="1"  around_place="2" target_place="1" shadow_place="1"/>
+<animation id="10152" name="火4-施法-普通-12-10152" centerX="400" centerY="400" frameTotal="12" interval="60" kind="1"  blend_mode="0" body_place="2"  around_place="1" target_place="2" shadow_place="1"/>
+<animation id="10651" name="金4-buff-普通-10-10651" centerX="400" centerY="400" frameTotal="10" interval="60" kind="1"  blend_mode="0" body_place="1"  around_place="2" target_place="1" shadow_place="1"/>
+<animation id="10652" name="金4-施法-普通-14-10652" centerX="400" centerY="400" frameTotal="14" interval="60" kind="1"  blend_mode="0" body_place="1"  around_place="1" target_place="2" shadow_place="1"/>
+<animation id="10653" name="金4-施法-添加-13-10653" centerX="400" centerY="400" frameTotal="13" interval="60" kind="1"  blend_mode="2" body_place="2"  around_place="1" target_place="2" shadow_place="1"/>
+<animation id="10551" name="土4-碰撞-普通-10-10551" centerX="400" centerY="400" frameTotal="10" interval="60" kind="1"  blend_mode="0" body_place="2"  around_place="1" target_place="2" shadow_place="1"/>
+<animation id="10552" name="土4-碰撞-添加-15-10552" centerX="400" centerY="400" frameTotal="15" interval="60" kind="1"  blend_mode="2" body_place="2"  around_place="1" target_place="2" shadow_place="1"/>
+<animation id="10553" name="土4-施法-普通-11-10553" centerX="400" centerY="400" frameTotal="11" interval="60" kind="1"  blend_mode="0" body_place="2"  around_place="1" target_place="2" shadow_place="1"/>
+<animation id="10554" name="土4-施法-添加-18-10554" centerX="400" centerY="400" frameTotal="18" interval="60" kind="1"  blend_mode="2" body_place="2"  around_place="1" target_place="2" shadow_place="1"/>
+
+<animation id="10361" name="木3-碰撞-普通-14-10361" centerX="400" centerY="400" frameTotal="14" interval="70" kind="1"  blend_mode="0" body_place="1"  around_place="2" target_place="2" shadow_place="1"/>
+<animation id="10362" name="木3-碰撞-添加-4-10362" centerX="400" centerY="400" frameTotal="14" interval="70" kind="1"  blend_mode="2" body_place="2"  around_place="1" target_place="2" shadow_place="1"/>
+<animation id="10363" name="木3-施法-普通-6-10363" centerX="400" centerY="400" frameTotal="16" interval="80" kind="1"  blend_mode="0" body_place="2"  around_place="1" target_place="2" shadow_place="1"/>
+<animation id="10364" name="木3-施法-添加-4-10364" centerX="400" centerY="400" frameTotal="4" interval="60" kind="1"  blend_mode="2" body_place="2"  around_place="1" target_place="2" shadow_place="1"/>
+
+
+<!--水系结束-->
+
+
+
+<!--火系开始-->
+<animation id="10111" name="火—近—单施法特效" centerX="159" centerY="176" frameTotal="12" interval="50" kind="1"  blend_mode="0" body_place="2"  around_place="1" target_place="2" shadow_place="0"/>
+<animation id="10112" name="火—近—单蓄力特效" centerX="185" centerY="200" frameTotal="6" interval="60" kind="1"  blend_mode="2" body_place="2"  around_place="1" target_place="2" shadow_place="0"/>
+<animation id="10113" name="火—近—单受击特效" centerX="155" centerY="155" frameTotal="11" interval="50" kind="1" blend_mode="0" body_place="2"  around_place="1" target_place="2" shadow_place="0"/>
+<animation id="10116" name="火—近—单眩晕特效" centerX="20" centerY="20" frameTotal="5" interval="100" kind="1" blend_mode="2" body_place="4"  around_place="1" target_place="1" shadow_place="0"/>
+
+<animation id="10121" name="火—近—群施法特效" centerX="130" centerY="130" frameTotal="10" interval="60" kind="1"  blend_mode="0" body_place="2"  around_place="1" target_place="2" shadow_place="0"/>
+<animation id="10125" name="火—近—群过程特效" centerX="302" centerY="280" frameTotal="11" interval="70" kind="1"  blend_mode="0" body_place="1"  around_place="2" target_place="0" shadow_place="0"/>
+
+
+<animation id="10131" name="火—远—单施法特效" centerX="107" centerY="75" frameTotal="8" interval="65" kind="1" blend_mode="0" body_place="2"  around_place="1" target_place="2" shadow_place="0"/>
+<animation id="10133" name="火—远—单受击特效" centerX="178" centerY="190" frameTotal="15" interval="80" kind="1"  blend_mode="0" body_place="2"  around_place="1" target_place="2" shadow_place="0"/>
+<animation id="10137" name="火—远—单光晕特效" centerX="178" centerY="190" frameTotal="9" interval="80" kind="1"  blend_mode="2" body_place="2"  around_place="1" target_place="2" shadow_place="0"/>
+
+<animation id="10141" name="火-远-群施法特效" centerX="124" centerY="120" frameTotal="7" interval="55" kind="1"  blend_mode="2" body_place="2"  around_place="1" target_place="2" shadow_place="0"/>
+<animation id="10143" name="火-远-群受击特效" centerX="240" centerY="254" frameTotal="13" interval="50" kind="1"  blend_mode="0" body_place="1"  around_place="1" target_place="2" shadow_place="0"/>
+<animation id="10144" name="火-远-群受击地效" centerX="240" centerY="254" frameTotal="15" interval="50" kind="1"  blend_mode="0" body_place="1"  around_place="2" target_place="2" shadow_place="1"/>
+<animation id="10145" name="火-远-群过程特效" centerX="273" centerY="123" frameTotal="1" interval="50" kind="1"  blend_mode="0" body_place="0"  around_place="0" target_place="0" shadow_place="0"/>
+<animation id="10146" name="火—远—群范围地效" centerX="203" centerY="137" frameTotal="10" interval="80" kind="1"  blend_mode="0" body_place="1"  around_place="2" target_place="2" shadow_place="1"/>
+
+<animation id="10117" name="火—昏迷状态特效" centerX="20" centerY="30" frameTotal="10" interval="50" kind="1"  blend_mode="0" body_place="2"  around_place="1" target_place="1" shadow_place="0"/>
+<animation id="10127" name="火—破绽状态特效" centerX="20" centerY="30" frameTotal="10" interval="50" kind="1"  blend_mode="0" body_place="2"  around_place="1" target_place="1" shadow_place="0"/>
+<animation id="10136" name="火—禁回复状态特效" centerX="20" centerY="30" frameTotal="10" interval="50" kind="1"  blend_mode="0" body_place="2"  around_place="1" target_place="1" shadow_place="0"/>
+<!--火系结束-->
+
+<!--风系开始-->
+<animation id="10221" name="风-近-群施法特效" centerX="122" centerY="122" frameTotal="8" interval="50" kind="1"  blend_mode="0" body_place="2"  around_place="1" target_place="2" shadow_place="0"/>
+<animation id="10225" name="风-近-群过程特效" centerX="220" centerY="280" frameTotal="12" interval="80" kind="1"  blend_mode="0" body_place="2"  around_place="1" target_place="2" shadow_place="0"/>
+<!--风系结束-->
+
+<!--木系开始-->
+<animation id="10313" name="木—近—单受击特效" centerX="128" centerY="150" frameTotal="7" interval="70" kind="1"  blend_mode="0" body_place="2"  around_place="1" target_place="2" shadow_place="0" />
+
+<animation id="10341" name="木—远—群施法特效" centerX="150" centerY="150" frameTotal="8" interval="100" kind="1"  blend_mode="0" body_place="2"  around_place="1" target_place="2" shadow_place="0"/>
+<animation id="10343" name="木—远—群受击特效" centerX="198" centerY="198" frameTotal="12" interval="100" kind="1"  blend_mode="0" body_place="1"  around_place="1" target_place="2" shadow_place="0"/>
+<animation id="10344" name="木—远—群受击地效" centerX="198" centerY="198" frameTotal="12" interval="100" kind="1"  blend_mode="0" body_place="1"  around_place="2" target_place="2" shadow_place="1"/>
+<animation id="10347" name="木—远—群范围地效" centerX="202" centerY="133" frameTotal="10" interval="80" kind="1"  blend_mode="0" body_place="1"  around_place="2" target_place="2" shadow_place="1"/>
+
+<animation id="10331" name="木—远—单施法光效" centerX="153" centerY="267" frameTotal="8" interval="60" kind="1"  blend_mode="2" body_place="1"  around_place="1" target_place="2" shadow_place="1"/>
+<animation id="10332" name="木—远—单施法特效" centerX="153" centerY="267" frameTotal="12" interval="60" kind="1"  blend_mode="0" body_place="1"  around_place="1" target_place="2" shadow_place="1"/>
+<animation id="10333" name="木—远—单受击特效" centerX="156" centerY="231" frameTotal="12" interval="100" kind="1"  blend_mode="0" body_place="1"  around_place="1" target_place="2" shadow_place="0"/>
+<animation id="10336" name="木—远—单定身特效" centerX="118" centerY="184" frameTotal="10" interval="50" kind="1"  blend_mode="0" body_place="1"  around_place="1" target_place="2" shadow_place="0"/>
+
+<animation id="10351" name="木—回血施法特效" centerX="198" centerY="208" frameTotal="11" interval="50" kind="1"  blend_mode="0" body_place="2"  around_place="1" target_place="2" shadow_place="0"/>
+<animation id="10356" name="木—回血状态特效" centerX="125" centerY="140" frameTotal="10" interval="150" kind="1"  blend_mode="0" body_place="2"  around_place="1" target_place="1" shadow_place="0"/>
+
+<animation id="10337" name="木—虚弱状态特效" centerX="20" centerY="30" frameTotal="10" interval="50" kind="1"  blend_mode="0" body_place="2"  around_place="1" target_place="1" shadow_place="0"/>
+<animation id="10317" name="木—缠绕状态特效" centerX="20" centerY="30" frameTotal="10" interval="50" kind="1"  blend_mode="0" body_place="2"  around_place="1" target_place="1" shadow_place="0"/>
+<animation id="10327" name="木—阴毒状态特效" centerX="20" centerY="30" frameTotal="10" interval="50" kind="1"  blend_mode="0" body_place="2"  around_place="1" target_place="1" shadow_place="0"/>
+<!--木系结束-->
+
+<!--诗剑门开始-->
+<animation id="121251" name="诗剑门-普攻过程特效" centerX="80" centerY="30" frameTotal="1" interval="100" kind="1" blend_mode="0"/>
+
+<animation id="120135" name="诗剑门-太白剑诀.金樽月受击特效" centerX="107" centerY="76" frameTotal="5" interval="80" kind="1" blend_mode="0"/>
+<animation id="120151" name="诗剑门-太白剑诀.金樽月过程特效" centerX="65" centerY="30" frameTotal="1" interval="50" kind="1" blend_mode="0"/>
+<animation id="120115" name="诗剑门-太白剑诀.金樽月施法特效" centerX="75" centerY="80" frameTotal="6" interval="90" kind="1" blend_mode="0"/>
+
+<animation id="120315" name="诗剑门-太白剑诀. 烽火连天施法特效" centerX="78" centerY="78" frameTotal="8" interval="60" kind="1" blend_mode="0"/>
+<animation id="120351" name="诗剑门-太白剑诀. 烽火连天过程特效" centerX="-20" centerY="40" frameTotal="4" interval="50" kind="1" blend_mode="6" body_width="500"/>
+<animation id="120335" name="诗剑门-太白剑诀. 烽火连天受击特效" centerX="86" centerY="75" frameTotal="6" interval="70" kind="1" blend_mode="0"/>
+<animation id="120375" name="诗剑门-太白剑诀. 烽火连天碰撞特效" centerX="150" centerY="75" frameTotal="5" interval="100" kind="1" blend_mode="0"/>
+
+
+<animation id="120815" name="诗剑门-太白剑诀. 青冥浩荡施法特效" centerX="85" centerY="15" frameTotal="8" interval="60" kind="1" blend_mode="0"/>
+<animation id="120851" name="诗剑门-太白剑诀. 青冥浩荡过程特效" centerX="18" centerY="30" frameTotal="1" interval="60" kind="1" blend_mode="0"/>
+<animation id="120835" name="诗剑门-太白剑诀. 青冥浩荡受击地效" centerX="107" centerY="76" frameTotal="5" interval="80" kind="1"  blend_mode="0"/>
+
+<animation id="120916" name="诗剑门-太白剑决.白虹贯日施法" centerX="113" centerY="185" frameTotal="7" interval="60" kind="1" blend_mode="0"/>
+<animation id="120951" name="诗剑门-太白剑决.白虹贯日过程" centerX="280" centerY="20" frameTotal="1" interval="80" kind="1" blend_mode="0"/>
+<animation id="120975" name="诗剑门-太白剑决.白虹贯日碰撞" centerX="102" centerY="65" frameTotal="10" interval="60" kind="1" blend_mode="0"/>
+
+
+
+
+
+<!--诗剑门结束-->
+<!--土系开始-->
+<animation id="10521" name="土1—近—群施法" centerX="245" centerY="230" frameTotal="10" interval="60" kind="1"  blend_mode="0"body_place="2"  around_place="2" target_place="1" shadow_place="1"/>
+<animation id="10522" name="土1—近—群受击地效" centerX="325" centerY="280" frameTotal="15" interval="60" kind="1" blend_mode="0"body_place="1"  around_place="2" target_place="1" shadow_place="1"/>
+<animation id="10523" name="土1—近—群受击地效（火）" centerX="325" centerY="280" frameTotal="15" interval="60" kind="1" blend_mode="2"body_place="1"  around_place="2" target_place="1" shadow_place="1"/>
+<animation id="10511" name="土2—近—单施法" centerX="250" centerY="200" frameTotal="14" interval="60" kind="1"  blend_mode="0"body_place="2"  around_place="1" target_place="2" shadow_place="1"/>
+<animation id="10512" name="土2—近—单受击" centerX="300" centerY="300" frameTotal="6" interval="60" kind="1"  blend_mode="0"body_place="2"  around_place="1" target_place="2" shadow_place="1"/>
+<animation id="10532" name="土2—远—单受击地效" centerX="175" centerY="130" frameTotal="15" interval="80" kind="1" blend_mode="0"body_place="2"  around_place="1" target_place="2" shadow_place="1"/>
+<animation id="10541" name="土3—远—群施法" centerX="250" centerY="250" frameTotal="10" interval="60" kind="1" blend_mode="0"body_place="2"  around_place="1" target_place="2" shadow_place="1"/>
+<animation id="10542" name="土3—远—群施法（添加）" centerX="250" centerY="250" frameTotal="10" interval="70" kind="1" blend_mode="2"body_place="2"  around_place="1" target_place="2" shadow_place="1"/>
+<animation id="10543" name="土3—远—群受击地效" centerX="200" centerY="210" frameTotal="10" interval="60" kind="1" blend_mode="0"body_place="1"  around_place="2" target_place="2" shadow_place="1"/>
+<animation id="10544" name="土3—远—群受击光效" centerX="200" centerY="200" frameTotal="3" interval="60" kind="1" blend_mode="0"body_place="1"  around_place="1" target_place="2" shadow_place="1"/>
+<!--土系结束-->
+<!--金系开始-->
+<animation id="10611" name="金1—近—单施法" centerX="200" centerY="200" frameTotal="10" interval="40" kind="1" blend_mode="0"body_place="2"  around_place="1" target_place="2" shadow_place="1"/>
+.<animation id="10613" name="金1—近—单施法（闪）" centerX="200" centerY="200" frameTotal="6" interval="60" kind="1" blend_mode="2"body_place="2"  around_place="1" target_place="2" shadow_place="1"/>
+<animation id="10612" name="金1—近—单受击" centerX="200" centerY="200" frameTotal="6" interval="60" kind="1" blend_mode="0"body_place="2"  around_place="1" target_place="2" shadow_place="1"/>
+
+<animation id="10616" name="金—裂甲" centerX="45" centerY="15" frameTotal="1" interval="80" kind="1" blend_mode="0"body_place="2"  around_place="1" target_place="1" shadow_place="2"/>
+
+<animation id="10621" name="金2—近—群施法" centerX="200" centerY="400" frameTotal="13" interval="80" kind="1" blend_mode="0"body_place="1"  around_place="1" target_place="2" shadow_place="2"/>
+<animation id="10622" name="金2—近—群施法光效" centerX="200" centerY="400" frameTotal="9" interval="80" kind="1" blend_mode="2"body_place="1"  around_place="1" target_place="2" shadow_place="2"/>
+<animation id="10623" name="金2—近—群受击" centerX="250" centerY="400" frameTotal="13" interval="80" kind="1" blend_mode="0"body_place="1"  around_place="1" target_place="2" shadow_place="2"/>
+<animation id="10624" name="金2—近—群受击光效" centerX="250" centerY="400" frameTotal="13" interval="80" kind="1" blend_mode="2"body_place="1"  around_place="1" target_place="2" shadow_place="2"/>
+<animation id="10631" name="金3—远—群施法" centerX="230" centerY="220" frameTotal="9" interval="80" kind="1" blend_mode="0"body_place="2"  around_place="1" target_place="2" shadow_place="2"/>
+<animation id="10632" name="金3—远—群过程" centerX="150" centerY="60" frameTotal="1" interval="80" kind="1" blend_mode="0"body_place="2"  around_place="1" target_place="2" shadow_place="2"/>
+<animation id="10633" name="金3—远—群受击" centerX="130" centerY="100" frameTotal="5" interval="80" kind="1" blend_mode="0"body_place="2"  around_place="1" target_place="2" shadow_place="2"/>
+
+<animation id="10646" name="金—加攻" centerX="45" centerY="15" frameTotal="1" interval="80" kind="1" blend_mode="0"body_place="2"  around_place="1" target_place="1" shadow_place="2"/>
+<!--金系结束-->
+
+<!--飘渺宫开始-->
+<animation id="130111" name="飘渺宫-近单-施法" centerX="75" centerY="125" frameTotal="10" interval="80" kind="1" blend_mode="0"/>
+<animation id="130121" name="飘渺宫-近单-受击" centerX="150" centerY="225" frameTotal="7" interval="80" kind="1" blend_mode="0"/>
+<animation id="130255" name="飘渺宫-近群-过程" centerX="150" centerY="125" frameTotal="11" interval="80" kind="1" blend_mode="0"/>
+<animation id="130311" name="飘渺宫-远单-施法" centerX="125" centerY="140" frameTotal="10" interval="80" kind="1" blend_mode="0"/>
+<animation id="130321" name="飘渺宫-远单-过程" centerX="100" centerY="50" frameTotal="8" interval="80" kind="1" blend_mode="0"/>
+<animation id="130331" name="飘渺宫-远单-受击" centerX="90" centerY="90" frameTotal="4" interval="80" kind="1" blend_mode="0"/>
+<animation id="130412" name="飘渺宫-远群-施法" centerX="175" centerY="175" frameTotal="10" interval="80" kind="1" blend_mode="0"/>
+<animation id="130421" name="飘渺宫-远群-过程" centerX="75" centerY="140" frameTotal="7" interval="80" kind="1" blend_mode="0"/>
+<animation id="130431" name="飘渺宫-远群-受击" centerX="200" centerY="100" frameTotal="8" interval="80" kind="1" blend_mode="0"/>
+
+<animation id="31251" name="飘渺宫-312藤袭-过程" centerX="150" centerY="200" frameTotal="10" interval="80" kind="1" blend_mode="2"/>
+<animation id="30111" name="飘渺宫-301蝶戏水(荆棘刺)-施法" centerX="75" centerY="75" frameTotal="5" interval="80" kind="1" blend_mode="2"/>
+<animation id="30131" name="飘渺宫-301蝶戏水(荆棘刺)-受击" centerX="50" centerY="50" frameTotal="10" interval="60" kind="1" blend_mode="2"/>
+<animation id="30151" name="飘渺宫-301蝶戏水(荆棘刺)-过程" centerX="10" centerY="65" frameTotal="14" interval="60" kind="1" scale_x="2"  scale_y="3" blend_mode="2"/>
+<animation id="30351" name="飘渺宫-303蝶舞漫天(千灵风舞)-过程" centerX="160" centerY="160" frameTotal="7" interval="60" kind="1" blend_mode="6"/>
+<animation id="30451" name="飘渺宫-304清心语(生命礼赞)-过程" centerX="250" centerY="250" frameTotal="9" interval="80" kind="1" blend_mode="2"/>
+
+<animation id="30511" name="月神使-森林之怒-施法特效" centerX="98" centerY="111" frameTotal="9" interval="80" kind="1" blend_mode="2"/>
+<animation id="30551" name="月神使-森林之怒-过程特效" centerX="210" centerY="96" frameTotal="1" interval="80" kind="1" scale_x="2"  scale_y="2" blend_mode="0"/>
+<animation id="30531" name="月神使-森林之怒-受击特效" centerX="96" centerY="159" frameTotal="9" interval="40" kind="1" blend_mode="0"/>
+<animation id="30542" name="月神使-森林之怒-受击地效" centerX="121" centerY="10" frameTotal="4" interval="100" kind="1" blend_mode="2"/>
+
+
+<animation id="30842" name="飘渺宫-308灵魂羁绊-受击地效" centerX="50" centerY="-20" frameTotal="10" interval="80" kind="1" blend_mode="6"/>
+<animation id="30831" name="飘渺宫-308灵魂羁绊-受击" centerX="150" centerY="150" frameTotal="9" interval="80" kind="1" scale_x="1"  scale_y="1"/>
+<animation id="30851" name="飘渺宫-308灵魂羁绊-过程" centerX="25" centerY="25" frameTotal="0" interval="60" kind="1" scale_x="2"  scale_y="2" blend_mode="2"/> 
+
+<animation id="30651" name="飘渺宫-306自然之佑-过程" centerX="250" centerY="280" frameTotal="9" interval="80" kind="1" blend_mode="2"/>
+<animation id="30751" name="飘渺宫-307复苏之风-过程" centerX="100" centerY="100" frameTotal="15" interval="80" kind="1" scale_x="2"  scale_y="2" blend_mode="2"/>
+<animation id="31151" name="飘渺宫-311春之颂歌-过程" centerX="175" centerY="210" frameTotal="10" interval="80" kind="1" blend_mode="2"/>
+<animation id="30951" name="飘渺宫-309生命燃烧-过程" centerX="100" centerY="100" frameTotal="3" interval="80" kind="1" blend_mode="6"/>
+<animation id="31011" name="飘渺宫-310坚韧之藤-施法" centerX="75" centerY="75" frameTotal="10" interval="80" kind="1" blend_mode="2"/>
+<!--月神使结束-->
+
+
+<!--龙宫开始-->
+<animation id="140111" name="龙宫-近单-施法" centerX="60" centerY="50" frameTotal="10" interval="80" kind="1" blend_mode="0"/>
+<animation id="140121" name="龙宫-近单-受击" centerX="50" centerY="30" frameTotal="10" interval="80" kind="1" blend_mode="0"/>
+<animation id="140211" name="龙宫-近群-施法" centerX="120" centerY="80" frameTotal="11" interval="80" kind="1" blend_mode="0"/>
+<animation id="140221" name="龙宫-近群-受击" centerX="200" centerY="200" frameTotal="5" interval="80" kind="1" blend_mode="0"/>
+<animation id="140232" name="龙宫-近群-受击地效" centerX="125" centerY="75" frameTotal="5" interval="80" kind="1" blend_mode="0"/>
+
+<animation id="140411" name="龙宫-远群-施法" centerX="110" centerY="120" frameTotal="10" interval="80" kind="1" blend_mode="0"/>
+<animation id="140431" name="龙宫-远群-受击" centerX="175" centerY="200" frameTotal="10" interval="80" kind="1" blend_mode="0"/>
+
+<animation id="41231" name="龙宫-412刺杀-受击" centerX="150" centerY="150" frameTotal="9" interval="80" kind="1" blend_mode="2"/>
+<animation id="41241" name="龙宫-412刺杀-受击地效" centerX="150" centerY="150" frameTotal="50" interval="60" kind="1" blend_mode="3"/>
+<animation id="40151" name="龙宫-401断魂刺(影刃舞)-施法" centerX="125" centerY="125" frameTotal="7" interval="100" kind="1" blend_mode="2"/>
+<animation id="40135" name="龙宫-401断魂刺-受击" centerX="50" centerY="50" frameTotal="5" interval="80" kind="1" scale_x="2"  scale_y="2" blend_mode="2"/>
+<animation id="40115" name="龙宫-401断魂刺-施法" centerX="130" centerY="130" frameTotal="4" interval="100" kind="1" blend_mode="2"/>
+<animation id="40155" name="龙宫-401断魂刺-过程" centerX="100" centerY="100" frameTotal="6" interval="60" kind="1" blend_mode="0"/>
+<animation id="40351" name="龙宫-403撼雷破空(灵魂收割)-过程" centerX="142" centerY="35" frameTotal="4" interval="100" kind="1" blend_mode="2"/>
+<animation id="40371" name="龙宫-403撼雷破空(灵魂收割)撞" centerX="92" centerY="150" frameTotal="4" interval="100" kind="1" blend_mode="2"/>
+<animation id="40511" name="龙宫-405亢龙决(灵魂颤栗)-施法" centerX="100" centerY="110" frameTotal="9" interval="100" kind="1" blend_mode="2"/>
+<animation id="40611" name="龙宫-406埋骨(灵魂束缚)-施法" centerX="60" centerY="60" frameTotal="5" interval="80" kind="1" blend_mode="2"/>
+<animation id="40832" name="龙宫-408平八荒(迷乱舞者)-受击" centerX="128" centerY="128" frameTotal="6" interval="80" kind="1" blend_mode="0"/>
+<animation id="40851" name="龙宫-408平八荒(迷乱舞者)-过程" centerX="120" centerY="80" frameTotal="6" interval="80" kind="1" blend_mode="2"/>
+<animation id="40851" name="龙宫-408平八荒(迷乱舞者)-碰撞" centerX="180" centerY="100" frameTotal="5" interval="80" kind="1" blend_mode="2"/>
+<animation id="40812" name="龙宫-408平八荒(迷乱舞者)-施法" centerX="150" centerY="180" frameTotal="13" interval="80" kind="1" scale_x="2"  scale_y="2" blend_mode="2"/>
+<animation id="40821" name="龙宫-408平八荒(迷乱舞者)-施法地效" centerX="650" centerY="500" frameTotal="21" interval="100" kind="1" blend_mode="2"/>
+<animation id="41151" name="龙宫-411龙曜九天(鬼魅)-过程" centerX="128" centerY="64" frameTotal="5" interval="80" kind="1" blend_mode="2"/>
+<!--龙宫结束-->
+
+<!--神将技能-->
+<animation id="50111" name="凤凰变身施法特效" centerX="225" centerY="217" frameTotal="18" interval="80" kind="1"  blend_mode="0" body_place="2"  around_place="1" target_place="2" shadow_place="0"/>
+<animation id="50113" name="凤凰合击受击特效" centerX="125" centerY="125" frameTotal="13" interval="50" kind="1"  blend_mode="0" body_place="2"  around_place="1" target_place="2" shadow_place="0"/>
+
+<animation id="50121" name="凤凰合击施法特效" centerX="177" centerY="177" frameTotal="10" interval="80" kind="1"  blend_mode="0" body_place="2"  around_place="1" target_place="2" shadow_place="0"/>
+
+<animation id="50136" name="凤凰不死状态特效" centerX="144" centerY="150" frameTotal="10" interval="130" kind="1"  blend_mode="2" body_place="1"  around_place="1" target_place="1" shadow_place="1"/>
+
+<animation id="50211" name="熊猫变身施法特效" centerX="245" centerY="350" frameTotal="25" interval="50" kind="1"  blend_mode="0" body_place="1"  around_place="1" target_place="2" shadow_place="1"/>
+<animation id="50213" name="熊猫合击受击特效" centerX="150" centerY="155" frameTotal="11" interval="50" kind="1"  blend_mode="0" body_place="2"  around_place="1" target_place="2" shadow_place="1"/>
+
+
+
+
+
+<!--------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+
+
+
+
+
+
+<!--常用光效-->
+<animation id="2" name="常用-火球" centerX="165" centerY="135" frameTotal="6" interval="150" kind="1" blend_mode="2"/>
+<animation id="43" name="常用-雷鸣箭" centerX="60" centerY="35" frameTotal="4" interval="80" kind="1" blend_mode="2"/>
+<animation id="44" name="常用-雷球" centerX="168" centerY="134" frameTotal="5" interval="150" kind="1" blend_mode="2"/>
+
+<!--系统光效-->
+
+
+<animation id="550011" name="系统-战斗-死亡" centerX="75" centerY="75" frameTotal="14" interval="80" kind="1" scale_x="1"  scale_y="1"/>
+<animation id="20030" name="系统-文字-变异特效" centerX="80" centerY="74" frameTotal="5" interval="140" kind="1" scale_x="1"  scale_y="1"/>
+<animation id="66111" name="系统-文字-击杀特效" centerX="250" centerY="250" frameTotal="11" interval="150" kind="1" scale_x="1"  scale_y="1"blend_mode="0"/>
+<animation id="60" name="系统-脚底导航" centerX="80" centerY="137" frameTotal="10" interval="80" kind="2" blend_mode="0" body_place="1"  around_place="2" target_place="1" shadow_place="1"/>
+<animation id="63" name="系统-传送门" centerX="75" centerY="96" frameTotal="5" interval="160" kind="2" blend_mode="0"/>
+<animation id="20000" name="系统-鼠标点击" centerX="45" centerY="54" frameTotal="5" interval="100" kind="1" blend_mode="0"/>
+<animation id="20001" name="系统-升级特效" centerX="225" centerY="344" frameTotal="10" interval="100" kind="1" blend_mode="2"/>
+<animation id="20014" name="系统-多人冥想" centerX="177" centerY="262" frameTotal="10" interval="150" kind="1" blend_mode="0"/>
+<animation id="20023" name="系统-完成任务" centerX="125" centerY="137" frameTotal="10" interval="150" kind="1" blend_mode="0"/>
+<animation id="20024" name="系统-恭喜升级" centerX="125" centerY="133" frameTotal="8" interval="150" kind="1" blend_mode="0"/>
+<animation id="20026" name="系统-领悟" centerX="126" centerY="134" frameTotal="9" interval="150" kind="1" blend_mode="2"/>
+<animation id="20027" name="系统-觉醒" centerX="128" centerY="138" frameTotal="8" interval="150" kind="1" blend_mode="2"/>
+<animation id="20028" name="系统-冥想连接" centerX="50" centerY="24" frameTotal="5" interval="100" kind="1" blend_mode="2"/>
+<animation id="20030" name="系统-文字-变异特效" centerX="100" centerY="100" frameTotal="8" interval="100" kind="1" blend_mode="2"/>
+
+<animation id="20031" name="系统觉醒施法特效" centerX="71" centerY="199" frameTotal="5" interval="120" kind="1" blend_mode="2"/>
+<animation id="20032" name="系统高级觉醒施法特效" centerX="73" centerY="193" frameTotal="6" interval="120" kind="1" blend_mode="2"/>
+
+<animation id="20033" name="系统-身上-变异特效" centerX="92" centerY="92" frameTotal="5" interval="100" kind="1" blend_mode="2"/>
+<animation id="20034" name="系统-脚上-变异攻击光环" centerX="110" centerY="60" frameTotal="5" interval="100" kind="1" blend_mode="2"/>
+<animation id="20035" name="系统-脚上-变异防御光环" centerX="92" centerY="52" frameTotal="5" interval="180" kind="1" blend_mode="2"/>
+
+<animation id="5002" name="系统-英雄格觉醒状态特效" centerX="54" centerY="64" frameTotal="5" interval="150" kind="1" blend_mode="12"/>
+<animation id="5003" name="系统-半神格觉醒状态特效" centerX="54" centerY="64" frameTotal="5" interval="150" kind="1" blend_mode="12"/>
+<animation id="5004" name="系统-神格觉醒状态特效" centerX="54" centerY="64" frameTotal="5" interval="150" kind="1" blend_mode="12"/>
+
+
+<animation id="5005" name="系统-冥想状态特效" centerX="62" centerY="80" frameTotal="5" interval="100" kind="1" blend_mode="2"/>
+<animation id="5006" name="系统-选中怪物特效" centerX="162" centerY="78" frameTotal="10" interval="80" kind="2" blend_mode="2"/>
+<animation id="5007" name="系统-选中角色特效" centerX="140" centerY="65" frameTotal="10" interval="100" kind="2" blend_mode="2"/>
+
+<animation id="5008" name="系统-头顶宝箱" centerX="40" centerY="80" frameTotal="10" interval="100" kind="2" blend_mode="0"/>
+<animation id="60095" name="系统-头顶旗帜" centerX="80" centerY="70" frameTotal="16" interval="80" kind="2" blend_mode="0"/>
+
+<animation id="60101" name="系统-压制" centerX="-25" centerY="40" frameTotal="10" interval="80" kind="2" blend_mode="0"/>
+<animation id="60111" name="系统-破甲" centerX="-25" centerY="0" frameTotal="10" interval="80" kind="2" blend_mode="0"/>
+<animation id="60121" name="系统-强闪" centerX="75" centerY="40" frameTotal="10" interval="80" kind="2" blend_mode="0"/>
+<animation id="60131" name="系统-狂暴" centerX="75" centerY="0" frameTotal="10" interval="80" kind="2" blend_mode="0"/>
+<animation id="60141" name="系统-狂血" centerX="75" centerY="-40" frameTotal="10" interval="80" kind="2" blend_mode="0"/>
+<animation id="60261" name="状态-祝福" centerX="50" centerY="112" frameTotal="2" interval="150" kind="1" blend_mode="2"/>
+
+
+<animation id="5011" name="系统-PK赛金冠" centerX="40" centerY="80" frameTotal="10" interval="100" kind="2" blend_mode="0"/>
+<animation id="5012" name="系统-PK赛银冠" centerX="40" centerY="80" frameTotal="10" interval="100" kind="2" blend_mode="0"/>
+<animation id="5013" name="系统-PK赛铜冠" centerX="40" centerY="80" frameTotal="10" interval="100" kind="2" blend_mode="0"/>
+
+
+<animation id="5021" name="系统-冰封合体" centerX="175" centerY="135" frameTotal="1" interval="100" kind="1" blend_mode="0"/>
+<animation id="5022" name="系统-蛋龙合体" centerX="175" centerY="135" frameTotal="1" interval="100" kind="1" blend_mode="0"/>
+<animation id="5023" name="系统-火焰领主合体" centerX="175" centerY="135" frameTotal="1" interval="100" kind="1" blend_mode="0"/>
+<animation id="5024" name="系统-狼人合体" centerX="175" centerY="135" frameTotal="1" interval="100" kind="1" blend_mode="0"/>
+<animation id="5025" name="系统-猫骑士合体" centerX="175" centerY="135" frameTotal="1" interval="100" kind="1" blend_mode="0"/>
+<animation id="5026" name="系统-月之兔灵合体" centerX="175" centerY="135" frameTotal="1" interval="100" kind="1" blend_mode="0"/>
+
+<animation id="5031" name="系统-PK赛冠军" centerX="60" centerY="45" frameTotal="10" interval="80" kind="1" blend_mode="0"/>
+<animation id="5032" name="系统-PK赛亚军" centerX="60" centerY="45" frameTotal="10" interval="80" kind="1" blend_mode="0"/>
+<animation id="5033" name="系统-PK赛季军" centerX="60" centerY="45" frameTotal="10" interval="80" kind="1" blend_mode="0"/>
+
+<animation id="5028" name="系统-蓝冥想连接" centerX="40" centerY="28" frameTotal="5" interval="100" kind="1" blend_mode="2"/>
+<animation id="5029" name="系统-绿冥想连接" centerX="40" centerY="28" frameTotal="5" interval="100" kind="1" blend_mode="2"/>
+<animation id="5030" name="系统-橙冥想连接" centerX="40" centerY="28" frameTotal="5" interval="100" kind="1" blend_mode="2"/>
+
+<animation id="65111" name="系统-烟花碰撞" centerX="175" centerY="150" frameTotal="11" interval="100" kind="1" blend_mode="2"/>
+
+<animation id="60171" name="系统-状态-神佑祝福" centerX="65" centerY="70" frameTotal="10" interval="70" kind="1" blend_mode="2"/>
+
+
+<animation id="64162" name="状态-普通包裹" centerX="17" centerY="17" frameTotal="10" interval="80" kind="1" blend_mode="0"/>
+<animation id="64262" name="状态-精致包裹" centerX="17" centerY="19" frameTotal="10" interval="80" kind="1" blend_mode="0"/>
+<animation id="64362" name="状态-华丽包裹" centerX="22" centerY="26" frameTotal="10" interval="80" kind="1" blend_mode="0"/>
+<animation id="64462" name="状态-贵重包裹" centerX="22" centerY="26" frameTotal="10" interval="80" kind="1" blend_mode="0"/>
+<animation id="64562" name="状态-神秘包裹" centerX="22" centerY="26" frameTotal="10" interval="80" kind="1" blend_mode="0"/>
+
+<animation id="66162" name="状态-殺人如麻" centerX="82" centerY="130" frameTotal="10" interval="100" kind="1" blend_mode="0"/>
+<animation id="66262" name="状态-十步一殺" centerX="83" centerY="130" frameTotal="10" interval="120" kind="1" blend_mode="0"/>
+<animation id="65362" name="状态-百戰百勝" centerX="80" centerY="130" frameTotal="10" interval="120" kind="1" blend_mode="0"/>
+<animation id="65462" name="状态-橫掃千軍" centerX="80" centerY="130" frameTotal="10" interval="120" kind="1" blend_mode="0"/>
+<animation id="66562" name="状态-萬夫莫敵" centerX="80" centerY="130" frameTotal="10" interval="120" kind="1" blend_mode="0"/>
+
+
+
+<animation id="60161" name="状态-套装蓝" centerX="65" centerY="80" frameTotal="10" interval="80" kind="1" blend_mode="2"/>
+
+
+<animation id="65511" name="系统-状态-契灵-飞眼" centerX="10" centerY="140" frameTotal="6" interval="80" kind="1" blend_mode="0"/>
+<animation id="65521" name="系统-状态-契灵-气体人" centerX="10" centerY="140" frameTotal="6" interval="80" kind="1" blend_mode="0"/>
+<animation id="65531" name="系统-状态-契灵-小恶魔" centerX="10" centerY="140" frameTotal="6" interval="80" kind="1" blend_mode="0"/>
+<animation id="65541" name="系统-状态-契灵-小仙子" centerX="10" centerY="140" frameTotal="6" interval="80" kind="1" blend_mode="0"/>
+
+<animation id="4444" name="系统-连环闪电" centerX="20" centerY="255" interval="80" frameTotal="8" kind="1" scale_x="1"  scale_y="1"/>
+<!--界面光效-->
+<animation id="72011" name="界面-物品品质-绿色-大" centerX="36" centerY="36" frameTotal="1" interval="80" kind="1" blend_mode="2"/>
+<animation id="72111" name="界面-物品品质-蓝色-大" centerX="36" centerY="36" frameTotal="1" interval="80" kind="1" blend_mode="2"/>
+<animation id="72211" name="界面-物品品质-紫色-大" centerX="36" centerY="36" frameTotal="10" interval="80" kind="1" blend_mode="2"/>
+<animation id="72311" name="界面-物品品质-黄色-大" centerX="36" centerY="36" frameTotal="10" interval="80" kind="1" blend_mode="2"/>
+<animation id="72411" name="界面-物品品质-红色-大" centerX="36" centerY="36" frameTotal="10" interval="80" kind="1" blend_mode="2"/>
+<animation id="72511" name="界面-物品品质-绿色-小" centerX="18" centerY="18" frameTotal="1" interval="80" kind="1" blend_mode="2"/>
+<animation id="72611" name="界面-物品品质-蓝色-小" centerX="18" centerY="18" frameTotal="1" interval="80" kind="1" blend_mode="2"/>
+<animation id="72711" name="界面-物品品质-紫色-小" centerX="18" centerY="18" frameTotal="10" interval="80" kind="1" blend_mode="2"/>
+<animation id="72811" name="界面-物品品质-黄色-小" centerX="18" centerY="18" frameTotal="10" interval="80" kind="1" blend_mode="2"/>
+<animation id="72911" name="界面-物品品质-红色-小" centerX="18" centerY="18" frameTotal="10" interval="80" kind="1" blend_mode="2"/>
+
+
+<!--状态特效-->
+<animation id="10661" name="状态-怒火状态特效" centerX="121" centerY="149" frameTotal="5" interval="120" kind="1" blend_mode="2"/>
+<animation id="10562" name="状态-眩晕状态特效" centerX="20" centerY="20" frameTotal="5" interval="150" kind="1" blend_mode="2"/>
+<animation id="10763" name="状态-正义之护状态特效" centerX="90" centerY="50" frameTotal="5" interval="130" kind="1" blend_mode="2"/>
+<animation id="10861" name="状态-缴械状态特效" centerX="56" centerY="69" frameTotal="5" interval="100" kind="1" blend_mode="2"/>
+<animation id="11061" name="状态-危机意识状态特效" centerX="92" centerY="160" frameTotal="9" interval="50" kind="1" blend_mode="2"/>
+<animation id="11161" name="状态-战神临体状态特效" centerX="60" centerY="60" frameTotal="5" interval="150" kind="1" blend_mode="2"/>
+<animation id="20361" name="状态-灾变之焰状态特效" centerX="68" centerY="273" frameTotal="5" interval="100" kind="1" blend_mode="2"/>
+<animation id="20561" name="状态-多重吟唱状态特效" centerX="84" centerY="68" frameTotal="5" interval="120" kind="1" blend_mode="2"/>
+<animation id="20661" name="状态-黑暗防御状态特效" centerX="82" centerY="111" frameTotal="8" interval="50" kind="1" blend_mode="2"/>
+<animation id="20763" name="状态-强击光辉状态特效" centerX="90" centerY="50" frameTotal="5" interval="130" kind="1" blend_mode="2"/>
+<animation id="20861" name="状态-雷霆风暴状态特效" centerX="74" centerY="118" frameTotal="9" interval="100" kind="1" blend_mode="2"/>
+<animation id="21062" name="状态-禁言状态特效" centerX="20" centerY="20" frameTotal="7" interval="100" kind="1" blend_mode="0"/>
+<animation id="30763" name="状态-307复苏之风-状态" centerX="78" centerY="40" frameTotal="6" interval="100" kind="1" blend_mode="2"/>
+
+<!--普攻特效-->
+<animation id="11235" name="狮佛殿-普攻受击特效" centerX="60" centerY="60" frameTotal="4" interval="50" kind="1" blend_mode="2" body_place="2" />
+<animation id="21251" name="诗剑门-普攻过程特效" centerX="80" centerY="30" frameTotal="1" interval="100" kind="1" blend_mode="0" body_place="2" />
+<animation id="20135" name="诗剑门-太白剑诀.金樽月受击特效" centerX="107" centerY="76" frameTotal="5" interval="80" kind="1" blend_mode="0" body_place="2" />
+</animations>
+
+

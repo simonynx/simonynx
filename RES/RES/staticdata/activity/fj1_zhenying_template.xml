@@ -1,0 +1,7 @@
+<?xml version="1.0" standalone="yes"?>
+<RECORDS>
+<RECORD id="1" name="神" map_id="2211" pos_x="14" pos_y="18" pts_plrkilled="1" pts_bosskilled="5" zh_pts_bosskilled="3" boss_id="6451"/>
+<RECORD id="2" name="魔" map_id="2211" pos_x="97" pos_y="110" pts_plrkilled="1" pts_bosskilled="5" zh_pts_bosskilled="3" boss_id="6452"/>
+<RECORD id="3" name="女神" map_id="2210" pos_x="48" pos_y="48" pts_plrkilled="0" pts_bosskilled="0" zh_pts_bosskilled="0" boss_id="0"/>
+<RECORD id="4" name="怪物" map_id="2210" pos_x="48" pos_y="48" pts_plrkilled="0" pts_bosskilled="0" zh_pts_bosskilled="0" boss_id="0"/>
+</RECORDS>

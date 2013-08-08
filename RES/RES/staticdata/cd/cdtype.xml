@@ -1,0 +1,20 @@
+<?xml version="1.0" standalone="yes"?>
+<RECORDS>
+<RECORD cdType="1" cdTime="1000" type="2"/>
+<RECORD cdType="2" cdTime="1000" type="2"/>
+<RECORD cdType="3" cdTime="1000" type="2"/>
+<RECORD cdType="4" cdTime="1000" type="2"/>
+<RECORD cdType="5" cdTime="1000" type="2"/>
+<RECORD cdType="10" cdTime="1000" type="1"/>
+<RECORD cdType="20" cdTime="1000" type="1"/>
+<RECORD cdType="30" cdTime="1000" type="1"/>
+<RECORD cdType="40" cdTime="1000" type="1"/>
+<RECORD cdType="50" cdTime="1000" type="1"/>
+<RECORD cdType="61" cdTime="120000" type="1"/>
+<RECORD cdType="71" cdTime="120000" type="1"/>
+<RECORD cdType="11" cdTime="10000" type="1"/>
+<RECORD cdType="21" cdTime="10000" type="1"/>
+<RECORD cdType="31" cdTime="60000" type="1"/>
+<RECORD cdType="41" cdTime="60000" type="1"/>
+<RECORD cdType="81" cdTime="0" type="1"/>
+</RECORDS>

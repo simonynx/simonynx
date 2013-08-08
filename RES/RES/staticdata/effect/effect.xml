@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8" ?> 
+<animations>
+<!--火焰-->
+<animation id="810110" name="冰河——火" centerX="34" centerY="108" frameTotal="6" interval="300" kind="1" scale_x="1"  scale_y="1" blend_mode="2"/>
+<animation id="810120" name="地宫——吊火" centerX="65" centerY="75" frameTotal="8" interval="300" kind="1" scale_x="1"  scale_y="1" blend_mode="2"/>
+<animation id="810130" name="地宫——篝火" centerX="75" centerY="196" frameTotal="10" interval="300" kind="1" scale_x="1"  scale_y="1" blend_mode="2"/>
+<animation id="810140" name="地宫——大火" centerX="40" centerY="98" frameTotal="8" interval="300" kind="1" scale_x="1"  scale_y="1" blend_mode="2"/>
+<animation id="810150" name="地宫——小火" centerX="32" centerY="88" frameTotal="4" interval="300" kind="1" scale_x="1"  scale_y="1" blend_mode="2"/>
+<animation id="810160" name="地宫——烛火" centerX="20" centerY="20" frameTotal="5" interval="300" kind="1" scale_x="1"  scale_y="1" blend_mode="2"/>
+<animation id="810210" name="冰河——蓝火" centerX="40" centerY="95" frameTotal="8" interval="250" kind="1" scale_x="1"  scale_y="1" blend_mode="2"/>
+
+
+<!--光线-->
+<animation id="820110" name="草原——灯" centerX="50" centerY="50" frameTotal="5" interval="300" kind="1" scale_x="1"  scale_y="1" blend_mode="2"/>
+<animation id="820120" name="蓝灯" centerX="50" centerY="50" frameTotal="5" interval="300" kind="1" scale_x="1"  scale_y="1" blend_mode="2"/>
+<animation id="820210" name="草原——门" centerX="150" centerY="150" frameTotal="5" interval="400" kind="1" scale_x="1"  scale_y="1" blend_mode="2"/>
+
+<!--流体-->
+
+
+
+<!--植物-->
+<animation id="840110" name="大花" centerX="60" centerY="50" frameTotal="10" interval="300" kind="1" scale_x="1"  scale_y="1" blend_mode="0"/>
+<animation id="840120" name="小花" centerX="50" centerY="40" frameTotal="10" interval="300" kind="1" scale_x="1"  scale_y="1" blend_mode="0"/>
+<animation id="840210" name="黄色小草1" centerX="75" centerY="60" frameTotal="10" interval="300" kind="1" scale_x="1"  scale_y="1" blend_mode="0"/>
+<animation id="840220" name="黄色小草2" centerX="75" centerY="60" frameTotal="10" interval="300" kind="1" scale_x="1"  scale_y="1" blend_mode="0"/>
+<animation id="840230" name="黄色小草3" centerX="75" centerY="60" frameTotal="10" interval="300" kind="1" scale_x="1"  scale_y="1" blend_mode="0"/>
+<animation id="840240" name="绿色小草1" centerX="75" centerY="60" frameTotal="10" interval="300" kind="1" scale_x="1"  scale_y="1" blend_mode="0"/>
+<animation id="840250" name="绿色小草2" centerX="75" centerY="60" frameTotal="10" interval="300" kind="1" scale_x="1"  scale_y="1" blend_mode="0"/>
+<animation id="840260" name="绿色小草3" centerX="75" centerY="60" frameTotal="10" interval="300" kind="1" scale_x="1"  scale_y="1" blend_mode="0"/>
+<!--动物-->
+<animation id="850110" name="橙蝶" centerX="200" centerY="120" frameTotal="10" interval="300" kind="1" scale_x="1"  scale_y="1" blend_mode="0"/>
+<animation id="850120" name="粉蝶" centerX="115" centerY="105" frameTotal="2" interval="500" kind="1" scale_x="1"  scale_y="1" blend_mode="0"/>
+<animation id="850130" name="黄蝶" centerX="211" centerY="147" frameTotal="10" interval="300" kind="1" scale_x="1"  scale_y="1" blend_mode="0"/>
+<animation id="850140" name="蓝蝶" centerX="195" centerY="138" frameTotal="10" interval="300" kind="1" scale_x="1"  scale_y="1" blend_mode="0"/>
+<animation id="850210" name="小飞虫" centerX="50" centerY="50" frameTotal="10" interval="300" kind="1" scale_x="1"  scale_y="1" blend_mode="0"/>
+<animation id="850315" name="白金鱼" centerX="40" centerY="90" frameTotal="20" interval="250" kind="1" scale_x="1"  scale_y="1" blend_mode="0"/>
+<animation id="850325" name="黄金鱼" centerX="50" centerY="50" frameTotal="20" interval="250" kind="1" scale_x="1"  scale_y="1" blend_mode="0"/>
+<animation id="850335" name="红斑鱼" centerX="35" centerY="35" frameTotal="20" interval="300" kind="1" scale_x="1"  scale_y="1" blend_mode="0"/>
+<!--物件-->
+<animation id="860110" name="草原——冰" centerX="50" centerY="100" frameTotal="8" interval="350" kind="1" scale_x="1"  scale_y="1" blend_mode="2"/>
+
+
+
+
+
+</animations>
+
+

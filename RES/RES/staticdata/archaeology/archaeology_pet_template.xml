@@ -1,0 +1,5 @@
+<?xml version="1.0" standalone="yes"?>
+<RECORDS>
+<RECORD id="1" icon="0" name="탐험견" modelId="0" type="1" timeAdd="0" succRateAdd="10000" manual="100" manualItem="3600" onGoingActionId="101" completeActionId="102" normal_action_id="103" tired_action_id="104"/>
+<RECORD id="2" icon="0" name="탐험견" modelId="0" type="2" timeAdd="0" succRateAdd="10000" manual="100" manualItem="3600" onGoingActionId="101" completeActionId="102" normal_action_id="203" tired_action_id="204"/>
+</RECORDS>

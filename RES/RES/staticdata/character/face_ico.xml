@@ -1,0 +1,27 @@
+<?xml version="1.0" standalone="yes"?>
+<RECORDS>
+<RECORD id="1" profession_limit="0" sex_limit="1" convert_money_type="3" convert_price="88888" equip_model_id="0" weapon_model_id="0" limit_time="0" add_status_id="0" convert_item_id="0"/>
+<RECORD id="2" profession_limit="0" sex_limit="1" convert_money_type="3" convert_price="88888" equip_model_id="0" weapon_model_id="0" limit_time="0" add_status_id="0" convert_item_id="0"/>
+<RECORD id="3" profession_limit="0" sex_limit="2" convert_money_type="3" convert_price="88888" equip_model_id="0" weapon_model_id="0" limit_time="0" add_status_id="0" convert_item_id="0"/>
+<RECORD id="4" profession_limit="0" sex_limit="2" convert_money_type="3" convert_price="88888" equip_model_id="0" weapon_model_id="0" limit_time="0" add_status_id="0" convert_item_id="0"/>
+<RECORD id="10" profession_limit="0" sex_limit="1" convert_money_type="3" convert_price="88888" equip_model_id="0" weapon_model_id="0" limit_time="0" add_status_id="0" convert_item_id="0"/>
+<RECORD id="11" profession_limit="0" sex_limit="1" convert_money_type="3" convert_price="88888" equip_model_id="0" weapon_model_id="0" limit_time="0" add_status_id="0" convert_item_id="0"/>
+<RECORD id="12" profession_limit="1" sex_limit="0" convert_money_type="8" convert_price="0" equip_model_id="110016" weapon_model_id="0" limit_time="604800" add_status_id="50401" convert_item_id="2185"/>
+<RECORD id="13" profession_limit="1" sex_limit="0" convert_money_type="8" convert_price="0" equip_model_id="110016" weapon_model_id="0" limit_time="1209600" add_status_id="50402" convert_item_id="2186"/>
+<RECORD id="14" profession_limit="1" sex_limit="0" convert_money_type="8" convert_price="0" equip_model_id="110016" weapon_model_id="0" limit_time="2592000" add_status_id="50403" convert_item_id="2187"/>
+<RECORD id="20" profession_limit="0" sex_limit="1" convert_money_type="3" convert_price="88888" equip_model_id="0" weapon_model_id="0" limit_time="0" add_status_id="0" convert_item_id="0"/>
+<RECORD id="21" profession_limit="0" sex_limit="1" convert_money_type="3" convert_price="88888" equip_model_id="0" weapon_model_id="0" limit_time="0" add_status_id="0" convert_item_id="0"/>
+<RECORD id="22" profession_limit="2" sex_limit="0" convert_money_type="8" convert_price="0" equip_model_id="110026" weapon_model_id="0" limit_time="604800" add_status_id="50404" convert_item_id="2188"/>
+<RECORD id="23" profession_limit="2" sex_limit="0" convert_money_type="8" convert_price="0" equip_model_id="110026" weapon_model_id="0" limit_time="1209600" add_status_id="50405" convert_item_id="2189"/>
+<RECORD id="24" profession_limit="2" sex_limit="0" convert_money_type="8" convert_price="0" equip_model_id="110026" weapon_model_id="0" limit_time="2592000" add_status_id="50406" convert_item_id="2190"/>
+<RECORD id="30" profession_limit="0" sex_limit="2" convert_money_type="3" convert_price="88888" equip_model_id="0" weapon_model_id="0" limit_time="0" add_status_id="0" convert_item_id="0"/>
+<RECORD id="31" profession_limit="0" sex_limit="2" convert_money_type="3" convert_price="88888" equip_model_id="0" weapon_model_id="0" limit_time="0" add_status_id="0" convert_item_id="0"/>
+<RECORD id="32" profession_limit="3" sex_limit="0" convert_money_type="8" convert_price="0" equip_model_id="110036" weapon_model_id="0" limit_time="604800" add_status_id="50407" convert_item_id="2191"/>
+<RECORD id="33" profession_limit="3" sex_limit="0" convert_money_type="8" convert_price="0" equip_model_id="110036" weapon_model_id="0" limit_time="1209600" add_status_id="50408" convert_item_id="2192"/>
+<RECORD id="34" profession_limit="3" sex_limit="0" convert_money_type="8" convert_price="0" equip_model_id="110036" weapon_model_id="0" limit_time="2592000" add_status_id="50409" convert_item_id="2193"/>
+<RECORD id="40" profession_limit="0" sex_limit="2" convert_money_type="3" convert_price="88888" equip_model_id="0" weapon_model_id="0" limit_time="0" add_status_id="0" convert_item_id="0"/>
+<RECORD id="41" profession_limit="0" sex_limit="2" convert_money_type="3" convert_price="88888" equip_model_id="0" weapon_model_id="0" limit_time="0" add_status_id="0" convert_item_id="0"/>
+<RECORD id="42" profession_limit="4" sex_limit="0" convert_money_type="8" convert_price="0" equip_model_id="110046" weapon_model_id="0" limit_time="604800" add_status_id="50410" convert_item_id="2194"/>
+<RECORD id="43" profession_limit="4" sex_limit="0" convert_money_type="8" convert_price="0" equip_model_id="110046" weapon_model_id="0" limit_time="1209600" add_status_id="50411" convert_item_id="2195"/>
+<RECORD id="44" profession_limit="4" sex_limit="0" convert_money_type="8" convert_price="0" equip_model_id="110046" weapon_model_id="0" limit_time="2592000" add_status_id="50412" convert_item_id="2196"/>
+</RECORDS>
